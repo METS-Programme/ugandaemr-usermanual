@@ -1,3 +1,3 @@
-# My Awesome Book
+# Uganda EMR User Manual
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This document describes how to use the Uganda EMR to capture and report on patient information.
