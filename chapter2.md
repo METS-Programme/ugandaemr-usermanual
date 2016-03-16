@@ -5,4 +5,5 @@
 2. Enter the details of the patient ensuring that the required fields which are marked with * are entered
 ## Common Errors 
 ### User is not a provider
+![User Not Provider Error](images/logged_in_user_not_provider.png)
 
