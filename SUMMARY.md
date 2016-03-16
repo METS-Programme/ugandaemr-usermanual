@@ -1,4 +1,6 @@
 # Summary
 
-* [Register a Patient](chapter1.md)
-* [ART Card](chapter2.md)
+* [Add New User Accounts](chapter1.md)
+* [Register a Patient](chapter2.md)
+* [ART Card](chapter3.md)
+* 
