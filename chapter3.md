@@ -9,5 +9,5 @@ This section describes how to enter data from the ART card.
 ### Summary Page
 ### Encounter Page
 ## HIV Counselling and Testing Client Card
-## Integrated AnteNatal Form
+## Integrated Antenatal Form
 ## Integrated Maternity Form 
