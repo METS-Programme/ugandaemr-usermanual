@@ -1,5 +1,12 @@
 # Manage User Accounts
 ## Create a new user account
+1. Login as a user with administrator privileges 
+2. click legacy administration link as circled in the image below
+![Legacy System Admnistration](legacy_system administration_link.png)
+3. 
+
+
+
 ## Reset a user password
 ## Add a new role to a user account 
 ## Making an existing user a provider
