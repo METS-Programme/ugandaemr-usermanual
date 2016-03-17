@@ -8,6 +8,6 @@ This section describes how to enter data from the ART card.
 ## EID card
 ### Summary Page
 ### Encounter Page
-## HTC Card
+## HIV Counselling and Testing Client Card
 ## Integrated AnteNatal Form
 ## Integrated Maternity Form 
