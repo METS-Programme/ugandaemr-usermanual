@@ -1,5 +1,5 @@
 # Entering Client Information
-## ART Card 
+## HIV Care ART Card 
 
 This section describes how to enter data from the ART card.
 ### Summary Page
