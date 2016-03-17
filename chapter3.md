@@ -5,9 +5,9 @@ This section describes how to enter data from the ART card.
 ### Summary Page
 ### Health Education Page
 ### Encounter Page 
-## EID card
+## Exposed Infant Card
 ### Summary Page
 ### Encounter Page
-## HIV Counselling and Testing Client Card
+## HIV Counseling and Testing Client Card
 ## Integrated Antenatal Form
 ## Integrated Maternity Form 
