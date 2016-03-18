@@ -7,8 +7,10 @@
 
 ![](Manage users_link.png)
 4.If it is a new user, click on the Add User link as shown below
-![](Add User_link.png)
-5.
+
+![](Add User_link.png
+
+
 
 
 
