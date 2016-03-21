@@ -1,5 +1,5 @@
  # Upgrading UgandaEMR 
-## Upgrading with new version of a module
+## Upgrading a module
 ## Upgrading with a new WAR file 
 1. Clean up the existing installation by: 
   * Delete the openmrs.war and openmrs folder in the directory C:\Program Files\UgandaEMR\apache-tomcat\webapps  
