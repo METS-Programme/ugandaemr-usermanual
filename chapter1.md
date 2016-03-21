@@ -8,16 +8,10 @@
 ![](legacy_system administration_link.png)
 
 3. Click on manage users link as shown below
+4. 
 
 
-4.If it is a new user, click on the Add User link as shown below
-
-![](Add User_link.png
-
-
-
-
-
+4.If it is a new user, click on the Add User link as shown below/./
 
 ## Reset a user password
 ## Add a new role to a user account 
