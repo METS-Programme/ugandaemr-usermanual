@@ -10,8 +10,6 @@
 3. Click on manage users link as shown below
 ![](Manage users_link.png)
 
-
-
 4.If it is a new user, click on the Add User link as shown below/./
 
 ## Reset a user password
