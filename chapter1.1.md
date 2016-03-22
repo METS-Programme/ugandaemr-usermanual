@@ -28,7 +28,7 @@ The steps to make an existing user account a provider are as follows:
 3. Click the Edit button next to the user account you want to edit. Any user with 0 (zero) in the provider Accounts has not been created as a provider
 ![Edit Existing Account for Provider Information](images/edit_exsiting_account_for_provider_info.png)
 
-4. On the Edit Account click the Add Provider button
+4. On the Edit Account click the Add Provider Account button
 5. When all the required information has been entered then the S
 
 3. 
