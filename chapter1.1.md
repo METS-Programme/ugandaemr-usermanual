@@ -31,6 +31,5 @@ The steps to make an existing user account a provider are as follows:
 4. On the Edit Account click the Add Provider Account button
 ![Add Provider Account Link](images/add_provider_account_link.png)
 5. When all the required information has been entered then the Save button will appear, but remember to use the account names as provider with no spaces 
-
-3. 
+![Updated Provider Information](images/updated_provider_information.png)
  
