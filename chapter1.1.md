@@ -10,7 +10,8 @@ In addition anybody registering patients also needs to have a provider account.
 3. On the new account page, enter the full names, select gender and select the Add Provider checkbox 
 ![Provider Account Information](images/provider_account_information.png)
 4. The identifier for the provider use their full names, then select the role that the provider plays such as Clinical Doctor, Nurse
-5. When all the required information has been entered then the Save button becomes green
+5. When all the required information has been entered then the Save button becomes green as below
+![Completed Provider Information](images/completed_provider_information.png)
 
 ## Making an existing user a provider
 There are situations where a user was created and not made a provider, which causes the error as at 
