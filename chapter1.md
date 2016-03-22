@@ -13,13 +13,14 @@
 
 4.If it is a new user, click on the Add User link as shown below
 ![](Add User_link.png)
-
-
 ## Reset a user password
 
 ## Add a new role to a user account 
+Click on Manage Roles as circled below
 
 ![](manage_user_roles.png)
+
+![](Add_user_role_link.png)
 
 ## Making an existing user a provider
 There are situations where a user was created and not made a provider, which causes the error as at 
