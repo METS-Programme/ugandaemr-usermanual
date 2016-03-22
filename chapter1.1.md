@@ -7,7 +7,7 @@ In addition anybody registering patients also needs to have a provider account.
 ![System Administration](images/system_administration_link.png)
 2. Click the Manage Accounts link on the system administration page
  ![Manage Account Link](images/manage_account_link.png)
-3. Click the New Account button
+3. Click the Edit button next to the user account you want to edit. Any user with 0 (zero) in the provider Accounts has not been created as a provider
 ![New Account Link](images/new_account_link.png)
 4. On the new account page, enter the full names, select gender and select the Add Provider checkbox 
 ![Provider Account Information](images/provider_account_information.png)
