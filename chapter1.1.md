@@ -18,4 +18,7 @@ There are situations where a user was created and not made a provider, which cau
 
 ![Error Logged In User is Not a Provider](images/error_loggedin_user_isnotaprovider.png)
 The steps to make an existing user account a provider are as follows:
-1. 
+1. Click the System Administration link on the home page
+![System Administration](images/system_administration_link.png)
+2. Click the Manage Accounts link on the system administration page
+ ![Manage Account Link](images/manage_account_link.png)
