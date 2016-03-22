@@ -1,4 +1,4 @@
-# Managing a Provider 
+# Managing Providers 
 A provider is a person who gives services to clients within a facility, may be a doctor, nurse or midwife. 
 
 In addition anybody registering patients also needs to have a provider account. 
