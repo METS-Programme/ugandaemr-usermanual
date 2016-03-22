@@ -2,6 +2,7 @@
 A provider is a person who gives services to clients within a facility, may be a doctor, nurse or midwife. 
 
 In addition anybody registering patients also needs to have a provider account. 
+## Creating a New Provider 
 ## Making an existing user a provider
 There are situations where a user was created and not made a provider, which causes the error as at 
 
