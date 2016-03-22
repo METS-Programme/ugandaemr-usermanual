@@ -14,7 +14,8 @@ In addition anybody registering patients also needs to have a provider account.
 ![Completed Provider Information](images/completed_provider_information.png)
 
 ## Making an existing user a provider
-There are situations where a user was created and not made a provider, which causes the error as at 
+There are situations where a user was created and not made a provider, which causes the error as below
 
+![Error Logged In User is Not a Provider](images/error_loggedin_user_isnotaprovider.png)
 The steps to make an existing user account a provider are as follows:
 1. 
