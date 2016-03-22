@@ -6,7 +6,7 @@ In addition anybody registering patients also needs to have a provider account.
 1. Click the System Administration link on the home page
 2. Click the Manage Accounts link on the system administration page 
 3. On the new account page, enter the full names, select gender and select the Add Provider checkbox
-4. 
+4. The identifier for the provider use their full names 
 
 ## Making an existing user a provider
 There are situations where a user was created and not made a provider, which causes the error as at 
