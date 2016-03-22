@@ -3,9 +3,10 @@ A provider is a person who gives services to clients within a facility, may be a
 
 In addition anybody registering patients also needs to have a provider account. 
 ## Creating a New Provider
-1. On the home page, select System Administration link as below
-2. On the System Administration link select Manage Accounts
-3. 
+1. Click the System Administration link on the home page
+2. Click the Manage Accounts link on the system administration page 
+3. On the new account page, enter the full names, select gender and select the Add Provider checkbox
+4. 
 
 ## Making an existing user a provider
 There are situations where a user was created and not made a provider, which causes the error as at 
