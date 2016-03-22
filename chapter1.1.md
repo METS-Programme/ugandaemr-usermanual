@@ -7,9 +7,10 @@ In addition anybody registering patients also needs to have a provider account.
 ![System Administration](images/system_administration_link.png)
 2. Click the Manage Accounts link on the system administration page
  ![Manage Account Link](images/manage_account_link.png)
-3. Click the Edit button next to the user account you want to edit. Any user with 0 (zero) in the provider Accounts has not been created as a provider
+3.Click the New Account button
+![New Account Link](images/new_account_link.png)
 
-4. On the new account page, enter the full names, select gender and select the Add Provider checkbox 
+1. On the new account page, enter the full names, select gender and select the Add Provider checkbox 
 ![Provider Account Information](images/provider_account_information.png)
 4. The identifier for the provider use their full names, then select the role that the provider plays such as Clinical Doctor, Nurse
 5. When all the required information has been entered then the Save button becomes green as below
@@ -24,7 +25,8 @@ The steps to make an existing user account a provider are as follows:
 ![System Administration](images/system_administration_link.png)
 2. Click the Manage Accounts link on the system administration page
  ![Manage Account Link](images/manage_account_link.png)
-3. Click the New Account button
+3. Click the Edit button next to the user account you want to edit. Any user with 0 (zero) in the provider Accounts has not been created as a provider
+4. Click the New Account button
 ![New Account Link](images/new_account_link.png)
 4. On the new account page, enter the full names, select gender and select the Add Provider checkbox 
 ![Provider Account Information](images/provider_account_information.png)
