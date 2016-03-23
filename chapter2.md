@@ -1,4 +1,4 @@
-# Register a Patient
+# Patient Registration 
 1. Login and on the home page click the Register patient link circled below
 
 ![Register Patient Link](images/register_patient_link.png)
