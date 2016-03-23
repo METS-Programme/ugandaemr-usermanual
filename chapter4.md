@@ -1,3 +1,4 @@
 # Visits
 ## Add a Vist 
-## Add past Visit 
+## Add Past Visit
+## Delete a Visit 
