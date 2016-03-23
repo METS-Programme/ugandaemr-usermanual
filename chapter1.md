@@ -20,6 +20,7 @@ Click on Manage Roles as circled below
 
 ![](manage_user_roles.png)
 
+To add a  user role, click on Add Role as  circled below:
 ![](Add_user_role_link.png)
 
 ## Making an existing user a provider
