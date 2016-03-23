@@ -1,7 +1,8 @@
 # Manage User Accounts
 ## Create a new user account
 1. Login as a user with administrator privileges
-![](Log_in_as_Admin.png) 
+![](Log_in_as_Admin_link.png)
+
 
 2. click legacy administration link as circled in the image below
 
