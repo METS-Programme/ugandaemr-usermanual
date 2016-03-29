@@ -7,4 +7,5 @@
 * [Patient Registration](chapter2.md)
 * [Entering Client Information](chapter3.md)
 * [Visits](chapter4.md)
+* Upgrading UgandaEMR
 
