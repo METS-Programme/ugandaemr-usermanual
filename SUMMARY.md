@@ -8,4 +8,5 @@
 * [Entering Client Information](chapter3.md)
 * [Visits](chapter4.md)
 * [Upgrading UgandaEMR](chapter5.md)
+* Common Troubleshooting Tips
 
