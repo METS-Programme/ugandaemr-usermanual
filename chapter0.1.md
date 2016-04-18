@@ -51,7 +51,6 @@ The installer is made of two files the 32 bit and the 64 bit installer. These ap
 ### Installation diagram.
 ![](installation_process.png)
 
-
 ### Installation process.
 
 
