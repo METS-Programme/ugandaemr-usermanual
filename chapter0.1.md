@@ -53,7 +53,6 @@ The installer is made of two files the 32 bit and the 64 bit installer. These ap
 
 ### Installation process.
 
-
 Detailed installation in picture
 1. Launch of the splash screen
 2. Agreement of installation
