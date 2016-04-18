@@ -84,11 +84,8 @@ This installation guide is pictorial.
 Step 1 Check the Computer Operating System Bit
 
 Step 2 Launch the installer either 32 bit or 64 bit, depending on the computer bit.
-![](splash.png)
-
 
 Step 3 Agree to the terms and conditions in the installer
-![](1.2-agreement.PNG)
 
 Step 4 Select components to install
 
