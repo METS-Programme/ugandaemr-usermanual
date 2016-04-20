@@ -72,10 +72,40 @@ Detailed installation in picture
 
 ![](2.3-java.jpg)
 
+![](2.4-java-2.jpg)
+
+![](2.5-inst-java-complete.jpg)
 
 7. Install Mysql
+![](3.1-mysql-configure.jpg)
+
+![](3.2-standard.jpg)
+
+![](3.3-comd1.jpg)
+
+![](3.4-password for root.jpg)
+
+![](3.5-execute.jpg)
+
+
+![](3.6-mysql-finished.jpg)
+
 8. Install Tomcat.
+![](4.1-tomcat-installation.jpg)
+
+![](4.2-tomcat-agree.jpg)
+
+
+![](4.3-java-directory.jpg)
+
+![](4.4-tomcat-componets.jpg)
+
+![](4.5-configure-tomccat.jpg)
+
+![](4.6-tomcat-location.jpg)
 9. Install Firefox
+
+
 
 
 **Completion **
