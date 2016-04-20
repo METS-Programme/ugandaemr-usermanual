@@ -105,12 +105,26 @@ Detailed installation in picture
 ![](4.6-tomcat-location.jpg)
 9. Install Firefox
 
+![](5.1-fire.jpg)
 
 
 
+![](5.3-fire-fox-inst.jpg)
+
+
+![](5.4-fire-standard.jpg)
+
+
+![](5.5-fire-fox-directory.jpg)
+
+
+
+![](5.2-fire-fox-start.jpg)
 **Completion **
 
 10. Complete Installation
+
+![](6.0-complete-installation.jpg)
 
 **Installation of The application**
 
