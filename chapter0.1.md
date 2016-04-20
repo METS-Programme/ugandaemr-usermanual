@@ -55,14 +55,24 @@ The installer is made of two files the 32 bit and the 64 bit installer. These ap
 
 Detailed installation in picture
 1. Launch of the splash screen
+
 2. Agreement of installation
+![](1.2-agreement.jpg)
 3. Selecting components to install.
+![](1.3-components.jpg)
 4. Determining Installation directory.
+![](1.4-location.jpg)
 5. Determine Shortcut directory
+![](1.5-shortcut.jpg)
 
 **Required Software**
 
 6. Install Java
+![](2.1-inst-java.jpg)
+
+![](2.3-java.jpg)
+
+
 7. Install Mysql
 8. Install Tomcat.
 9. Install Firefox
