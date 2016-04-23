@@ -6,8 +6,8 @@
 2. 4GB of RAM
 3. 1.5GHz duo core processor
 
-### Minimum Software Requirements
-1. Java 7
+### Recommended Minimum Software Requirements
+1. Java 7 (do not use Java 8)
 2. Tomcat 7
 3. MySQL 5.5
 4. Mozilla Firefox 44
@@ -40,89 +40,40 @@ A shortcut link to the UgandaEMR instance is also added to the Desktop **TODO: A
 ### Installation Steps
 1. Launch of the splash screen
 ![Splash Screen](images/installer/splash.png)
-2. Agreement of installation
-![](images/installer/1.2-agreement.jpg)
-3. Selecting components to install.
-![](images/installer/1.3-components.jpg)
-4. Determining Installation directory.
-![](images/installer/1.4-location.jpg)
-5. Determine Shortcut directory
-![](images/installer/1.5-shortcut.jpg)
-
-**Required Software**
-
-6. Install Java
-![](images/installer/2.1-inst-java.jpg)
-
-![](images/installer/2.3-java.jpg)
-
-![](images/installer/2.4-java-2.jpg)
-
-![](images/installer/2.5-inst-java-complete.jpg)
-
+2. License Agreement
+![License Agreement](images/installer/1.2-agreement.jpg)
+3. Selecting components to install
+![Selecting installation components](images/installer/1.3-components.jpg)
+4. Determining Installation directory
+![Determining installation directory](images/installer/1.4-location.jpg)
+5. Confirm start menu item
+![Start Menu Item](images/installer/1.5-shortcut.jpg)
+6. Install Java Runtime
+![Java configuration](images/installer/2.1-inst-java.jpg)
+![Java installation](images/installer/2.3-java.jpg)
+![Java installation file copying](images/installer/2.4-java-2.jpg)
+![Java installation completion](images/installer/2.5-inst-java-complete.jpg)
 7. Install Mysql
-![](images/installer/3.1-mysql-configure.jpg)
-
-![](images/installer/images/installer/3.2-standard.jpg)
-
-![](images/installer/3.3-comd1.jpg)
-
-![](images/installer/3.4-password-for-root.jpg)
-
-![](images/installer/3.5-execute.jpg)
-
-
-![](images/installer/3.6-mysql-finished.jpg)
-
-8. Install Tomcat.
-![](images/installer/4.1-tomcat-installation.jpg)
-
-![](images/installer/4.2-tomcat-agree.jpg)
-
-
-![](images/installer/4.3-java-directory.jpg)
-
-![](images/installer/4.4-tomcat-componets.jpg)
-
-![](images/installer/4.5-configure-tomccat.jpg)
-
-![](images/installer/4.6-tomcat-location.jpg)
+![Server Configuration Wizard](images/installer/3.1-mysql-configure.jpg)
+![Standard Configuration](images/installer/3.2-standard.jpg)
+![Windows Service and PATH Configuration](images/installer/3.3-comd1.jpg)
+![Security Configuration](images/installer/3.4-password-for-root.jpg)
+![Instance configuration](images/installer/3.5-execute.jpg)
+![Setup completion status message](images/installer/3.6-mysql-finished.jpg)
+8. Install Tomcat
+![Tomcat Setup Wizard Splash page](images/installer/4.1-tomcat-installation.jpg)
+![License Acceptance](images/installer/4.2-tomcat-agree.jpg)
+![Java Virtual Machine selection](images/installer/4.3-java-directory.jpg) **TODO: Use the same JVM as that installed in Step 6 above**
+![Tomcat Component selection](images/installer/4.4-tomcat-componets.jpg)
+![Tomcat Configuration](images/installer/4.5-configure-tomccat.jpg)
+![Tomcat directory location](images/installer/4.6-tomcat-location.jpg)
 9. Install Firefox
-
-![](images/installer/5.1-fire.jpg)
-
-
-
-![](images/installer/5.3-fire-fox-inst.jpg)
-
-
-![](images/installer/5.4-fire-standard.jpg)
-
-
-![](images/installer/5.5-fire-fox-directory.jpg)
-
-
-
-![](images/installer/5.2-fire-fox-start.jpg)
-**Completion **
-
-10. Complete Installation
-
-![](images/installer/6.0-complete-installation.jpg)
+![Firefox Splash screen](images/installer/5.3-fire-fox-inst.jpg)
+![Firefox Setup Type](images/installer/5.4-fire-standard.jpg)
+![Firefox install location](images/installer/5.5-fire-fox-directory.jpg)
+![Firefox install completed](images/installer/5.2-fire-fox-start.jpg)
+10. UgandaEMR Installation completed
+![Installation completed splash screen](images/installer/6.0-complete-installation.jpg)
 
 ### Post-installation Configuration
-
-11. Start Application.
-
-
-This installation guide is pictorial.
-
-Step 1 Check the Computer Operating System Bit
-
-Step 2 Launch the installer either 32 bit or 64 bit, depending on the computer bit.
-
-Step 3 Agree to the terms and conditions in the installer
-
-Step 4 Select components to install
-
-Step 5 Select default directory in which openmrs will install. NB. Leave the current/default preselected option.
+**TODO: Work on this section**
