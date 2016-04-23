@@ -13,7 +13,7 @@
 4. Mozilla Firefox 44
 
 ## Manual Installation
-### Requirments for Manal Installation
+### Requirements for Manual Installation
 This process will be added at a later stage, as currently the automatic installation is the easiest way to get the required configuration
 
 ## New Installation - Using the installer
