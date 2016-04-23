@@ -1,6 +1,9 @@
 {
-    "plugins": [
-        "toc"
-    ],
-    "pluginsConfig": {}
+  "plugins": ["toc"],
+    "pluginsConfig": {
+        "toc": {
+            "addClass": true,
+            "className": "toc"
+        }
+    }
 }
