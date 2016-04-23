@@ -1,4 +1,4 @@
-# Installation
+# Setup and Configuration
 ## Prerequisites
 ### Minimum Computer Requirements
 
