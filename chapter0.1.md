@@ -1,5 +1,5 @@
 # Installation
-## Pre-requisites
+## Prerequisites
 ### Minimum Computer Requirements
 
 1. Windows 7 (both 32-bit and 64-bit versions supported)
@@ -16,8 +16,8 @@
 ### Requirements for Manual Installation
 This process will be added at a later stage, as currently the automatic installation is the easiest way to get the required configuration
 
-## New Installation - Using the installer
-The installer provides all the pre-requisite components for setting up UgandaEMR, parts of this guide have been adopted from the World Health Organization (WHO) OpenMRS Express guide.
+## Automated Installation via installer
+The installer provides all the prerequisite components for setting up UgandaEMR, parts of this guide have been adopted from the World Health Organization (WHO) OpenMRS Express guide.
 
 There are separate installation files for 32-bit and 64-bit Windows systems so pick the installation package.
 
