@@ -1,132 +1,116 @@
-#Installing UgandaEMR
-## New Installation - Using the installer 
-The Installation Process of Uganda EMR is a step by step process but in one installation. Bellow are the series of stages of installation
+# Installation
+## Pre-requisites
+### Minimum Computer Requirements
 
+1. Windows 7 (both 32-bit and 64-bit versions supported)
+2. 4GB of RAM
+3. 1.5GHz duo core processor
 
-# Chapter 1: Installation of the System: Before you begin. (Adapted from WHO OpenMRS Express Guide) 
+### Minimum Software Requirements
+1. Java 7
+2. Tomcat 7
+3. MySQL 5.5
+4. Mozilla Firefox 44
 
+## Manual Installation
+### Requirments for Manal Installation
+This process will be added at a later stage, as currently the automatic installation is the easiest way to get the required configuration
 
+## New Installation - Using the installer
+The installer provides all the pre-requisite components for setting up UgandaEMR, parts of this guide have been adopted from the World Health Organization (WHO) OpenMRS Express guide.
 
+There are separate installation files for 32-bit and 64-bit Windows systems so pick the installation package.
 
-## **Requirements: **
+### Installation Directories and Menu Items
+The installer creates the following directory structure:
 
-1. Windows 7 and above
-2. 4GB of RAM and above
-3. 1.5GHz duo core processor and above 
+* **Main Directory** - C:\Program Files\UgandaEMR
+* **Tomcat Directory** - C:\Program Files\UgandaEMR\UgandaEMRTomcat
+* **Mysql Directory** - C:\Program Files\MySQL\MySQL Server 5.5 *TODO: Correct this*
+* **OpenMRS Configuration Files** - C:\ApplicationData\OpenMRS *TODO: Correct this*
 
+The following items are also added to the Windows Start Menu:
+* **TODO: Add Start Menu Items**
 
-## Installation context
-32 Bit Installer
-64 Bit Installer.
+A shortcut link to the UgandaEMR instance is also added to the Desktop **TODO: Add screenshot of desktop with the Shortcut link**
 
+### Installation Overview
+![Installation proces overview](images/installer/installation_process.png)
 
-## Obtaining OpenMRS 
-
-
-URL:
-
-
-## **Directory structure**
-
-**Main Directory** - C:\Program Files\UgandaEMR
-**Tomcat Directory** - C:\Program Files\UgandaEMR\UgandaEMRTomcat
-**War file location** - C:\Program Files\UgandaEMR\UgandaEMRTomcat\webapps\openmrs
-**Mysql Directory** - C:\Program Files\MySQL\MySQL Server 5.5
-
-
-Windows Start Menu
-
-
-
-# Chapter 2: Installation of the System (Adapted from WHO OpenMRS Express Guide)
-
- 
-
-
-## Installer
-
-The installer is made of two files the 32 bit and the 64 bit installer. These apply according to the computer bit system.
-
-
-### Installation diagram.
-![](installation_process.png)
-
-### Installation process.
-
-Detailed installation in picture
+### Installation Steps
 1. Launch of the splash screen
 
 2. Agreement of installation
-![](1.2-agreement.jpg)
+![](images/installer/1.2-agreement.jpg)
 3. Selecting components to install.
-![](1.3-components.jpg)
+![](images/installer/1.3-components.jpg)
 4. Determining Installation directory.
-![](1.4-location.jpg)
+![](images/installer/1.4-location.jpg)
 5. Determine Shortcut directory
-![](1.5-shortcut.jpg)
+![](images/installer/1.5-shortcut.jpg)
 
 **Required Software**
 
 6. Install Java
-![](2.1-inst-java.jpg)
+![](images/installer/2.1-inst-java.jpg)
 
-![](2.3-java.jpg)
+![](images/installer/2.3-java.jpg)
 
-![](2.4-java-2.jpg)
+![](images/installer/2.4-java-2.jpg)
 
 ![](2.5-inst-java-complete.jpg)
 
 7. Install Mysql
-![](3.1-mysql-configure.jpg)
+![](images/installer/3.1-mysql-configure.jpg)
 
-![](3.2-standard.jpg)
+![](images/installer/images/installer/3.2-standard.jpg)
 
-![](3.3-comd1.jpg)
+![](images/installer/3.3-comd1.jpg)
 
-![](3.4-password for root.jpg)
+![](images/installer/3.4-password-for-root.jpg)
 
-![](3.5-execute.jpg)
+![](images/installer/3.5-execute.jpg)
 
 
-![](3.6-mysql-finished.jpg)
+![](images/installer/3.6-mysql-finished.jpg)
 
 8. Install Tomcat.
-![](4.1-tomcat-installation.jpg)
+![](images/installer/4.1-tomcat-installation.jpg)
 
-![](4.2-tomcat-agree.jpg)
+![](images/installer/4.2-tomcat-agree.jpg)
 
 
-![](4.3-java-directory.jpg)
+![](images/installer/4.3-java-directory.jpg)
 
-![](4.4-tomcat-componets.jpg)
+![](images/installer/4.4-tomcat-componets.jpg)
 
-![](4.5-configure-tomccat.jpg)
+![](images/installer/4.5-configure-tomccat.jpg)
 
-![](4.6-tomcat-location.jpg)
+![](images/installer/4.6-tomcat-location.jpg)
 9. Install Firefox
 
-![](5.1-fire.jpg)
+![](images/installer/5.1-fire.jpg)
 
 
 
-![](5.3-fire-fox-inst.jpg)
+![](images/installer/5.3-fire-fox-inst.jpg)
 
 
-![](5.4-fire-standard.jpg)
+![](images/installer/5.4-fire-standard.jpg)
 
 
-![](5.5-fire-fox-directory.jpg)
+![](images/installer/5.5-fire-fox-directory.jpg)
 
 
 
-![](5.2-fire-fox-start.jpg)
+![](images/installer/5.2-fire-fox-start.jpg)
 **Completion **
 
 10. Complete Installation
 
-![](6.0-complete-installation.jpg)
+![](images/installer/6.0-complete-installation.jpg)
 
-**Installation of The application**
+### Post-installation Configuration
 
 11. Start Application.
 
@@ -142,5 +126,3 @@ Step 3 Agree to the terms and conditions in the installer
 Step 4 Select components to install
 
 Step 5 Select default directory in which openmrs will install. NB. Leave the current/default preselected option.
-
-
