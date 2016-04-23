@@ -12,11 +12,11 @@
 3. MySQL 5.5
 4. Mozilla Firefox 44
 
-## Manual Installation
+## Manual Setup 
 ### Requirements for Manual Installation
 This process will be added at a later stage, as currently the automatic installation is the easiest way to get the required configuration
 
-## Automated Installation via installer
+## Interactive Setup via installer
 The installer provides all the prerequisite components for setting up UgandaEMR, parts of this guide have been adopted from the World Health Organization (WHO) OpenMRS Express guide.
 
 There are separate installation files for 32-bit and 64-bit Windows systems so pick the installation package.
