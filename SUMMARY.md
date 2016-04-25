@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [System Installation](setup_and_installation.md)
+* [System Installation](setup_and_configuration.md)
 * [Backup and Restoration](backup_and_restoration.md)
 * [Upgrading UgandaEMR](upgrading.md)
 * [Managing User Accounts](user_account_management.md)
