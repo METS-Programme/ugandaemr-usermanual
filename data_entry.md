@@ -33,6 +33,8 @@ To edit a visit,
 click on the edit link  
 If the dates you want to select do not appear, it means that there are encounters whose date can not be in that range.  
 Either delete all the encounters which belong to the visit or you can just create new visit
+![Found Patient](images/edit_visit.png)
+![Patient Dashboard](images/edit_visit_new_dates.png)
 2. Otherwise click confirm
 
 ### Delete a Visit
