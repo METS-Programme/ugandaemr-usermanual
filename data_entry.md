@@ -28,9 +28,8 @@ To add past visit, make sure that the patient has no duplicate visit with the sa
 ![Found Patient](images/screen_after_adding_new_visit.png)
 
 ### Edit Vist Start and End Dates
-To edit a visit,
-1. Select the
-click on the edit link  
+To edit the dates for a visit,
+1. Cclick on the edit link  
 If the dates you want to select do not appear, it means that there are encounters whose date can not be in that range.  
 Either delete all the encounters which belong to the visit or you can just create new visit
 ![Edit visit](images/edit_visit.png)
