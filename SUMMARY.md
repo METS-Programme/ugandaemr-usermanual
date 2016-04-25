@@ -8,5 +8,5 @@
 * [Provider Management](provider_management.md)
 * [Patient Registration](patient_registration.md)
 * [Entering Client Information](data_entry.md)
-* [Common Troubleshooting Tips](chapter6.md)
+* [Common Troubleshooting Tips](troubleshooting.md)
 
