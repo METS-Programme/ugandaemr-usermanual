@@ -7,3 +7,5 @@
 ## User is not a provider
 ![User Not Provider Error](images/logged_in_user_not_provider.png)
 
+### Solution:
+The above means your User Account does not have privileges to provide care to a patient. You therefore have to add Provider role to the user account as indicated herein .
