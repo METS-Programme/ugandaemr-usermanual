@@ -1,4 +1,4 @@
-## Creating a New Provider
+##1. Creating a New Provider
 1. Click the System Administration link on the home page
 ![System Administration](images/system_administration_link.png)
 2. Click the Manage Accounts link on the system administration page
