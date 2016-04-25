@@ -6,9 +6,6 @@
 * [Patient Registration](chapter2.md)
 * [Entering Client Information](chapter3.md)
 * [User Accounts Management](chapter1.md)
-
-
-* [Visits](chapter4.md)
 * [Upgrading UgandaEMR](chapter5.md)
 * [Provider Management](chapter7.md)
 
