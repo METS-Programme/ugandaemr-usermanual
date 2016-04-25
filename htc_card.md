@@ -10,7 +10,8 @@
 4. Create a  past visit on the date that the patient was tested
 ![](add_past_visit.png)
 5.Select past visit date
-![](add_past_visit_date.png)
+![](select_past_visit_date.png)
+
 
 
 6. Click on the link to the HIV counseling  and testing card
