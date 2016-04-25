@@ -8,7 +8,12 @@
 5. *Gender* ![Gender](images/gender.png)
 6. *Birthdate* ![Birthdate](images/birth_date.png)
 7. *Marital Status*![Marital Status](images/marital_status.png)
-8. 
+8. *Birth Location* aka village in which patient was born![birthlocation](images/birth_location.png)
+9. Address: Where the patient lives. Please follow the same procedure as above
+10. Phone Number: ![phone number](images/phone_number.png)
+11. Next of Kin: ![Next of Kin](images/next_of_kin.png)
+12. Confirm: Shows all the bio-data collected about the patient.![Confirm](images/confirmation.png)
+13. Saving The data: Click confirm to save, if not click cancel to edit. You should see a patient dashboard once saving is successful as below ![](images/patient_dashboard.png)
 # Common Errors 
 ## User is not a provider
 ![User Not Provider Error](images/logged_in_user_not_provider.png)
