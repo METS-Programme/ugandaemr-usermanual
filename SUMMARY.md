@@ -4,7 +4,7 @@
 * [System Installation](chapter10.md)
 * [Backup and Restoration](backup_and_restoration.md)
 * [Upgrading UgandaEMR](upgrading.md)
-* [Managing User Accounts](chapter1.md)
+* [Managing User Accounts](user_account_management.md)
 * [Provider Management](chapter7.md)
 * [Patient Registration](chapter2.md)
 * [Entering Client Information](data_entry.md)
