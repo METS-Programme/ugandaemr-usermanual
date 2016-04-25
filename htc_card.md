@@ -12,9 +12,9 @@
 5.Select past visit date
 ![](select_past_visit_date.png)
 
-
-
 6. Click on the link to the HIV counseling  and testing card
+![](click_on_link_to_HCT_Card.png)
+
 
 ## Edit HCT Card
 ## Delete HCT Card
