@@ -7,7 +7,7 @@
 * [Managing User Accounts](user_account_management.md)
 * [Provider Management](provider_management.md)
    * [Creating a New Provider](creating_a_new_provider.md)
-   * Making an existing user a provider
+   * [Making an existing user a provider](making_an_existing_user_a_provider.md)
 * [Patient Registration](patient_registration.md)
 * [Entering Client Information](data_entry.md)
    * [ART Card](art_card.md)
