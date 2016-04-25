@@ -11,7 +11,7 @@ To enter patient information
 ![Patient Dashboard](images/patient_dashboard.png)
 
 ## Visits
-To add a visit, make sure you are on the patient dashboard for whom you want to enter a visit (refer to entering patient information) or if a visit is active you can click on actions drop down and then select add visit
+All data capture occurs on a To add a visit, make sure you are on the patient dashboard for whom you want to enter a visit (refer to entering patient information) or if a visit is active you can click on actions drop down and then select add visit
 ![Add visit when another visit is active](images/new_visit_when_another_visit_is_active.png)
 
 ![Add visit when in patient dashboard](images/add_past_visit.png)
