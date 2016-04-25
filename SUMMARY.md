@@ -7,6 +7,6 @@
 * [Managing User Accounts](chapter1.md)
 * [Provider Management](chapter7.md)
 * [Patient Registration](chapter2.md)
-* [Entering Client Information](chapter3.md)
+* [Entering Client Information](data_entry.md)
 * [Common Troubleshooting Tips](chapter6.md)
 
