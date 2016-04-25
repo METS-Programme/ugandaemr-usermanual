@@ -14,6 +14,8 @@
 11. Next of Kin: ![Next of Kin](images/next_of_kin.png)
 12. Confirm: Shows all the bio-data collected about the patient.![Confirm](images/confirmation.png)
 13. Saving The data: Click confirm to save, if not click cancel to edit. You should see a patient dashboard once saving is successful as below ![](images/patient_dashboard.png)
+
+
 # Common Errors 
 ## User is not a provider
 ![User Not Provider Error](images/logged_in_user_not_provider.png)
