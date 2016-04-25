@@ -10,7 +10,7 @@
 * [Entering Client Information](data_entry.md)
   * [ART Card](art_card.md)
   * [HIV Exposed Infant Card](eid_card.md)
-  * [HIV Counselling and Testing Client Card](htc_card.md)
-  * [Maternal and Child Health Cards](maternal_and_child_health_data_entry.md)
+  * [HIV Counseling and Testing Client Card](htc_card.md)
+  * [Maternal and Child Health Cards](maternity_and_child_health_data_entry.md)
 * [Common Troubleshooting Tips](troubleshooting.md)
 
