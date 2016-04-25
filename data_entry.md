@@ -13,6 +13,7 @@ To enter patient information
 ## Visits
 To add a visit, make sure you are on the patient dashboard for whom you want to enter a visit (refer to entering patient information) or if a visit is active you can click on actions drop down and then select add visit
 ![Add visit when another visit is active](images/new_visit_when_another_visit_is_active.png)
+
 ![Add visit when in patient dashboard](images/add_past_visit.png)
 
 ### Add Past Visit
@@ -26,15 +27,15 @@ To add past visit, make sure that the patient has no duplicate visit with the sa
 4. This will take you visit page
 ![Found Patient](images/screen_after_adding_new_visit.png)
 
-
 ### Edit Vist Start and End Dates
 To edit a visit,
 1. Select the
 click on the edit link  
 If the dates you want to select do not appear, it means that there are encounters whose date can not be in that range.  
 Either delete all the encounters which belong to the visit or you can just create new visit
-![Found Patient](images/edit_visit.png)
-![Patient Dashboard](images/edit_visit_new_dates.png)
+![Edit visit](images/edit_visit.png)
+--
+![Edit visit with new dates](images/edit_visit_new_dates.png)
 2. Otherwise click confirm
 
 ### Delete a Visit
