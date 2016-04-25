@@ -8,5 +8,9 @@
 * [Provider Management](provider_management.md)
 * [Patient Registration](patient_registration.md)
 * [Entering Client Information](data_entry.md)
+  * [ART Card](art_card.md)
+  * [HIV Exposed Infant Card](eid_card.md)
+  * [HIV Counselling and Testing Client Card](htc_card.md)
+  * [Maternal and Child Health Cards](maternal_and_child_health_cards.md)
 * [Common Troubleshooting Tips](troubleshooting.md)
 
