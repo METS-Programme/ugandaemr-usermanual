@@ -8,4 +8,4 @@
 ![User Not Provider Error](images/logged_in_user_not_provider.png)
 
 ### Solution:
-The above means your User Account does not have privileges to provide care to a patient. You therefore have to add Provider role to the user account as indicated herein .
+The above means your User Account does not have privileges to provide care to a patient. You therefore have to add Provider role to the user account as [indicated herein](making_an_existing_user_a_provider.md) .
