@@ -4,7 +4,7 @@ To enter patient information
 ![Home](images/home_screen.png)
 2. Click search patients
 ![Find Patient Screen](images/home_screen_find_patient_marked.png)
-3. Enter the search term in the text box, this can be the patient name or any unique identifier by which the patient can be identified with (eg. ANC#,PNC#, ART#,EID#, etc. ), make sure that your search term is more than three (3) characters long otherwise nothing will be displayed
+3. Enter the search term in the text box, this can be the patient name or any identifier assigned to the patient, such as but not limited to National ID, ANC number, PNC number, Patient clinic number, Exposed Infant or birth cohort number. The search only begins after three (3) characters have been entered.
 ![Search Patient](images/search patient.png)
 4. After identifying the correct patient, click on it; this will take you the patient dashboard.
 ![Found Patient](images/found_patient.png)
