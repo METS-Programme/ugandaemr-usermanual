@@ -1,5 +1,8 @@
 # Entering Client Information
 ## Visits
+### Add Past Visit
+### Edit Vist Start and End Dates 
+### Delete a Visit
 ## HIV Care ART Card 
 This section describes how to enter data from the ART card.
 ### Summary Page
