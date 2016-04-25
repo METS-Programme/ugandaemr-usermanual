@@ -38,4 +38,4 @@ Either delete all the encounters which belong to the visit or you can just creat
 2. Otherwise click confirm
 
 ### Delete a Visit
-The delete link appears only if the visit has no encounters; so to delete a visit make sure that the encounters are deleted
+The delete link appears only if the visit has no encounters, so make sure that the encounters are deleted from the visit. 
