@@ -1,4 +1,6 @@
 # User Account Management
+1. 
+
 ## Reset user account password
 1. Click legacy administration link as circled in the image below
 ![Legacy System Adminstration Link](images/legacy_system administration_link.png)
