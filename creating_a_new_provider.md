@@ -1,5 +1,5 @@
 ##1. Creating a New Provider
-1. Click the System Administration link on the home page
+1. Click the Legacy System Administration link on the home page
 ![System Administration](images/system_administration_link.png)
 2. Click the Manage Accounts link on the system administration page
  ![Manage Account Link](images/manage_account_link.png)
