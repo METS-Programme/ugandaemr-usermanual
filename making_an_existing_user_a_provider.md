@@ -8,8 +8,9 @@ The steps to make an existing user account a provider are as follows:
     ![Legacy UI Menu](images/legacy-menu.png)
     
 2. Click the Legacy System Administration link on the home page
-![System Administration](images/system_administration_link.png)
-3. Click the Manage Accounts link on the system administration page
+![Legacy System Administration link](images/legacy_system administration_link.png)
+3. Click the ***Manage Providers*** link on the system administration page
+![Manage Providers link](images/manage_providers.png)
 
 3. Click the Edit button next to the user account you want to edit. Any user with 0 (zero) in the provider Accounts has not been created as a provider
 ![Edit Existing Account for Provider Information](images/edit_exsiting_account_for_provider_info.png)
