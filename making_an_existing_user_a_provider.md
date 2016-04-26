@@ -12,8 +12,6 @@ The steps to make an existing user account a provider are as follows:
 3. Click the ***Manage Providers*** link on the system administration page
 ![Manage Providers link](images/manage_providers.png)
 
-3.Click Add Provider link ![Add Provider](images/add_provider.png)
-
-
-4. Enter the name 
-
+3.Click ***Add Provider*** link ![Add Provider](images/add_provider.png)
+4.Enter provider name, and hit the ***save*** button ![Provider Name](images/enter_provider_name.png)
+5.You should see newly added provider on the list as below;
