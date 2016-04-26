@@ -6,7 +6,7 @@
 * [Upgrading UgandaEMR](upgrading.md)
 * [Managing User Accounts](user_account_management.md)
    * [Create a new user account](create_a_new_user_account.md)
-   * Reset user account password
+   * [Reset user account password](reset_user_account_password.md)
 * [Provider Management](provider_management.md)
    * [Creating a New Provider](creating_a_new_provider.md)
    * [Making an existing user a provider](making_an_existing_user_a_provider.md)
