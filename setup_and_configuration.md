@@ -39,7 +39,7 @@ A shortcut link to the UgandaEMR instance is also added to the Desktop **TODO: A
 
 ### Installation Steps
 1. Launch of the splash screen
-![Splash Screen](images/installer/splash.png)
+![Splash Screen](images/installer/splash.jpg)
 2. License Agreement
 ![License Agreement](images/installer/1.2-agreement.jpg)
 3. Selecting components to install
@@ -63,7 +63,8 @@ A shortcut link to the UgandaEMR instance is also added to the Desktop **TODO: A
 8. Install Tomcat
 ![Tomcat Setup Wizard Splash page](images/installer/4.1-tomcat-installation.jpg)
 ![License Acceptance](images/installer/4.2-tomcat-agree.jpg)
-![Java Virtual Machine selection](images/installer/4.3-java-directory.jpg) **TODO: Use the same JVM as that installed in Step 6 above**
+![Java Virtual Machine selection](images/installer/4.3-java-directory.jpg) 
+
 ![Tomcat Component selection](images/installer/4.4-tomcat-componets.jpg)
 ![Tomcat Configuration](images/installer/4.5-configure-tomccat.jpg)
 ![Tomcat directory location](images/installer/4.6-tomcat-location.jpg)

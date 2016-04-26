@@ -38,7 +38,7 @@ You can also click the icon to edit, to edit the EID summary page
 1. Each visit on the Exposed Infant Clinical Chart is an encounter
 2. Date of the visit on the Exposed Infant Clinical Chart will the same as visit date on the openMRS system
 
-To enter mew encounter page,  
+To enter new encounter page,  
 1. Create a visit with date that matches the date of visit on the Exposed Infant Clinical Chart, refer to creating visits section. If the visit exists, make sure that it does not have a counter page, otherwise refer to the edit EID encounter page section
 2. For the selected or created visit, click on HMIS 082a - Exposed Infant Card Encounter Form link on the visit page  
 ![Select EID Encounter page from active visit](images/visit_page_select_eid_encounter.png)
@@ -47,7 +47,7 @@ To enter mew encounter page,
 
 ** Things to note**
 1. The fields marked * are required fields and hence form can not save without those fields
-2. Take note of numeric fields and make sure that no strings included, this include fields like wight, height. All fields should be plain numbers without adding measurements like cm,kg (use 5.2 instead of 5.2kg and 100 instead of 100cm)
+2. Take note of numeric fields and make sure that no strings included, these include fields like weight, height. All fields should be plain numbers without adding measurements like cm,kg (use 5.2 instead of 5.2kg and 100 instead of 100cm)
 3. The age of infant must be in months and not weeks or days. Instead of writing 2 months, write 2. The age must be converted to months. If the age is in weeks or days convert to months.
 4. Date of Visit will be auto filled  
 5. Type of visit corresponds to visit number on the chart
