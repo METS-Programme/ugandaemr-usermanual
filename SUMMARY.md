@@ -17,5 +17,6 @@
    * [HIV Exposed Infant Card](eid_card.md)
    * [HIV Counseling and Testing Client Card](htc_card.md)
    * [Maternal and Child Health Cards](maternity_and_child_health_data_entry.md)
+* [Reporting](reporting.md)
 * [Common Troubleshooting Tips](troubleshooting.md)
 
