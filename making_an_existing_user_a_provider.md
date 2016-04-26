@@ -14,4 +14,5 @@ The steps to make an existing user account a provider are as follows:
 
 3.Click ***Add Provider*** link ![Add Provider](images/add_provider.png)
 4.Enter provider name, and hit the ***save*** button ![Provider Name](images/enter_provider_name.png)
-5.You should see newly added provider on the list as below;
+5.You should see the newly added provider on the list as below;
+![Provider Added link](images/provider_added.png)
