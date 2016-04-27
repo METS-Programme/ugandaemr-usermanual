@@ -17,3 +17,6 @@ The steps in the backup are.
 
 **Step 3** Backup in progress
 ![Backup in progress](images/backup/backup3.jpg)
+
+Step 4 Backup complete. You may select to run another one
+![Backup complete](images/backup/backup4.jpg)
