@@ -8,11 +8,13 @@ The two common paths to find the backups are
 2 C:\Application Data\OpenMRS\backup
 
 The steps in the backup are.
+1. On the Dash Board Click on the Backup Database Icon.
 
-**Step 1** On the Dash Board Click on the Backup Database Icon.
+
 ![Dash Board backup button](images/backup/backup1.0.jpg)
 
-**Step 2** Click on the Execute database
+1. Click on the Execute database
+
 ![](images/backup/backup2.jpg)
 
 **Step 3** Backup in progress
