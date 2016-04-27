@@ -20,6 +20,7 @@ To capture the health education info, follow the steps below;
 
 3. Select the ***Attending Clinician*** ![Attending Clinician](images/select_attending_clinician.png)
 4. Enter the details as shown. Be sure to select the Yes checkbox so as enter date and comment ![Health Education Basics](images/art_card_health_education_basics.png)
-5. 
+5. Scroll to the bottom and hit the Enter Form button![Health Encounter Enter Form](images/art_card_health_education_enter_button.png)
+6. 
 #### Encounter Page 
 Here is a scanned copy of the Art Encounter Page
