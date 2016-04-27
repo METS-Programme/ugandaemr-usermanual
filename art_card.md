@@ -19,6 +19,6 @@ To capture the health education info, follow the steps below;
 2. You should see the health education form like this![Health Education Facade](images/art_card_health_education_facade.png)
 
 3. Select the ***Attending Clinician*** ![Attending Clinician](images/select_attending_clinician.png)
-
+4. 
 ### Encounter Page 
 Here is a scanned copy of the Art Encounter Page
