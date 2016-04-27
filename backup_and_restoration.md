@@ -15,5 +15,5 @@ The steps in the backup are.
 **Step 2** Click on the Execute database
 ![](images/backup/backup2.jpg)
 
-Step 3 Backup in progress
+**Step 3** Backup in progress
 ![Backup in progress](images/backup/backup3.jpg)
