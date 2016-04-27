@@ -14,4 +14,8 @@ This section describes how to enter data from the ART card.
 Only one summary page can be entered for each patient, so creating a new summary page will load the existing page for the patient.  
 
 ### Health Education Page
+Here is a scanned copy of the health education page. 
+[Art Card Health Enducation](images/art_card_health_education.png)
+
 ### Encounter Page 
+Here is a scanned copy of the Art Encounter Page
