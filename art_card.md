@@ -14,8 +14,10 @@ This section describes how to enter data from the ART card.
 Only one summary page can be entered for each patient, so creating a new summary page will load the existing page for the patient.  
 
 ### Health Education Page
-Here is a scanned copy of the health education page. 
-[Art Card Health Enducation](images/art_card_health_education.png)
+To capture the health education info, follow the steps below;
+1. Click the ***HMIS 122a HIV Care ART Card-Health Education Form***![Select Health Education Form](images/select_health_education.png)
+2. You should see the health education form like this![](images/art_card_health_education_facade.png)
+3. Select the attending clinician
 
 ### Encounter Page 
 Here is a scanned copy of the Art Encounter Page
