@@ -1,5 +1,5 @@
-# HIV Counseling and Testing Card
-## Enter new HCT card
+## HIV Counseling and Testing Card
+### Enter new HCT card
 1. Go to the patient dashboard 
 2. Find a patient
 ![](find_patient_.png)
@@ -16,6 +16,6 @@
 ![](click_on_link_to_HCT_Card.png)
 
 
-## Edit HCT Card
-## Delete HCT Card
+### Edit HCT Card
+### Delete HCT Card
 
