@@ -22,7 +22,14 @@ To capture the health education info, follow the steps below;
 4. Enter the comments made by the attending clinician(health worker) as below; ![Art Card Health Education Basics](images/art_card_health_education_basics.png)
 5. To save the data entered, scroll to the bottom and click ***Enter Form*** button as below ![Art Card Health Education Enter Button](images/art_card_health_education_enter_button.png)
 6. Data is successfully saved. You should see a page showing previously entered record![Health Education Success](images/art_card_health_education_success.png)
-7. 
+#### Common Errors
+Should the system fail to save, there could be a session-timeout.
+
+  **Solution**
+  1. Scroll upwards, and enter your username and password.![Session timeout](images/art_card_health_education_session_timeout.png)
+  2. Click the ***Submit*** button to access the page again
+  Scroll down to the bottom and hit the ***Enter Form*** button
+
 
 ### Encounter Page 
 This captures data every time a client/patient visits the hospital. Follow the steps below to enter the data.
