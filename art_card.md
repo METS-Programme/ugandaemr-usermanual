@@ -19,6 +19,8 @@ To capture the health education info, follow the steps below;
 2. You should see the health education form like this![Health Education Facade](images/art_card_health_education_facade.png)
 
 3. Select the ***Attending Clinician*** ![Attending Clinician](images/select_attending_clinician.png)
-4. 
+4. Enter the comments made by the attending clinician(health worker) as below; ![Art Card Health Education Basics](images/art_card_health_education_basics.png)
+5. To save the data entered, scroll to the bottom and click ***Enter Form*** button as below ![Art Card Health Education Enter Button](images/art_card_health_education_enter_button.png)
+
 ### Encounter Page 
 Here is a scanned copy of the Art Encounter Page
