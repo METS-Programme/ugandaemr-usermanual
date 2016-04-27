@@ -47,7 +47,7 @@ To enter new encounter page,
 
 ** Things to note**
 1. The fields marked * are required fields and hence form can not save without those fields
-2. Take note of numeric fields and make sure that no strings included, this include fields like wight, height. All fields should be plain numbers without adding measurements like cm,kg (use 5.2 instead of 5.2kg and 100 instead of 100cm)
+2. Take note of numeric fields and make sure that no strings included, these include fields like weight, height. All fields should be plain numbers without adding measurements like cm,kg (use 5.2 instead of 5.2kg and 100 instead of 100cm)
 3. The age of infant must be in months and not weeks or days. Instead of writing 2 months, write 2. The age must be converted to months. If the age is in weeks or days convert to months.
 4. Date of Visit will be auto filled  
 5. Type of visit corresponds to visit number on the chart
