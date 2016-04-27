@@ -38,7 +38,7 @@ You can also click the icon to edit, to edit the EID summary page
 1. Each visit on the Exposed Infant Clinical Chart is an encounter
 2. Date of the visit on the Exposed Infant Clinical Chart will the same as visit date on the openMRS system
 
-To enter mew encounter page,  
+To enter new encounter page,  
 1. Create a visit with date that matches the date of visit on the Exposed Infant Clinical Chart, refer to creating visits section. If the visit exists, make sure that it does not have a counter page, otherwise refer to the edit EID encounter page section
 2. For the selected or created visit, click on HMIS 082a - Exposed Infant Card Encounter Form link on the visit page  
 ![Select EID Encounter page from active visit](images/visit_page_select_eid_encounter.png)
