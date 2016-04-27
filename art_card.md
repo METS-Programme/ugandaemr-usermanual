@@ -22,6 +22,10 @@ To capture the health education info, follow the steps below;
 4. Enter the details as shown. Be sure to select the Yes checkbox so as enter date and comment ![Health Education Basics](images/art_card_health_education_basics.png)
 5. Scroll to the bottom and hit the Enter Form button![Health Encounter Enter Form](images/art_card_health_education_enter_button.png)
 6. Once added successfully, you should see a page showing the most recent health education form added ![Health Education Success](images/art_card_health_education_success.png)
-7. 
+##### Common Errors
+Should the page fail to save, due to a timeout session/when you have spent more than a 20 minutes without saving, do the following;
+Scroll to the upper most part of the page
+Enter your username and password
+
 #### Encounter Page 
 Here is a scanned copy of the Art Encounter Page
