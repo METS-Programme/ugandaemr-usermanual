@@ -24,6 +24,7 @@ To capture the health education info, follow the steps below;
 6. Once added successfully, you should see a page showing the most recent health education form added ![Health Education Success](images/art_card_health_education_success.png)
 ##### Common Errors
 Should the page fail to save, due to a timeout session/when you have spent more than a 20 minutes without saving, do the following;
+#####Solution: 
 Scroll to the upper most part of the page,
 Enter your username and password ![Session Timeout](images/art_card_health_education_session_timeout.png)
 
