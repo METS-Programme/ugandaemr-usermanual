@@ -33,4 +33,5 @@ Enter your username and password ![Session Timeout](images/art_card_health_educa
 
 
 #### Encounter Page 
-Here is a scanned copy of the Art Encounter Page
+To capture the ART Card Encounters, follow the steps below;
+1. Click the ***HMIS 122a HIV Care ART Card-Health Education Form**
