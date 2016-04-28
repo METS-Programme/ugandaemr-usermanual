@@ -32,4 +32,7 @@ Step 2: Click on the **Concept/Observation** tab to show the page to be used in 
 Step 3: Type in the concept name or ID of the variable you are looking for. E.g.Cd4
 ![](ch2.png)
 
+Step 4: In case you typed in the concept name, click on the one that matches what you desire otherwise click on the only matching entry displayed.
+
+The above action will show you a page with further settings/options for the chosen concept as shown and explained below:
 
