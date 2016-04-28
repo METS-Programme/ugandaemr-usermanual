@@ -36,3 +36,4 @@ Step 4: In case you typed in the concept name, click on the one that matches wha
 
 The above action will show you a page with further settings/options for the chosen concept as shown and explained below:
 
+![](ch3.png)
