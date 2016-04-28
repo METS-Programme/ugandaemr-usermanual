@@ -26,3 +26,4 @@ Step 1: **Click on the Cohort Builder** link on the top level form.  This will s
 
 Step 2: Click on the **Concept/Observation** tab to show the page to be used in searching. 
 
+![](ch1.png)
