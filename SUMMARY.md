@@ -18,6 +18,7 @@
    * [HIV Exposed Infant Card](eid_card.md)
    * [HIV Counseling and Testing Client Card](htc_card.md)
    * [Maternal and Child Health Cards](maternity_and_child_health_data_entry.md)
+   * [Safe Male Circumcision](smc.md) 
 * [Reporting](reporting.md)
   * [BIRT Reports](reporting_birt.md)
   * [Cohort Builder](reporting_cohort_builder.md)
