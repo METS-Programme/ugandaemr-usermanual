@@ -56,4 +56,5 @@ The above action will show you a page with further settings/options for the chos
 **5.** Is the link to commences the query process
 
 **6.** Is the link to cancel the query process.
-****
+
+![](ch4.png)
