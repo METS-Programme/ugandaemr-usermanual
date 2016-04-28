@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Terminologies](terminologies.md)
 * [System Setup and Configuration](setup_and_configuration.md)
 * [Backup and Restoration](backup_and_restoration.md)
 * [Upgrading UgandaEMR](upgrading.md)
@@ -21,5 +22,6 @@
   * [BIRT Reports](reporting_birt.md)
   * [Cohort Builder](reporting_cohort_builder.md)
   * [Reporting Module](reporting_reporting_module.md) 
+  * [Data Export](reporting_data_export.md)
 * [Common Troubleshooting Tips](troubleshooting.md)
 
