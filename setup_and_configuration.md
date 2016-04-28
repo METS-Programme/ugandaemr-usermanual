@@ -66,7 +66,7 @@ A shortcut link to the UgandaEMR instance is also added to the Desktop **TODO: A
 ![Instance configuration](images/installer/3.5-execute.jpg)
 ![Setup completion status message](images/installer/3.6-mysql-finished.jpg)
 
-8. Install Tomcat
+8. Install Tomcat  
 ![Tomcat Setup Wizard Splash page](images/installer/4.1-tomcat-installation.jpg)
 ![License Acceptance](images/installer/4.2-tomcat-agree.jpg)
 
