@@ -44,4 +44,11 @@ To capture the ART Card Encounters, follow the steps below;
 8. Click the ***Enter Form*** button to save the encounter record
 9. You should see a new page ![Encounter Page After saving](images/art_card_encounter_page_after_saving.png)
 10. Click on the visit circled on the left to see the saved encounter record ![Art Card Encounter Saved Page](images/art_card_encounter_saved_page.png)
-11. 
+
+##### Common Issues
+Should the page fail to save, due to a timeout session/when you have spent more than a 20 minutes without saving, do the following;
+#####Solution: 
+**i)** Scroll to the upper most part of the page,
+Enter your username and password ![Session Timeout](images/art_card_health_education_session_timeout.png)
+**ii)** Scroll to the bottom and hit the Enter Form button![Health Encounter Enter Form](images/art_card_health_education_enter_button.png)
+**iii)** Once added successfully, you should see a page showing the most recent Encounter form added
