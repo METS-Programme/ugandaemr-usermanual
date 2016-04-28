@@ -30,4 +30,6 @@ Step 2: Click on the **Concept/Observation** tab to show the page to be used in 
 ![](ch1.png)
 
 Step 3: Type in the concept name or ID of the variable you are looking for. E.g.Cd4
+![](ch2.png)
+
 
