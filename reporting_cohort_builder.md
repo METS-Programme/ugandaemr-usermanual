@@ -78,3 +78,10 @@ Step 2: Click on the **Patient Attributes tab** to show the page to be used in s
 6. ** Search **is the tab or button for the search
  
 Step 3: Click on the Search button to show the number of patient that match the criteria you specified.
+
+**How to query OpenMRS database based on encounter information:**
+
+This is mainly used for querying the OpenMRS database for encounter or visit related scenarios.
+
+Step 1: Click on the **Cohort Builder** link on the top level form.  This will show you the **Cohort Builder page** as shown below.
+Step 2: Click on the **Encounter tab** to show the page to be used in searching.
