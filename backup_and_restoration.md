@@ -17,4 +17,4 @@ The steps in the backup are.
 4. Once the backup is complete, a message is displayed with the status.
 ![Backup complete](images/backup/backup4.jpg)
 ## Database Restore 
-The UgandaEMR installer includes HeidiSQL a tool that allows the restoration of backup files into the database. 
+The UgandaEMR installer includes HeidiSQL a tool that allows the restoration of backup files into the backend database. 
