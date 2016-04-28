@@ -17,3 +17,4 @@
 * Step 1: Click on the Cohort Builder link on the top level form. This will show you the Cohort Builder page as shown below.
 
 
+![](ch.png)
