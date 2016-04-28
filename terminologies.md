@@ -6,5 +6,5 @@ This section contains definitions and explainations of common terms used within 
 | Concept |  |
 | Summary Page |  |
 | Encounter Page |  |
-|Provider| |
+|Provider| A provider is |
 
