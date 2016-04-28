@@ -3,9 +3,9 @@ This section contains definitions and explainations of common terms used within 
 
 | Term |Definition|
 | -- | -- |
-| 0:2 | 1:2 |
-| 0:3 | 1:3 |
-| 0:4 | 1:4 |
+| Concept |  |
+| Summary Page |  |
+| Encounter Page |  |
 | 0:5 | 1:5 |
 | 0:6 | 1:6 |
 | 0:7 | 1:7 |
