@@ -18,6 +18,7 @@
 
 
 ![](ch.png)
+
 **How to query OpenMRS database based on either the concept ID or concept name:**
 
 This section enables the user to search for concepts or observations existing in the system.
@@ -27,3 +28,8 @@ Step 1: **Click on the Cohort Builder** link on the top level form.  This will s
 Step 2: Click on the **Concept/Observation** tab to show the page to be used in searching. 
 
 ![](ch1.png)
+
+Step 3: Type in the concept name or ID of the variable you are looking for. E.g.Cd4
+![](ch2.png)
+
+
