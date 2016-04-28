@@ -59,7 +59,7 @@ A shortcut link to the UgandaEMR instance is also added to the Desktop **TODO: A
 ![Java installation completion](images/installer/2.5-inst-java-complete.jpg)
 
 7. Install MySQL  
-![Server Configuration Wizard](images/installer/3.1-mysql-configure.jpg)
+![Server Configuration Wizard](images/installer/3.1-mysql-configure.jpg)  
 ![Standard Configuration](images/installer/3.2-standard.jpg)
 ![Windows Service and PATH Configuration](images/installer/3.3-comd1.jpg)
 ![Security Configuration](images/installer/3.4-password-for-root.jpg)
