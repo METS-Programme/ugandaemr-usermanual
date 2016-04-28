@@ -37,6 +37,7 @@ Step 4: In case you typed in the concept name, click on the one that matches wha
 The above action will show you a page with further settings/options for the chosen concept as shown and explained below:
 
 ![](ch3.png)
+
 **1** Allows you to query for the variable using the following options:
 * **Any:** will return all matching entries,
 * **None:** will return those patients without this valuable entered on them.
@@ -55,4 +56,17 @@ The above action will show you a page with further settings/options for the chos
 **5.** Is the link to commences the query process
 
 **6.** Is the link to cancel the query process.
-****
+
+![](ch4.png)
+**How to query OpenMRS database based on patient demographic attributes:**
+
+This is mainly used for querying the OpenMRS database for patient based on their demographic attributes.
+
+Step 1: Click on the **Cohort Builder** link on the top level form.  This will show you the **Cohort Builder page** as shown below.
+
+Step 2: Click on the **Patient Attributes tab** to show the page to be used in searching.
+![](ch5.png)
+ 
+ This will display the Search by Demographics page as shown below
+ ![](ch6.png)
+ 
