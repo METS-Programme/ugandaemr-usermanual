@@ -13,7 +13,7 @@ The steps in the backup are.
 
 2. Click on the Execute database backup now
 ![](images/backup/backup2.jpg)
-3. The backup begins and the progress is shown until completion
+3. The backup begins and the progress is shown until completion.
 ![Backup in progress](images/backup/backup3.jpg)
 4. Once the backup is complete, a message is displayed with the status.
 ![Backup complete](images/backup/backup4.jpg)
