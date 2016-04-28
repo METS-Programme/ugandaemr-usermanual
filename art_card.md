@@ -43,4 +43,4 @@ To capture the ART Card Encounters, follow the steps below;
 7. Capture the fourth section as below ![Art Card Encounter Section 4](images/art_card_encounter_section_4.png)
 8. Click the ***Enter Form*** button to save the encounter record
 9. You should see a new page ![Encounter Page After saving](images/art_card_encounter_page_after_saving.png)
-10. Click on Diagnosi
+10. Click on the visit circled on the left to see the saved ecounter record 
