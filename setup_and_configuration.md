@@ -44,7 +44,6 @@ A shortcut link to the UgandaEMR instance is also added to the Desktop **TODO: A
 2. License Agreement
 ![License Agreement](images/installer/1.2-agreement.jpg)  
 
-
 3. Selecting components to install
 ![Selecting installation components](images/installer/1.3-components.jpg)
 
@@ -59,7 +58,7 @@ A shortcut link to the UgandaEMR instance is also added to the Desktop **TODO: A
 ![Java installation file copying](images/installer/2.4-java-2.jpg)
 ![Java installation completion](images/installer/2.5-inst-java-complete.jpg)
 
-7. Install MySQL
+7. Install MySQL  
 ![Server Configuration Wizard](images/installer/3.1-mysql-configure.jpg)
 ![Standard Configuration](images/installer/3.2-standard.jpg)
 ![Windows Service and PATH Configuration](images/installer/3.3-comd1.jpg)
