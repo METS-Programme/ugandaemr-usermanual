@@ -1,5 +1,5 @@
 # Terminologies 
-This section contains definitions and explainations of common terms used within UgandaEMR and OpenMRS 
+This section contains definitions and explanations of common terms used within UgandaEMR and OpenMRS 
 
 | Term |Definition|
 | -- | -- |
