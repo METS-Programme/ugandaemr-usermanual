@@ -37,6 +37,7 @@ Step 4: In case you typed in the concept name, click on the one that matches wha
 The above action will show you a page with further settings/options for the chosen concept as shown and explained below:
 
 ![](ch3.png)
+
 **1** Allows you to query for the variable using the following options:
 * **Any:** will return all matching entries,
 * **None:** will return those patients without this valuable entered on them.
