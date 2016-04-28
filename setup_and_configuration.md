@@ -69,14 +69,12 @@ A shortcut link to the UgandaEMR instance is also added to the Desktop **TODO: A
 8. Install Tomcat  
 ![Tomcat Setup Wizard Splash page](images/installer/4.1-tomcat-installation.jpg)
 ![License Acceptance](images/installer/4.2-tomcat-agree.jpg)
-
 ![Java Virtual Machine selection](images/installer/4.3-java-directory.jpg) 
-
 ![Tomcat Component selection](images/installer/4.4-tomcat-componets.jpg)
 ![Tomcat Configuration](images/installer/4.5-configure-tomccat.jpg)
 ![Tomcat directory location](images/installer/4.6-tomcat-location.jpg)
 
-9. Install Firefox
+9. Install Firefox  
 ![Firefox Splash screen](images/installer/5.3-fire-fox-inst.jpg)
 ![Firefox Setup Type](images/installer/5.4-fire-standard.jpg)
 ![Firefox install location](images/installer/5.5-fire-fox-directory.jpg)
