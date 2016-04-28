@@ -79,8 +79,7 @@ A shortcut link to the UgandaEMR instance is also added to the Desktop **TODO: A
 ![Firefox Setup Type](images/installer/5.4-fire-standard.jpg)
 ![Firefox install location](images/installer/5.5-fire-fox-directory.jpg)
 ![Firefox install completed](images/installer/5.2-fire-fox-start.jpg)
-
- 10. UgandaEMR Installation completed
+10. UgandaEMR Installation completed
 ![Installation completed splash screen](images/installer/6.0-complete-installation.jpg)
 
 ### Post-installation Configuration
