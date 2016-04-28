@@ -10,7 +10,6 @@ The two common paths to find the backups are
 The steps in the backup are.
 1. On the Dash Board Click on the Backup Database icon.
 ![Dash Board backup button](images/backup/backup1.0.jpg)
-
 2. Click on the Execute database backup now
 ![](images/backup/backup2.jpg)
 3. The backup begins and the progress is shown until completion.
