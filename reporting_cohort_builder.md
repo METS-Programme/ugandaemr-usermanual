@@ -69,4 +69,12 @@ Step 2: Click on the **Patient Attributes tab** to show the page to be used in s
  
  This will display the Search by Demographics page as shown below
  ![](ch6.png)
+ The following are the options available
+1. **Gender** allows you to select and search by gender i. e Male or Female
+2. **Age** allows you to filer between ages i.e. 0-14
+3. **Birthdate** allows you to filer between birth dates 
+4. **Alive only** allows you to search for alive patients
+5. ** Dead only** allows you to search for dead patients 
+6. ** Search **is the tab or button for the search
  
+Step 3: Click on the Search button to show the number of patient that match the criteria you specified.
