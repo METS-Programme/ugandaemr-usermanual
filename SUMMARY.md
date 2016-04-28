@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Terminologies](terminologies.md)
 * [System Setup and Configuration](setup_and_configuration.md)
 * [Backup and Restoration](backup_and_restoration.md)
 * [Upgrading UgandaEMR](upgrading.md)
