@@ -18,7 +18,7 @@ To add a visit, make sure you are on the patient dashboard for whom you want to 
 
 ### Add Past Visit
 To add past visit, make sure that the patient has no duplicate visit with the same date you are entering and also make sure that all other patient visits are closed (no open visits) then;
-1. Click on the add past visit link on the right
+1. Click on the ***add past visit*** link on the right
 ![Add past visit](images/add_past_visit.png)
 
 2. Enter the visit start date and the visit stop date if the visit is more than one day, otherwise leave the default
