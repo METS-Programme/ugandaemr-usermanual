@@ -138,7 +138,7 @@ To achieve the above result follow the following steps:
 **Step 2:** Create the individual queries as shown in the preceding sections.
 
 **Step 3:** Click on the **Composition****** tab to show the page to be used in forming compositions.
-
+![![](ch10.png)](ch10.png)
 
 
 	
@@ -154,4 +154,4 @@ NOTE: The following correlation/join operators are recognized
 **Step 5:** Click on the** Add** button to show the number of records that matched the composition criteria set above as shown below
 
 
-![![](ch10.png)](ch10.png)
+
