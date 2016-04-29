@@ -57,3 +57,8 @@ Saved search -It enable the user to search a cohort that was saved from the coho
 * Drop down menu for all clinics will be 
 
 ![](ch21.png)
+**Patients to Match**
+* This enables the user to select individual ( i.e. if you have a list of patients and you want to extract data for that list only ).It has an action button < Add Another Patient> which  prompts the user to another option < select > which when clicked on it displays a field where you can key in the identifier of individual patients you want .
+
+* More than one patient can be listed repeating the same procedure as shown below.
+
