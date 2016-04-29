@@ -25,7 +25,12 @@ Enter all available client medical history - when working this dropdowns, to cle
 4. Allergies
 5. Physical examination
 ![](SMC6.png)
+
 ### Consent
-Enter consent information - the circumcsion session is only valid if 
- 
+Enter consent information - the circumcision session is only valid if "Client eligible for circumcision" is "Yes"
+ ![](SMC7.png)
+
+
+### Circucision proceedure
+![](SMC8.png)
 
