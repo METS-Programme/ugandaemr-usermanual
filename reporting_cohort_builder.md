@@ -119,3 +119,8 @@ Step 4: Optionally, choose the date range for when the query should be applied.
 
 Step 5: Click on the **Search** button to show the number of patient that match the specified programme enrollment criteria.
 
+**How to query OpenMRS database using Drug order Information**
+
+OPENMRS DOES NOT CURRENTLY SUPPORT DRUG ORDERS.
+
+
