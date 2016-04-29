@@ -25,7 +25,7 @@ To capture the health education info, follow the steps below;
 
 #### Encounter Page 
 To capture the ART Card Encounters, follow the steps below;
-1. 
+1. Go to the patient dashboard and click Add Past Visit link as described in the chapter entitled  Entering Client Information > Visits > Add Past Visit. Click here to access the steps.
 2. Click the ***HMIS 122a HIV Care ART Card-Encounter Form** ![Encounter Page link](images/select_art_card_encounter.png)
 2. You should see the ***Encounter*** form looking like this ![Art Card Encounter](images/art_card_encounter_facade.png)
 3. Because the encounter chart has a very long table,it was split into four sections(or tables). 
