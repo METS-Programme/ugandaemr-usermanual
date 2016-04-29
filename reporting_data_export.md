@@ -43,4 +43,12 @@ The  data export screen has the following  important parts;
 <Add Another patient> and <Save Data Export>
 
 ![](ch19.png)
+**Define Cohort Tab**
 
+The define cohort tab has the following items;
+
+**Cohort to match** ;
+Saved search -It enable the user to search a cohort that was saved from the cohort builder  .A list of all saved cohorts is displayed on clicking the drop down arrow  and  from it you can select the cohort you are willing to work with
+
+**Cohort / Cohort definition**- saved cohorts are listed here ready to be applied to a particular data extraction / export. Used when one wants  to use a cohort that has been define using cohort builder within the system.
+![](ch20.png)
