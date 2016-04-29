@@ -154,5 +154,43 @@ NOTE: The following correlation/join operators are recognized
 
 **Step 5:** Click on the** Add** button to show the number of records that matched the composition criteria set above as shown below
 
+How to save queries for future reference:
+
+OpenMRS has a feature with which you can save the any query constructed using the steps above for future use. This has the advantage that you do not need to go back and compose the query again and is mostly useful for repetitive routine/periodic querying tasks. The saved query compostions are referred to as Saved Searches.
+
+To create saved searches, follow the following steps:
+Step 1: Click on the Cohort Builder link on the top level form.  This will show you the Cohort Builder page as shown below.
+Step 2: Create the individual queries as shown in the preceding sections. You will get a listing as show below
+
+
+
+
+
+
+Step 3: Click on the Save icon (with the blue diskette symbol) besides the query you want to save. This will give you a popup (as shown below)
+ 
+Step 4: Enter the name you want to associate with the composed query. Optionally, put the description as well. The description is meant to provide additional information about the saved search to anyone(including yourself) about the purpose of the query.
+Step 5: Click on the Save button to save the query composition.
+NOTE:   - To Delete a saved search use the          icon on the desired query.
+- Once a search is saved, it changes its colors to differentiate it from the once that have not been saved.
+How to view saved searches:
+
+To view previously saved search, click on the Saved[+] link in the top left corner of the Cohort Builder page. This will produce a list of saved searches with the most recent at the bottom
+
+
+
+
+
+
+
+
+
+
+NOTE:
+Saved Cohorts
+•	Saved  cohort are not saved searches  they  can be link to other data manipulation  modules 
+•	They are found at the bottom of the saved search list 
+•	By clicking the any link that is existing on the list  it opens the export with new or current numbers
+The Main difference between a saved search and a saved cohort is a saved search will update the data it returns when rerun at a later date while the cohort will not update
 
 
