@@ -55,3 +55,5 @@ Saved search -It enable the user to search a cohort that was saved from the coho
 **Encounter Data to Match**
 * Basically this section can be used in selection  of a location /site/clinic  if want to extract data for that particular  location /site/clinic  . 
 * Drop down menu for all clinics will be 
+
+![](ch21.png)
