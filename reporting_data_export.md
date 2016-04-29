@@ -10,5 +10,11 @@ Data export generally is the process of  extracting data from a data base and co
 * Excel – Each row is exported directly to a Microsoft Excel spreadsheet file. 
 * and Other formarts 
 
+**GETTING STARTED**
+* On the administration tab  select  Manage Data Exports  under Reports
+* On click the screen shown on the next slide will be displayed
+
+
+
 
 
