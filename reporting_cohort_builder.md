@@ -185,16 +185,7 @@ NOTE:
 To view previously saved search, click on the Saved[+] link in the top left corner of the Cohort Builder page. This will produce a list of saved searches with the most recent at the bottom
 
 
-
-
-
-
-
-
-
-
-
-**NOTE:**
+*NOTE:**
 
 **Saved Cohorts**
 * Saved  cohort are not saved searches  they  can be link to other data manipulation  modules 
