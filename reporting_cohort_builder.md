@@ -170,6 +170,7 @@ To create saved searches, follow the following steps:
 
 
 **Step 3:** Click on the Save icon (with the blue diskette symbol) besides the query you want to save. This will give you a popup (as shown below)
+![](ch14.png)
  
 **Step 4:** Enter the name you want to associate with the composed query. Optionally, put the description as well. The description is meant to provide additional information about the saved search to anyone(including yourself) about the purpose of the query.
 
