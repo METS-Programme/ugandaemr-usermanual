@@ -124,3 +124,75 @@ Step 5: Click on the **Search** button to show the number of patient that match 
 OPENMRS DOES NOT CURRENTLY SUPPORT DRUG ORDERS.
 
 **How to query OpenMRS database using SQL Tab **
+
+*this section will be updated latte*r 
+
+**How to correlate individually created queries in OpenMRS to produce combined results:**
+
+This section will show you how to combine several searches together based on either similarities or differences between them. For example if the first search was for c**hildren aged 1 – 5 years** and the second one was about **patients on ART**.  You can instruct OpenMRS to combine the two queries so as get the number of **children aged 1-5 years that were on ART!**
+
+To achieve the above result follow the following steps:
+
+**Step 1:** Click on the **Cohort Builder** link on the top level form.  This will show you the Cohort Builder page as shown below.
+
+**Step 2:** Create the individual queries as shown in the preceding sections.
+
+**Step 3:** Click on the **Composition****** tab to show the page to be used in forming compositions.
+
+![![](ch10.png)](ch10.png)
+
+
+	
+**Step 4:** Type the query sequence number of the first query followed by the correlation/join operatorand the query sequence number of the second query.
+NOTE: The following correlation/join operators are recognized
+
+**AND:**- Will only show in the final result all those entries found to be existing in all the participating queries.
+
+**OR:**- Will only show in the final result all entries found to be existing in either participating queries i.e. the combination of both.
+
+**NOT:**- Will only show in the final result all entries found to be existing in in the left query hand side but not in the right hand side query	
+
+**Step 5:** Click on the** Add** button to show the number of records that matched the composition criteria set above as shown below
+
+**How to save queries for future reference:**
+
+OpenMRS has a feature with which you can save the any query constructed using the steps above for future use. This has the advantage that you do not need to go back and compose the query again and is mostly useful for repetitive routine/periodic querying tasks. The saved query compostions are referred to as Saved Searches.
+
+To create saved searches, follow the following steps:
+
+**Step 1:** Click on the Cohort Builder link on the top level form.  This will show you the Cohort Builder page as shown below.
+
+**Step 2:** Create the individual queries as shown in the preceding sections. You will get a listing as show below
+
+![](ch13.png)
+
+
+
+
+**Step 3:** Click on the Save icon (with the blue diskette symbol) besides the query you want to save. This will give you a popup (as shown below)
+![](ch14.png)
+ 
+**Step 4:** Enter the name you want to associate with the composed query. Optionally, put the description as well. The description is meant to provide additional information about the saved search to anyone(including yourself) about the purpose of the query.
+
+**Step 5:** Click on the Save button to save the query composition.
+
+NOTE:   
+* To Delete a saved search use the![](ch15.png)    icon on the desired query.
+* Once a search is saved, it changes its colors to differentiate it from the once that have not been saved.
+
+**How to view saved searches:**
+
+To view previously saved search, click on the Saved[+] link in the top left corner of the Cohort Builder page. This will produce a list of saved searches with the most recent at the bottom
+
+![](ch16.png)
+*NOTE:**
+
+**Saved Cohorts**
+* Saved  cohort are not saved searches  they  can be link to other data manipulation  modules 
+* They are found at the bottom of the saved search list 
+* By clicking the any link that is existing on the list  it opens the export with 
+new or current numbers
+
+The Main difference between a saved search and a saved cohort is a saved search will update the data it returns when rerun at a later date while the cohort will not update
+
+

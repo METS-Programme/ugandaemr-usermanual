@@ -26,5 +26,4 @@
    * [Data Export](reporting_data_export.md)
 * [Data Validation](data_validation.md)
 * [Common Troubleshooting Tips](troubleshooting.md)
-* 
 
