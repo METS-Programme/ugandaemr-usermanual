@@ -12,8 +12,8 @@ Data export generally is the process of  extracting data from a data base and co
 
 **GETTING STARTED**
 * On the administration tab  select  Manage Data Exports  under Reports
-* On click the screen shown on the next slide will be displayed
-
+* On click the screen shown below  will be displayed
+![](ch17.png)
 
 
 
