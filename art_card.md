@@ -25,7 +25,8 @@ To capture the health education info, follow the steps below;
 
 #### Encounter Page 
 To capture the ART Card Encounters, follow the steps below;
-1. Click the ***HMIS 122a HIV Care ART Card-Encounter Form** ![Encounter Page link](images/select_art_card_encounter.png)
+1. 
+2. Click the ***HMIS 122a HIV Care ART Card-Encounter Form** ![Encounter Page link](images/select_art_card_encounter.png)
 2. You should see the ***Encounter*** form looking like this ![Art Card Encounter](images/art_card_encounter_facade.png)
 3. Because the encounter chart has a very long table,it was split into four sections(or tables). 
 4. Capture the first section as below ![Art Card Encounter section 1](images/art_card_encounter_section_1.png)
