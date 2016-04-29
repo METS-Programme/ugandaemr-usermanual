@@ -27,5 +27,18 @@ The  data export screen has the following  important parts;
 * Add new Data export –This  is a link that is used for creation of new data extraction  that can be saved then automatically  added to the list of the existing data exports
 * Editing an existing data export is done by clicking on the name of the export which automatically  activates the edit mode.
 
+**Creating A New Data Export**
 
+* On the data management screen you can create a new data export by clicking  on Add New Data Export  and the  editor screen will be displayed..
+
+**A. It comprises of Name and description fields ;**
+* **Name**  -Used for giving the data export an appropriate name  
+**Description** –Gives a brief explanation or descriptions of the data export.
+
+**B. It has Two main tabs **
+* Define Cohort Tab
+* Define Columns Tab
+
+**C. It contains action buttons such as **
+<Add Another patient> and <Save Data Export>
 
