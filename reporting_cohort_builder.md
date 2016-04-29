@@ -184,7 +184,7 @@ NOTE:
 
 To view previously saved search, click on the Saved[+] link in the top left corner of the Cohort Builder page. This will produce a list of saved searches with the most recent at the bottom
 
-
+![](ch16.png)
 *NOTE:**
 
 **Saved Cohorts**
