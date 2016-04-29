@@ -24,6 +24,8 @@ The  data export screen has the following  important parts;
 * A column  that shows the size ,time and Date  of the last download  .
 * Generate Exports Button -Used for generating selected  data export (s)
 * Delete Exports-For deleting selected data exports.
+* Add new Data export –This  is a link that is used for creation of new data extraction  that can be saved then automatically  added to the list of the existing data exports
+* Editing an existing data export is done by clicking on the name of the export which automatically  activates the edit mode.
 
 
 
