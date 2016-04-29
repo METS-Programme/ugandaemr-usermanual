@@ -154,7 +154,7 @@ NOTE: The following correlation/join operators are recognized
 
 **Step 5:** Click on the** Add** button to show the number of records that matched the composition criteria set above as shown below
 
-How to save queries for future reference:
+**How to save queries for future reference:**
 
 OpenMRS has a feature with which you can save the any query constructed using the steps above for future use. This has the advantage that you do not need to go back and compose the query again and is mostly useful for repetitive routine/periodic querying tasks. The saved query compostions are referred to as Saved Searches.
 
