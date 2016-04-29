@@ -42,3 +42,5 @@ The  data export screen has the following  important parts;
 **C. It contains action buttons such as **
 <Add Another patient> and <Save Data Export>
 
+![](ch19.png)
+
