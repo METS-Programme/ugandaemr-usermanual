@@ -1,7 +1,7 @@
-### HIV Care ART Card 
+## HIV Care ART Card 
 This section describes how to enter data from the ART card.
-#### Summary Page
-##### Enter a New Summary Page
+### Summary Page
+#### Enter a New Summary Page
 1. Go to the patient dashboard 
 2. Create a past visit with the same date as the HIV enrolled date on the blue card
 ![ART card - HIV enrolled date](images/art_card_hiv_enrolled_date.jpg)
@@ -10,10 +10,10 @@ This section describes how to enter data from the ART card.
 ![Patient Visit Details](images/patient_visit_details.png)
 4.  Click the link to the HMIS 122a HIV Care ART Card - Summary Form to enter the summary page 
 ![ART Card Summary Page](images/art_card_new.png)
-##### Edit an Existing Summary Page
+#### Edit an Existing Summary Page
 Only one summary page can be entered for each patient, so creating a new summary page will load the existing page for the patient.  
 
-#### Health Education Page
+### Health Education Page
 To capture the health education info, follow the steps below;
 1. Click the ***HMIS 122a HIV Care ART Card-Health Education Form***![Select Health Education Form](images/select_health_education.png)
 2. You should see the health education form like this![Health Education Facade](images/art_card_health_education_facade.png)
@@ -22,13 +22,6 @@ To capture the health education info, follow the steps below;
 4. Enter the details as shown. Be sure to select the Yes checkbox so as enter date and comment ![Health Education Basics](images/art_card_health_education_basics.png)
 5. Scroll to the bottom and hit the Enter Form button![Health Encounter Enter Form](images/art_card_health_education_enter_button.png)
 6. Once added successfully, you should see a page showing the most recent health education form added ![Health Education Success](images/art_card_health_education_success.png)
-##### Common Errors
-Should the page fail to save, due to a timeout session/when you have spent more than a 20 minutes without saving, do the following;
-#####Solution: 
-**i)** Scroll to the upper most part of the page,
-Enter your username and password ![Session Timeout](images/art_card_health_education_session_timeout.png)
-**ii)** Scroll to the bottom and hit the Enter Form button![Health Encounter Enter Form](images/art_card_health_education_enter_button.png)
-**iii)** Once added successfully, you should see a page showing the most recent health education form added ![Health Education Success](images/art_card_health_education_success.png)
 
 
 
@@ -45,10 +38,10 @@ To capture the ART Card Encounters, follow the steps below;
 9. You should see a new page ![Encounter Page After saving](images/art_card_encounter_page_after_saving.png)
 10. Click on the visit circled on the left to see the saved encounter record ![Art Card Encounter Saved Page](images/art_card_encounter_saved_page.png)
 
-##### Common Issues
-Should the page fail to save, due to a timeout session/when you have spent more than a 20 minutes without saving, do the following;
-#####Solution: 
-**i)** Scroll to the upper most part of the page,
+#### Common Errors
+#### Timeout when entering data 
+Should the page fail to save, due to a timeout session/when you have spent more than a 20 minutes without saving, do the following: 
+1. Scroll to the upper most part of the page,
 Enter your username and password ![Session Timeout](images/art_card_health_education_session_timeout.png)
-**ii)** Scroll to the bottom and hit the Enter Form button![Health Encounter Enter Form](images/art_card_health_education_enter_button.png)
-**iii)** Once added successfully, you should see a page showing the most recent Encounter form added
+2. Scroll to the bottom and hit the Enter Form button![Health Encounter Enter Form](images/art_card_health_education_enter_button.png)
+3. Once added successfully, you should see a page showing the most recent health education form added ![Health Education Success](images/art_card_health_education_success.png)
