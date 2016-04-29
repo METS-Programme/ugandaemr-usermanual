@@ -87,3 +87,29 @@ Step 1: Click on the **Cohort Builder** link on the top level form.  This will s
 Step 2: Click on the **Encounter tab** to show the page to be used in searching.
 ![](ch7.png)
  This will display the Search by Encounter page as shown below
+ ![](ch8.png)
+ **1.** Encounter type: Allows you to select and search by encounter i.e. summary page 
+ 
+** 2.** Location: Optional but allows you to select and search by a given location if you have multiple locations in the system
+
+** 3.** From Form: Optional but allows you to select and search basing on a given form 
+
+ **4.** At least this many _____ and up to this many____: allows you to search by a given number of encounters for a given patient [for example finding the number of patients with at least 4 encounters but not more than 20 ]
+ 
+** 5.** within the last _____ months and ____days: optional but allows you to search by number of month and number of days:
+
+ **6.** since ___________until ____________: optional but allows you to search by date ranges
+ 
+ **7.** Search is the tab or button for the search 
+
+**Step 3:** Click on the Search button to show the number of encounters that match the criteria you specified.
+
+**How to query OpenMRS database using Program Enrollment Information:**
+
+This is mainly used for searching/quering data by Program Enrollment and Status
+
+Step 1: Click on the **Cohort Builder** link on the top level form.  This will show you the Cohort Builder page as shown below.
+
+Step 2: Click on the Programme Enrollment tab to show the page to be used in searching.
+
+![](ch9.png)
