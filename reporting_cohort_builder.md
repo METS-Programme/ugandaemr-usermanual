@@ -177,7 +177,7 @@ To create saved searches, follow the following steps:
 **Step 5:** Click on the Save button to save the query composition.
 
 NOTE:   
-* To Delete a saved search use the          icon on the desired query.
+* To Delete a saved search use the![](ch15.png)    icon on the desired query.
 * Once a search is saved, it changes its colors to differentiate it from the once that have not been saved.
 
 **How to view saved searches:**
