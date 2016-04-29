@@ -24,5 +24,7 @@
    * [Cohort Builder](reporting_cohort_builder.md)
    * [Reporting Module](reporting_reporting_module.md)
    * [Data Export](reporting_data_export.md)
+* [Data Validation](data_validation.md)
 * [Common Troubleshooting Tips](troubleshooting.md)
+* 
 
