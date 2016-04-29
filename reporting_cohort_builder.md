@@ -164,7 +164,7 @@ To create saved searches, follow the following steps:
 
 **Step 2:** Create the individual queries as shown in the preceding sections. You will get a listing as show below
 
-
+![](ch13.png)
 
 
 
@@ -193,11 +193,14 @@ To view previously saved search, click on the Saved[+] link in the top left corn
 
 
 
-NOTE:
-Saved Cohorts
-•	Saved  cohort are not saved searches  they  can be link to other data manipulation  modules 
-•	They are found at the bottom of the saved search list 
-•	By clicking the any link that is existing on the list  it opens the export with new or current numbers
+**NOTE:**
+
+**Saved Cohorts**
+* Saved  cohort are not saved searches  they  can be link to other data manipulation  modules 
+* They are found at the bottom of the saved search list 
+* By clicking the any link that is existing on the list  it opens the export with 
+new or current numbers
+
 The Main difference between a saved search and a saved cohort is a saved search will update the data it returns when rerun at a later date while the cohort will not update
 
 
