@@ -42,4 +42,4 @@ Should the page fail to save, due to a timeout session/when you have spent more 
 1. Scroll to the upper most part of the page,
 Enter your username and password ![Session Timeout](images/art_card_health_education_session_timeout.png)
 2. Scroll to the bottom and hit the Enter Form button![Health Encounter Enter Form](images/art_card_health_education_enter_button.png)
-3. Once added successfully, you should see a page showing the most recent health education form added ![Health Education Success](images/art_card_health_education_success.png)
+3. Once added successfully, you should see a page showing the most recent Encounter form added ![Health Education Success](images/art_card_health_education_success.png)
