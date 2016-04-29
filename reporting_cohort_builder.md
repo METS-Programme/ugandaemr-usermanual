@@ -174,11 +174,15 @@ To create saved searches, follow the following steps:
 **Step 4:** Enter the name you want to associate with the composed query. Optionally, put the description as well. The description is meant to provide additional information about the saved search to anyone(including yourself) about the purpose of the query.
 
 **Step 5:** Click on the Save button to save the query composition.
-NOTE:   - To Delete a saved search use the          icon on the desired query.
-- Once a search is saved, it changes its colors to differentiate it from the once that have not been saved.
-How to view saved searches:
+
+NOTE:   
+* To Delete a saved search use the          icon on the desired query.
+* Once a search is saved, it changes its colors to differentiate it from the once that have not been saved.
+
+**How to view saved searches:**
 
 To view previously saved search, click on the Saved[+] link in the top left corner of the Cohort Builder page. This will produce a list of saved searches with the most recent at the bottom
+
 
 
 
