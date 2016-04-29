@@ -31,6 +31,7 @@ Enter consent information - the circumcision session is only valid if "Client el
  ![](SMC7.png)
 
 
-### Circucision proceedure
+### Circumcision procedure
+The time started and End time are in the: Hour, Minutes and Seconds
 ![](SMC8.png)
 
