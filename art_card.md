@@ -15,7 +15,8 @@ Only one summary page can be entered for each patient, so creating a new summary
 
 ### Health Education Page
 To capture the health education info, follow the steps below;
-1. Click the ***HMIS 122a HIV Care ART Card-Health Education Form***![Select Health Education Form](images/select_health_education.png)
+1. Go to the patient dashboard and click Add Past Visit link as described in the chapter entitled  Entering Client Information > Visits > Add Past Visit. [Click here](data_entry.md) to access the steps.
+2. Click the ***HMIS 122a HIV Care ART Card-Health Education Form***![Select Health Education Form](images/select_health_education.png)
 2. You should see the health education form like this![Health Education Facade](images/art_card_health_education_facade.png)
 
 3. Select the ***Attending Clinician*** ![Attending Clinician](images/select_attending_clinician.png)
