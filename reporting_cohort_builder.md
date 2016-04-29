@@ -127,4 +127,31 @@ OPENMRS DOES NOT CURRENTLY SUPPORT DRUG ORDERS.
 
 *this section will be updated latte*r 
 
+**How to correlate individually created queries in OpenMRS to produce combined results:**
 
+This section will show you how to combine several searches together based on either similarities or differences between them. For example if the first search was for c**hildren aged 1 – 5 years** and the second one was about **patients on ART**.  You can instruct OpenMRS to combine the two queries so as get the number of **children aged 1-5 years that were on ART!**
+
+To achieve the above result follow the following steps:
+
+**Step 1:** Click on the **Cohort Builder** link on the top level form.  This will show you the Cohort Builder page as shown below.
+
+**Step 2:** Create the individual queries as shown in the preceding sections.
+
+**Step 3:** Click on the **Composition****** tab to show the page to be used in forming compositions.
+
+
+
+	
+**Step 4:** Type the query sequence number of the first query followed by the correlation/join operatorand the query sequence number of the second query.
+NOTE: The following correlation/join operators are recognized
+
+**AND:**- Will only show in the final result all those entries found to be existing in all the participating queries.
+
+**OR:**- Will only show in the final result all entries found to be existing in either participating queries i.e. the combination of both.
+
+**NOT:**- Will only show in the final result all entries found to be existing in in the left query hand side but not in the right hand side query	
+
+**Step 5:** Click on the** Add** button to show the number of records that matched the composition criteria set above as shown below
+
+
+![![](ch10.png)](ch10.png)
