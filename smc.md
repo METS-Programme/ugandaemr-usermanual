@@ -35,3 +35,10 @@ Enter consent information - the circumcision session is only valid if "Client el
 The time started and End time are in the: Hour, Minutes and Seconds
 ![](SMC8.png)
 
+### Circumcision follow-up visits
+Three follow-up visits are provided for.
+Make sure the type of visit and the date the follow-up visit happened is entered
+
+![](SMC9.png)
+To submit and save data on the form, click **"Enter Form"** at the end.
+![![](SMC10.png)
