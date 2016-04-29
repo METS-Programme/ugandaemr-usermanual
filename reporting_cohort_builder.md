@@ -113,3 +113,9 @@ Step 1: Click on the **Cohort Builder** link on the top level form.  This will s
 Step 2: Click on the Programme Enrollment tab to show the page to be used in searching.
 
 ![](ch9.png)
+Step 3: Click on the drop down next to **Program** label and select the desired program.
+
+Step 4: Optionally, choose the date range for when the query should be applied.
+
+Step 5: Click on the **Search** button to show the number of patient that match the specified programme enrollment criteria.
+
