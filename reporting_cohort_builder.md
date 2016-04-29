@@ -161,6 +161,7 @@ OpenMRS has a feature with which you can save the any query constructed using th
 To create saved searches, follow the following steps:
 
 **Step 1:** Click on the Cohort Builder link on the top level form.  This will show you the Cohort Builder page as shown below.
+
 **Step 2:** Create the individual queries as shown in the preceding sections. You will get a listing as show below
 
 
@@ -168,10 +169,11 @@ To create saved searches, follow the following steps:
 
 
 
-Step 3: Click on the Save icon (with the blue diskette symbol) besides the query you want to save. This will give you a popup (as shown below)
+**Step 3:** Click on the Save icon (with the blue diskette symbol) besides the query you want to save. This will give you a popup (as shown below)
  
-Step 4: Enter the name you want to associate with the composed query. Optionally, put the description as well. The description is meant to provide additional information about the saved search to anyone(including yourself) about the purpose of the query.
-Step 5: Click on the Save button to save the query composition.
+**Step 4:** Enter the name you want to associate with the composed query. Optionally, put the description as well. The description is meant to provide additional information about the saved search to anyone(including yourself) about the purpose of the query.
+
+**Step 5:** Click on the Save button to save the query composition.
 NOTE:   - To Delete a saved search use the          icon on the desired query.
 - Once a search is saved, it changes its colors to differentiate it from the once that have not been saved.
 How to view saved searches:
