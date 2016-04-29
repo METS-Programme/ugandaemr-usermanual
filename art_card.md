@@ -23,8 +23,6 @@ To capture the health education info, follow the steps below;
 5. Scroll to the bottom and hit the Enter Form button![Health Encounter Enter Form](images/art_card_health_education_enter_button.png)
 6. Once added successfully, you should see a page showing the most recent health education form added ![Health Education Success](images/art_card_health_education_success.png)
 
-
-
 #### Encounter Page 
 To capture the ART Card Encounters, follow the steps below;
 1. Click the ***HMIS 122a HIV Care ART Card-Encounter Form** ![Encounter Page link](images/select_art_card_encounter.png)
