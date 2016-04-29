@@ -69,5 +69,10 @@ Once clicked the Define columns tab opens up and under it  four different tabs w
 * Concept Column.
 * Calculated Column.
 * Cohort Column
-.
+![](ch23.png)
+* The   < Add another Column >  is used for columns in the data export depending on the number of fields or concepts you want to pull out of the system  
+* Each column  may contain a different concept which will be pulled out together all of them. E.g  Below shows 3 simple column added  .i.e Identifier ,Family name   and Age
 
+![](ch24.png)
+
+**Simple Column.**
