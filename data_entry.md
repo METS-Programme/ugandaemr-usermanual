@@ -12,7 +12,7 @@ To enter patient information
 
 ## Visits
 All patient data capture is based on visits.  
-To add a visit make, sure you are on the patient dashboard for whom you want to enter a visit (refer to entering patient information) or if you are already on a specific visit then you can click on actions drop down and then select add visit
+To add a visit, make sure you are on the patient dashboard for whom you want to enter a visit (refer to entering patient information) or if you are already on a specific visit then you can click on actions drop down and then select add visit
 ![Add visit when in patient dashboard](images/add_past_visit.png)
 ![Add visit when another visit is active](images/new_visit_when_another_visit_is_active.png)
 
