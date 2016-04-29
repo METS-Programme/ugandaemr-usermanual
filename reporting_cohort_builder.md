@@ -87,3 +87,5 @@ Step 1: Click on the **Cohort Builder** link on the top level form.  This will s
 Step 2: Click on the **Encounter tab** to show the page to be used in searching.
 ![](ch7.png)
  This will display the Search by Encounter page as shown below
+ ![](ch8.png)
+ 
