@@ -159,8 +159,9 @@ NOTE: The following correlation/join operators are recognized
 OpenMRS has a feature with which you can save the any query constructed using the steps above for future use. This has the advantage that you do not need to go back and compose the query again and is mostly useful for repetitive routine/periodic querying tasks. The saved query compostions are referred to as Saved Searches.
 
 To create saved searches, follow the following steps:
-Step 1: Click on the Cohort Builder link on the top level form.  This will show you the Cohort Builder page as shown below.
-Step 2: Create the individual queries as shown in the preceding sections. You will get a listing as show below
+
+**Step 1:** Click on the Cohort Builder link on the top level form.  This will show you the Cohort Builder page as shown below.
+**Step 2:** Create the individual queries as shown in the preceding sections. You will get a listing as show below
 
 
 
