@@ -15,5 +15,15 @@ Data export generally is the process of  extracting data from a data base and co
 * On click the screen shown below  will be displaye
 *
 ![](ch18.png)
-Parts
+
+
+**Parts**
+The  data export screen has the following  important parts;
+* A list of names of existing data exports .
+* Brief description of the data export 
+* A column  that shows the size ,time and Date  of the last download  .
+* Generate Exports Button -Used for generating selected  data export (s)
+* Delete Exports-For deleting selected data exports.
+
+
 
