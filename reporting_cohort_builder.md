@@ -123,4 +123,4 @@ Step 5: Click on the **Search** button to show the number of patient that match 
 
 OPENMRS DOES NOT CURRENTLY SUPPORT DRUG ORDERS.
 
-
+**How to query OpenMRS database using SQL Tab **
