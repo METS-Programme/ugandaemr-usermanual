@@ -52,3 +52,6 @@ Saved search -It enable the user to search a cohort that was saved from the coho
 
 **Cohort / Cohort definition**- saved cohorts are listed here ready to be applied to a particular data extraction / export. Used when one wants  to use a cohort that has been define using cohort builder within the system.
 ![](ch20.png)
+**Encounter Data to Match**
+* Basically this section can be used in selection  of a location /site/clinic  if want to extract data for that particular  location /site/clinic  . 
+* Drop down menu for all clinics will be 
