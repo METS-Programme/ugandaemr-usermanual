@@ -21,7 +21,7 @@ To add past visit, make sure that the patient has no duplicate visit with the sa
 1. Click on the ***add past visit*** link on the right
 ![Add past visit](images/add_past_visit.png)
 
-2. Enter the visit start date and the visit stop date if the visit is more than one day, otherwise leave the default
+2. Enter the visit ***start date*** and the visit ***stop date*** if the visit is more than one day, otherwise leave the default
 ![Enter start and end dates for new patient](images/enter_start_and_end_date_for_new_past_visit.png)
 3. Click confirm
 4. This will take you visit page
