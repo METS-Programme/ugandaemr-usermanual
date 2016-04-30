@@ -38,21 +38,20 @@ A shortcut link to the UgandaEMR instance is also added to the Desktop **TODO: A
 ![Installation proces overview](images/installer/installation_process.png)
 
 ### Installation Steps
-1. Launch of the splash screen
+1. Launch of the splash screen  
 ![Splash Screen](images/installer/splash.jpg)  
 
-2. License Agreement
+2. License Agreement  
 ![License Agreement](images/installer/1.2-agreement.jpg)  
 
-3. Selecting components to install
+3. Selecting components to install  
 ![Selecting installation components](images/installer/1.3-components.jpg)
 
-4. Determining Installation directory
+4. Determining Installation directory  
 ![Determining installation directory](images/installer/1.4-location.jpg)
-5. Confirm start menu item
+5. Confirm start menu item  
 ![Start Menu Item](images/installer/1.5-shortcut.jpg)
-
-6. Install Java Runtime
+6. Install Java Runtime  
 ![Java configuration](images/installer/2.1-inst-java.jpg)
 ![Java installation](images/installer/2.3-java.jpg)
 ![Java installation file copying](images/installer/2.4-java-2.jpg)
@@ -79,7 +78,7 @@ A shortcut link to the UgandaEMR instance is also added to the Desktop **TODO: A
 ![Firefox Setup Type](images/installer/5.4-fire-standard.jpg)
 ![Firefox install location](images/installer/5.5-fire-fox-directory.jpg)
 ![Firefox install completed](images/installer/5.2-fire-fox-start.jpg)
-10. Installing HeidiSQL
+10. Installing HeidiSQL  
 ![](images/installer/1.1heidisql.PNG)
 ![](images/installer/1.2heidisql.PNG)
 ![](images/installer/1.3heidisql.PNG)
@@ -88,7 +87,7 @@ A shortcut link to the UgandaEMR instance is also added to the Desktop **TODO: A
 ![](images/installer/1.6heidisql.PNG)
 ![](images/installer/1.7heidisql.PNG)
 
-11. UgandaEMR Installation completed
+11. UgandaEMR Installation completed  
 ![Installation completed splash screen](images/installer/6.0-complete-installation.jpg)
 
 ### Post-installation Configuration
