@@ -8,6 +8,7 @@ In this case the modules to be upgraded will be uploaded through the administrat
 ![Manage Modules](images/manage_modules_link.png)
 4. On the Manage modules page, click the Add/Upgrade module button 
 5. In the popup window use the browse button under Upgrade Existing module to select the module file from your computer, then click Upload
+6. The module will be uploaded and started, which is seen by having a red button next to the name of the module 
 
 ## Upgrading with a WAR file 
 This will be done when there are multiple modules that need to be upgraded as a complete package, therefore a new WAR file is to be installed
