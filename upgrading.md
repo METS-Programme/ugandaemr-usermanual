@@ -9,7 +9,7 @@ A new module is usually added to provide new functionality and features that wer
 4. On the Manage modules page, click the Add/Upgrade module button
 ![Add or Upgrade Module](images/add_or_upgrade_module_button.png)
 5. In the popup window use the browse button under Upgrade Existing module to select the module file from your computer, then click Upload
-![Add New Module](images/add_new_module_button.png)
+![Add New Module](images/upload_new_module.png)
 6. The module will be uploaded and started, which is seen by having a red button next to the name of the module 
 ## Upgrading a module
 In this case the modules to be upgraded will be uploaded through the administration interface
