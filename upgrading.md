@@ -5,6 +5,7 @@ In this case the modules to be upgraded will be uploaded through the administrat
 2. Click legacy administration link as circled in the image below
 ![Legacy System Adminstration Link](images/legacy_system administration_link.png)
 3. 
+
 ## Upgrading with a WAR file 
 This will be done when there are multiple modules that need to be upgraded as a complete package, therefore a new package is to be installed
 1. Clean up the existing installation by: 
