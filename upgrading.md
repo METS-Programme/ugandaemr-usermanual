@@ -6,7 +6,8 @@ In this case the modules to be upgraded will be uploaded through the administrat
 ![Legacy System Adminstration Link](images/legacy_system administration_link.png)
 3. Select the Manage Modules link 
 ![Manage Modules](images/manage_modules_link.png)
-4. On the Manage modules page, click the Add/Upgrade module button 
+4. On the Manage modules page, click the Add/Upgrade module button
+![Add or Upgrade Module](add_or_upgrade_module_button.png)
 5. In the popup window use the browse button under Upgrade Existing module to select the module file from your computer, then click Upload
 6. The module will be uploaded and started, which is seen by having a red button next to the name of the module 
 
