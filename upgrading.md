@@ -2,7 +2,7 @@
 ## Upgrading a module
 In this case the modules to be upgraded will be uploaded through the administration interface
 1. Login as a user with administration privileges
-2. On t
+2. On the 
 ## Upgrading with a WAR file 
 This will be done when there are multiple modules that need to be upgraded as a complete package, therefore a new package is to be installed
 1. Clean up the existing installation by: 
