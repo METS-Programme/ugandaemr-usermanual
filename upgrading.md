@@ -42,4 +42,3 @@ This is usually characterized by a green arrow next to the module name, an error
   - If the error is caused by a higher version of a module, then upgrade the module to that higher version. Please note that this may cause additional errors in other modules that may be incompatible with the higher version.
   - If a lower version of a module is required, then you may need to upload a lower version of the module, though this may cause other modules to fail loading  
 2.  Restart the computer which resets all UgandaEMR services.
-3.   
