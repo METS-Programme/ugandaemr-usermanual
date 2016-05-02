@@ -32,8 +32,11 @@ This will be done when there are multiple modules that need to be upgraded as a 
   * Delete all the modules in the directory C:\Application Data\OpenMRS\modules which is where any modules uploaded from the administration interface are stored. The modules in this directory override those added to the WAR file 
 2. Copy the new WAR file to C:\Program Files\UgandaEMR\apache-tomcat\webapps  
 3. Go to the UgandaEMR login link at http://localhost:8081/openmrs/ 
+
 ## Common Troubleshooting Tips
 ### Error starting uploaded module
 This is usually characterized by a green arrow next to the module name, an error message at the top of the Manage Modules page and a text box in the row of the module name with the words "Error starting! Click here for details"
 ![Error starting module](images/error_starting_module.png)
-1. Click the text box to find out the details of an 
+1. Click the text box to find out the details of why the module did not start
+  2. 
+2.  
