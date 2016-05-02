@@ -38,5 +38,5 @@ This will be done when there are multiple modules that need to be upgraded as a 
 This is usually characterized by a green arrow next to the module name, an error message at the top of the Manage Modules page and a text box in the row of the module name with the words "Error starting! Click here for details"
 ![Error starting module](images/error_starting_module.png)
 1. Click the text box to find out the details of why the module did not start
-  2. 
+  * If the error is caused by a missing module then upload the module following the steps above 
 2.  
