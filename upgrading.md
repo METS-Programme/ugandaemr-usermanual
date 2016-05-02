@@ -33,3 +33,4 @@ This will be done when there are multiple modules that need to be upgraded as a 
 2. Copy the new WAR file to C:\Program Files\UgandaEMR\apache-tomcat\webapps  
 3. Go to the UgandaEMR login link at http://localhost:8081/openmrs/ 
 ## Common Troubleshooting Tips
+### Error starting the module 
