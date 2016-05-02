@@ -34,3 +34,4 @@ This will be done when there are multiple modules that need to be upgraded as a 
 3. Go to the UgandaEMR login link at http://localhost:8081/openmrs/ 
 ## Common Troubleshooting Tips
 ### Error starting uploaded module
+
