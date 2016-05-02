@@ -5,7 +5,7 @@ In this case the modules to be upgraded will be uploaded through the administrat
 2. Click legacy administration link as circled in the image below
 ![Legacy System Adminstration Link](images/legacy_system administration_link.png)
 3. Select the Manage Modules link 
-![Manage Modules](manage_modules_link.png)
+![Manage Modules](images/manage_modules_link.png)
 4. 
 
 ## Upgrading with a WAR file 
