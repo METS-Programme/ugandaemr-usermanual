@@ -24,8 +24,10 @@ In this scenario the 1.6.3 database is running on the same computer as the new 1
  
 ### Common Errors
 #### backupdatabase has an access denied error
-#### The root password for 1.6.3 is not blank
-#### The script to be used to upgrade is not called database.sql 
+#### upgradedatabase has an error - openmrs_backup database not created
+#### upgradedatabase has an error 2003 - Can't connect to MySQL server on local host (10061) before database.sql script 
+#### upgradedatabase has an error 2003 - Can't connect to MySQL server on local host (10061) before database.sql script 
+
 ## Upgrading from OpenMRS 1.9.x
 ## Adding a new module
 A new module is usually added to provide new functionality and features that were not currently available. 
