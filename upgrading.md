@@ -4,28 +4,32 @@ The upgrade from 1.6.3 to 1.11.6 involves running two steps:
 1. Creating a backup file of the existing 1.6.3 installation 
 2. Migrating the 1.6.3 database backup file 
 
-All these steps are run from the upgrade folder which can be found at C:\Application Data\OpenMRS\upgrade
+All these steps are run from the upgrade folder which can be found at C:\Application Data\OpenMRS\upgrade like in the image below 
+![Upgrade folder location](images/upgrade/upgrade_folder_location.png)
 
 Due to the security restrictions, the files shall need to be run as administrator 
 ### 1.6.3 installed on same machine as 1.11.6 
 In this scenario the 1.6.3 database is running on the same computer as the new 1.11.6 database 
 
 1. Double click the backupdatabase file, and the window below will appear. 
-![Upgrade database backup complete](images/upgrade/database_backup_complete.png)
+![Upgrade database backup complete](images/upgrade/database_backup_completed.png)
 2. Close the window to show the file manager, and a new file database (or database.sql) will be shown.
-
+![Upgrade folder location](images/upgrade/upgrade_folder_with_backup_file.png)
 3. This file should have a size greater than 0KB, which shows that the backup process was successful.
-4. Double click the upgrade database, and wait for some time as a black window is displayed. 
+4. Double click the upgrade database, and wait for some time as a black window is displayed.   
+![Upgrade waiting for execution](images/upgrade/upgrade_waiting_for_script_to_execute.png)
 
-
-
+![Upgrade Successful](images/upgrade/upgrade_successful.png)
 ### Database backup script available 
 
  
 ### Common Errors
 #### backupdatabase has an access denied error
+
 #### upgradedatabase has an error - openmrs_backup database not created
+![openmrs_backup database not found](images/upgrade/upgrade_error_openmrs_backup_not_found.png)
 #### upgradedatabase has an error 2003 - Can't connect to MySQL server on local host (10061) before database.sql script 
+![Access denied to openmrs_backup](images/upgrade/upgrade_access_denied_to_openmrs_backup.png)
 #### upgradedatabase has an error 2003 - Can't connect to MySQL server on local host (10061) before database.sql script 
 
 ## Upgrading from OpenMRS 1.9.x
