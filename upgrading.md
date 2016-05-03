@@ -1,6 +1,10 @@
 # Upgrading UgandaEMR 
-## Upgrading from OpenMRS 1.6.3 with database backup file available
-The upgrade from 1.6.3 to 1.11.6 involves running two batch 
+## Upgrading from OpenMRS 1.6.3
+The upgrade from 1.6.3 to 1.11.6 involves running two batch
+### 1.6.3 installed on same machine as 1.11.6 
+### Database backup script available 
+
+ 
 ### Common Errors
 #### The port for 1.6.3 database is not 3307
 #### The root password for 1.6.3 is not blank
