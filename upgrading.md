@@ -4,14 +4,14 @@ The upgrade from 1.6.3 to 1.11.6 involves running two steps:
 1. Creating a backup file of the existing 1.6.3 installation 
 2. Migrating the 1.6.3 database backup file 
 
-All these steps are run from the upgrade folder which can be found at C:\Program Files\UgandaEMR\upgrade
+All these steps are run from the upgrade folder which can be found at C:\Application Data\OpenMRS\upgrade
 
 Due to the security restrictions, the files shall need to be run as administrator 
 ### 1.6.3 installed on same machine as 1.11.6 
 In this scenario the 1.6.3 database is running on the same computer as the new 1.11.6 database 
 
 1. Right click the backupdatabase file, and select "Run as administrator". You will receive a message, Do you want to allow this app to make changes to your PC, clock Yes. 
-2.  
+  
 2. Once the file has run, the window below which shall open.
 
 3. A file called database will be created. Right click on the file  if its size is more than 0KB.
