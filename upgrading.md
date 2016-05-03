@@ -23,7 +23,7 @@ In this scenario the 1.6.3 database is running on the same computer as the new 1
 
  
 ### Common Errors
-#### The port for 1.6.3 database is not 3307
+#### backupdatabase has an access denied error
 #### The root password for 1.6.3 is not blank
 #### The script to be used to upgrade is not called database.sql 
 ## Upgrading from OpenMRS 1.9.x
