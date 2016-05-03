@@ -5,14 +5,13 @@ The upgrade from 1.6.3 to 1.11.6 involves running two steps:
 2. Migrating the 1.6.3 database backup file 
 
 All these steps are run from the upgrade folder which can be found at C:\Application Data\OpenMRS\upgrade like in the image below 
-![Upgrade folder location](images/upgrade/upgrade_folder_location.png)
 
 Due to the security restrictions, the files shall need to be run as administrator 
 ### 1.6.3 installed on same machine as 1.11.6 
 In this scenario the 1.6.3 database is running on the same computer as the new 1.11.6 database 
 
 1. Double click the backupdatabase file, and the window below will appear. 
-![Upgrade database backup complete](images/upgrade/database_backup_completed.png)
+![Upgrade database backup complete](images/upgrade/upgrade_database_backup_completed.png)
 2. Close the window to show the file manager, and a new file database (or database.sql) will be shown.
 ![Upgrade folder location](images/upgrade/upgrade_folder_with_backup_file.png)
 3. This file should have a size greater than 0KB, which shows that the backup process was successful.
