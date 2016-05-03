@@ -4,7 +4,9 @@ The upgrade from 1.6.3 to 1.11.6 involves running two steps:
 1. Creating a backup file of the existing 1.6.3 installation 
 2. Migrating the 1.6.3 database backup file 
 
-All these steps are run from the upgrade folder which can be found at C:\Program Files\UgandaEMR\upgrade 
+All these steps are run from the upgrade folder which can be found at C:\Program Files\UgandaEMR\upgrade
+
+Due to the security restrictions, the files shall need to be run as administrator 
 ### 1.6.3 installed on same machine as 1.11.6 
 In this scenario the 1.6.3 database is running on the same computer as the new 1.11.6 database 
 
