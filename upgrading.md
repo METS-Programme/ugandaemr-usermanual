@@ -10,8 +10,11 @@ Due to the security restrictions, the files shall need to be run as administrato
 ### 1.6.3 installed on same machine as 1.11.6 
 In this scenario the 1.6.3 database is running on the same computer as the new 1.11.6 database 
 
-1. Double click the backupdatabase file which will open the window below 
-2. A file called database will be created, check if its size is more than 0KB.
+1. Right click the backupdatabase file, and select "Run as administrator". You will receive a message, Do you want to allow this app to make changes to your PC, clock Yes. 
+2.  
+2. Once the file has run, the window below which shall open.
+
+3. A file called database will be created. Right click on the file  if its size is more than 0KB.
 
 
 
