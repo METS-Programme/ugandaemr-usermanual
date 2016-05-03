@@ -16,7 +16,7 @@ In this scenario the 1.6.3 database is running on the same computer as the new 1
 
 3. This file should have a size greater than 0KB, which shows that the backup process was successful.
 4. Double click the upgrade database, and wait for some time as a black window is displayed. 
-
+![Upgrade complete](images/upgrade/database_backup_complete.png)
 
 
 ### Database backup script available 
