@@ -1,4 +1,6 @@
 # Upgrading UgandaEMR 
+## Upgrading from OpenMRS 1.6.3
+## Upgrading from OpenMRS 1.9.x
 ## Adding a new module
 A new module is usually added to provide new functionality and features that were not currently available. 
 1. Login as a user with administration privileges
