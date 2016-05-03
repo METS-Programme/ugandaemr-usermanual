@@ -1,5 +1,10 @@
 # Upgrading UgandaEMR 
 ## Upgrading from OpenMRS 1.6.3
+The upgrade from 
+### Common Errors
+#### The port for 1.6.3 database is not 3307
+#### The root password for 1.6.3 is not blank
+#### The script to be used to upgrade is not called database.sql 
 ## Upgrading from OpenMRS 1.9.x
 ## Adding a new module
 A new module is usually added to provide new functionality and features that were not currently available. 
