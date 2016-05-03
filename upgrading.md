@@ -15,6 +15,7 @@ In this scenario the 1.6.3 database is running on the same computer as the new 1
 2. Close the window to show the file manager, and a new file database (or database.sql) will be shown.
 
 3. This file should have a size greater than 0KB, which shows that the backup process was successful.
+4. Double click the upgrade database, and wait for some time as a black window is displayed. 
 
 
 
