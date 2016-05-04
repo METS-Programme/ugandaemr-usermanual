@@ -27,11 +27,12 @@ From the list that appears, select "HMIS 035a Safe Male Circumcision Client Card
 
 ### Facility information: 
 For the "Date" field, select Year, month and day, in that order, using the Datepicker
-Note that all field with a red star "*" are "MUST ENTER" fields.
+Note that all fields with a red star "*" are "MUST ENTER" fields.
 ![](SMC4 .png)
 
 ### Client medical histrory
-Enter all available client medical history information - when working with dropdowns, to clear a field, select the top most blank option:-
+Enter all available client medical history information.
+When working with dropdowns, to clear a field, select the top most blank option.
 
 Enter all information as filled in on the SMC card:-
 1. Knowledge of HIV status 
@@ -44,7 +45,8 @@ Enter all information as filled in on the SMC card:-
 ![](SMC6.png)
 
 ### Consent
-Enter consent information - the circumcision section is valid only if "Client eligible for circumcision" is a "Yes"
+Enter consent information as provided.
+Note that the circumcision section is valid only if "Client eligible for circumcision" is a "Yes"
  ![](SMC7.png)
 
 
