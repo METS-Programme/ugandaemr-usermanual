@@ -29,8 +29,6 @@ The backup file exists from another computer and is to be added to the upgrade f
 
 ![Upgrade Successful](images/upgrade/upgrade_successful.png)
 
-
- 
 ### Common Errors
 #### backupdatabase has an access denied error
 This is because the password for root has changed from a blank password
