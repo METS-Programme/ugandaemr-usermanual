@@ -2,7 +2,7 @@
 This section describes how to enter data from the SMC client card.
 
 ### SMC Client card entry
-You need the "HMIS FORM 035a - SAFE MALE CIRCUMCISION CLIENT FORM".
+You need the "HMIS FORM 035a - SAFE MALE CIRCUMCISION CLIENT FORM", if entering data retrospectively.
 login at the "SMC clinic" session, as shown below.
 ![](SMC12.png)
 
