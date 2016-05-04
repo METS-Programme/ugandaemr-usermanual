@@ -15,16 +15,18 @@ On the screen that appears, type the name or ID of the patient, as registered in
 Search for and find the client - 
 ![](SMC1.png)
 
-if not in the system already, registered him first (refer to the  entering client information section).
+If the client is not in the system already, registered him first (refer to the  entering client information section).
 
 Under "General Action", click the "Form Entry" link
 ![](SMC2.png)
 
-From the list, select "HMIS 035a Safe Male Circumcision Client Card" as shown below
+From the list that appears, select "HMIS 035a Safe Male Circumcision Client Card" as shown below
 ![](SMC3.png)
 
-Facility information: For the date, select Year, month and day, in that order using the Datepicker
-Note that all field with a red star (*) are **MUST ENTER** fields.
+
+### Facility information: 
+For the "Date" field, select Year, month and day, in that order, using the Datepicker
+Note that all field with a red star "*" are "MUST ENTER" fields.
 ![](SMC4 .png)
 
 ### Client medical histrory
