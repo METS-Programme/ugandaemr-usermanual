@@ -18,10 +18,7 @@ Search for and find the client -
 
 If the client is not in the system already, registered him first (refer to the  entering client information section).
 
-Under "General Action", click the "Form Entry" link
-![](SMC2.png)
 
-From the list that appears, select "HMIS 035a Safe Male Circumcision Client Card" as shown below
 ![](SMC3.png)
 
 
@@ -64,7 +61,12 @@ Make sure the type of visit and the date the follow-up visit happened is entered
 To submit and save data entered on the form, click **"Enter Form"** at the end as .
 ![](SMC10.png)
 
-### Editing/updating a SMC card
-From the home page, go to find patient as discussed in the previous sections
+### Editing/updating an SMC card
+All forms are editable/updateble.
+From the home page, go to "Find patient record" as discussed in the previous sections
+![](SMC1.png)
+Under "General Action", click the "Form Entry" link
+![](SMC2.png)
 
-
+From the list that appears, select "HMIS 035a Safe Male Circumcision Client Card" as shown below
+![](SMC3.png)
