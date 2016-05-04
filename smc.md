@@ -18,9 +18,14 @@ Search for and find the client -
 
 If the client is not in the system already, registered him first (refer to the  entering client information section).
 
+Select "Add Past Visit" as shown below
+![](SMC14.png)
 
-![](SMC3.png)
+A screen will pop-up prompting you to select the "Start date" and "End Date" for the visit.
+Select the appropriate date and save by clicking the "confirm" button, as in the example below
+![](SMC15.png)
 
+From the list that appears, select "HMIS 035a Safe Male Circumcision Client Card" as shown below
 
 ### Facility information: 
 For the "Date" field, select Year, month and day, in that order, using the Datepicker
@@ -70,3 +75,6 @@ Under "General Action", click the "Form Entry" link
 
 From the list that appears, select "HMIS 035a Safe Male Circumcision Client Card" as shown below
 ![](SMC3.png)
+
+Edit the card as necessary and click the "Enter Form" bottonat the end, to submit.
+
