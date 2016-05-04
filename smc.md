@@ -67,14 +67,16 @@ To submit and save data entered on the form, click **"Enter Form"** at the end a
 ![](SMC10.png)
 
 ### Editing/updating an SMC card
-All forms are editable/updateble.
-From the home page, go to "Find patient record" as discussed in the previous sections
+The SMC card and indeed all other patient/client forms are editable/updatable.
+
+From the home page, go to "Find patient record" as previously described.
 ![](SMC1.png)
+
 Under "General Action", click the "Form Entry" link
 ![](SMC2.png)
 
 From the list that appears, select "HMIS 035a Safe Male Circumcision Client Card" as shown below
 ![](SMC3.png)
 
-Edit the card as necessary and click the "Enter Form" bottonat the end, to submit.
+Edit the card as necessary and click the "Enter Form" button at the end, to submit.
 
