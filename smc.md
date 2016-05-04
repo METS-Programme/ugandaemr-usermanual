@@ -2,16 +2,20 @@
 This section describes how to enter data from the SMC client card.
 
 ### SMC Client card entry
-You need the "HMIS FORM 035a - SAFE MALE CIRCUMCISION CLIENT FORM"
+You need the "HMIS FORM 035a - SAFE MALE CIRCUMCISION CLIENT FORM".
 login at the "SMC clinic" session, as shown below.
 ![](SMC12.png)
 
 A screen will open as shown below. Select the "Find Patient Record" option. 
 ![](SMC11.png)
 
-On the screen that appears, type the name of the patient, as registered in the system.
+On the screen that appears, type the name or ID of the patient, as registered in the system.
+![](SMC13.png)
+
+Search for and find the client - 
 ![](SMC1.png)
-Search for and find the client - if not in the system already, registered him first (refer to the  entering client information section).
+
+if not in the system already, registered him first (refer to the  entering client information section).
 
 Under "General Action", click the "Form Entry" link
 ![](SMC2.png)
