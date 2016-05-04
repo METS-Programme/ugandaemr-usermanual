@@ -33,6 +33,8 @@ The backup file exists from another computer and is to be added to the upgrade f
  
 ### Common Errors
 #### backupdatabase has an access denied error
+This is because the password for root or the port number has changed
+
 
 #### upgradedatabase has an error - openmrs_backup database not created
 ![openmrs_backup database not found](images/upgrade/upgrade_error_openmrs_backup_not_found.png)
