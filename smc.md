@@ -61,11 +61,10 @@ Make sure the type of visit and the date the follow-up visit happened is entered
 
 ![](SMC9.png)
 
-To submit and save data for the form, click **"Enter Form"** at the end.
-
+To submit and save data entered on the form, click **"Enter Form"** at the end as .
+![](SMC10.png)
 
 ### Editing/updating a SMC card
+From the home page, go to find patient as discussed in the previous sections
 
 
-
-![![](SMC10.png)
