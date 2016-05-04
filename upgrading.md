@@ -40,8 +40,13 @@ password is the password of the root account, and there is no space after the -p
 #### upgradedatabase has an error - openmrs_backup database not found
 This is because the installer did not create the openmrs_backup database. Uninstall UgandaEMR and start again
 ![openmrs_backup database not found](images/upgrade/upgrade_error_openmrs_backup_not_found.png)
-#### upgradedatabase has an error 2003 - Can't connect to MySQL server on local host (10061) before database.sql script 
+#### upgradedatabase has an error 2003 - Can't connect to MySQL server on local host (10061)
 ![Access denied to openmrs_backup](images/upgrade/upgrade_access_denied_to_openmrs_backup.png)
+This is because the password for root has changed from a blank password
+1. Open the upgradedatabase (or upgradedatabase.bat) file in Notepad and add the following to the line that starts with @mysqldump 
+`@mysql -ppassword`  
+password is the password of the root account, and there is no space after the -p
+2. Doubleclick the upgradedatabase file
 #### upgradedatabase has an error 2003 - Can't connect to MySQL server on local host (10061) before database.sql script 
 
 ## Upgrading from OpenMRS 1.9.x
