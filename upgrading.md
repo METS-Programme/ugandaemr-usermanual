@@ -36,7 +36,7 @@ The backup file exists from another computer and is to be added to the upgrade f
 This is because the password for root has changed from a blank password
 1. Open the backupdatabase (or backupdatabase.bat) file in Notepad and add the following to the line that starts with @mysqldump 
 
-```@mysqldump -ppassword```
+`@mysqldump -ppassword`
 
 password is the password of the root account, and there is no space between the -pand the password
 
