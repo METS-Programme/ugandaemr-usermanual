@@ -35,7 +35,7 @@ This is because the password for root has changed from a blank password
 1. Open the backupdatabase (or backupdatabase.bat) file in Notepad and add the following to the line that starts with @mysqldump 
 `@mysqldump -ppassword`  
 password is the password of the root account, and there is no space after the -p
-2. Run the backupdatabase  
+2. Doubleclick the backupdatabase file 
 
 #### upgradedatabase has an error - openmrs_backup database not found
 This is because the installer did not create the openmrs_backup database. Uninstall UgandaEMR and start again
