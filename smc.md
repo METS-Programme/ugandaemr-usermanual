@@ -52,6 +52,7 @@ The "Time started" and "End time" are in the order: Hour, Minutes and Seconds
 ![](SMC8.png)
 
 ### Circumcision follow-up visits
+Note: This section is normally filled as an update. Reffer to instructions on how to update an SMC client form.
 Three follow-up visits are provided for.
 Make sure the type of visit and the date the follow-up visit happened is entered
 
