@@ -38,7 +38,7 @@ This is because the password for root has changed from a blank password
 
 `@mysqldump -ppassword`
 
-password is the password of the root account, and there is no space between the -pand the password
+password is the password of the root account, and there is no space after the -p
 
 #### upgradedatabase has an error - openmrs_backup database not found
 This is because the installer did not create the openmrs_backup database. Uninstall UgandaEMR and start again
