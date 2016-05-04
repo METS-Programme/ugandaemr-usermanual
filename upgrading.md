@@ -47,7 +47,6 @@ This is because the password for root has changed from a blank password
 `@mysql -ppassword`  
 password is the password of the root account, and there is no space after the -p
 2. Doubleclick the upgradedatabase file
-#### upgradedatabase has an error 2003 - Can't connect to MySQL server on local host (10061) before database.sql script 
 
 ## Upgrading from OpenMRS 1.9.x
 ## Adding a new module
