@@ -6,10 +6,10 @@ You need the "HMIS FORM 035a - SAFE MALE CIRCUMCISION CLIENT FORM"
 login at the "SMC clinic" session, as shown below.
 ![](SMC12.png)
 
-A screen will open as shown below. Select the 
+A screen will open as shown below. Select the "Find Patient Record" option. 
 ![](SMC11.png)
 
-Select "Find Patient Record"
+On the screen that appears, type the name of the patient, as registered in the system.
 ![](SMC1.png)
 Search for and find the client - if not in the system already, registered him first (refer to the  entering client information section).
 
@@ -25,6 +25,8 @@ Note that all field with a red star (*) are **MUST ENTER** fields.
 
 ### Client medical histrory
 Enter all available client medical history information - when working with dropdowns, to clear a field, select the top most blank option:-
+
+Enter all information as filled in on the SMC card:-
 1. Knowledge of HIV status 
 2. Medical history
  ![](SMC5.png)
@@ -35,7 +37,7 @@ Enter all available client medical history information - when working with dropd
 ![](SMC6.png)
 
 ### Consent
-Enter consent information - the circumcision session is only valid if "Client eligible for circumcision" is "Yes"
+Enter consent information - the circumcision section is valid only if "Client eligible for circumcision" is a "Yes"
  ![](SMC7.png)
 
 
