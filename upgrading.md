@@ -41,6 +41,7 @@ This is because the password for root has changed from a blank password
 password is the password of the root account, and there is no space between the -pand the password
 
 #### upgradedatabase has an error - openmrs_backup database not found
+This is because the installer did not create the openmrs_backup database 
 ![openmrs_backup database not found](images/upgrade/upgrade_error_openmrs_backup_not_found.png)
 #### upgradedatabase has an error 2003 - Can't connect to MySQL server on local host (10061) before database.sql script 
 ![Access denied to openmrs_backup](images/upgrade/upgrade_access_denied_to_openmrs_backup.png)
