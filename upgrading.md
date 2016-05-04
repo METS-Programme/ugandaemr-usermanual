@@ -1,4 +1,4 @@
-# Upgrading UgandaEMR 
+. # Upgrading UgandaEMR 
 ## Upgrading from OpenMRS 1.6.3
 The upgrade from 1.6.3 to 1.11.6 involves running two steps:
 1. Creating a backup file of the existing 1.6.3 installation 
@@ -33,8 +33,12 @@ The backup file exists from another computer and is to be added to the upgrade f
  
 ### Common Errors
 #### backupdatabase has an access denied error
-This is because the password for root or the port number has changed
+This is because the password for root has changed from a blank password
+1. Open the backupdatabase (or backupdatabase.bat) file in Notepad and add the following to the line that starts with @mysqldump 
 
+```@mysqldump -ppassword```
+
+password is the password of the root account, and there is no space between the -pand the password
 
 #### upgradedatabase has an error - openmrs_backup database not created
 ![openmrs_backup database not found](images/upgrade/upgrade_error_openmrs_backup_not_found.png)
