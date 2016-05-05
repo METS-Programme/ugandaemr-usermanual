@@ -197,6 +197,6 @@ The Main difference between a saved search and a saved cohort is a saved search 
 
 ## Common Troubleshooting Tips
 ### Concepts cannot be found by name in en locale
-*TODO: Add steps to fix by rebuilding the search index*
+**TODO:** Add steps to fix by rebuilding the search index
 
 
