@@ -1,5 +1,5 @@
 ## Cohort Builder 
-###What is a cohort?
+### What is a cohort?
 
 * In statistics and demography, a cohort is a group of subjects who have shared a particular experience during a particular time span (e.g. people born in Uganda between 1980 and 1999, truck drivers between age 30 and 40 who smoke, Patients Started on ART in a given Month). 
 
@@ -14,10 +14,8 @@
 
 **How to access the cohort builder:**
 
-* Step 1: Click on the Cohort Builder link on the top level form. This will show you the Cohort Builder page as shown below.
-
-
-![](ch.png)
+1. Click on the Cohort Builder link on the top level form. This will show you the Cohort Builder page as shown below.
+![Commonly Used Tabs](ch.png)
 
 **How to query OpenMRS database based on either the concept ID or concept name:**
 
