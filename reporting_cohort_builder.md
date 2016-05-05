@@ -195,4 +195,8 @@ new or current numbers
 
 The Main difference between a saved search and a saved cohort is a saved search will update the data it returns when rerun at a later date while the cohort will not update
 
+## Common Troubleshooting Tips
+### Concepts cannot be found by name in en locale
+*TODO: Add steps to fix by rebuilding the search index*
+
 
