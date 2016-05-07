@@ -1,5 +1,9 @@
 {
-  "plugins": ["toc", "numbered-headings"],
+    "plugins": [
+        "toc",
+        "numbered-headings",
+        "layout"
+    ],
     "pluginsConfig": {
         "toc": {
             "addClass": true,
