@@ -195,6 +195,13 @@ The Main difference between a saved search and a saved cohort is a saved search 
 
 ## Common Troubleshooting Tips
 ### Concepts cannot be found by name in en locale
-**TODO:** Add steps to fix by rebuilding the search index
+This is caused by the search index for concepts being outdated. 
 
+The search index needs to rebuilt following the steps below:
+
+1. Login as a user with administrative rights 
+2. Go to the legacy administration screen as below, and click the Search index link
+![Search Index Link](images/search_index_link.png)
+3. On the Search index page, click the Rebuild Search Index button - this may take some time depending on the speed of your system 
+![Rebild Search Index](images/rebuild_search_index_button.png)
 
