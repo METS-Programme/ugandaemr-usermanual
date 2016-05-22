@@ -4,8 +4,8 @@ UgandaEMR includes a backup module that can be run from the administration inter
 
 The Backups are stored in the OpenMRS configuration directory
 The two common paths to find the backups are
- i) C:\Users\{UserAccount}\Application Data\OpenMRS\backup
- ii) C:\Application Data\OpenMRS\backup
+i) C:\Users\{UserAccount}\Application Data\OpenMRS\backup
+ii) C:\Application Data\OpenMRS\backup
 
 The steps in the backup are.
 i) On the Dash Board Click on the Backup Database icon.
