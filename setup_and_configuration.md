@@ -4,7 +4,7 @@
 
 1. Windows 7 (both 32-bit and 64-bit versions supported)
 
-3. 2.4GB of RAM
+2. 4GB of RAM
 
 3. 1.5GHz duo core processor
 
