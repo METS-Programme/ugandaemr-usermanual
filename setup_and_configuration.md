@@ -2,15 +2,15 @@
 ## Prerequisites
 ### Minimum Computer Requirements
 
-1. Windows 7 (both 32-bit and 64-bit versions supported)
-2. 4GB of RAM
-3. 1.5GHz duo core processor
+i)   Windows 7 (both 32-bit and 64-bit versions supported)
+ii)  4GB of RAM
+iii) 1.5GHz duo core processor
 
 ### Recommended Minimum Software Requirements
-1. Java 7 (do not use Java 8)
-2. Tomcat 7
-3. MySQL 5.5
-4. Mozilla Firefox 44
+i)  Java 7 (do not use Java 8)
+ii) Tomcat 7
+iv) MySQL 5.5
+v)  Mozilla Firefox 44
 
 ## Manual Setup 
 ### Requirements for Manual Installation
