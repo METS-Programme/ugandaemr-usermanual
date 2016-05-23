@@ -7,7 +7,7 @@
 3. 1.5GHz duo core processor
 
 ### Recommended Minimum Software Requirements
-1.Java 7 (do not use Java 8)
+1. Java 7 (do not use Java 8)
 2. Tomcat 7
 3. MySQL 5.5
 4.  Mozilla Firefox 44
