@@ -14,8 +14,8 @@ In this scenario the 1.6.3 database is running on the same computer as the new 1
 ![Upgrade database backup complete](images/upgrade/upgrade_database_backup_completed.png)
 2. Close the window to show the file manager, and a new file database (or database.sql) will be shown.
 ![Upgrade folder location](images/upgrade/upgrade_folder_with_backup_file.png)
-3. This file should have a size greater than 0KB, which shows that the backup process was successful.
-4. Double click the upgradedatabase file, and wait for some time as a black window is displayed.   
+3. This file should have a size greater than 0 sKB, which shows that the backup process was successful.
+4. Double click on the upgraded database file, and wait for some time as a black window is displayed.   
 ![Upgrade waiting for execution](images/upgrade/upgrade_waiting_for_script_to_execute.png)
 
 ![Upgrade Successful](images/upgrade/upgrade_successful.png)
@@ -24,7 +24,7 @@ The backup file exists from another computer and is to be added to the upgrade f
 
 1. Copy the backup file to the upgrade folder
 2. Rename the backup file to database (or datatabase.sql if the file extension is shown)
-3. Double click the upgradedatabase file, and wait for some time as a black window is displayed.   
+3. Double click the upgraded database file, and wait for some time as a black window is displayed.   
 ![Upgrade waiting for execution](images/upgrade/upgrade_waiting_for_script_to_execute.png)
 
 ![Upgrade Successful](images/upgrade/upgrade_successful.png)
