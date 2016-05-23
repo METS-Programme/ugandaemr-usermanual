@@ -6,17 +6,17 @@
 
 3.On clicking the Register Patient icon, you enter patient details as below;
 
-1.*Patient Name*![PatientName](images/name.png)
-2.*Gender* ![Gender](images/gender.png)
-3.*Birth date* ![Birthdate](images/birth_date.png)
- 4.*Marital Status*![Marital Status](images/marital_status.png)
- 5.*Birth Location* aka village in which patient was born![birthlocation](images/birth_location.png)
- 6.*Address: Where the patient lives. Please follow the same procedure as above
+3.1.*Patient Name*![PatientName](images/name.png)
+3.2.*Gender* ![Gender](images/gender.png)
+3.3.*Birth date* ![Birthdate](images/birth_date.png)
+ 3.4.*Marital Status*![Marital Status](images/marital_status.png)
+ 3.5.*Birth Location* aka village in which patient was born![birthlocation](images/birth_location.png)
+ 3.6.*Address: Where the patient lives. Please follow the same procedure as above
  
-7.*Phone Number: ![phone number](images/phone_number.png)
-8.* Next of Kin: ![Next of Kin](images/next_of_kin.png)
+3.7.*Phone Number: ![phone number](images/phone_number.png)
+3.8.* Next of Kin: ![Next of Kin](images/next_of_kin.png)
 
-9.* Confirm: Shows all the bio-data collected about the patient.![Confirm](images/confirmation.png)
+3.9.* Confirm: Shows all the bio-data collected about the patient.![Confirm](images/confirmation.png)
 13. Saving The data: Click confirm to save, if not click cancel to edit. You should see a patient dashboard once saving is successful as below ![](images/patient_dashboard.png)
 
 
