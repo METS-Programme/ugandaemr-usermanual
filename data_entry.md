@@ -1,6 +1,6 @@
 # Entering Client Information
 To enter patient information
-1. Go to home
+1. Go to the home page 
 ![Home](images/home_screen.png)
 2. Click search patients
 ![Find Patient Screen](images/home_screen_find_patient_marked.png)
