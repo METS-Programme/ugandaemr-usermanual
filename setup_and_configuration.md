@@ -38,7 +38,7 @@ A shortcut link to the UgandaEMR instance is also added to the Desktop **TODO: A
 ![Installation proces overview](images/installer/installation_process.png)
 
 ### Installation Steps
-1. Launch of the splash screen  
+i) Launch of the splash screen  
 ![Splash Screen](images/installer/splash.jpg)  
 
 2. License Agreement  
