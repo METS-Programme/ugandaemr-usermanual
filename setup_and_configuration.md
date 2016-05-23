@@ -2,15 +2,15 @@
 ## Prerequisites
 ### Minimum Computer Requirements
 
-i)   Windows 7 (both 32-bit and 64-bit versions supported)
-ii)  4GB of RAM
-iii) 1.5GHz duo core processor
+1.  Windows 7 (both 32-bit and 64-bit versions supported)
+2.  4GB of RAM
+3. 1.5GHz duo core processor
 
 ### Recommended Minimum Software Requirements
-i)  Java 7 (do not use Java 8)
-ii) Tomcat 7
-iv) MySQL 5.5
-v)  Mozilla Firefox 44
+1.Java 7 (do not use Java 8)
+2. Tomcat 7
+3. MySQL 5.5
+4.  Mozilla Firefox 44
 
 ## Manual Setup 
 ### Requirements for Manual Installation
@@ -24,10 +24,10 @@ There are separate installation files for 32-bit and 64-bit Windows systems so p
 ### Installation Directories and Menu Items
 The installer creates the following directory structure:
 
-* **Main Directory** - C:\Program Files\UgandaEMR
-* **Tomcat Directory** - C:\Program Files\UgandaEMR\UgandaEMRTomcat
-* **Mysql Directory** - C:\Program Files\MySQL\MySQL Server 5.5 *TODO: Correct this*
-* **OpenMRS Configuration Files** - C:\ApplicationData\OpenMRS *TODO: Correct this*
+1. **Main Directory** - C:\Program Files\UgandaEMR
+2. **Tomcat Directory** - C:\Program Files\UgandaEMR\UgandaEMRTomcat
+3. **Mysql Directory** - C:\Program Files\MySQL\MySQL Server 5.5 *TODO: Correct this*
+4. **OpenMRS Configuration Files** - C:\ApplicationData\OpenMRS *TODO: Correct this*
 
 The following items are also added to the Windows Start Menu:
 * **TODO: Add Start Menu Items**
@@ -57,7 +57,7 @@ vi) Install Java Runtime
 ![Java installation file copying](images/installer/2.4-java-2.jpg)
 ![Java installation completion](images/installer/2.5-inst-java-complete.jpg)
 
-7. Install MySQL  
+vii) Install MySQL  
 ![Server Configuration Wizard](images/installer/3.1-mysql-configure.jpg)  
 ![Standard Configuration](images/installer/3.2-standard.jpg)
 ![Windows Service and PATH Configuration](images/installer/3.3-comd1.jpg)
