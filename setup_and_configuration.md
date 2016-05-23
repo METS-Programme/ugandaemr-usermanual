@@ -19,7 +19,7 @@ This process will be added at a later stage, as currently the automatic installa
 ## Interactive Setup via installer
 The installer provides all the prerequisite components for setting up UgandaEMR, parts of this guide have been adopted from the World Health Organization (WHO) OpenMRS Express guide.
 
-There are separate installation files for 32-bit and 64-bit Windows systems so pick the installation package.
+There are separate installation files for 32-bit and 64-bit Windows systems so pick the most suitable installation package.
 
 ### Installation Directories and Menu Items
 The installer creates the following directory structure:
