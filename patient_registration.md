@@ -17,7 +17,7 @@
 3.8.* Next of Kin: ![Next of Kin](images/next_of_kin.png)
 
 3.9.* Confirm: Shows all the bio-data collected about the patient.![Confirm](images/confirmation.png)
-13. Saving The data: Click confirm to save, if not click cancel to edit. You should see a patient dashboard once saving is successful as below ![](images/patient_dashboard.png)
+3.10. Saving The data: Click confirm to save, if not click cancel to edit. You should see a patient dashboard once saving is successful as below ![](images/patient_dashboard.png)
 
 
 # Common Errors 
