@@ -75,12 +75,13 @@ A shortcut link to the UgandaEMR instance is also added to the Desktop **
 ![Tomcat Configuration](images/installer/4.5-configure-tomccat.jpg)
 ![Tomcat directory location](images/installer/4.6-tomcat-location.jpg)
 
-9. Install Firefox  
+9.Install Firefox  
 ![Firefox Splash screen](images/installer/5.3-fire-fox-inst.jpg)
 ![Firefox Setup Type](images/installer/5.4-fire-standard.jpg)
 ![Firefox install location](images/installer/5.5-fire-fox-directory.jpg)
 ![Firefox install completed](images/installer/5.2-fire-fox-start.jpg)
-10. Installing HeidiSQL  
+
+10.Installing HeidiSQL  
 ![](images/installer/1.1heidisql.PNG)
 ![](images/installer/1.2heidisql.PNG)
 ![](images/installer/1.3heidisql.PNG)
@@ -89,7 +90,7 @@ A shortcut link to the UgandaEMR instance is also added to the Desktop **
 ![](images/installer/1.6heidisql.PNG)
 ![](images/installer/1.7heidisql.PNG)
 
-11. UgandaEMR Installation completed  
+11.UgandaEMR Installation completed  
 ![Installation completed splash screen](images/installer/6.0-complete-installation.jpg)
 
 ### Post-installation Configuration
