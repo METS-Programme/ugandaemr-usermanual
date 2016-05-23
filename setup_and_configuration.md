@@ -30,9 +30,10 @@ The installer creates the following directory structure:
 4. **OpenMRS Configuration Files** - C:\ApplicationData\OpenMRS *TODO: Correct this*
 
 The following items are also added to the Windows Start Menu:
-* **TODO: Add Start Menu Items**
+1. **TODO: Add Start Menu Items**
 
-A shortcut link to the UgandaEMR instance is also added to the Desktop **TODO: Add screenshot of desktop with the Shortcut link**
+A shortcut link to the UgandaEMR instance is also added to the Desktop ** 
+2. **TODO: Add screenshot of desktop with the Shortcut link**
 
 ### Installation Overview
 ![Installation proces overview](images/installer/installation_process.png)
