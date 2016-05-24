@@ -1,6 +1,6 @@
 # Entering Client Information
 To enter patient information
-1. Go to home
+1. Go to the home page 
 ![Home](images/home_screen.png)
 2. Click search patients
 ![Find Patient Screen](images/home_screen_find_patient_marked.png)
@@ -24,12 +24,12 @@ To add past visit, make sure that the patient has no duplicate visit with the sa
 2. Enter the *** visit start date*** and the ***visit stop date*** if the visit is more than one day, otherwise leave the default
 ![Enter start and end dates for new patient](images/enter_start_and_end_date_for_new_past_visit.png)
 3. Click confirm
-4. This will take you visit page
+4. This will take you to the visit page
 ![Screen after adding new visit](images/screen_after_adding_new_visit.png)
 
 ### Edit Visit Start and End Dates
 To edit the dates for a visit,
-1. Click on the edit link
+1. Click on the edit link.
 If the dates you want to select do not appear, it means that there are encounters whose date can not be in that range.  
 Either delete all the encounters which belong to the visit or you can just create new visit
 ![Edit visit](images/edit_visit.png)

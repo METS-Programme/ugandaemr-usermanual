@@ -14,8 +14,8 @@ In this scenario the 1.6.3 database is running on the same computer as the new 1
 ![Upgrade database backup complete](images/upgrade/upgrade_database_backup_completed.png)
 2. Close the window to show the file manager, and a new file database (or database.sql) will be shown.
 ![Upgrade folder location](images/upgrade/upgrade_folder_with_backup_file.png)
-3. This file should have a size greater than 0KB, which shows that the backup process was successful.
-4. Double click the upgradedatabase file, and wait for some time as a black window is displayed.   
+3. This file should have a size greater than 0 sKB, which shows that the backup process was successful.
+4. Double click on the upgraded database file, and wait for some time as a black window is displayed.   
 ![Upgrade waiting for execution](images/upgrade/upgrade_waiting_for_script_to_execute.png)
 
 ![Upgrade Successful](images/upgrade/upgrade_successful.png)
@@ -24,7 +24,7 @@ The backup file exists from another computer and is to be added to the upgrade f
 
 1. Copy the backup file to the upgrade folder
 2. Rename the backup file to database (or datatabase.sql if the file extension is shown)
-3. Double click the upgradedatabase file, and wait for some time as a black window is displayed.   
+3. Double click the upgraded database file, and wait for some time as a black window is displayed.   
 ![Upgrade waiting for execution](images/upgrade/upgrade_waiting_for_script_to_execute.png)
 
 ![Upgrade Successful](images/upgrade/upgrade_successful.png)
@@ -33,7 +33,7 @@ The backup file exists from another computer and is to be added to the upgrade f
 #### backupdatabase has an access denied error
 ![Backup database error](images/upgrade/upgrade_backup_database_error.png)
 This is because the password for root has changed from a blank password
-1. Open the backupdatabase (or backupdatabase.bat) file in Notepad and add the following to the line that starts with @mysqldump 
+1. Open the backup database (or backupdatabase.bat) file in Notepad and add the following to the line that starts with @mysqldump 
 `@mysqldump -ppassword`  
 password is the password of the root account, and there is no space after the -p
 2. Doubleclick the backupdatabase file 
@@ -51,7 +51,7 @@ password is the password of the root account, and there is no space after the -p
 
 ## Upgrading from OpenMRS 1.9.x
 The upgrade from 1.9.x requires the replacement of the WAR file using the steps below:
-1. Open 
+
 ## Adding a new module
 A new module is usually added to provide new functionality and features that were not currently available. 
 1. Login as a user with administration privileges
