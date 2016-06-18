@@ -6,7 +6,7 @@ Delete the encounter then delete the visit and re-enter the encounter
 This error occurs when the user session has expired therefore there is no location selected in the top right hand corners. 
 
 Log out of your account then log back in 
-[openmrs cannot start error occured at startup](openmrs-cannot-start-error-occured-at-startup)
+
 ## OpenMRS Cannot Start - Error Occured at Startup 
 At starting up the screen looks like the image below 
 
