@@ -35,7 +35,7 @@ To capture the ART Card Encounters, follow the steps below;
 4. Capture the first section as below ![Art Card Encounter section 1](images/art_card_encounter_section_1.png)
 5. Capture the second section as below ![Art Card Encounter Section 2](images/art_card_encounter_section_2.png)
 6. Capture the third section as below ![Art Card Encounter Section 3](images/art_card_encounter_section_3.png)
-7. Capture the fourth section as below - TBD add entry of detectable and undetectable viral loads  ![Art Card Encounter Section 4](images/art_card_encounter_section_4.png)
+7. Capture the fourth section as below - TBD add entry of detectable and undetectable viral loads results  ![Art Card Encounter Section 4](images/art_card_encounter_section_4.png)
 8. Click the ***Enter Form*** button to save the encounter record
 9. You should see a new page ![Encounter Page After saving](images/art_card_encounter_page_after_saving.png)
 10. Click on the visit circled on the left to see the saved encounter record ![Art Card Encounter Saved Page](images/art_card_encounter_saved_page.png)
