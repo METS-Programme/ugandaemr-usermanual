@@ -1,4 +1,4 @@
-## Reporting Module
+## UgandaEMR Reports
 
 ### Reports Dashboard
 The dashboard shows the avialable reports in the different categories:
@@ -6,7 +6,6 @@ The dashboard shows the avialable reports in the different categories:
 * Monthly Reports - HMIS reports that are run every month 
 * Quarterly Reports - HMIS reports that are run every quarter
 * Registers - match the HMIS registers for different data collection forms 
-
 
 ### Running a Report
 #### HMIS 106A Section 1A
