@@ -16,8 +16,8 @@ The dashboard shows the avialable reports in the different categories:
 3. On the Reports dashboard click the link to 106A Section 1A
 ![Reports Dashboard - 106a](/assets/reports_dashboard_106a_1a_link.png)
 4. Enter the start date and end date for the quarter you wish to generate the report, then click the Run button
-
-
+![106A 1A parameners](/assets/106A_1A_parameters.png)
+5. This report will run for a while as shown by the progress icon 
 
 
 
