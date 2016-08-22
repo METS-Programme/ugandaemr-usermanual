@@ -29,10 +29,8 @@ The dashboard shows the avialable reports in the different categories:
 ![UgandaEMR link](/assets/homepage_ugandaemr_reports_link.png)
 3. On the Reports dashboard click the link to 106A Section 1B
 ![Reports Dashboard - 106A Section 1B link](/assets/reports_dashboard_106a_1b_link.png)
-
 4. Enter the start date and end date for the quarter you wish to generate the report, then click the Run button
-
-![106A 1A parameners](/assets/106A_1A_parameters.png)
+![106A 1A parameters](/assets/106A_1A_parameters.png)
 
 5. This report will run for a while as shown by the progress icon
 
