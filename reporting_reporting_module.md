@@ -19,7 +19,8 @@ The dashboard shows the avialable reports in the different categories:
 ![106A 1A parameners](/assets/106A_1A_parameters.png)
 5. This report will run for a while as shown by the progress icon 
 ![106A 1A processing](/assets/106A_1A_crrently_processing.png)
-6. Once the report is generated there are options to 
+6. Once the report is generated there are two options:
+-   
 ![106A 1A preserved](/assets/106A_1A_download_preserve.png)
 
 ### 
