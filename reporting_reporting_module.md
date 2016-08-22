@@ -14,6 +14,8 @@ The dashboard shows the avialable reports in the different categories:
 2. Click the UgandaEMR reports link as in the image below
 ![UgandaEMR link](/assets/homepage_ugandaemr_reports_link.png)
 3. On the Reports dashboard click the link to 106A Section 1A
+4. Enter the start date and end date for the quarter you wish to generate the report 
+
 
 
 
