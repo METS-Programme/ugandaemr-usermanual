@@ -10,7 +10,9 @@ The dashboard shows the avialable reports in the different categories:
 To access the dashboard:
 
 1. Login as a user with privileges to access the reports 
-2. Click the UgandaEMR reports link as in the image below  
+2. Click the UgandaEMR reports link as in the image below 
+![UgandaEMR link](/assets/homepage_ugandaemr_reports_link.png)
+3. 
 
 ### Running a Report
 
