@@ -35,14 +35,10 @@ The dashboard shows the avialable reports in the different categories:
 ![106A 1A processing](/assets/106A_1A_crrently_processing.png)
 
 6. Once the report is generated there are two options:
-
  * Download - downloads the generated report in Excel
-
  * Preserve - saves the data for the generated report, which will not change when data is updated or corrected later in the future
 
-
-
-![106A 1A preserved](/assets/106A_1A_download_preserve.png)
+![106A 1B Completed](/assets/106A_1B_download_preserve.png)
 
 
 
