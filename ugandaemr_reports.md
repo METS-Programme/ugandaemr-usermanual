@@ -1,5 +1,4 @@
 ## UgandaEMR Reports
-
 ### Reports Dashboard
 The dashboard shows the avialable reports in the different categories:
 * Facility Reports - reports that support the running of a facility 
