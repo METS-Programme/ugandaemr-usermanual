@@ -17,7 +17,7 @@ The dashboard shows the avialable reports in the different categories:
 4. Enter the start date and end date for the quarter you wish to generate the report, then click the Run button
 ![106A 1A parameters](/assets/106A_1A_parameters.png)
 5. This report will run for a while as shown by the progress icon 
-
+![106A Section 1A processing](/assets/106A_1A_currently_processing.png)
 6. Once the report is generated there are two options:
     * Download - downloads the generated report in Excel
     * Preserve - saves the data for the generated report, which will not change when data is updated or corrected later in the future 
