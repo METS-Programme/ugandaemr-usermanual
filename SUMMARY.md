@@ -22,7 +22,7 @@
 * [Reporting](reporting.md)
     * [BIRT Reports](reporting_birt.md)
     * [Cohort Builder](reporting_cohort_builder.md)
-    * [UgandaEMR Reports](reporting_reporting_module.md)
+    * [UgandaEMR Reports](ugandaemr_reports.md)
     * [Data Export](reporting_data_export.md)
 * [Data Validation](data_validation.md)
 * [Common Troubleshooting Tips](troubleshooting.md)
