@@ -22,6 +22,7 @@ The dashboard shows the avialable reports in the different categories:
     * Download - downloads the generated report in Excel
     * Preserve - saves the data for the generated report, which will not change when data is updated or corrected later in the future 
 
+![106A 1B Completed](/assets/106A_1A_download_preserve.png)
 #### HMIS 106A Section 1B
 1. Login as a user with privileges to access the reports
 2. Click the UgandaEMR reports link as in the image below
