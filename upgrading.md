@@ -99,9 +99,9 @@ password is the password of the root account, and there is no space after the -p
 This is usually characterized by a green arrow next to the module name, an error message at the top of the Manage Modules page and a text box in the row of the module name with the words "Error starting! Click here for details"
 ![Error starting module](/images/error_starting_module.png)
 1. Click the text box to find out the details of why the module did not start:
-    * If the error is caused by a missing module then upload the module following the steps above
-    * If the error is caused by a higher version of a module, then upgrade the module to that higher version. Please note that this may cause additional errors in other modules that may be incompatible with the higher version.
-    * If a lower version of a module is required, then you may need to upload a lower version of the module, though this may cause other modules to fail loading
+  * If the error is caused by a missing module then upload the module following the steps above
+  * If the error is caused by a higher version of a module, then upgrade the module to that higher version. Please note that this may cause additional errors in other modules that may be incompatible with the higher version.
+  * If a lower version of a module is required, then you may need to upload a lower version of the module, though this may cause other modules to fail loading
 2.  Restart the computer which resets all UgandaEMR services.
 
 #### UI Framework Error: Null Pointer Exception on Patient Registration
