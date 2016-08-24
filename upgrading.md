@@ -11,9 +11,9 @@ Due to the security restrictions, the files shall need to be run as administrato
 In this scenario the 1.6.3 database is running on the same computer as the new 1.11.6 database 
 
 1. Double click the backupdatabase file, and the window below will appear. 
-![Upgrade database backup complete](images/upgrade/upgrade_database_backup_completed.png)
+![Upgrade database backup complete](/images/upgrade/upgrade_database_backup_completed.png)
 2. Close the window to show the file manager, and a new file database (or database.sql) will be shown.
-![Upgrade folder location](images/upgrade/upgrade_folder_with_backup_file.png)
+![Upgrade folder location](/images/upgrade/upgrade_folder_with_backup_file.png)
 3. This file should have a size greater than 0 sKB, which shows that the backup process was successful.
 4. Double click on the upgraded database file, and wait for some time as a black window is displayed.   
 ![Upgrade waiting for execution](images/upgrade/upgrade_waiting_for_script_to_execute.png)
