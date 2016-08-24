@@ -67,7 +67,7 @@ This will be done when there are multiple modules that need to be upgraded as a 
 3. Go to the UgandaEMR login link at http://localhost:8081/openmrs/ 
 
 ### Common Troubleshooting Tips
-#### backupdatabase has an access denied error
+#### backupdatabase script has an access denied error
 ![Backup database error](images/upgrade/upgrade_backup_database_error.png)
 This is because the password for root has changed from a blank password
 1. Open the backup database (or backupdatabase.bat) file in Notepad and add the following to the line that starts with @mysqldump
