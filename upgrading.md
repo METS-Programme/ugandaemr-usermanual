@@ -25,9 +25,9 @@ The backup file exists from another computer and is to be added to the upgrade f
 1. Copy the backup file to the upgrade folder
 2. Rename the backup file to database (or datatabase.sql if the file extension is shown)
 3. Double click the upgraded database file, and wait for some time as a black window is displayed.   
-![Upgrade waiting for execution](images/upgrade/upgrade_waiting_for_script_to_execute.png)
+![Upgrade waiting for execution](/images/upgrade/upgrade_waiting_for_script_to_execute.png)
 
-![Upgrade Successful](images/upgrade/upgrade_successful.png)
+![Upgrade Successful](/images/upgrade/upgrade_successful.png)
 
 ### Upgrading from OpenMRS 1.9.x
 The upgrade from 1.9.x requires the replacement of the WAR file using the steps below:
