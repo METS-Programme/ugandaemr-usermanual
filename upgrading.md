@@ -95,5 +95,13 @@ This is usually characterized by a green arrow next to the module name, an error
   - If the error is caused by a higher version of a module, then upgrade the module to that higher version. Please note that this may cause additional errors in other modules that may be incompatible with the higher version.
   - If a lower version of a module is required, then you may need to upload a lower version of the module, though this may cause other modules to fail loading  
 2.  Restart the computer which resets all UgandaEMR services.
-### Null Pointer Exception on Patient Registration
-A common cause is blank entries in the address hierarchy during the upgrade process 
+### UI Framework Error: Null Pointer Exception on Patient Registration
+A common cause is blank entries in the address hierarchy during the upgrade process as seen in the link below 
+![Null Pointer Exception on Patient Registration after Upgrade](/assets/upgrade_error_patient_reg_null_pointer.png)
+
+1. Click the Administration link in the top menu as below:
+![System Administration Link](/assets/upgrade_error_patient_reg_null_pointer_administration_link.png)
+2. Click the Manage Address Hierarchy link on the administration dashboard
+![Manage Address Hierarchy Link](/assets/manage_address_hierarchy_link.png)
+3. Delete all the address hierarchy entries in the rectangle which are causing the error one level at a time 
+![Cleanup Address Hierarchy Levels](/assets/cleanup_address_hierarchy_level.png)
