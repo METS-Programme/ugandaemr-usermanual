@@ -25,8 +25,8 @@ TBD
 ### Marking Patients as Dead 
 ### 
 
-## Common Errors 
-### User is not a provider
+### Common Errors 
+#### User is not a provider
 ![User Not Provider Error](images/logged_in_user_not_provider.png)
 
 ### Solution:
