@@ -1,4 +1,5 @@
-# Patient Registration 
+## Patient Registration and Management 
+### Patient Registration 
 1.Login and on the home page click the Register patient link circled below
 
 ![Register Patient Link](images/register_patient_link.png)
@@ -19,7 +20,10 @@
 3.9.* Confirm: Shows all the bio-data collected about the patient.![Confirm](images/confirmation.png)
 3.10. Saving The data: Click confirm to save, if not click cancel to edit. You should see a patient dashboard once saving is successful as below ![](images/patient_dashboard.png)
 
-## Merging Patients 
+### Merging Patients 
+TBD 
+### Marking Patients as Dead 
+### 
 
 ## Common Errors 
 ### User is not a provider
