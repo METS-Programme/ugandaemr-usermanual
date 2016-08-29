@@ -23,8 +23,9 @@
 ### Merging Patients 
 TBD 
 ### Marking Patients as Dead 
-### 
-
+TBD 
+### Marking a Dead Patient as alive 
+TBD 
 ### Common Errors 
 #### User is not a provider
 ![User Not Provider Error](images/logged_in_user_not_provider.png)
