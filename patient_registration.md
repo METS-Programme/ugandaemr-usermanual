@@ -17,14 +17,14 @@
  3.6.\*Address: Where the patient lives. Please follow the same procedure as above
 
 3.7._Phone Number: \_\__\_\__\_\_
-3.8._ Next of Kin: ![Next of Kin](images/next_of_kin.png)
+3.8.\_ Next of Kin: ![Next of Kin](images/next_of_kin.png)
 
 3.9.\* Confirm: Shows all the bio-data collected about the patient.![Confirm](images/confirmation.png)
 3.10. Saving The data: Click confirm to save, if not click cancel to edit. You should see a patient dashboard once saving is successful as below ![](images/patient_dashboard.png)
 
 ### Merging Patients
 
-Patient Merging in UgandaEMR refers to the act of “retiring” Patient B in favour of patient A. In such an event, the visits, encounters, observations and other underlying objects which belonged to patient B will be transferred to Patient A, and Patient B will be retired. In a multiple patient merge process, Patients A, B and C may be retired in favour of patient X. Underlying objects which belonged to patients A, B and C will also be transferred to patient X as specified earlier.
+Patient Merging in UgandaEMR refers to the act of “retiring” Patient B in favour of patient A. In such an event, the visits, encounters, observations and other underlying objects which belonged to patient B will be transferred to Patient A, and Patient B will be retired. In a multiple patient merge process, Patients A, B and C may be retired in favour of patient X. Patient Merging is useful in situations where duplicate records have been created for a single patient.
 
 **Note:** Patient merging is uni-directional only. It does not allow the restoration of merged data i.e. you cannot reverse the process. Therefore patient merging shouldn’t be taken lightly and effected only if you are **100%** sure that the patients are the same.
 
@@ -33,27 +33,30 @@ To merge patients;
 1. Login as a user with administrator privileges and click the “_Legacy System Administration_” link as shown in the image below.
   ![](/assets/patient_merge1.png)
 
-1. Click on the _“Find Patients to Merge_” link as shown below.
+2. Click on the _“Find Patients to Merge_” link as shown below.
 
   ![](/assets/patient_merge2.png)
 
 
-2. Select a minimum of two patient attributes to search on and click _“search”_ as shown in the image below.
+1. Select a minimum of two patient attributes to search on and click _“search”_ as shown in the image below.
 
   ![](/assets/patient_merge3.png)
-3. This displays a list of patients who match the attirbutes used in the search. Select two or more patients to continue.
+
+2. This displays a list of patients who match the attirbutes used in the search. Select two or more patients to continue.
 
   ![](/assets/patient_merge4.png)
-4. Select your preferred patient to keep and click _“Merge Patients”_ button to continue
+
+3. Select your preferred patient to keep and click _“Merge Patients”_ button to continue
 
   ![](/assets/patient_merge5.png)
   The "Preferred Patient" is the patient who "survives" in favour of the retired patient.
 
-5. A Dialog box displays asking you to confirm the Merge. Click “Ok” to confirm and complete the patient merging process or "Cancel" to abort the process.
+4. A Dialog box displays asking you to confirm the Merge. Click “Ok” to confirm and complete the patient merging process or "Cancel" to abort the process.
 
   You should see a notification indicating that the process was completed successfully.
 
   ![](/assets/patient_merge6.png)
+
 
 ### Marking Patients as Dead
 
