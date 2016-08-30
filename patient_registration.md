@@ -16,7 +16,7 @@
  3.5._Birth Location_ aka village in which patient was born![birthlocation](images/birth_location.png)
  3.6.\*Address: Where the patient lives. Please follow the same procedure as above
 
-3.7._Phone Number: ____
+3.7._Phone Number: \_\__\_\__\_\_
 3.8._ Next of Kin: ![Next of Kin](images/next_of_kin.png)
 
 3.9.\* Confirm: Shows all the bio-data collected about the patient.![Confirm](images/confirmation.png)
@@ -30,12 +30,30 @@ Patient Merging in UgandaEMR refers to the act of “retiring” Patient B in fa
 
 To merge patients;
 
-1. Login as a user with administrator privileges and click the “_Legacy System Administration_” link as shown in the image below. 
-
+1. Login as a user with administrator privileges and click the “_Legacy System Administration_” link as shown in the image below.
   ![](/assets/patient_merge1.png)
 
-2. 
+1. Click on the _“Find Patients to Merge_” link as shown below.
 
+  ![](/assets/patient_merge2.png)
+
+
+2. Select a minimum of two patient attributes to search on and click _“search”_ as shown in the image below.
+
+  ![](/assets/patient_merge3.png)
+3. This displays a list of patients who match the attirbutes used in the search. Select two or more patients to continue.
+
+  ![](/assets/patient_merge4.png)
+4. Select your preferred patient to keep and click _“Merge Patients”_ button to continue
+
+  ![](/assets/patient_merge5.png)
+  The "Preferred Patient" is the patient who "survives" in favour of the retired patient.
+
+5. A Dialog box displays asking you to confirm the Merge. Click “Ok” to confirm and complete the patient merging process or "Cancel" to abort the process.
+
+  You should see a notification indicating that the process was completed successfully.
+
+  ![](/assets/patient_merge6.png)
 
 ### Marking Patients as Dead
 
