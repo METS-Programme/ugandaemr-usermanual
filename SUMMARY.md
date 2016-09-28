@@ -5,6 +5,7 @@
 * [System Setup and Configuration](setup_and_configuration.md)
 * [Backup and Restoration](backup_and_restoration.md)
 * [Upgrading UgandaEMR](upgrading.md)
+* [Configuring your installation](configuring-your-installation.md)
 * [Managing User Accounts](user_account_management.md)
     * [Create a new user account](create_a_new_user_account.md)
     * [Reset user account password](reset_user_account_password.md)
@@ -25,5 +26,5 @@
     * [UgandaEMR Reports](ugandaemr_reports.md)
     * [Data Export](reporting_data_export.md)
 * [Data Validation](data_validation.md)
-* [Common Troubleshooting Tips](troubleshooting.md)
+* Configuring your installation
 
