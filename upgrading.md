@@ -29,8 +29,6 @@ The backup file exists from another computer and is to be added to the upgrade f
 
 ![Upgrade Successful](/images/upgrade/upgrade_successful.png)
 
-### Upgrading from OpenMRS 1.9.x
-The upgrade from 1.9.x requires the replacement of the WAR file using the steps below:
 
 ### Adding a new module
 A new module is usually added to provide new functionality and features that were not currently available. 
