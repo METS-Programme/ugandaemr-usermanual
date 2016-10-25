@@ -26,4 +26,5 @@ The native mysqldump tool can also be used to dump a database into a file
 * backupDDMMYY-HHMM.sql - the name of the file, recommended naming for example is backup04April16-1425.sql which has a date and time when the backup was done
 
 ## Database Restore 
+### Using Heidi
 The UgandaEMR installer includes HeidiSQL a tool that allows the restoration of backup files into the backend database. 
