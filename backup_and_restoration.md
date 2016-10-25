@@ -20,7 +20,10 @@ The steps in the backup are.
 
 ### MyDSQL Dump
 The native mysqldump tool can also be used to dump a database into a file 
-`mysqldump -u openmrs -popenmrs --opt --routines openmrs > backupDDMMYY-HHMM.sql`
+`mysqldump -u [useraccount] -p[password] --opt --routines openmrs > backupDDMMYY-HHMM.sql`
+* [useraccount] - the username for accessing the database
+* [password] - the password to connect to the database
+* backupDDMMYY-HHMM.sql - the name of the file, recommended naming for example is backup04April16-1425.sql which has a date and time when the backup was done
 
 ## Database Restore 
 The UgandaEMR installer includes HeidiSQL a tool that allows the restoration of backup files into the backend database. 
