@@ -28,4 +28,4 @@ The native mysqldump tool can also be used to dump a database into a file
 ## Database Restore 
 ### Using Heidi
 The UgandaEMR installer includes HeidiSQL a tool that allows the restoration of backup files into the backend database. 
-### 
+### Using mysql command line 
