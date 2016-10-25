@@ -19,7 +19,7 @@ The steps in the backup are.
 ![Backup complete](images/backup/backup4.jpg)
 ### Using HeidiSQL
 
-### MyDSQL Dump
+### MySQL Dump
 The native mysqldump tool can also be used to dump a database into a file 
 `mysqldump -u [useraccount] -p[password] --opt --routines openmrs > backupDDMMYY-HHMM.sql`
 * [useraccount] - the username for accessing the database
