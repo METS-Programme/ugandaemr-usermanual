@@ -13,9 +13,9 @@ In this scenario the 1.6.3 database is running on the same computer as the new 1
 1. Double click the backupdatabase file, and the window below will appear. 
 ![Upgrade database backup complete](/images/upgrade/upgrade_database_backup_completed.png)
 2. Close the window to show the file manager, and a new file database (or database.sql) will be shown.
-![Upgrade folder location](/images/upgrade/upgrade_folder_with_backup_file.png)
+![Upgrade folder location](/images/upgrade/upgrade_folder_1_6_x-1_9_x.jpg)
 3. This file should have a size greater than 0 sKB, which shows that the backup process was successful.
-4. Double click on the upgraded database file, and wait for some time as a black window is displayed.   
+4. Double click on the updatedatabase_1_6_x.bat or updatedatabase_1_9_x.bat depending on which version of OpenMRSyou are migrating from, and wait for some time as a black window is displayed.   
 ![Upgrade waiting for execution](/images/upgrade/upgrade_waiting_for_script_to_execute.png)
 
 ![Upgrade Successful](images/upgrade/upgrade_successful.png)
