@@ -17,6 +17,7 @@ The steps in the backup are.
 ![Backup in progress](images/backup/backup3.jpg)
 4. Once the backup is complete, a message is displayed with the status.
 ![Backup complete](images/backup/backup4.jpg)
+### Using HeidiSQL
 
 ### MyDSQL Dump
 The native mysqldump tool can also be used to dump a database into a file 
@@ -24,7 +25,7 @@ The native mysqldump tool can also be used to dump a database into a file
 * [useraccount] - the username for accessing the database
 * [password] - the password to connect to the database
 * backupDDMMYY-HHMM.sql - the name of the file, recommended naming for example is backup04April16-1425.sql which has a date and time when the backup was done
-### Using HeidiSQL 
+
 ## Database Restore 
 ### Using HeidiSQL 
 The UgandaEMR installer includes HeidiSQL a tool that allows the restoration of backup files into the backend database. 
