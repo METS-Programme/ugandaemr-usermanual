@@ -111,7 +111,7 @@ The steps are as follows:
 
 3.On the openmrs database run the following scripts:
 * new-install.sql - this one creates a blank database for UgandaEMR 
-* concept_dictionary script - use the latest version 
+* concept_dictionary script - use the latest version  
 
 4.Restart your computer so that UgandaEMR can start
 
