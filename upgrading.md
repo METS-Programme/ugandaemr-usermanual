@@ -97,6 +97,7 @@ This is because the password for root has changed from a blank password
 password is the password of the root account, and there is no space after the -p
 
 2. Doubleclick the upgradedatabase file
+
 #### Upgrade failed so need to reset environment 
 
 In case your upgrade fails, there is a need to restore the environment so that you can try again. 
