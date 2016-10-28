@@ -108,7 +108,7 @@ The steps are as follows:
     * new-install.sql - this one creates a blank database for UgandaEMR 
     * concept_dictionary script - use the latest version 
 4. Restart your computer so that UgandaEMR can start
-5. Run the relevant upgrade script for your 
+5. Run the upgrade again 
 
 #### Error starting uploaded module
 This is usually characterized by a green arrow next to the module name, an error message at the top of the Manage Modules page and a text box in the row of the module name with the words "Error starting! Click here for details"
