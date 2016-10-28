@@ -73,13 +73,14 @@ This will be done when there are multiple modules that need to be upgraded as a 
 #### backupdatabase script has an access denied error
 ![Backup database error](images/upgrade/upgrade_backup_database_error.png)
 This is because the password for root has changed from a blank password
-1. Open the backup database (or backupdatabase.bat) file in Notepad and add the following to the line that starts with @mysqldump
+
+1.Open the backup database (or backupdatabase.bat) file in Notepad and add the following to the line that starts with @mysqldump
 
 `@mysqldump -ppassword`
 
 password is the password of the root account, and there is no space after the -p
 
-2. Doubleclick the backupdatabase file
+2.Doubleclick the backupdatabase file
 
 #### upgradedatabase script has an error - openmrs_backup database not found
 This is because the installer did not create the openmrs_backup database. Uninstall UgandaEMR and start again
@@ -91,34 +92,41 @@ This is because the installer did not create the openmrs_backup database. Uninst
 ![Access denied to openmrs_backup](/images/upgrade/upgrade_access_denied_to_openmrs_backup.png)
 This is because the password for root has changed from a blank password
 
-1. Open the upgradedatabase (or upgradedatabase.bat) file in Notepad and add the following to the line that starts with @mysqldump
+1.Open the upgradedatabase (or upgradedatabase.bat) file in Notepad and add the following to the line that starts with @mysqldump
 
 `@mysql -ppassword`
 password is the password of the root account, and there is no space after the -p
 
-2. Doubleclick the upgradedatabase file
+2.Doubleclick the upgradedatabase file
 
 #### Upgrade failed so need to reset environment 
 
 In case your upgrade fails, there is a need to restore the environment so that you can try again. 
 
 The steps are as follows:
-1. Delete the openmrs and openmrs_backup databases
-2. Create a new openmrs and openmrs_backup databases
-3. On the openmrs database run the following scripts:
-    * new-install.sql - this one creates a blank database for UgandaEMR 
-    * concept_dictionary script - use the latest version 
-4. Restart your computer so that UgandaEMR can start
-5. Run the upgrade again 
+
+1.Delete the openmrs and openmrs_backup databases
+
+2.Create a new openmrs and openmrs_backup databases
+
+3.On the openmrs database run the following scripts:
+* new-install.sql - this one creates a blank database for UgandaEMR 
+* concept_dictionary script - use the latest version 
+
+4.Restart your computer so that UgandaEMR can start
+
+5.Run the upgrade again 
 
 #### Error starting uploaded module
+
 This is usually characterized by a green arrow next to the module name, an error message at the top of the Manage Modules page and a text box in the row of the module name with the words "Error starting! Click here for details"
 ![Error starting module](/images/error_starting_module.png)
-1. Click the text box to find out the details of why the module did not start:
-  * If the error is caused by a missing module then upload the module following the steps above
-  * If the error is caused by a higher version of a module, then upgrade the module to that higher version. Please note that this may cause additional errors in other modules that may be incompatible with the higher version.
-  * If a lower version of a module is required, then you may need to upload a lower version of the module, though this may cause other modules to fail loading
-2.  Restart the computer which resets all UgandaEMR services.
+1.Click the text box to find out the details of why the module did not start:
+* If the error is caused by a missing module then upload the module following the steps above
+* If the error is caused by a higher version of a module, then upgrade the module to that higher version. Please note that this may cause additional errors in other modules that may be incompatible with the higher version.
+* If a lower version of a module is required, then you may need to upload a lower version of the module, though this may cause other modules to fail loading
+
+2.Restart the computer which resets all UgandaEMR services.
 
 #### UI Framework Error: Null Pointer Exception on Patient Registration
 A common cause is blank entries in the address hierarchy during the upgrade process as seen in the link below 
