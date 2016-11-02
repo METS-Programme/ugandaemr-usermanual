@@ -1,1 +1,2 @@
 ## UgandaEMR Configuration 
+Tomcat Configurations
