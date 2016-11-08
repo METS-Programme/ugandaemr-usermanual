@@ -105,7 +105,8 @@ In case your upgrade fails, there is a need to restore the environment so that y
 
 The steps are as follows:
 
-1.Delete the openmrs and openmrs_backup databases
+1. Backup the openmrs database 
+2. Delete the openmrs and openmrs_backup databases
 
 2.Create a new openmrs and openmrs_backup databases
 
