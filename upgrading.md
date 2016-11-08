@@ -63,7 +63,9 @@ This will be done when there are multiple modules that need to be upgraded as a 
 1. Backup UgandaEMR
 2. Stop Tomcat 
 2. Clean up the existing installation by: 
-  * Delete the openmrs.war and openmrs folder in the directory C:\Program Files\UgandaEMR\apache-tomcat\webapps  
+  * Delete the following from the C:\Program Files\UgandaEMR\apache-tomcat\webapps folder:
+    * openmrs.war 
+    * openmrs folder   
   * Delete all the modules in the directory C:\Application Data\OpenMRS\modules which is where any modules uploaded from the administration interface are stored. The modules in this directory override those added to the WAR file 
 3. Copy the new WAR file to C:\Program Files\UgandaEMR\apache-tomcat\webapps 
 4. Start Tomcat  
