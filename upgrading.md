@@ -107,16 +107,13 @@ The steps are as follows:
 
 1. Backup the openmrs database 
 2. Delete the openmrs and openmrs_backup databases
+2. Create a new openmrs and openmrs_backup databases
+3. On the openmrs database run the following scripts:
+  * new-install.sql - this one creates a blank database for UgandaEMR 
+  * concept_dictionary script - use the latest version  
 
-2.Create a new openmrs and openmrs_backup databases
-
-3.On the openmrs database run the following scripts:
-* new-install.sql - this one creates a blank database for UgandaEMR 
-* concept_dictionary script - use the latest version  
-
-4.Restart your computer so that UgandaEMR can start
-
-5.Run the upgrade again 
+4. Restart your computer so that UgandaEMR can start
+5. Run the upgrade again 
 
 #### Error starting uploaded module
 
