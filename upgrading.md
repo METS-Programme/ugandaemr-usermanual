@@ -1,14 +1,15 @@
 ## Upgrading UgandaEMR 
-### Upgrading from OpenMRS 1.6.3
-The upgrade from 1.6.3 to 1.11.6 involves running two steps:
+### Upgrading from OpenMRS 1.6.x,1.9.x
+The upgrade from 1.6.x,1.9.x to 1.11.6 involves running two steps:
 1. Creating a backup file of the existing 1.6.3 installation 
-2. Migrating the 1.6.3 database backup file 
+2. Migrating the 1.6.x,1.9.x database backup file 
 
 All these steps are run from the upgrade folder which can be found at C:\Application Data\OpenMRS\upgrade like in the image below 
 
 Due to the security restrictions, the files shall need to be run as administrator 
-#### 1.6.3 installed on same machine as 1.11.6 
-In this scenario the 1.6.3 database is running on the same computer as the new 1.11.6 database 
+#### 1.6.x,1.9.x installed on same machine as 1.11.6 
+In this scenario the 1.6.x database is running on the same computer as the new 1.11.6 database.
+NB for 1.9.x first run the backup script before installing UgandaEMR. 
 
 1. Double click the backupdatabase file, and the window below will appear. 
 ![Upgrade database backup complete](/images/upgrade/upgrade_database_backup_completed.png)
@@ -29,8 +30,6 @@ The backup file exists from another computer and is to be added to the upgrade f
 
 ![Upgrade Successful](/images/upgrade/upgrade_successful.png)
 
-### Upgrading from OpenMRS 1.9.x
-The upgrade from 1.9.x requires the replacement of the WAR file using the steps below:
 
 ### Adding a new module
 A new module is usually added to provide new functionality and features that were not currently available. 
