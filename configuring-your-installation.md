@@ -14,6 +14,5 @@
 2. In the section that starts with [mysqld] add the line `innodb_buffer_pool_size=2G`
 3. Restart the computer 
 
-### Resetting UgandaEMR Database
 
 
