@@ -3,6 +3,7 @@
 ### Tomcat Configurations
 
 **Memory Configuration**
+
 1.Go to Windows Startup Menu
 2. Search for Configure Tomcat and click on it
 3. On the Configuration Select Java Tab
