@@ -1,5 +1,4 @@
 ## UgandaEMR Configuration 
-
 ### Tomcat Configurations
 
 1. Go to Windows Startup Menu
