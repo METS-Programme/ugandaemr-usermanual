@@ -9,6 +9,7 @@
 5. Click okay
 6. Restart Tomcat
 
+## MySQL 
 
 ### Resetting UgandaEMR Database
 

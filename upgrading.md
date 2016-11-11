@@ -1,4 +1,5 @@
 ## Upgrading UgandaEMR 
+
 ### Upgrading from OpenMRS 1.6.x,1.9.x
 The upgrade from 1.6.x,1.9.x to 1.11.6 involves running two steps:
 1. Creating a backup file of the existing 1.6.3 installation 
