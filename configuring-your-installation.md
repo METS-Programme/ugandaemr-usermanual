@@ -9,7 +9,7 @@
 5. Click okay
 6. Restart Tomcat
 
-## MySQL 
+### MySQL 
 1. Open the file my.cnf in C:\Program Files\MySQL Server\MySQL Server 5.5
 2. In the section that starts with [mysqld] add the line `innodb_buffer_pool_size=2G`
 3. Restart the computer 
