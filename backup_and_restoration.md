@@ -23,7 +23,6 @@ The steps in the backup are.
 The native mysqldump tool can also be used to dump a database into a file 
 `mysqldump -u [useraccount] -p --opt --routines openmrs > backupDDMMYY-HHMM.sql`
 * [useraccount] - the username for accessing the database
-* [password] - the password to connect to the database
 * backupDDMMYY-HHMM.sql - the name of the file, recommended naming for example is backup04April16-1425.sql which has a date and time when the backup was done
 
 **NOTE** There is no space between the -p and the password 
