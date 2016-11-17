@@ -17,11 +17,15 @@ The steps in the backup are.
 ![Backup in progress](images/backup/backup3.jpg)
 4. Once the backup is complete, a message is displayed with the status.
 ![Backup complete](images/backup/backup4.jpg)
+
 #### Using HeidiSQL
 TBD 
+
 #### Backup using mysqldump client 
+
 The native mysqldump tool can also be used to dump a database into a file 
 `mysqldump -u [useraccount] -p --opt --routines openmrs > backupDDMMYY-HHMM.sql`
+
 * [useraccount] - the username for accessing the database
 * backupDDMMYY-HHMM.sql - the name of the file, recommended naming for example is backup04April16-1425.sql which has a date and time when the backup was done
 
