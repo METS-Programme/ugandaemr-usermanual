@@ -1,6 +1,6 @@
-# Backup and Restoration 
-## Database Backup
-### Database Backup Module 
+## Backup and Restoration 
+### Database Backup
+#### Database Backup Module 
 UgandaEMR includes a backup module that can be run from the administration interface. 
 
 The Backups are stored in the OpenMRS configuration directory
@@ -17,9 +17,9 @@ The steps in the backup are.
 ![Backup in progress](images/backup/backup3.jpg)
 4. Once the backup is complete, a message is displayed with the status.
 ![Backup complete](images/backup/backup4.jpg)
-### Using HeidiSQL
+#### Using HeidiSQL
 TBD 
-### MySQL Dump
+#### MySQL Dump
 The native mysqldump tool can also be used to dump a database into a file 
 `mysqldump -u [useraccount] -p --opt --routines openmrs > backupDDMMYY-HHMM.sql`
 * [useraccount] - the username for accessing the database
@@ -27,11 +27,11 @@ The native mysqldump tool can also be used to dump a database into a file
 
 **NOTE** The password will be prompted for on the command line
 
-## Database Restore 
-### Using HeidiSQL 
+### Database Restore 
+#### Using HeidiSQL 
 The UgandaEMR installer includes HeidiSQL a tool that allows the restoration of backup files into the backend database.
  
-### Using mysql command line 
+#### Using mysql command line 
 The native mysql client tool can also be used to load a database from a file 
 
 `mysql -u [useraccount] -p openmrs < [backup_file]`
