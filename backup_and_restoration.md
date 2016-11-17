@@ -19,7 +19,7 @@ The steps in the backup are.
 ![Backup complete](images/backup/backup4.jpg)
 #### Using HeidiSQL
 TBD 
-#### MySQL Dump
+#### Backup Using mysqldump
 The native mysqldump tool can also be used to dump a database into a file 
 `mysqldump -u [useraccount] -p --opt --routines openmrs > backupDDMMYY-HHMM.sql`
 * [useraccount] - the username for accessing the database
@@ -28,10 +28,10 @@ The native mysqldump tool can also be used to dump a database into a file
 **NOTE** The password will be prompted for on the command line
 
 ### Database Restore 
-#### Using HeidiSQL 
+#### Restore using HeidiSQL 
 The UgandaEMR installer includes HeidiSQL a tool that allows the restoration of backup files into the backend database.
  
-#### Using mysql command line 
+#### Restore using mysql client 
 The native mysql client tool can also be used to load a database from a file 
 
 `mysql -u [useraccount] -p openmrs < [backup_file]`
