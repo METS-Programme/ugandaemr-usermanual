@@ -1,7 +1,7 @@
 ## Backup and Restoration 
 ### Database Backup
 #### Database Backup Module 
-UgandaEMR includes a backup module that can be run from the administration interface. 
+The database backup module is available to run from the administration interface. 
 
 The Backups are stored in the OpenMRS configuration directory
 The two common paths to find the backups are
