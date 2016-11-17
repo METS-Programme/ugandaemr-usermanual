@@ -31,3 +31,11 @@ The native mysqldump tool can also be used to dump a database into a file
 ### Using HeidiSQL 
 The UgandaEMR installer includes HeidiSQL a tool that allows the restoration of backup files into the backend database. 
 ### Using mysql command line 
+The native mysql client tool can also be used to load a database from a file 
+
+`mysql -u [useraccount] -p openmrs < [backup_file]`
+
+* [useraccount] - the username for accessing the database
+* [backup_file] - the path to the backup file 
+
+* backupDDMMYY-HHMM.sql - the name of the file, recommended naming for example is backup04April16-1425.sql which has a date and time when the backup was done
