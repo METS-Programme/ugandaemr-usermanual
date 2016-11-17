@@ -25,7 +25,7 @@ The native mysqldump tool can also be used to dump a database into a file
 * [useraccount] - the username for accessing the database
 * backupDDMMYY-HHMM.sql - the name of the file, recommended naming for example is backup04April16-1425.sql which has a date and time when the backup was done
 
-**NOTE** The password will be prompted for on the command line with 
+**NOTE** The password will be prompted for on the command line
 
 ## Database Restore 
 ### Using HeidiSQL 
@@ -39,4 +39,4 @@ The native mysql client tool can also be used to load a database from a file
 * [useraccount] - the username for accessing the database
 * [backup_file] - the path to the backup file 
 
-* backupDDMMYY-HHMM.sql - the name of the file, recommended naming for example is backup04April16-1425.sql which has a date and time when the backup was done
+**NOTE** The password will be prompted for on the command line
