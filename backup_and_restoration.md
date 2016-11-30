@@ -41,6 +41,6 @@ The native mysql client tool can also be used to load a database from a file
 `mysql -u [useraccount] -p openmrs < [backup_file]`
 
 * [useraccount] - the username for accessing the database
-* [backup_file] - the path to the backup file. If the path contains spaces then enclose the path in double quotes
+* [backup_file] - the path to the backup file. If the path contains spaces then enclose the path in double quotes for example "C:\Application Data\OpenMRS\backup\backupfile.sql"
 
 **NOTE** The password will be prompted for on the command line
