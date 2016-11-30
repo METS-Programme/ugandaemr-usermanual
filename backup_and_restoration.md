@@ -44,3 +44,12 @@ The native mysql client tool can also be used to load a database from a file
 * [backup_file] - the path to the backup file. If the path contains spaces then enclose the path in double quotes for example "C:\Application Data\OpenMRS\backup\backupfile.sql"
 
 **NOTE** The password will be prompted for on the command line
+
+### Common Troubleshooting Tips
+#### Error incorrect integer value: 'false' for columb 'retiredby'
+This error usually happens for older versions of the backup module, so the fix is to open the backup file and make the following changes
+* Replace 'false' with '0'
+* Replace 'true' with '1'
+
+Save the changes to the script then run it again 
+
