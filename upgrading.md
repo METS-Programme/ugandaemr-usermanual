@@ -69,6 +69,7 @@ This will be done when there are multiple modules that need to be upgraded as a 
     * openmrs.war 
     * openmrs folder   
   * Delete all the modules in the directory C:\Application Data\OpenMRS\modules which is where any modules uploaded from the administration interface are stored. The modules in this directory override those added to the WAR file 
+  * Delete the C:\Application Data\OpenMRS\lucene folder as these indexes have to be rebuilt 
 3. Copy the new WAR file to C:\Program Files\UgandaEMR\UgandaEMRTomcat\webapps
 4. If needed run any upgrade SQL scripts  
 4. Start Tomcat  
