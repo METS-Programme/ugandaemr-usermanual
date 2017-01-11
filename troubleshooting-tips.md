@@ -24,5 +24,11 @@ When you login the screen may display as below:
 3. Restart your computer 
 
 ### OpenMRS cannot start - Error creating bean with name "messageSourceServiceTarget"
-**Error Messages and Screenshots***
+
+**Error Messages and Screenshots**
+
 ![OpenMRS cannot start - Error creating bean of name "messageSourceServiceTarget"](images/error_message_source.jpg) 
+
+** Resolution ** 
+1. Delete the folder C:\Application Data\OpenMRS\lucene
+2. Restart your computer 
