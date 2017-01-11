@@ -25,5 +25,3 @@ When you login the screen may display as below:
 ![Start All Modules](images/modules_start_all.png)
 
 3. Restart your computer 
-
-
