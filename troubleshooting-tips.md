@@ -37,7 +37,7 @@ When you login the screen may display as below:
 ### White screen appears when carrying out administrative tasks like module installation, upgrade 
 
 ** Error messages and Screenshots ** 
-
+![Error - White Screen during operation](images/error_white_screen.jpeg)
 
 ** Resolution ** 
 Restart your computer and repeat the action that caused the error 
