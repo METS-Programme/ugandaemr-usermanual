@@ -21,5 +21,6 @@ When you login the screen may display as below:
 ![Manage Modules](images/manage_modules_link.png)
 
 2. Click the Start All button 
+3. Restart your computer 
 
 
