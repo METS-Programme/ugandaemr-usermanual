@@ -6,9 +6,7 @@ This section contains tips and tricks to help maintain your installation, as wel
 A quick solution is usually to restart your computer
 
 ### I cannot access the UgandaEMR look yet I can login 
-**Error Messages and Screenshots **
-
-A screens similar to below is shown 
+**Error Messages and Screenshots ** 
 ![Login Error no modules started](images/login_error_modules_not_started.png)
 
 When you login the screen may display as below:
