@@ -35,3 +35,9 @@ When you login the screen may display as below:
 2. Restart your computer 
 
 ### White screen appears when carrying out administrative tasks like module installation, upgrade 
+
+** Error messages and Screenshots ** 
+
+
+** Resolution ** 
+Restart your computer and repeat the action that caused the error 
