@@ -22,3 +22,7 @@ When you login the screen may display as below:
 2. Click the Start All button 
 ![Start All Modules](images/modules_start_all.png)
 3. Restart your computer 
+
+### OpenMRS cannot start - Error creating bean with name "messageSourceServiceTarget"
+**Error Messages and Screenshots***
+![OpenMRS cannot start - Error creating bean of name "messageSourceServiceTarget"](images/error_message_source.jpg) 
