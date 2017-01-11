@@ -11,4 +11,8 @@ When you login the screen may display as below:
 
 ![Modules not started due to cyclic dependencies](images/module_not_started_error_2.png)
 
+To resolve the errors follow the steps below:
+
+1. 
+
 
