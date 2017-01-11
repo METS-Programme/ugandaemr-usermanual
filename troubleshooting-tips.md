@@ -33,3 +33,5 @@ When you login the screen may display as below:
 
 1. Delete the folder C:\Application Data\OpenMRS\lucene
 2. Restart your computer 
+
+### White screen appears when carrying out administrative tasks like module installation, upgrade 
