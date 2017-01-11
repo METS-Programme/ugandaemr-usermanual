@@ -14,7 +14,9 @@ When you login the screen may display as below:
 
 To resolve the errors follow the steps below:
 
-1. On the Administration page click the Manage Modules link
+1. On the Administration page, select the Manage Modules link
+![Manage Modules](images/manage_modules_link.png)
+
 
 2. 
 
