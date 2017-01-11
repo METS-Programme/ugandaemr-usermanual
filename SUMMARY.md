@@ -26,4 +26,5 @@
     * [UgandaEMR Reports](ugandaemr_reports.md)
     * [Data Export](reporting_data_export.md)
 * [Data Quality Checks](data_quality_checks.md)
+* [Troubleshooting Tips](troubleshooting-tips.md)
 
