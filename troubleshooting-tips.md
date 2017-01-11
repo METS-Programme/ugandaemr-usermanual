@@ -3,7 +3,7 @@
 This section contains tips and tricks to help maintain your installation, as well as a general guide to common problems 
 
 ### My installation cannot start 
-A quick solution is usually to restart your computer
+Restart your computer
 
 ### UgandaEMR login screen not available yet system starts
 **Error Messages and Screenshots ** 
