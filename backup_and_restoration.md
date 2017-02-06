@@ -60,7 +60,7 @@ The default configuration does not provide adequate speed for restoration of bac
 3. Search for the variable innodb_buffer_pool_size and change is value to 512M
 4. If the variable does not exists add it following the steps below
   * Search for the section [mysqld]
-  * Add innodb_buffer_pool_size=512M
+  * Add innodb_buffer_pool_size=512M as the first item in that section 
 5. Restart your computer 
 6. Start the import again 
 
