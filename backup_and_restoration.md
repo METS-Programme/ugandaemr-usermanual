@@ -63,7 +63,8 @@ The default configuration does not provide adequate speed for restoration of bac
   * Add innodb_buffer_pool_size=512M as the first item in that section 
 5. Save the file
 6. Restart your computer 
-7. Start the import again 
+7. Run the following on the command prompt `mysql -u openmrs -p -e "SHOW GLOBAL VARIABLES LIKE 'innodb_buffer_pool_size'"`
+8. Start the import again 
 
 ### Common Troubleshooting Tips
 
