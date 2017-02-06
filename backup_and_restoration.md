@@ -52,7 +52,7 @@ The native mysql client tool can also be used to load a database from a file
 
 **NOTE** The password will be prompted for on the command line
 
-#### Improving the speed of restoration 
+#### Improving Restore Speed  
 The default configuration does not provide adequate speed for restoration of backups. If you have more than 5000 patients follow the steps below to improve restore speed
 
 1. Open Notepad as an administrator - this is because the configuration file being edited in located in the C:\Program Files folder which has restrictions on who can edit the files. 
