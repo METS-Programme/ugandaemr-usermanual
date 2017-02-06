@@ -52,6 +52,18 @@ The native mysql client tool can also be used to load a database from a file
 
 **NOTE** The password will be prompted for on the command line
 
+#### Improving the speed of restoration 
+The default configuration does not provide adequate speed for restoration of backups. If you have more than 5000 patients follow the steps below to improve restore speed
+
+1. Open Notepad as an administrator - this is because the configuration file being edited in located in the C:\Program Files folder which has restrictions on who can edit the files. 
+2. Open the file my.cnf (or my in case Windows Explorer is configured to hide the extensions for files)
+3. Search for the variable innodb_buffer_pool_size and change is value to 512M
+4. If the variable does not exists add it following the steps below
+  * Search for the section [mysqld]
+  * Add innodb_buffer_pool_size=512M
+5. Restart your computer 
+6. Start the import again 
+
 ### Common Troubleshooting Tips
 
 #### Error incorrect integer value: 'false' for column 'retiredby'
