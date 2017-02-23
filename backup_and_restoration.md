@@ -66,7 +66,7 @@ The default configuration does not provide adequate speed for restoration of bac
 7. Run the following on the command prompt `mysql -u openmrs -p -e "SHOW GLOBAL VARIABLES LIKE 'innodb_buffer_pool_size'"` which will show 536870912 which means the variable has been changed 
 8. Start the import again 
 
-** NOTE **Depending on your Windows version the file may be called my.ini or my in case file extensions for known types are hidden
+** NOTE **Depending on your Windows version the file may be called my.ini and displayed as my in case file extensions for known types are hidden.
 
 ### Common Troubleshooting Tips
 
