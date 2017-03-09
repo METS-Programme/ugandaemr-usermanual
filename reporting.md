@@ -9,6 +9,10 @@ The reports are generated in the following ways:
 
 
 
+    1. Log into UgandaEMR and select Legacy Systems Administration
+
+![](/assets/cohort_builder_Loginto_UgandaEMR .png)
+
 1. [UgandaEMR Reports](ugandaemr_reports.md) being developed to replace BIRT and provide a starting point for commonly used cohort builder report exports
 
 
