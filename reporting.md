@@ -31,5 +31,9 @@ Click on the "Administration" tab on the green navigation bar.
 
 ![](/assets/manage_data_exports.png)
 
+Click on the"Add New Data Export" link under Manage Data Exports
+
+![](/assets/add_new_dataexport.png)
+
 
 
