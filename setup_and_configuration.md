@@ -97,5 +97,3 @@ A shortcut link to the UgandaEMR instance is also added to the Desktop **
 
 ### Post-installation Configuration
 **TODO: Work on this section**
-## Uninstalling UgandaEMR 
-TODO: Add the folders to be removed when left by the installer 
