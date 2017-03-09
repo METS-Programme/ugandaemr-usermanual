@@ -25,17 +25,19 @@ Click on search and view your results.
 
 USING THE DATA EXPORT FUNCTION
 
-Click on the "Administration" tab on the green navigation bar.
+1. Click on the "Administration" tab on the green navigation bar.
 
-![](/assets/click_on_administrator_navigation_bar.png)Click on "Manage Data Exports" under the Reports section
+![](/assets/click_on_administrator_navigation_bar.png)2. Click on "Manage Data Exports" under the Reports section
 
 ![](/assets/manage_data_exports.png)
 
-Click on the"Add New Data Export" link under Manage Data Exports
+3. Click on the"Add New Data Export" link under Manage Data Exports
 
 ![](/assets/add_new_dataexport.png)
 
-Click on "Define Columns" and ensure that you have "simple column" selected
+4. Click on "Define Columns" and ensure that you have "simple column" selected
 
-![](/assets/click_on_define_columns.png)
+![](/assets/click_on_define_columns.png)5. Pick the "Encounter Date" value in the "first encounter info section of the drop down list as shown above and rename the Column Name to reflect the "Enrollment Date"
+
+6. Save the Data Export and run it.
 
