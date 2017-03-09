@@ -27,9 +27,9 @@ USING THE DATA EXPORT FUNCTION
 
 Click on the "Administration" tab on the green navigation bar.
 
-![](/assets/click_on_administrator_navigation_bar.png)
+![](/assets/click_on_administrator_navigation_bar.png)Click on "Manage Data Exports" under the Reports section
 
-
+![](/assets/manage_data_exports.png)
 
 
 
