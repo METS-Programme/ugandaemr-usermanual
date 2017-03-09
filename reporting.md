@@ -23,5 +23,13 @@ Click on search and view your results.
 
 1. 1. [UgandaEMR Reports](ugandaemr_reports.md) being developed to replace BIRT and provide a starting point for commonly used cohort builder report exports
 
+USING THE DATA EXPORT FUNCTION
+
+Click on the "Administration" tab on the green navigation bar.
+
+![](/assets/click_on_administrator_navigation_bar.png)
+
+
+
 
 
