@@ -35,5 +35,7 @@ Click on the"Add New Data Export" link under Manage Data Exports
 
 ![](/assets/add_new_dataexport.png)
 
+Click on "Define Columns" and ensure that you have "simple column" selected
 
+![](/assets/click_on_define_columns.png)
 
