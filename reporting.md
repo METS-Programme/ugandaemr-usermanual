@@ -7,7 +7,9 @@ The reports are generated in the following ways:
 1. [BIRT Reports](reporting_birt.md) for facility level and some MoH HMIS reports 
 2. [Cohort Builder](reporting_cohort_builder.md) for custom data extraction in Excel for more detailed analysis
 
-  1.Log into UgandaEMR and select Legacy Systems Administration
+USING THE COHORT BUILDER
+
+1.Log into UgandaEMR and select Legacy Systems Administration
 
 ![](/assets/cohort_builder_Loginto_UgandaEMR .png)
 
@@ -18,8 +20,6 @@ The reports are generated in the following ways:
 ![](/assets/click_on_cohortbuilder_tab.png)
 
 Click on search and view your results.
-
-
 
 1. 1. [UgandaEMR Reports](ugandaemr_reports.md) being developed to replace BIRT and provide a starting point for commonly used cohort builder report exports
 
