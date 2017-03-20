@@ -35,6 +35,8 @@ The native mysqldump tool can also be used to dump a database into a file
 
 **NOTE** The password will be prompted for on the command line
 
+An example command will be `mysqldump -u username -p --opt --routines openmrs > backup01Dec2016.sql`
+
 ### Database Restore
 
 #### Restore using HeidiSQL
