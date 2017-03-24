@@ -1,14 +1,12 @@
-A. Bug Fixes
-===========
+## UgandaEMR 1.0.14 Release Notes
+### Bug Fixes
 1. Login issue where an exception was thrown on the login page 
 2. Patient Dashboard - some systems have the viral load values stored as a text value instead of a number which was throwing an error on some installations 
 
-B. New Features
-=============
+### New Features
 None 
 
-C. Links to download files
-=================
+### Links to download files
 1. AIJAR module - https://sourceforge.net/projects/ugandaemr/files/1.0.14/aijar-1.0.14.omod/download 
 2. WAR file - https://sourceforge.net/projects/ugandaemr/files/1.0.14/openmrs.war/download 
 3. 32 bit installer - https://sourceforge.net/projects/ugandaemr/files/1.0.14/ugandaemr1-0-14-installer-32.exe/download 
@@ -18,8 +16,7 @@ C. Links to download files
 
 All files for this release can be found on the EMR portal http://emrportal.mets.or.ug/downloads
 
-D. Recommended Upgrade Paths depending on existing AIJAR version 
-=======================================================
+### Recommended Upgrade Paths depending on existing AIJAR version 
 1. 1.0.13-SNAPSHOT - Replace the WAR file with a new one 
 2. 1.0.12 and lower versions 
   - Run the concept script 
