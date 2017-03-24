@@ -1,6 +1,6 @@
 ## UgandaEMR 1.0.14 Release Notes
 ### Bug Fixes
-1. Login issue where an exception was thrown on the login page 
+1. Login issue where an exception was thrown on the login page for UgandaEMR 1.0.13
 2. Patient Dashboard - some systems have the viral load values stored as a text value instead of a number which was throwing an error on some installations 
 
 ### New Features
