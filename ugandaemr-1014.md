@@ -16,7 +16,7 @@ None
 
 All files for this release can be found on the EMR portal http://emrportal.mets.or.ug/downloads
 
-### Recommended Upgrade Paths depending on existing AIJAR version 
+### Recommended Upgrade Paths depending on existing UgandaEMR version 
 1. 1.0.13-SNAPSHOT - Replace the WAR file with a new one 
 2. 1.0.12 and lower versions 
   - Run the concept script 
