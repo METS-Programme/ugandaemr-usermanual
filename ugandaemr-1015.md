@@ -43,7 +43,7 @@
   * Fixes to 106A based on current feedback from testers - more tests being carried out on data submitted during the October to December 2016 from sites that are providing feedback 
 8. Automated backup runs at 4:00pm everyday 
 9. Ability to mark patient as dead
-10. No need to run SQL scripts to add concepts when upgrading from different versions 
+10. No need to run SQL scripts to add concepts when upgrading from 1.0.14 and higher versions 
 
 ### Links to download files
 1. AIJAR module - https://sourceforge.net/projects/ugandaemr/files/1.0.14/aijar-1.0.15.omod/download
