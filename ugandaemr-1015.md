@@ -2,8 +2,16 @@
 ### Bug Fixes
 1. Registration page 
   * Correction of marital status values to match those on the ART card
-2. 
-
+2. ART Card Summary Page
+  * Corrected validation errors on lost to followup and Transfer out section of outcomes 
+  * 
+3. ART Encounter page 
+  * BP, temperature can be captured
+4. SMC Card 
+  * Can only be entered once per patient 
+  * Added missing serial number 
+  * Added Assistant Circumciser who is included on the card 
+  * 
 ### New Features
 1. Data Validation rules - see Data Quality link on the home page with the following rules:
   * Patients on ART without ART start date 
@@ -23,12 +31,8 @@
   * Sample Rejected saves no value, therefore the last value remains valid 
 
 3. Registration page: 
-  * Add a field to capture Occupation 
-  * Add up to 3 phone numbers 
-   
-4. Data Entry forms
-  * Enable the SMC card to be entered only once per patient 
-  * ART Encounter there are additional vitals for BP, temperature that can be captured 
+  * Add a field to capture Occupation that can be leveraged for key populations 
+  * Add up to 3 phone numbers  
 4. List of encounters shows the person who entered the encounter 
 5. Ability to view an encounter and print the form similar to the old OpenMRS 1.6.3
 6. Search patient
@@ -39,8 +43,14 @@
   * Fixes to 106A based on current feedback from testers - more tests being carried out on data submitted during the October to December 2016 from sites that are providing feedback 
 8. Automated backup runs at 4:00pm everyday 
 9. Ability to mark patient as dead
+10. No need to run SQL scripts to add concepts when upgrading from different versions 
 
 ### Links to download files
+1. AIJAR module - https://sourceforge.net/projects/ugandaemr/files/1.0.14/aijar-1.0.15.omod/download
+2. WAR file - https://sourceforge.net/projects/ugandaemr/files/1.0.14/openmrs.war/download
+3. 32 bit installer - https://sourceforge.net/projects/ugandaemr/files/1.0.14/ugandaemr1-0-15-installer-32.exe/download
+4. 64 bit installer - https://sourceforge.net/projects/ugandaemr/files/1.0.14/ugandaemr1-0-15-installer-64.exe/download
+
 ### Recommended Upgrade Paths depending on existing UgandaEMR version 
 1. 1.0.14 - Replace the WAR file with a new one 
 2. 1.0.13-SNAPSHOT - Replace the WAR file with a new one 
