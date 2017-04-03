@@ -57,7 +57,7 @@
 1. 1.0.14 - Replace the WAR file with a new one 
 2. 1.0.13-SNAPSHOT - Replace the WAR file with a new one 
 2. 1.0.12 and lower versions 
-  - Run the concept script 
+  - Run the concept script from https://sourceforge.net/projects/ugandaemr/files/1.0.13/concept_dictonary_ref_1.0.13.sql/download
   - Deploy the WAR file 
 
 
