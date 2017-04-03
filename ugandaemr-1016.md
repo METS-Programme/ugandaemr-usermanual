@@ -50,8 +50,8 @@
 ### Links to download files
 1. AIJAR module - https://sourceforge.net/projects/ugandaemr/files/1.0.16/aijar-1.0.15.omod/download
 2. WAR file - https://sourceforge.net/projects/ugandaemr/files/1.0.16/openmrs.war/download
-3. 32 bit installer - https://sourceforge.net/projects/ugandaemr/files/1.0.16/ugandaemr1-0-15-installer-32.exe/download
-4. 64 bit installer - https://sourceforge.net/projects/ugandaemr/files/1.0.16/ugandaemr1-0-15-installer-64.exe/download
+3. 32 bit installer - https://sourceforge.net/projects/ugandaemr/files/1.0.16/ugandaemr1-0-16-installer-32.exe/download
+4. 64 bit installer - https://sourceforge.net/projects/ugandaemr/files/1.0.16/ugandaemr1-0-16-installer-64.exe/download
 
 ### Recommended Upgrade Paths depending on existing UgandaEMR version 
 1. 1.0.14 - Replace the WAR file with a new one 
