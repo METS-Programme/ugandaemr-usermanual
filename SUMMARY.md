@@ -30,5 +30,5 @@
 * [Uninstalling UgandaEMR](uninstalling-ugandaemr.md)
 * [Release Notes](release-notes.md)
   * [Release 1.0.14](ugandaemr-1014.md)
-  * [Release 1.0.16](ugandaemr-1015.md)
+  * [Release 1.0.16](ugandaemr-1016.md)
 
