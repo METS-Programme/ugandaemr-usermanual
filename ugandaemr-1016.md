@@ -48,7 +48,7 @@
 10. No need to run SQL scripts to add concepts when upgrading from 1.0.13 and 1.0.14
 
 ### Links to download files
-1. AIJAR module - https://sourceforge.net/projects/ugandaemr/files/1.0.16/aijar-1.0.15.omod/download
+1. AIJAR module - https://sourceforge.net/projects/ugandaemr/files/1.0.16/aijar-1.0.16.omod/download
 2. WAR file - https://sourceforge.net/projects/ugandaemr/files/1.0.16/openmrs.war/download
 3. 32 bit installer - https://sourceforge.net/projects/ugandaemr/files/1.0.16/ugandaemr1-0-16-installer-32.exe/download
 4. 64 bit installer - https://sourceforge.net/projects/ugandaemr/files/1.0.16/ugandaemr1-0-16-installer-64.exe/download
