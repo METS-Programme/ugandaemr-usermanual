@@ -157,14 +157,14 @@ The fix involves deleting the dataintegrity_rule table using different tools:
   `use openmrs`
   * Delete the dataintegrity tables - not all of these may exist in your installation 
   
-  ```DROP TABLE IF EXISTS dataintegrity_run;
-  DROP TABLE IF EXISTS dataintegrity_result;
-  DROP TABLE IF EXISTS dataintegrity_column;
-  DROP TABLE IF EXISTS dataintegrity_check;
-  DROP TABLE IF EXISTS dataintegrity_integrity_checks;
-  DROP TABLE IF EXISTS dataintegrity_result;
-  DROP TABLE IF EXISTS dataintegrity_rule;
-  ```  
+  `DROP TABLE IF EXISTS dataintegrity_run;`
+  `DROP TABLE IF EXISTS dataintegrity_result;`
+  `DROP TABLE IF EXISTS dataintegrity_column;`
+  `DROP TABLE IF EXISTS dataintegrity_check;`
+  `DROP TABLE IF EXISTS dataintegrity_integrity_checks;`
+  `DROP TABLE IF EXISTS dataintegrity_result;`
+  `DROP TABLE IF EXISTS dataintegrity_rule;`
+  
   * Delete previous liquibase change logs for data integrity
   
   `DELETE FROM liquibasechangelog WHERE ID LIKE '%data-integrity%';`
