@@ -144,7 +144,7 @@ A common cause is blank entries in the address hierarchy during the upgrade proc
 ![Cleanup Address Hierarchy Levels](/assets/cleanup_address_hierarchy_level.png)
 
 #### Error starting Data Integrity Module 
-This error tends to happen with old versions of OpenMRS that had the data integrity module installed, and have a dataintegrity_rule table installed, so the new version cannot replace this table. 
+This error tends to happen from UgandaEMR 1.0.16 that requires this module to be available, which is based on upgrades from old versions of OpenMRS that had the data integrity module installed. The old version of a module left a dataintegrity_rule table installed, so the new version cannot replace this table. 
 
 The fix involves deleting the dataintegrity_rule table using different tools:
 
