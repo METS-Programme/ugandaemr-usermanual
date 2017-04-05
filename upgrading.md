@@ -157,13 +157,20 @@ The fix involves deleting the dataintegrity_rule table using different tools:
   `use openmrs`
   * Delete the dataintegrity tables - not all of these may exist in your installation 
   
-  `
-  DROP TABLE dataintegrity_check;
-  DROP TABLE dataintegrity_column;
-  DROP TABLE dataintegrity_rule;
-  DROP TABLE dataintegrity_run;
-  `
+  ```DROP TABLE IF EXISTS dataintegrity_run;
+  DROP TABLE IF EXISTS dataintegrity_result;
+  DROP TABLE IF EXISTS dataintegrity_column;
+  DROP TABLE IF EXISTS dataintegrity_check;
+  DROP TABLE IF EXISTS dataintegrity_integrity_checks;
+  DROP TABLE IF EXISTS dataintegrity_result;
+  DROP TABLE IF EXISTS dataintegrity_rule;
+  ```  
+  * Delete previous liquibase change logs for data integrity
   
+  `DELETE FROM liquibasechangelog WHERE ID LIKE '%data-integrity%';`
   * Restart your computer 
   
 2. Heidi SQL 
+  * Download the upgrade script from https://sourceforge.net/projects/ugandaemr/files/1.0.16/dataintegritymodule_cleanup-1.0.16.sql/download
+  * Open a connection to the openmrs database on port 3306
+  * Open File -> Load SQL File and load the downloaded file 
