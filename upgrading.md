@@ -142,3 +142,22 @@ A common cause is blank entries in the address hierarchy during the upgrade proc
 ![Manage Address Hierarchy Link](/assets/manage_address_hierarchy_link.png)
 3. Delete all the address hierarchy entries in the rectangle which are causing the error one level at a time 
 ![Cleanup Address Hierarchy Levels](/assets/cleanup_address_hierarchy_level.png)
+
+#### Error starting Data Integrity Module 
+This error tends to happen with old versions of OpenMRS that had the data integrity module installed, and have a dataintegrity_rule table installed, so the new version cannot replace this table. 
+
+The fix involves deleting the dataintegrity_rule table using different tools:
+
+1. Command line 
+  * Connect to the database using the command 
+  
+  `mysql -u openmrs -p` which will request for a password 
+  * Change to the openmrs database 
+  
+  `use openmrs`
+  * Delete the dataintegrity_rule table 
+  
+  `DROP TABLE dataintegrity_rule`
+  * Restart your computer 
+  
+2. Heidi SQL 
