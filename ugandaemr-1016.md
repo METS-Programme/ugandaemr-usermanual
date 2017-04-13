@@ -4,14 +4,12 @@
   * Correction of marital status values to match those on the ART card
 2. ART Card Summary Page
   * Corrected validation errors on lost to followup and Transfer out section of outcomes 
-  * 
 3. ART Encounter page 
   * BP, temperature can be captured
 4. SMC Card 
   * Can only be entered once per patient 
   * Added missing serial number 
   * Added Assistant Circumciser who is included on the card 
-  * 
 
 ### New Features
 1. Data Validation rules - see Data Quality link on the home page with the following rules:
@@ -46,6 +44,7 @@
 8. Automated backup scheduled run at 4:00pm everyday 
 9. Ability to mark patient as dead
 10. No need to run SQL scripts to add concepts when upgrading from 1.0.13 and 1.0.14
+11. Removed BIRT reports module, now replaced by UgandaEMR Reports 
 
 ### Links to download files
 1. WAR file - https://sourceforge.net/projects/ugandaemr/files/1.0.16/openmrs.war/download
