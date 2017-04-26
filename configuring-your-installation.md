@@ -1,5 +1,5 @@
 ## UgandaEMR Configuration 
-### Enabling ART Number
+### Enabling ART Number Patient Identifier
 
 Ministry of Health policy dictates that the patient's preART number has to be carried on into ART treatement, as the ART number. However there are circumstances where this is not the case, so a separate ART number identifier is needed. 
 
