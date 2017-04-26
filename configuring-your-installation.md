@@ -11,7 +11,7 @@ To enable this identifier:
 ![Legacy System Adminstration Link](images/legacy_system administration_link.png)
 3. Under Maintenance in the middle column, select Settings ![Settings Link](images/settings.png)
 4. On the Settings page, select UgandaEMR from the left hand side
-5. Change the value of the RT Patient Identifier to true, then click the Save button ![ART Patient Identifier Global Property[(images/global_property_art_patient_identifier.png)
+5. Change the value of the RT Patient Identifier to true, then click the Save button ![ART Patient Identifier Global Property](images/global_property_art_patient_identifier.png)
 6. Restart your computer and the new identifier will be enabled.
 
 ### Tomcat Configurations
