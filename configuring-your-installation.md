@@ -1,4 +1,19 @@
 ## UgandaEMR Configuration 
+### Enabling ART Number
+
+Ministry of Health policy dictates that the patient's preART number has to be carried on into ART treatement, as the ART number. However there are circumstances where this is not the case, so a separate ART number identifier is needed. 
+
+To enable this identifier:
+
+1. Login as a user with administrator privileges
+![Login](images/log_in_as_admin_link.png)
+2. Click legacy administration link as circled in the image below
+![Legacy System Adminstration Link](images/legacy_system administration_link.png)
+3. Under Maintenance in the middle column, select Settings ![Settings Link](images/settings.png)
+4. On the Settings page, select UgandaEMR from the left hand side
+5. Change the value of the RT Patient Identifier to true, then click the Save button ![ART Patient Identifier Global Property[(images/global_property_art_patient_identifier.png)
+6. Restart your computer and the new identifier will be enabled.
+
 ### Tomcat Configurations
 
 1. Go to Windows Startup Menu
