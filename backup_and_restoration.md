@@ -64,6 +64,7 @@ The default configuration does not provide adequate speed for restoration of bac
 4. If the variable does not exists add it following the steps below
   * Search for the section [mysqld]
   * Add innodb_buffer_pool_size=512M as the first line in that section 
+  * Add max_allowed_packet=16M (this caters for the larger size of backup batches now being sent) 
 5. Save the file
 6. Restart your computer 
 7. Run the following on the command prompt `mysql -u openmrs -p -e "SHOW GLOBAL VARIABLES LIKE 'innodb_buffer_pool_size'"` which will show 536870912 which means the variable has been changed 
