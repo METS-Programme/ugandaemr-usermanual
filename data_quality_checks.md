@@ -1,7 +1,8 @@
 # Data Validation 
 Currently data validation rules are enforced on the data entry forms to ensure that required information is entered and that conflicting data items are not entered e.g., pregnancy for males. 
 
-The following data quality checks are available in UgandaEMR starting from [version 1.0.16](ugandaemr-1016.md)
+## Data Validation Rules  
+The following data quality checks are run after the data is saved and  starting from [version 1.0.16](ugandaemr-1016.md)
  under different rules:
 
 1. Incomplete ART information
@@ -18,4 +19,24 @@ The following data quality checks are available in UgandaEMR starting from [vers
   * Exposed Infants with Encounters and no Summary page 
   * Exposed Infants older than 18 months with no final outcome 
 
+## View Rule Violations 
+1. On the dashboard click the Data Quality button  
+![Data Quality Link](/assets/data_quality_link.png)
+2. This will display all the data violations 
+![Data Violations](/assets/list_of_data_violations.png)
 
+**NOTE: ** The search allows a user to search for names of clients, ART and Exposed Infant numbers as identifiers
+
+ ## Re-run the Data Validation Rules  
+ At times it is necessary to manually run the data validation rules 
+ 1. On the list of validation results, click the Dataintegrity Rules link next to the home icon 
+![Data Integrity Rules Link](/assets/data_integrity_rules_link.png)
+2. This shows the list of available rules 
+![Data Validation Rules List](/assets/data_integrity_rules_list.png)
+3. To run a single rule click the blue arrow at the end of the row for the rule 
+![Run a single rule](/assets/data_integrity_rules_list_single_rule.png)
+4. To run all the validation rules again, click the link at the bottom of the list of rules 
+![Run all validation rules](/assets/data_integrity_rules_list_all_rules.png)
+
+**NOTE** Running all the validation rules will slow down the computer and may take some time depending on the number of rules, so run this at times of low usage. 
+ 
