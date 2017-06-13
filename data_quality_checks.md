@@ -19,7 +19,7 @@ The following data quality checks are run after the data is saved and  starting 
   * Exposed Infants with Encounters and no Summary page 
   * Exposed Infants older than 18 months with no final outcome 
 
-## View Rule Violations 
+## View Rule Violation Results 
 1. On the dashboard click the Data Quality button  
 ![Data Quality Link](/assets/data_quality_link.png)
 2. This will display all the data violations 
@@ -27,14 +27,15 @@ The following data quality checks are run after the data is saved and  starting 
 
 **NOTE: ** The search allows a user to search for names of clients, ART and Exposed Infant numbers as identifiers
 
- ## Re-run the Data Validation Rules  
- At times it is necessary to manually run the data validation rules 
- 1. On the list of validation results, click the Dataintegrity Rules link next to the home icon 
-![Data Integrity Rules Link](/assets/data_integrity_rules_link.png)
+ ## Manually Run Data Validation Rules  
+ At times it is necessary to manually run the data validation rules: 
+ 
+1. On the list of validation results, click the Dataintegrity Rules link next to the home icon 
+![Data Integrity Rules Link](/assets/data_integrity_rules_link.png) 
 2. This shows the list of available rules 
-![Data Validation Rules List](/assets/data_integrity_rules_list.png)
+![Data Validation Rules List](/assets/data_integrity_rules_list.png) 
 3. To run a single rule click the blue arrow at the end of the row for the rule 
-![Run a single rule](/assets/data_integrity_rules_list_single_rule.png)
+![Run a single rule](/assets/data_integrity_rules_list_single_rule.png) 
 4. To run all the validation rules again, click the link at the bottom of the list of rules 
 ![Run all validation rules](/assets/data_integrity_rules_list_all_rules.png)
 
