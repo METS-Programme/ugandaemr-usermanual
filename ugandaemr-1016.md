@@ -6,6 +6,7 @@
   * Corrected validation errors on lost to followup and Transfer out section of outcomes 
 3. ART Encounter page 
   * BP, temperature can be captured
+  * Next appointment date not required for transfer out patients 
 4. SMC Card 
   * Can only be entered once per patient 
   * Added missing serial number 
