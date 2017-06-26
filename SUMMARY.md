@@ -32,6 +32,5 @@
   * [Release 1.0.14](ugandaemr-1014.md)
   * [Release 1.0.16](ugandaemr-1016.md)
   * [Release 1.0.17](ugandaemr-1017.md)
-
-
+  * [Release 2.0.0](release-notes-200.md)
 
