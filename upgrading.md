@@ -72,7 +72,7 @@ This will be done when there are multiple modules that need to be upgraded as a 
   * Delete the C:\Application Data\OpenMRS\lucene folder as these indexes have to be rebuilt 
 3. Copy the new WAR file to C:\Program Files\UgandaEMR\UgandaEMRTomcat\webapps
 4. If needed run any upgrade SQL scripts  
-4. Start Tomcat  
+4. Restart your computer 
 3. Go to the UgandaEMR login link at http://localhost:8081/openmrs/ 
 
 ### Common Troubleshooting Tips
