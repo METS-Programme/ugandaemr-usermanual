@@ -3,6 +3,8 @@
 * [Introduction](README.md)
 * [Terminologies](terminologies.md)
 * [System Setup and Configuration](setup_and_configuration.md)
+  * [UgandaEMR 2.x Installation](setup_and_configuration/ugandaemr-2x-installation.md)
+  * [UgandaEMR 1.x Installation](setup_and_configuration/ugandaemr-1x-installation.md)
 * [Backup and Restoration](backup_and_restoration.md)
 * [Upgrading UgandaEMR](upgrading.md)
 * [Configuring your installation](configuring-your-installation.md)
