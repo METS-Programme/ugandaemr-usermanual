@@ -1,26 +1,28 @@
+## UgandaEMR 1.x Installation Steps
+
 1. Launch of the splash screen
 
 ![](/images/installer/splash.jpg)
 
-2. License Agreement
+1. License Agreement
 
 ![](/images/installer/1.2-agreement.jpg)
 
-3. Selecting components to install  
-![](/images/installer/1.3-components.jpg)
+1. Selecting components to install  
+   ![](/images/installer/1.3-components.jpg)
 
-4. Determining Installation directory
+2. Determining Installation directory
 
 ![](/images/installer/1.4-location.jpg)
 
-5. Confirm start menu item  
-![](/images/installer/1.5-shortcut.jpg)
+1. Confirm start menu item  
+   ![](/images/installer/1.5-shortcut.jpg)
 
-6. Install Java Runtime  
-![](/images/installer/2.1-inst-java.jpg)  
-![](/images/installer/2.3-java.jpg)  
-![](/images/installer/2.4-java-2.jpg)  
-![](/images/installer/2.5-inst-java-complete.jpg)
+2. Install Java Runtime  
+   ![](/images/installer/2.1-inst-java.jpg)  
+   ![](/images/installer/2.3-java.jpg)  
+   ![](/images/installer/2.4-java-2.jpg)  
+   ![](/images/installer/2.5-inst-java-complete.jpg)
 
 7.Install MySQL  
 ![](/images/installer/3.1-mysql-configure.jpg)  
@@ -45,8 +47,8 @@
 ![](/images/installer/5.1-fire.jpg)
 
 10.Installing HeidiSQL  
-![](/images/installer/1.1heidisql.PNG)  
-  
+![](/images/installer/1.1heidisql.PNG)
+
 ![](/images/installer/1.2heidisql.PNG)  
 ![](/images/installer/1.3heidisql.PNG)  
 ![](/images/installer/1.4heidisql.PNG)  
@@ -57,6 +59,4 @@
 
 11.UgandaEMR Installation completed  
 ![](/images/installer/6.0-complete-installation.jpg)
-
-
 
