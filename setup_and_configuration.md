@@ -47,10 +47,3 @@ A shortcut link to the UgandaEMR instance is also added to the Desktop **
 ### Installation Overview
 
 ![Installation proces overview](images/installer/installation_process.png)
-
-### 
-
-
-
-
-
