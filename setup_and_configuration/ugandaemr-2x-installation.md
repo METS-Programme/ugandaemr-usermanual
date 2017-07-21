@@ -4,29 +4,29 @@
 
 ![](/images/installer/splash.jpg)
 
-2. License Agreement
+1. License Agreement
 
 ![](/images/installer/1.2-agreement.jpg)
 
-3. Selecting components to install  
-![](/images/installer/1.3-components.jpg)
+1. Selecting components to install  
+   ![](/images/installer/1.3-components.jpg)
 
 4.Determining Installation directory
 
 ![](/images/installer/1.4-location.jpg)
 
-5. Confirm start menu item  
-![](/images/installer/1.5-shortcut.jpg)
+1. Confirm start menu item  
+   ![](/images/installer/1.5-shortcut.jpg)
 
-6. Install Java Runtime  
-![](/images/installer/2.1-inst-java.jpg)
+2. Install Java Runtime  
+   ![](/images/installer/2.1-inst-java.jpg)
 
 ![](/assets/Java1.1.PNG)
 
 ![](/assets/Java2.PNG)  
-![](/assets/Java4.PNG)  
 ![](/assets/Java3.PNG)
 
+![](/assets/Java4.PNG)  
 ![](/assets/Java5.PNG)
 
 ![](/assets/Java6.PNG)
