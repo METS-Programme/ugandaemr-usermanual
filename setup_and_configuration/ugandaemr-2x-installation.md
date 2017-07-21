@@ -1,6 +1,6 @@
 ## UgandaEMR 2.x Installation Steps
 
-Launch of the splash screen
+1. Launch of the splash screen
 
 ![](/images/installer/splash.jpg)
 
@@ -11,7 +11,7 @@ Launch of the splash screen
 1. Selecting components to install  
    ![](/images/installer/1.3-components.jpg)
 
-2. Determining Installation directory
+4.Determining Installation directory
 
 ![](/images/installer/1.4-location.jpg)
 
@@ -19,10 +19,17 @@ Launch of the splash screen
    ![](/images/installer/1.5-shortcut.jpg)
 
 2. Install Java Runtime  
-   ![](/images/installer/2.1-inst-java.jpg)  
-   ![](/images/installer/2.3-java.jpg)  
-   ![](/images/installer/2.4-java-2.jpg)  
-   ![](/images/installer/2.5-inst-java-complete.jpg)
+   ![](/images/installer/2.1-inst-java.jpg)
+
+![](/assets/Java1.1.PNG)
+
+![](/assets/Java2.PNG)  
+![](/assets/Java3.PNG)
+
+![](/assets/Java4.PNG)  
+![](/assets/Java5.PNG)
+
+![](/assets/Java6.PNG)
 
 7.Install MySQL  
 ![](/images/installer/3.1-mysql-configure.jpg)  
@@ -59,6 +66,4 @@ Launch of the splash screen
 
 11.UgandaEMR Installation completed  
 ![](/images/installer/6.0-complete-installation.jpg)
-
-
 
