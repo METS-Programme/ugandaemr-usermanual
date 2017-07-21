@@ -6,13 +6,13 @@
 
 2. License Agreement
 
-![](/images/installer/1.2-agreement.jpg)
+![](/images/installer/1.2-agreement.jpg) 
 
 3. Selecting components to install  
 
 ![](/images/installer/1.3-components.jpg)
 
-4.Determining Installation directory
+4. Determining Installation directory
 
 ![](/images/installer/1.4-location.jpg)
 
