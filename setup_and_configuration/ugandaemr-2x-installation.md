@@ -4,12 +4,12 @@
 
 ![](/images/installer/splash.jpg)
 
-2. License Agreement
+1. License Agreement
 
 ![](/images/installer/1.2-agreement.jpg)
 
-3. Selecting components to install  
-![](/images/installer/1.3-components.jpg)4
+1. Selecting components to install  
+   ![](/images/installer/1.3-components.jpg)4
 
 Determining Installation directory
 
@@ -48,6 +48,8 @@ Determining Installation directory
 ![](/images/installer/4.3-java-directory.jpg)  
 ![](/images/installer/4.4-tomcat-componets.jpg)  
 ![](/images/installer/4.5-configure-tomccat.jpg)  
+![](/images/installer/4.6-tomcat-location.jpg)
+
 ![](/images/installer/4.7-tomcat-complete.jpg)
 
 9.Install Firefox  
