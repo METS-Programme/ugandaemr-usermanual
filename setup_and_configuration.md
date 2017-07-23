@@ -47,3 +47,10 @@ A shortcut link to the UgandaEMR instance is also added to the Desktop **
 ### Installation Overview
 
 ![Installation proces overview](images/installer/installation_process.png)
+
+### Installation Steps 
+Follow the steps below for the relevant installation process: 
+
+1. [UgandaEMR 1.x Installation Steps](setup_and_configuration/ugandaemr-1x-installation.md) 
+2. [UgandaEMR 2.x Installation Steps](setup_and_configuration/ugandaemr-2x-installation.md)
+3. [Post-installation Configuration](setup_and_configuration/post-installation-configuration.md)
