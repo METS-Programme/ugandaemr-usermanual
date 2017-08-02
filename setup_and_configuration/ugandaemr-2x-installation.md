@@ -9,7 +9,7 @@
 ![](/images/installer/1.2-agreement.jpg)
 
 1. Selecting components to install  
-   ![](/images/installer/1.3-components.jpg)4
+   ![](/images/installer/1.3-components.jpg)
 
 Determining Installation directory
 
