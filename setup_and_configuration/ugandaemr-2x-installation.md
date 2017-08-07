@@ -18,10 +18,10 @@
 
 1. ![](/assets/Components.PNG)
 
-1. Confirm start menu item  
+2. Confirm start menu item  
    ![](/images/installer/1.5-shortcut.jpg)
 
-2. Install Java Runtime
+3. Install Java Runtime
 
 ![](/images/installer/2.1-inst-java.jpg)
 
@@ -74,4 +74,12 @@
 
 11.UgandaEMR Installation completed  
 ![](/images/installer/6.0-complete-installation.jpg)
+
+Incase the screen below appears, ![](/assets/intital_setup_screen.PNG)
+
+Go to the start menu; Select UgandaEMR and select connect Database path and let it run and correct the path
+
+![](/assets/PATH.png)
+
+You will then be required to start UgandaEMR using the Desktop shortcut
 
