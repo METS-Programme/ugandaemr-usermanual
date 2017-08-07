@@ -32,6 +32,7 @@
 * [Data Quality Checks](data_quality_checks.md)
 * [Troubleshooting Tips](troubleshooting-tips.md)
 * [Uninstalling UgandaEMR](uninstalling-ugandaemr.md)
+  * [Unistalling UgandaEMR older versions](uninstalling-ugandaemr/unistallinstalling-ugandaemr-older-versions.md)
 * [Release Notes](release-notes.md)
   * [Release 1.0.14](ugandaemr-1014.md)
   * [Release 1.0.16](ugandaemr-1016.md)
