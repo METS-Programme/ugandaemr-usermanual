@@ -8,17 +8,22 @@
 
 ![](/images/installer/1.2-agreement.jpg)
 
-1. Selecting components to install  
-   ![](/images/installer/1.3-components.jpg)
+2. Selecting components to install  
 
-Determining Installation directory
+![](/images/installer/1.3-components.jpg)
+
+3. Determining Installation directory
 
 ![](/images/installer/1.4-location.jpg)
 
-1. Confirm start menu item  
-   ![](/images/installer/1.5-shortcut.jpg)
+4. Select Restore Existing UgandaEMR database if you have any data backed up from any older version of UgandaEMR
 
-2. Install Java Runtime
+![](/assets/Components.PNG)
+
+5. Confirm start menu item  
+![](/images/installer/1.5-shortcut.jpg)
+
+6. Install Java Runtime
 
 ![](/images/installer/2.1-inst-java.jpg)
 
