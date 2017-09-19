@@ -19,10 +19,11 @@ This will be done when there are multiple modules that need to be upgraded as a 
 
 **UgandaEMR 2.0.1**
 
-1. Goto Menu and select Upgrade UgandaEMR War File.![](/assets/upgrade_war_file_20.png)
-2. Select Install.
-
-
+1. Goto  Start Menu  Select All Programs \(Windows 7\) or All apps \(Windows 10\).
+2. Select UgandaEMR then select Upgrade UgandaEMR War File.
+3. This will popup a window. in it select install.
+4. Browse to the location of the war file. then upgrade and click open. 
+5. When upgrade is complete it will give you a message to proceed to browser.
 
 
 
