@@ -39,11 +39,11 @@ The backup file exists from another computer and is to be added to the upgrade f
 
 ### Adding a new module
 
-A new module is usually added to provide new functionality and features that were not currently available.   
+A new module is usually added to provide new functionality and features that were not currently available.  
 1. Login as a user with administration privileges  
 2. Click legacy administration link as circled in the image below  
 ![Legacy System Adminstration Link](images/legacy_system administration_link.png)  
-3. Select the Manage Modules link   
+3. Select the Manage Modules link  
 ![Manage Modules](images/manage_modules_link.png)  
 4. On the Manage modules page, click the Add/Upgrade module button  
 ![Add or Upgrade Module](images/add_or_upgrade_module_button.png)  
@@ -57,7 +57,7 @@ In this case the modules to be upgraded will be uploaded through the administrat
 1. Login as a user with administration privileges  
 2. Click legacy administration link as circled in the image below  
 ![Legacy System Adminstration Link](images/legacy_system administration_link.png)  
-3. Select the Manage Modules link   
+3. Select the Manage Modules link  
 ![Manage Modules](images/manage_modules_link.png)  
 4. On the Manage modules page, click the Add/Upgrade module button  
 ![Add or Upgrade Module](images/add_or_upgrade_module_button.png)  
@@ -131,7 +131,7 @@ The steps are as follows:
 
 5. Restart your computer so that UgandaEMR can start
 
-6. Run the upgrade again 
+6. Run the upgrade again
 
 #### Error starting uploaded module
 
@@ -147,7 +147,7 @@ This is usually characterized by a green arrow next to the module name, an error
 
 #### UI Framework Error: Null Pointer Exception on Patient Registration
 
-A common cause is blank entries in the address hierarchy during the upgrade process as seen in the link below   
+A common cause is blank entries in the address hierarchy during the upgrade process as seen in the link below  
 ![Null Pointer Exception on Patient Registration after Upgrade](/assets/upgrade_error_patient_reg_null_pointer.png)
 
 1. Click the Administration link in the top menu as below:
