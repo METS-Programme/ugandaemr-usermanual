@@ -46,14 +46,7 @@
 ![](/images/installer/3.6-mysql-finished.jpg)
 
 8.Install Tomcat  
-![](/images/installer/4.1-tomcat-installation.jpg)  
-![](/images/installer/4.2-tomcat-agree.jpg)  
-![](/images/installer/4.3-java-directory.jpg)  
-![](/images/installer/4.4-tomcat-componets.jpg)  
-![](/images/installer/4.5-configure-tomccat.jpg)  
-![](/images/installer/4.6-tomcat-location.jpg)
-
-![](/images/installer/4.7-tomcat-complete.jpg)
+This is a silent process in the background
 
 9.Install Firefox  
 ![](/images/installer/5.3-fire-fox-inst.jpg)  
