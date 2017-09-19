@@ -10,6 +10,8 @@
 * [Upgrading UgandaEMR](upgrading.md)
   * [Upgrading from 1.6.x ,1.9.x to 1.11.x](upgrading/from-16x19x-to-111x.md)
   * [Upgrading/Add Modules](upgrading/upgrading-modules.md)
+  * [Upgrading Warfile](upgrading/upgrading-warfile.md)
+  * [Trouble Shooting](upgrading/trouble-shooting.md)
 * [Configuring your installation](configuring-your-installation.md)
 * [Managing User Accounts](user_account_management.md)
   * [Create a new user account](create_a_new_user_account.md)

@@ -3,7 +3,7 @@
 A new module is usually added to provide new functionality and features that were not currently available.  
 1. Login as a user with administration privileges  
 2. Click legacy administration link as circled in the image below  
-![](/Legacy_system_admin.png)  
+![](/images/legacy_system administration_link.png)  
 3. Select the Manage Modules link  
 ![](/images/legacy_admin_manage_modules.png)  
 4. On the Manage modules page, click the Add/Upgrade module button  
