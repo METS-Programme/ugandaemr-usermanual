@@ -1,10 +1,9 @@
 # 
 
-|  |  |
-| :--- | :--- |
-|  |  |
+* [x] ![](/images/ugandaemr_logo.png)
+  ---
 
-# ![](/assets/cohort_builder_Loginto_UgandaEMR .png)UgandaEMR User Manual
+# UgandaEMR User Manual
 
 This document describes how to use the UgandaEMR to capture and report on patient information.
 
