@@ -12,6 +12,7 @@
   * [Upgrading/Add Modules](upgrading/upgrading-modules.md)
   * [Upgrading Warfile](upgrading/upgrading-warfile.md)
   * [Trouble Shooting](upgrading/trouble-shooting.md)
+  * [Upgrading to 2.0.x from 1.11.x](upgrading/upgrading-to-20x-from-111x.md)
 * [Configuring your installation](configuring-your-installation.md)
 * [Managing User Accounts](user_account_management.md)
   * [Create a new user account](create_a_new_user_account.md)
