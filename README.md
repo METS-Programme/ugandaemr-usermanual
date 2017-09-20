@@ -1,7 +1,6 @@
 # 
 
-* [x] ![](/images/ugandaemr_logo.png)
-  ---
+* [ ] ## ![](/images/ugandaemr_logo.png)
 
 # UgandaEMR User Manual
 
