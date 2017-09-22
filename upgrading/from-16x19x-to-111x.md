@@ -35,20 +35,16 @@ The backup file exists from another computer and is to be added to the upgrade f
 
 ![Upgrade Successful](/images/upgrade/upgrade_successful.png)
 
-**Upgrading from 1.11.x to 2.0.x**
+## **Upgrading from 1.11.x to 2.0.x**
 
 1. Download an upgrade file from [http://emrportal.mets.or.ug/downloads](http://emrportal.mets.or.ug/downloads) called UgandaEMRUpgrade2\_0
 2. Download the UgandaEMR 2.0 war File from [http://emrportal.mets.or.ug/downloads](http://emrportal.mets.or.ug/downloads)
 3. Run the downloaded file and click install. This will prompt a popup installer with install which will run some background tasks then prompt you to browse to a war file
 4. select the war file you have just download. and select okay. This will upload the war file in the tomcat server
 5. Click okay to complete the process
-6. Launch Browser with UgandaEMR at http://localhost:8081/openmrs a setup screen will show asking you for your current username and password
+6. Launch Browser with UgandaEMR at [http://localhost:8081/openmrs](http://localhost:8081/openmrs) a setup screen will show asking you for your current username and password
 7. enter username and password and click on the green button.
-8. Scroll down and press on the green button below the page. then wait login screen appears.
-
-
-
-
+8. Scroll down and press on the green button below the page. then wait login screen to appears.
 
 
 

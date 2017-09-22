@@ -1,8 +1,8 @@
 # 
 
-* [ ] ## ![](/images/ugandaemr_logo.png)
+* [ ] ##                        ![](/images/ugandaemr_logo.png)   
 
-# UgandaEMR User Manual
+#                                        UgandaEMR User Manual
 
 This document describes how to use the UgandaEMR to capture and report on patient information.
 
