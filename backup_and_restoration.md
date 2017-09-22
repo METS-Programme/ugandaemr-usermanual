@@ -27,7 +27,7 @@ TBD
 
 #### Backup using mysqldump client
 
-The native mysqldump tool can also be used to dump a database into a file   
+The native mysqldump tool can also be used to dump a database into a file  
 `mysqldump -u [useraccount] -p --opt --routines openmrs > backupDDMMYY-HHMM.sql`
 
 * \[useraccount\] - the username for accessing the database
@@ -35,7 +35,7 @@ The native mysqldump tool can also be used to dump a database into a file
 
 **NOTE** The password will be prompted for on the command line
 
-An example command will be 
+An example command will be   
 `mysqldump -u username -p --opt --routines openmrs > backup04April16-1425.sql`
 
 ### Database Restore
@@ -55,16 +55,28 @@ The native mysql client tool can also be used to load a database from a file
 
 **NOTE** The password will be prompted for on the command line
 
-#### Improving Restore Speed  
+#### **Restore using Backup and restore option in UgandaEMR \(2.0 on wards\)**
+
+UgandaEMR 2.0 provides a database restore option. found in the start menu programs/apps section to use it,
+
+1. Launch start menu 
+2. go to all programs/all apps
+3. Under UgandaEMR select Restore UgandaEMR Database this will launch a pop up window 
+4. Click install. this will enable you to browse for a database you wish to restore.
+5. Select the Database file then click open. A dialogue will appear showing the database you have selected
+6. Click okay and a cmd promopt widnow will show. after it closes, the database will be restored.
+
+#### Improving Restore Speed
+
 The default configuration does not provide adequate speed for restoration of backups. If you have more than 5000 patients follow the steps below to improve restore speed
 
 1. Open Notepad as an administrator - this is because the configuration file being edited in located in the C:\Program Files folder which has restrictions on who can edit the files. 
-2. Open the file my.cnf (or my in case Windows Explorer is configured to hide the extensions for files)
-3. Search for the variable innodb_buffer_pool_size and change is value to 512M
+2. Open the file my.cnf \(or my in case Windows Explorer is configured to hide the extensions for files\)
+3. Search for the variable innodb\_buffer\_pool\_size and change is value to 512M
 4. If the variable does not exists add it following the steps below
-  * Search for the section [mysqld]
-  * Add innodb_buffer_pool_size=512M as the first line in that section 
-  * Add max_allowed_packet=16M (this caters for the larger size of backup batches now being sent) 
+   * Search for the section \[mysqld\]
+   * Add innodb\_buffer\_pool\_size=512M as the first line in that section 
+   * Add max\_allowed\_packet=16M \(this caters for the larger size of backup batches now being sent\) 
 5. Save the file
 6. Restart your computer 
 7. Run the following on the command prompt `mysql -u openmrs -p -e "SHOW GLOBAL VARIABLES LIKE 'innodb_buffer_pool_size'"` which will show 536870912 which means the variable has been changed 
