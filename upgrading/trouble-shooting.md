@@ -113,23 +113,21 @@ The fix involves deleting the dataintegrity\_rule table using different tools:
 
 **MYSQL Cant start After 2.0 Upgrade or installation**
 
-Go to start menu, search for services.
-
-Under Services look for mysql.
-
-Stop mysql service
-
-Go to C:\ProgramData\MySQL\MySQL Server 5.5\data
-
-Delete ib\_logfile0,ib\_logfile1
-
-Restart mysql from services.
+1. Go to start menu, search for services.
+2. Under Services look for mysql.
+3. Stop mysql service
+4. Go to C:\ProgramData\MySQL\MySQL Server 5.5\data
+5. Delete ib\_logfile0,ib\_logfile1
+6. Restart mysql from services.
 
 **Tomcat Failing to start after installation or upgrade of 2.0**
 
-Go to Menu search for Launch Tomcat Manager and clink on it
-
-After check the notification area are click on tomcat icon 
+1. Go to Menu search for Launch Tomcat Manager and clink on it
+2. After check the notification area and right click on tomcat icon ![](/images/installer/windows_notification.png)
+3. Select Configuretion and a popup window will show
+4. Go to the Java Tab  and select Use default.
+5. Incase there are some text in the Java Options:, remove them and click apply
+6. Go back to General tab and click start, to start tomcat
 
 
 
