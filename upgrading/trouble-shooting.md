@@ -111,5 +111,19 @@ The fix involves deleting the dataintegrity\_rule table using different tools:
    * Open a connection to the openmrs database on port 3306
    * Open File -&gt; Load SQL File and load the downloaded file 
 
+**MYSQL Cant start After 2.0 Upgrade**
+
+Go to start menu, search for services.
+
+Under Services look for mysql.
+
+Stop mysql service
+
+Go to C:\ProgramData\MySQL\MySQL Server 5.5\data
+
+Delete ib\_logfile0,ib\_logfile1
+
+Restart mysql from services.
+
 
 
