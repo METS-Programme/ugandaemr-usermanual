@@ -34,13 +34,27 @@
 
 8.Install Tomcat  
 ![](/images/installer/4.1-tomcat-installation.jpg)  
+
 ![](/images/installer/4.2-tomcat-agree.jpg)  
-![](/images/installer/4.3-java-directory.jpg)  
+
 ![](/images/installer/4.4-tomcat-componets.jpg)  
-![](/images/installer/4.5-configure-tomccat.jpg)
+
+** NOTE:  DO NOT CHNAGE THE Java Virtual Machine path PATH **
+
+![](/images/installer/4.3-java-directory.jpg)  
+
+The following changes need to be made:
+  * HTTP/1.1 Connector port - 8081
+  * Windows Service Name - UgandaEMRTomcat
+  * Tomcat administrator login username: root 
+  * Tomcat administrator login password: openmrs
+  
+ 
+![](/images/installer/4.5-configure-tomccat.jpg) 
 
 ![](/images/installer/4.6-tomcat-location.jpg)
 
+  
 ![](/images/installer/4.7-tomcat-complete.jpg)
 
 9.Install Firefox  
@@ -60,6 +74,6 @@
 
 ![](/images/installer/1.7heidisql.PNG)
 
-11. UgandaEMR Installation completed  
+11.UgandaEMR Installation completed  
 ![](/images/installer/6.0-complete-installation.jpg)
 
