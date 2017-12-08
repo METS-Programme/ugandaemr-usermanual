@@ -111,5 +111,10 @@ The fix involves deleting the dataintegrity\_rule table using different tools:
    * Open a connection to the openmrs database on port 3306
    * Open File -&gt; Load SQL File and load the downloaded file 
 
+#### UgandaEMR Reports starts but some reports cannot be found 
+The root cause is that the reports do not have UTF8 collation so some characters are not saved. 
 
+The fix is to run the command below on your openmrs database:
+
+  `ALTER TABLE ``serialized_object`` MODIFY ``serialized_data`` MEDIUMTEXT CHARACTER SET utf8 NOT NULL;`
 
