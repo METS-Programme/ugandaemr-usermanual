@@ -20,3 +20,22 @@ Search for and find the client - Demo 123
 
 ![](/assets/terminated 5.PNG)
 
+### Troubleshooting Tips 
+#### I am unable to mark a patient as dead - no error appears and nothing is shown 
+
+This problem has been identified with migrations from older versions of OpenMRS where some data is empty which causes internal validation issues
+
+1. Backup your database 
+2. Open a command prompt and type the following commands:
+
+  `mysql --verbose --verbose -u openmrs -popenmrs -e "DELETE FROM person_attribute WHERE value IS NULL OR value = '';" openmrs`
+2. The output of the command will be similar to: 
+  `Warning: Using a password on the command line interface can be insecure.
+  \--------------
+DELETE FROM person_attribute WHERE person_attribute_type_id = 5 AND (value IS NULL OR value = '')
+  \--------------
+
+  Query OK, 1359 rows affected (0.18 sec)`
+3. Backup your database 
+4. Try marking a patient as dead, the issue should be resolved 
+
