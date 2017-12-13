@@ -32,7 +32,7 @@ This problem has been identified with migrations from older versions of OpenMRS 
 2. The output of the command will be similar to: 
   `Warning: Using a password on the command line interface can be insecure.
   \--------------
-DELETE FROM person_attribute WHERE person_attribute_type_id = 5 AND (value IS NULL OR value = '')
+DELETE FROM person_attribute WHERE value IS NULL OR value = ''
   \--------------
 
   Query OK, 1359 rows affected (0.18 sec)`
