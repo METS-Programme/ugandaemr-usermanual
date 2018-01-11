@@ -64,7 +64,7 @@ UgandaEMR 2.0 provides a database restore option. found in the start menu progra
 3. Under UgandaEMR select "Restore UgandaEMR Database". This will launch a popup window.
 4. In the Popup window Click install. This gives  you a place to browse for a database you wish to restore.
 5. Select the Database file then click open. A dialogue will appear showing the database you have selected
-6. Click okay and a cmd promopt widnow will show. after it closes, the database will be restored.
+6. Click okay.  At this point cmd promopt widnow will show and close after the database has been restored.
 
 #### Improving Restore Speed
 
