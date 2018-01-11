@@ -35,7 +35,7 @@ The native mysqldump tool can also be used to dump a database into a file
 
 **NOTE** The password will be prompted for on the command line
 
-An example command will be   
+An example command will be  
 `mysqldump -u username -p --opt --routines openmrs > backup04April16-1425.sql`
 
 ### Database Restore
@@ -60,9 +60,9 @@ The native mysql client tool can also be used to load a database from a file
 UgandaEMR 2.0 provides a database restore option. found in the start menu programs/apps section to use it,
 
 1. Launch start menu 
-2. go to all programs/all apps
-3. Under UgandaEMR select Restore UgandaEMR Database this will launch a pop up window 
-4. Click install. this will enable you to browse for a database you wish to restore.
+2. Go to "All programs/All apps"
+3. Under UgandaEMR select "Restore UgandaEMR Database". This will launch a popup window.
+4. In the Popup window Click install. This gives  you a place to browse for a database you wish to restore.
 5. Select the Database file then click open. A dialogue will appear showing the database you have selected
 6. Click okay and a cmd promopt widnow will show. after it closes, the database will be restored.
 
