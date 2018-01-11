@@ -111,11 +111,23 @@ The fix involves deleting the dataintegrity\_rule table using different tools:
    * Open a connection to the openmrs database on port 3306
    * Open File -&gt; Load SQL File and load the downloaded file 
 
-### UgandaEMR 2.0 Specific Issues
-#### UgandaEMR Reports starts well but some reports cannot be found 
-The root cause is that the reports do not have UTF8 collation so some characters are not saved. 
+**MYSQL Cant start After 2.0 Upgrade or installation**
 
-The fix is to run the command below on your openmrs database:
+1. Go to start menu, search for services.
+2. Under Services look for mysql.
+3. Stop mysql service
+4. Go to C:\ProgramData\MySQL\MySQL Server 5.5\data
+5. Delete ib\_logfile0,ib\_logfile1
+6. Restart mysql from services.
 
-  `ALTER TABLE ``serialized_object`` MODIFY ``serialized_data`` MEDIUMTEXT CHARACTER SET utf8 NOT NULL;`
+**Tomcat Failing to start after installation or upgrade of 2.0**
+
+1. Go to Menu search for Launch Tomcat Manager and clink on it
+2. After check the notification area and right click on tomcat icon ![](/images/installer/windows_notification.png)
+3. Select Configuretion and a popup window will show
+4. Go to the Java Tab  and select Use default.
+5. Incase there are some text in the Java Options:, remove them and click apply
+6. Go back to General tab and click start, to start tomcat
+
+
 
