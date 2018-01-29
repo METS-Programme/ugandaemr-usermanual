@@ -18,7 +18,7 @@ Search for and find the client - Demo 123
 
 ![](/assets/terminated 4.PNG)
 
-![](/assets/terminated 5.PNG)
+![Patient Marked as Dead](/assets/terminated 5.PNG)
 
 ### Troubleshooting Tips 
 #### I am unable to mark a patient as dead - no error appears and nothing is shown 
