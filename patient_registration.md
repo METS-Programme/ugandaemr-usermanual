@@ -72,7 +72,17 @@ TBD
 
 ![User Not Provider Error](images/logged_in_user_not_provider.png)
 
-### Solution:
+##### Solution
 
-The above means your User Account does not have privileges to provide care to a patient. You therefore have to add Provider role to the user account as [indicated herein](making_an_existing_user_a_provider.md) .
+The above means your User Account does not have privileges to provide care to a patient. You therefore have to add Provider role to the user account as [indicated herein](making_an_existing_user_a_provider.md)
 
+#### Failed to save changes 
+![Failed to save changes](/assets/user_registration_failed_to_save_changes.jpeg)
+
+##### Solution
+
+This problem is common with implementations that have been upgraded from 1.6.3 and is caused by null or empty string values for patient attributes during migrations. 
+
+The solution is to run the following command:
+
+`DELETE FROM person_attribute WHERE value IS NULL OR value = '';`
