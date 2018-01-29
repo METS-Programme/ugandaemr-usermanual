@@ -94,7 +94,7 @@ TBD
 
 The above means your User Account does not have privileges to provide care to a patient. You therefore have to add Provider role to the user account as [indicated herein](making_an_existing_user_a_provider.md)
 
-#### Failed to save changes 
+#### Failed to save changes during patient registration 
 ![Failed to save changes](/assets/user_registration_failed_to_save_changes.jpeg)
 
 ##### Solution
