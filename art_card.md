@@ -40,6 +40,19 @@ To capture the ART Card Encounters, follow the steps below;
 9. You should see a new page ![Encounter Page After saving](images/art_card_encounter_page_after_saving.png)
 10. Click on the visit circled on the left to see the saved encounter record ![Art Card Encounter Saved Page](images/art_card_encounter_saved_page.png)
 
+#### Viral Load Data 
+The recommendation for entering viral loads is as follows:
+1. Enter the viral load in the first encounter after the results have been received at the facility 
+2. The viral load information is entered on the ART Encounter page from the results slip in the bottom left hand corner as follows:
+  * Date Viral Load Taken - the date when the patient was bled for viral load 
+  * Viral Load Results:
+    * Detected - a viral load result was detected which enables the Viral Load field to enter the copies found 
+    * Not Detected - no viral load detected 
+    * Sample Rejected - there are issues with the sample so the patient has to be bled again 
+  * Viral Load - the copies per ml
+
+![ART Encounter Viral Load section](/assets/viral-load-art-encounter.png)
+
 #### Common Errors
 #### Timeout when entering data 
 Should the page fail to save, due to a timeout session/when you have spent more than a 20 minutes without saving, do the following: 
