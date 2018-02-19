@@ -68,11 +68,16 @@ This is a silent process in the background
 11.UgandaEMR Installation completed  
 ![](/images/installer/6.0-complete-installation.jpg)
 
-Incase the screen below appears, ![](/assets/intital_setup_screen.PNG)
+### Troubleshooting Guide 
+#### OpenMRS Installation Wizard Appears 
+Incase the screen below appears, ![OpenMRS 2.0.5 Installation Wizard](/assets/intital_setup_screen.PNG)
 
-Go to the start menu; Select UgandaEMR and select connect Database path and let it run and correct the path
+To fix this:
+
+1. Go to the start menu
+2. Select UgandaEMR and select **Connect Database Path** and let it run and correct the path
 
 ![](/assets/PATH.png)
-
-You will then be required to start UgandaEMR using the Desktop shortcut
+3. Restart your computer 
+4. Start UgandaEMR using the Desktop shortcut
 
