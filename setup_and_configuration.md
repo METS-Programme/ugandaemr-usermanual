@@ -12,7 +12,7 @@
 
 ### Recommended Minimum Software Requirements
 
-1. Java 7 \(do not use Java 8\)
+1. Java 8 for UgandaEMR 2.0.0 and above \(Java 7 for UgandaEMR 1.x - not recommended\)
 2. Tomcat 7
 3. MySQL 5.5
 4. Mozilla Firefox 44
