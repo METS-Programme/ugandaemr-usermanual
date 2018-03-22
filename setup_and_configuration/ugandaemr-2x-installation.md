@@ -80,4 +80,28 @@ To fix this:
 ![](/assets/PATH.png)
 3. Restart your computer 
 4. Start UgandaEMR using the Desktop shortcut
+#### Error occurs starting a large number due to metadamapping index creation issue 
+An error similar to the one below is shown in the log files: 
+
+```
+WARN - ModuleFactory.startModuleInternal(788) |2018-03-22 16:58:39,213| Error while trying to start module: metadatamapping
+org.openmrs.module.ModuleException: Unable to update data model using liquibase.xml. Module: Metadata Mapping
+	at org.openmrs.module.ModuleFactory.runLiquibase(ModuleFactory.java:1034)
+	at org.openmrs.module.ModuleFactory.startModuleInternal(ModuleFactory.java:728)
+	at org.openmrs.api.context.Daemon$1.run(Daemon.java:74)
+Caused by: liquibase.exception.MigrationFailedException: Migration failed for change set liquibase.xml::metadatamapping-2016-02-07-1310-b-mysql::kosmik:
+     Reason: liquibase.exception.DatabaseException: Error executing SQL create index metadatamapping_idx_mdtm_mdclass on metadatamapping_metadata_term_mapping(metadata_class(255)): Duplicate key name 'metadatamapping_idx_mdtm_mdclass':
+          Caused By: Error executing SQL create index metadatamapping_idx_mdtm_mdclass on metadatamapping_metadata_term_mapping(metadata_class(255)): Duplicate key name 'metadatamapping_idx_mdtm_mdclass':
+          Caused By: Duplicate key name 'metadatamapping_idx_mdtm_mdclass'
+```
+
+**Fix:** Run the following SQL statement on the openmrs database then restart your computer 
+
+```DROP index metadatamapping_idx_mdtm_mdclass ON metadatamapping_metadata_term_mapping;
+```
+
+
+
+          
+          
 
