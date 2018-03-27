@@ -100,6 +100,18 @@ Caused by: liquibase.exception.MigrationFailedException: Migration failed for ch
 ```DROP index metadatamapping_idx_mdtm_mdclass ON metadatamapping_metadata_term_mapping;
 ```
 
+#### MySQL Database Service keeps failing after an upgrade from UgandaEMR 1.x 
+![Upgrade database connection failure](/assets/upgrade_database_connection_failure.jpeg)
+
+During the upgrade process, a configuration file is copied which may cause the system to crash due to a conflict in the sizes of the MySQL log files before upgrade and after upgrade. The steps below are to remove the log files causing the conflict
+
+1. Open Services console and stop the UgandaEMR MySQL service 
+2. Using windows explorer navigate to the MySQL folder, either _C:\Program Files\MySQL\Data_ or _C:\Program Files\MySQL 5.5\Data_
+3. Delete the files named idblog 
+4. Restart your computer 
+
+The connection error should be resolved. 
+
 
 
           
