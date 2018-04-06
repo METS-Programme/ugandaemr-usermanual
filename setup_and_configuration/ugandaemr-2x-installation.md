@@ -97,8 +97,13 @@ Caused by: liquibase.exception.MigrationFailedException: Migration failed for ch
 
 **Fix:** Run the following SQL statement on the openmrs database then restart your computer 
 
-```DROP index metadatamapping_idx_mdtm_mdclass ON metadatamapping_metadata_term_mapping;
+
+
 ```
+DROP index metadatamapping_idx_mdtm_mdclass ON metadatamapping_metadata_term_mapping;
+```
+
+
 
 #### MySQL Database Service keeps failing after an upgrade from UgandaEMR 1.x 
 ![Upgrade database connection failure](/assets/upgrade_database_connection_failure.jpeg)
@@ -111,6 +116,33 @@ During the upgrade process, a configuration file is copied which may cause the s
 4. Restart your computer 
 
 The connection error should be resolved. 
+
+#### UgandaEMR Reports module does not start on upgrade to 2.0 
+There are two issues that have been identified that cause this:
+  * The maximum packet size for the MySQL server is too small so needs to be increased to 16M
+  * The serialized column where the Excel template is stored does not allow the special characters to be saved.
+  
+The fix is therefore a 2 step process:
+
+1. Increase the maximum packet size for the MySQL server: 
+ - Open Notepad as an administrator - this is because the configuration file being edited in located in the C:\Program Files folder which has restrictions on who can edit the files. 
+ - Open the file my.cnf (or my in case Windows Explorer is configured to hide the extensions for files\)
+    - Search for the variable max_allowed_packet and change is value to 16M
+    - If the variable does not exists add it following the steps below:
+    
+     * Search for the section [mysqld]
+     * Add max_allowed_packet=16M 
+ - Save the file
+ - Restart your computer 
+ - Run the following on the command prompt `mysql -u openmrs -p -e "SHOW GLOBAL VARIABLES LIKE 'max_allowed_packet'"` which will show 16777216 which means the variable has been changed 
+
+2. Fix the character set of the serialized column by running the following SQL statement on the openmrs database:
+```
+ALTER TABLE `serialized_object` MODIFY `serialized_data` MEDIUMTEXT CHARACTER SET utf8 NOT NULL;
+```
+3. Restart your computer 
+
+
 
 
 
