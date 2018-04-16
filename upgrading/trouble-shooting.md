@@ -78,7 +78,10 @@ This happens in case there is an error when loading the entries for the address 
 
 ![partially loaded address hierarchy](/assets/address_hierarchy_partially_loaded.jpeg)
 
-The fix is by deleting the current address hierarchy entries, then restarting your computer so that it is loaded properly. Run the SQL commands below: 
+The fix is by deleting the current address hierarchy entries, then restarting your computer so that it is loaded properly. 
+
+1. Backup your database 
+2. Run the SQL commands below: 
 
 ```
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT = @@CHARACTER_SET_CLIENT */;
@@ -115,7 +118,7 @@ DROP TABLE address.address_hierarchy_level;
 /*!40101 SET COLLATION_CONNECTION = @OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES = @OLD_SQL_NOTES */;
 ```
-
+3. Restart your computer 
 
 
 #### Error starting Data Integrity Module
