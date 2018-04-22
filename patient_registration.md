@@ -101,6 +101,8 @@ The above means your User Account does not have privileges to provide care to a 
 
 This problem is common with implementations that have been upgraded from 1.6.3 and is caused by null or empty string values for patient attributes during migrations. 
 
-The solution is to run the following command:
+The solution is as follows:
+1. Backup your database 
+2. Run the following command:
 
 `DELETE FROM person_attribute WHERE value IS NULL OR value = '';`
