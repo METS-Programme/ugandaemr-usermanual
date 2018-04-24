@@ -84,6 +84,16 @@ The default configuration does not provide adequate speed for restoration of bac
 
 ** NOTE **Depending on your Windows version the file may be called my.ini and displayed as my in case file extensions for known types are hidden.
 
+#### Tracking the progress of a restore operation
+Usually for large restores, it is necessary to check the progress of a restore operation. 
+
+1. Connect to the database via command line `mysql -u openmrs -p openmrs`
+2. Check the tables that have been created by running the command `show tables;`
+
+    * There are about 160 tables as of UgandaEMR 2.x so this is one measure 
+    * The encounter, visit, obs, patient, person tables are the largest 
+3. Check the status of a table being created `SELECT count(uuid) FROM table_name;` will show how many rows are being added to a table 
+
 ### Common Troubleshooting Tips
 
 #### Error incorrect integer value: 'false' for column 'retiredby'
