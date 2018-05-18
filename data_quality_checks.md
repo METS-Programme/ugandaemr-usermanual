@@ -26,6 +26,9 @@ The following data quality checks are run after the data is saved and  starting 
 ![Data Violations](/assets/list_of_data_violations.png)
 
 **NOTE: ** The search allows a user to search for names of clients, ART and Exposed Infant numbers as identifiers
+## Fix the Violations 
+1. Click the link to fix the issue with the data. 
+2. Once you have completed fixing the issue, then manually run the rules against the updated data
 
  ## Manually Run Data Validation Rules  
  At times it is necessary to manually run the data validation rules: 
