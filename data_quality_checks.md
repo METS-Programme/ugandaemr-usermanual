@@ -1,7 +1,7 @@
-# Data Validation 
+## Data Validation 
 Currently data validation rules are enforced on the data entry forms to ensure that required information is entered and that conflicting data items are not entered e.g., pregnancy for males. 
 
-## Data Validation Rules  
+### Data Validation Rules  
 The following data quality checks are run after the data is saved and  starting from [version 1.0.16](ugandaemr-1016.md)
  under different rules:
 
@@ -19,19 +19,20 @@ The following data quality checks are run after the data is saved and  starting 
   * Exposed Infants with Encounters and no Summary page 
   * Exposed Infants older than 18 months with no final outcome 
 
-## View Rule Violation Results 
+### View Rule Violation Results 
 1. On the dashboard click the Data Quality button  
 ![Data Quality Link](/assets/data_quality_link.png)
 2. This will display all the data violations 
 ![Data Violations](/assets/list_of_data_violations.png)
 
 **NOTE: ** The search allows a user to search for names of clients, ART and Exposed Infant numbers as identifiers
-## Fix the Violations 
+
+### Fix the Violations 
 1. Click the link to fix the issue with the data. 
 2. Once you have completed fixing the issue, then manually run the rules against the updated data
 
- ## Manually Run Data Validation Rules  
- At times it is necessary to manually run the data validation rules: 
+### Manually Run Data Validation Rules  
+At times it is necessary to manually run the data validation rules usually after fixing some of the violations or after a data entry session: 
  
 1. On the list of validation results, click the Dataintegrity Rules link next to the home icon 
 ![Data Integrity Rules Link](/assets/data_integrity_rules_link.png) 
