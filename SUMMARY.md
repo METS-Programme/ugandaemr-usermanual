@@ -7,6 +7,7 @@
   * [UgandaEMR 2.x Installation](setup_and_configuration/ugandaemr-2x-installation.md)
   * [Post-installation Configuration](setup_and_configuration/post-installation-configuration.md)
 * [Backup and Restoration](backup_and_restoration.md)
+* [Changing Database Backup File Path](changing-database-backup-file-path.md)
 * [Upgrading UgandaEMR](upgrading.md)
   * [Upgrading from 1.6.x ,1.9.x to 1.11.x](upgrading/from-16x19x-to-111x.md)
   * [Upgrading/Add Modules](upgrading/upgrading-modules.md)
@@ -36,9 +37,5 @@
 * [Troubleshooting Tips](troubleshooting-tips.md)
 * [Uninstalling UgandaEMR](uninstalling-ugandaemr.md)
   * [Unistalling UgandaEMR older versions](uninstalling-ugandaemr/unistallinstalling-ugandaemr-older-versions.md)
-* [Release Notes](release-notes.md)
-  * [Release 1.0.14](ugandaemr-1014.md)
-  * [Release 1.0.16](ugandaemr-1016.md)
-  * [Release 1.0.17](ugandaemr-1017.md)
-  * [Release 2.0.0](release-notes-200.md)
+* Changing Database Backup File Path
 
