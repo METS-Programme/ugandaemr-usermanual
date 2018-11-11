@@ -105,3 +105,17 @@ This error usually happens for older versions of the backup module, so the fix i
 
 Save the changes to the script then run it again
 
+#### Changing scheduled backup time 
+A default backup task is created to run at 15:59 every day, which tends to slow down the system and may lock entry for sites with significant patient and observation data. The steps below allow an administrator to change the time the scheduled backup runs 
+
+1. On the home page select Legacy Administration 
+![Legacy System Administration](/Legacy_system_admin.png)
+2. In the left hand menu click the Manage Scheduler link
+![Manage Scheduler](/assets/manage_scheduler.png)
+3. On the Scheduler List click the link on the Database Backup Task
+![Scheduler List](/assets/scheduled_task_list.png)
+4. On the Database Backup task click the Schedule link 
+![Schedule for Database Backup Task](/assets/database_backup_task.png)
+5. Change schedule for the task, add a date in the future so that the task can be run 
+![Change Task Schedule](/assets/database_backup_task_schedule.png)
+
