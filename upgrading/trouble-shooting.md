@@ -101,14 +101,14 @@ WHERE property IN
       ('address.format', 'addresshierarchy.database_version', 'addresshierarchy.mandatory', 'addresshierarchy.started');
 
 /* Drop the address hierarchy tables if necessary */
-ALTER TABLE address.address_hierarchy_address_to_entry_map DROP FOREIGN KEY address_id_to_person_address_table;
-ALTER TABLE address.address_hierarchy_address_to_entry_map DROP FOREIGN KEY entry_id_to_address_hierarchy_table;
-ALTER TABLE address.address_hierarchy_entry DROP FOREIGN KEY level_to_level;
-ALTER TABLE address.address_hierarchy_entry DROP FOREIGN KEY `parent-to-parent`;
-ALTER TABLE address.address_hierarchy_level DROP FOREIGN KEY parent_level;
-DROP TABLE address.address_hierarchy_address_to_entry_map;
-DROP TABLE address.address_hierarchy_entry;
-DROP TABLE address.address_hierarchy_level;
+ALTER TABLE address_hierarchy_address_to_entry_map DROP FOREIGN KEY address_id_to_person_address_table;
+ALTER TABLE address_hierarchy_address_to_entry_map DROP FOREIGN KEY entry_id_to_address_hierarchy_table;
+ALTER TABLE address_hierarchy_entry DROP FOREIGN KEY level_to_level;
+ALTER TABLE address_hierarchy_entry DROP FOREIGN KEY `parent-to-parent`;
+ALTER TABLE address_hierarchy_level DROP FOREIGN KEY parent_level;
+DROP TABLE IF EXISTS address_hierarchy_address_to_entry_map;
+DROP TABLE IF EXISTS address_hierarchy_entry;
+DROP TABLE IF EXISTS address_hierarchy_level;
 
 /*!40101 SET SQL_MODE = @OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS = @OLD_FOREIGN_KEY_CHECKS */;
