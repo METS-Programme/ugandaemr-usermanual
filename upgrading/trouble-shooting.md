@@ -98,7 +98,7 @@ The fix is by deleting the current address hierarchy entries, then restarting yo
 /* The address hierarchy may be installed before so this causes problems - remove instal trail of the address hierarchy */
 DELETE FROM global_property
 WHERE property IN
-      ('address.format', 'addresshierarchy.database_version', 'addresshierarchy.mandatory', 'addresshierarchy.started');
+      ('address.format', 'addresshierarchy.database_version', 'addresshierarchy.mandatory', 'addresshierarchy.started', 'metadatadeploy.bundle.version.org.openmrs.module.aijar.api.deploy.bundle.UgandaAddressMetadataBundle');
 
 /* Drop the address hierarchy tables if necessary */
 ALTER TABLE address_hierarchy_address_to_entry_map DROP FOREIGN KEY address_id_to_person_address_table;
