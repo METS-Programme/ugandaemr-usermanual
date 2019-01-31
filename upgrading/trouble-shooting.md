@@ -2,7 +2,7 @@
 
 #### backupdatabase script has an access denied error
 
-![Backup database error](images/upgrade/upgrade_backup_database_error.png)  
+![Backup database error](/images/upgrade/upgrade_backup_database_error.png)  
 This is because the password for root has changed from a blank password
 
 1.Open the backup database \(or backupdatabase.bat\) file in Notepad and add the following to the line that starts with @mysqldump
