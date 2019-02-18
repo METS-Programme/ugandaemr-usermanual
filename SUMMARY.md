@@ -37,4 +37,8 @@
 * [Troubleshooting Tips](troubleshooting-tips.md)
 * [Uninstalling UgandaEMR](uninstalling-ugandaemr.md)
   * [Unistalling UgandaEMR older versions](uninstalling-ugandaemr/unistallinstalling-ugandaemr-older-versions.md)
+* [Release Notes] (release-notes.md)
+  * [1.0.14](ugandaemr-1014.md)
+  * [1.0.17](ugandaemr-1017.md)
+  * [2.0.0](ugandaemr-200.md)
 
