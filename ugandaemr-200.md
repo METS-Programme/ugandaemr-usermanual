@@ -31,6 +31,25 @@
 
 ### Bug Fixes
 
-1. 
+None
+
+### Links to download files
+
+This release requires a re-installation of UgandaEMR due to an internal platform change that requires Java 8, instead of Java 7 that was used by previous versions. However separate files are provided for new installations and upgrades 
+
+#### New Installation 
+
+For new machines with no UgandaEMR installed 
+
+*32 bit installer (469.6MB) - https://sourceforge.net/projects/ugandaemr/files/2.0.0/ugandaemr2-0-0-installer-32.exe/download
+* 64 bit installer (478.1 MB) - https://sourceforge.net/projects/ugandaemr/files/2.0.0/ugandaemr2-0-0-installer-64.exe/download
+
+
+#### Upgrade Packages 
+
+For existing versions of UgandaEMR 
+
+* 32 bit upgrade installer (206.0 MB) - https://sourceforge.net/projects/ugandaemr/files/2.0.0/ugandaemr_2.0_upgrade32bit.exe/download
+* 64 bit upgrade installer (206.0 MB) - https://sourceforge.net/projects/ugandaemr/files/2.0.0/ugandaemr_2.0_upgrade64bit.exe/download
 
 
