@@ -159,7 +159,7 @@ The fix involves deleting the dataintegrity\_rule table using different tools:
    * Open a connection to the openmrs database on port 3306
    * Open File -&gt; Load SQL File and load the downloaded file 
 
-**MYSQL Cant start After 2.0 Upgrade or installation**
+#### Mysql cannot start after 2.0 upgrade or installation 
 
 1. Go to start menu, search for services.
 2. Under Services look for mysql.
@@ -170,7 +170,7 @@ The fix involves deleting the dataintegrity\_rule table using different tools:
     * ib\_logfile1
 6. Restart mysql from services.
 
-**Tomcat Failing to start after installation or upgrade of 2.0**
+#### Tomcat Failing to start after 2.0 upgrade or installation
 
 1. Go to Menu search for Launch Tomcat Manager and clink on it
 2. After check the notification area and right click on tomcat icon ![](/images/installer/windows_notification.png)
