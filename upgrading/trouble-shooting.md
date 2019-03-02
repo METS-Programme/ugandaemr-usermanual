@@ -165,7 +165,9 @@ The fix involves deleting the dataintegrity\_rule table using different tools:
 2. Under Services look for mysql.
 3. Stop mysql service
 4. Go to C:\ProgramData\MySQL\MySQL Server 5.5\data
-5. Delete ib\_logfile0,ib\_logfile1
+5. Delete the following files:
+    * ib\_logfile0
+    * ib\_logfile1
 6. Restart mysql from services.
 
 **Tomcat Failing to start after installation or upgrade of 2.0**
