@@ -71,11 +71,11 @@ UgandaEMR 2.0 provides a database restore option. found in the start menu progra
 The default configuration does not provide adequate speed for restoration of backups. If you have more than 5000 patients follow the steps below to improve restore speed
 
 1. Open Notepad as an administrator - this is because the configuration file being edited in located in the C:\Program Files folder which has restrictions on who can edit the files. 
-2. Open the file my.cnf \(or my in case Windows Explorer is configured to hide the extensions for files\)
+2. Open the file my.cnf \(or my.ini case Windows Explorer is configured to hide the extensions for files\)
 3. Search for the variable innodb\_buffer\_pool\_size and change is value to 512M
 4. If the variable does not exists add it following the steps below
    * Search for the section \[mysqld\]
-   * Add innodb\_buffer\_pool\_size=512M as the first line in that section 
+   * Add innodb\_buffer\_pool\_size=512M as the first line in that section. You can use 30% of available memory for systems with large patient volumes 
    * Add max\_allowed\_packet=16M \(this caters for the larger size of backup batches now being sent\) 
 5. Save the file
 6. Restart your computer 
