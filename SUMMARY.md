@@ -34,6 +34,7 @@
   * [UgandaEMR Reports](ugandaemr_reports.md)
   * [Data Export](reporting_data_export.md)
 * [Data Quality Checks](data_quality_checks.md)
+* [Patient Flags](patient-flags.md)
 * [Troubleshooting Tips](troubleshooting-tips.md)
 * [Uninstalling UgandaEMR](uninstalling-ugandaemr.md)
   * [Unistalling UgandaEMR older versions](uninstalling-ugandaemr/unistallinstalling-ugandaemr-older-versions.md)
