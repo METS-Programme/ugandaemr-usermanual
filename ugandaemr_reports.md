@@ -92,7 +92,7 @@ The dashboard shows the avialable reports in the different categories:
 ![106A 1B Completed](/assets/106A_1B_download_preserve.png)
 
 ### Troubleshooting Tips 
-#### Unable to run reports due to an error loading Excel template 
+#### Unable to run reports due to an error loading Excel template or the report definition uuid cannot be found 
 
 ![Error Loading Excel Resource - 1](/assets/error_loading_reporting_excel_resource.jpeg)
 ![Error Loading Excel Resource - 2](/assets/error_loading_reporting_excel_resource-2.jpeg)
