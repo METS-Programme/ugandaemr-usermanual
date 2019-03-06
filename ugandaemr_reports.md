@@ -1,10 +1,63 @@
 ## UgandaEMR Reports
 ### Reports Dashboard
 The dashboard shows the avialable reports in the different categories:
-* Facility Reports - reports that support the running of a facility 
-* Monthly Reports - HMIS reports that are run every month 
-* Quarterly Reports - HMIS reports that are run every quarter
-* Registers - match the HMIS registers for different data collection forms 
+
+1. Facility Reports - reports that support the running of a facility 
+   * Appointments List
+   * Missed Appointments List
+   * ART Patient Export
+   * Facility Death List
+   * Exposed Infants Due for 1st PCR
+   * Exposed Infants Due for 2nd PCR
+   * Exposed Infants Due for Rapid Test
+   * Exposed Infants Due for Appointment
+   * OptionB+ Weekly SMS Report
+   * Transfer Out List
+   * Transfer In List
+   * Lost Clients
+   * Lost To Follow Up
+   * Active Patients in Care
+   * Due For Viral Load
+   * Overdue for Viral Load
+   * Stablity Assessment Report
+2. Monthly Reports - HMIS reports that are run every month 
+   * Case Based Surveillance EID Report
+   * Adherence Report
+   * Early Warning Indicator Report
+   * HMIS 105 - 1: OPD
+   * HMIS 105 Section 2.1 to 2.7: MCH
+   * HMIS 105 Section 2.8 to 2.12: MCH - Child Services
+   * HMIS 105 - 3 to 4: Outreach and HCT
+   * HMIS 105 Section 5: SMC
+   * HCA Annual Report
+   * HCA 12 and 24 Months Report
+3. Quarterly Reports - HMIS reports that are run every quarter
+   * HMIS 106a Section 1A
+   * HMIS 106a Section 1B
+   * CBS Adult Quarterly Report
+   * HMIS 177 Viral Load Addendum Quarterly Report
+   * HMIS 106a With DSDM Aggregations
+4. Registers - match the HMIS registers for different data collection forms 
+   * HMIS 031: OPD Register
+   * HMIS 035: SMC Register
+   * HMIS 053: Patient Appointment Book
+   * HMIS 055 : HCT Register
+   * HMIS 071: ANC Register
+   * HMIS 072: Maternity Register
+   * HMIS 078: PNC Register
+   * HMIS 080: Pre-ART Register
+   * HMIS 081: ART Register
+   * HMIS 082: EID Register
+   * HMIS 096a: TB Register
+5. MER Indicator Reports
+   * TX Current 
+   * TX New 
+6. Early Warning Indicator Reports - run annually 
+   * Lost To Follow Up
+   * Pill Pickup
+   * Viral Load Supression
+7. Integration Data Exports 
+   * Family Connect EMTCT Module Data Export - for data import into EMTCT module of Family Connect 
 
 ### Running a Report
 #### HMIS 106A Section 1A

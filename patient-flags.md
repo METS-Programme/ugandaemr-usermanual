@@ -6,6 +6,9 @@ The flags use the traffic light analogy as follows:
 * Orange – warning, prepare to take action e.g., Missed appointment
 * Red – take action now e.g., Lost, Lost to Followup, Overdue for Viral Load
 
+The patient flags are:
+
+
 ### Troubleshooting Tips
 #### Module cannot start create patientflags_tag_role 
 The error message displayed when starting the module is 
