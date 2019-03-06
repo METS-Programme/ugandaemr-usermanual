@@ -1,4 +1,5 @@
 ## UgandaEMR 2.0.0 Release Notes
+This release mainly focused on upgrading to the OpenMRS 2.x platform which runs on Java 8 on which all Reference Application releases from 2.6.0 will be based. This upgrade provides a stable foundation for future upgrades 
 
 ### New Features
 
