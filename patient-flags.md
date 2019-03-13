@@ -10,6 +10,12 @@ The patient flags are:
 
 
 ### Troubleshooting Tips
+#### Module cannot start due to error creating patientflags_displaypoint 
+See message below 
+![Error creating table patientflags_displaypoint](/assets/error_patient_flags_display_point.jpeg)
+*Fix* 
+1. Open Heidi and delete the `patientflags_displaypoint` table 
+2. Click Start All to start all the modules 
 #### Module cannot start create patientflags_tag_role 
 The error message displayed when starting the module is 
 ``` 
