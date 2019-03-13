@@ -30,7 +30,7 @@ Error while running sql: CREATE TABLE patientflags_tag_role (
 			CONSTRAINT
 			FOREIGN KEY (role) REFERENCES role (role)
 			) ENGINE=InnoDB DEFAULT
-			CHARSET=utf8 . Message: Cannot add foreign key constraint
+			CHARSET=utf8 . Message: Can't create table 'openmrs.patientflags_tag_role' (errno: 150) 
 ```
 
 The root cause of this that the character set for the patientflags_tag_role table, utf8, is different from the role table. 
