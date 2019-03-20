@@ -8,7 +8,7 @@ Restart your computer
 
 ### UgandaEMR login screen not available yet system starts
 
-**Error Messages and Screenshots **   
+**Error Messages and Screenshots **  
 ![Login Error no modules started](images/login_error_modules_not_started.png)
 
 When you login the screen may display as below:
@@ -38,22 +38,20 @@ When you login the screen may display as below:
 
 ### White screen appears when carrying out administrative tasks like module installation, upgrade
 
-** Error messages and Screenshots **   
+** Error messages and Screenshots **  
 ![Error - White Screen during operation](images/error_white_screen.jpeg)
 
 ** Resolution **
 
 Restart your computer and repeat the action that caused the error
 
-
-
-### Cohort Builder does not  Allow defining of Columns 
+### Cohort Builder does not  Allow defining of Columns
 
 **Screen Shots **
 
 ![](/assets/cohort-builder.jpeg)![](/assets/cohortbuilder-problem.jpeg)
 
-##### Root Cause 
+##### Root Cause
 
 The main root cause of this problem is due to  the addition of other  programs into the UgandaEMR system by an individual\( which is prohibited \)  that leads to creation of concepts and thereby resulting into concept mismatch with concepts that come with UgandaEMR.
 
@@ -67,6 +65,48 @@ The main root cause of this problem is due to  the addition of other  programs i
 4. After the concept dictionary is done, run the following script on the same command prompt
 
 
+
+/\*!40101 SET @OLD\_CHARACTER\_SET\_CLIENT = @@CHARACTER\_SET\_CLIENT \*/;
+
+/\*!40101 SET @OLD\_CHARACTER\_SET\_RESULTS = @@CHARACTER\_SET\_RESULTS \*/;
+
+/\*!40101 SET @OLD\_COLLATION\_CONNECTION = @@COLLATION\_CONNECTION \*/;
+
+/\*!40101 SET NAMES utf8 \*/;
+
+/\*!40103 SET @OLD\_TIME\_ZONE = @@TIME\_ZONE \*/;
+
+/\*!40103 SET TIME\_ZONE = '+00:00' \*/;
+
+/\*!40014 SET @OLD\_UNIQUE\_CHECKS = @@UNIQUE\_CHECKS, UNIQUE\_CHECKS = 0 \*/;
+
+/\*!40014 SET @OLD\_FOREIGN\_KEY\_CHECKS = @@FOREIGN\_KEY\_CHECKS, FOREIGN\_KEY\_CHECKS = 0 \*/;
+
+/\*!40101 SET @OLD\_SQL\_MODE = @@SQL\_MODE, SQL\_MODE = 'NO\_AUTO\_VALUE\_ON\_ZERO' \*/;
+
+/\*!40111 SET @OLD\_SQL\_NOTES = @@SQL\_NOTES, SQL\_NOTES = 0 \*/;
+
+
+
+DELETE from patient\_program ;
+
+DELETE from program;
+
+
+
+/\*!40101 SET SQL\_MODE=@OLD\_SQL\_MODE \*/;
+
+/\*!40014 SET FOREIGN\_KEY\_CHECKS=@OLD\_FOREIGN\_KEY\_CHECKS \*/;
+
+/\*!40014 SET UNIQUE\_CHECKS=@OLD\_UNIQUE\_CHECKS \*/;
+
+/\*!40101 SET CHARACTER\_SET\_CLIENT=@OLD\_CHARACTER\_SET\_CLIENT \*/;
+
+/\*!40101 SET CHARACTER\_SET\_RESULTS=@OLD\_CHARACTER\_SET\_RESULTS \*/;
+
+/\*!40101 SET COLLATION\_CONNECTION=@OLD\_COLLATION\_CONNECTION \*/;
+
+/\*!40111 SET SQL\_NOTES=@OLD\_SQL\_NOTES \*/;
 
 
 
