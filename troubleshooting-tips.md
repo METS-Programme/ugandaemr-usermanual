@@ -53,7 +53,7 @@ Restart your computer and repeat the action that caused the error
 
 ##### Root Cause
 
-The main root cause of this problem is due to  the addition of other  programs into the UgandaEMR system by an individual\( which is prohibited \)  that leads to creation of concepts and thereby resulting into concept mismatch with concepts that come with UgandaEMR.
+The  root cause of this problem is due to  the addition of other  programs into the UgandaEMR system by an individual\( which is prohibited \)  that is done by  creation of concepts and thereby resulting into concept mismatch with concepts that come with UgandaEMR.
 
 ![](/assets/program-problem.jpeg)
 
@@ -61,7 +61,7 @@ The main root cause of this problem is due to  the addition of other  programs i
 
 1. Download the concept dictionary from the source [https://sourceforge.net/projects/ugandaemr/files/1.0.13/concept\_dictonary\_ref\_1.0.13.sql/download](https://sourceforge.net/projects/ugandaemr/files/1.0.13/concept_dictonary_ref_1.0.13.sql/download)
 2. Open your command Prompt and login to mysql  with the following command without quotes  "mysql -u openmrs -p" and provide it with the required password 
-3. Run the concept dictionary downloaded on your database on the command prompt
+3. Run the concept dictionary downloaded on your database in your command prompt
 4. After the concept dictionary is done, run the following script on the same command prompt
 
 ```
@@ -88,11 +88,7 @@ DELETE from program;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 ```
 
-   5. Start your UgandaEMR now in  your browser.
-
-
-
-
+1. Start your UgandaEMR now in  your browser.
 
 
 
