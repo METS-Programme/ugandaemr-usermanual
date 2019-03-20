@@ -47,7 +47,7 @@ Restart your computer and repeat the action that caused the error
 
 ### Cohort Builder does not  Allow defining of Columns
 
-**Screen Shots **
+**Screen Shots Of The Problem**
 
 ![](/assets/cohort-builder.jpeg)![](/assets/cohortbuilder-problem.jpeg)
 
