@@ -1,12 +1,14 @@
 ## Troubleshooting Tips
 
-This section contains tips and tricks to help maintain your installation, as well as a general guide to common problems 
+This section contains tips and tricks to help maintain your installation, as well as a general guide to common problems
 
-### My installation cannot start 
+### My installation cannot start
+
 Restart your computer
 
 ### UgandaEMR login screen not available yet system starts
-**Error Messages and Screenshots ** 
+
+**Error Messages and Screenshots **   
 ![Login Error no modules started](images/login_error_modules_not_started.png)
 
 When you login the screen may display as below:
@@ -18,27 +20,55 @@ When you login the screen may display as below:
 **Resolution**
 
 1. On the Administration page, select the Manage Modules link
-![Manage Modules](images/manage_modules_link.png)
+   ![Manage Modules](images/manage_modules_link.png)
 2. Click the Start All button 
-![Start All Modules](images/modules_start_all.png)
+   ![Start All Modules](images/modules_start_all.png)
 3. Restart your computer 
 
 ### OpenMRS cannot start - Error creating bean with name "messageSourceServiceTarget"
 
 **Error Messages and Screenshots**
 
-![OpenMRS cannot start - Error creating bean of name "messageSourceServiceTarget"](images/error_message_source.jpg) 
+![OpenMRS cannot start - Error creating bean of name &quot;messageSourceServiceTarget&quot;](images/error_message_source.jpg)
 
-** Resolution ** 
+** Resolution **
 
 1. Delete the folder C:\Application Data\OpenMRS\lucene
 2. Restart your computer 
 
-### White screen appears when carrying out administrative tasks like module installation, upgrade 
+### White screen appears when carrying out administrative tasks like module installation, upgrade
 
-** Error messages and Screenshots ** 
+** Error messages and Screenshots **   
 ![Error - White Screen during operation](images/error_white_screen.jpeg)
 
-** Resolution ** 
+** Resolution **
 
-Restart your computer and repeat the action that caused the error 
+Restart your computer and repeat the action that caused the error
+
+
+
+### Cohort Builder does not  Allow defining of Columns 
+
+**Screen Shots **
+
+![](/assets/cohort-builder.jpeg)![](/assets/cohortbuilder-problem.jpeg)
+
+##### Root Cause 
+
+The main root cause of this problem is due to  the addition of other  programs into the UgandaEMR system by an individual\( which is prohibited \)  that leads to creation of concepts and thereby resulting into concept mismatch with concepts that come with UgandaEMR.
+
+![](/assets/program-problem.jpeg)
+
+##### Resolution
+
+1. Download the concept dictionary from the source [https://sourceforge.net/projects/ugandaemr/files/1.0.13/concept\_dictonary\_ref\_1.0.13.sql/download](https://sourceforge.net/projects/ugandaemr/files/1.0.13/concept_dictonary_ref_1.0.13.sql/download)
+2. Open your command Prompt and login to mysql  with the following command without quotes  "mysql -u openmrs -p" and provide it with the required password 
+3. Run the concept dictionary downloaded on your database on the command prompt
+4. After the concept dictionary is done, run the following script on the same command prompt
+
+
+
+
+
+
+
