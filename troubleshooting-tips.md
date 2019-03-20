@@ -88,6 +88,8 @@ DELETE from program;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 ```
 
+   5. Start your UgandaEMR now in  your browser.
+
 
 
 
