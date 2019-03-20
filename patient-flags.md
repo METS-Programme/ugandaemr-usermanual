@@ -186,7 +186,7 @@ ALTER TABLE `provider_attribute_type` CONVERT TO CHARACTER SET UTF8;
 ALTER TABLE `providermanagement_provider_role` CONVERT TO CHARACTER SET UTF8;                        
 ALTER TABLE `providermanagement_provider_role_provider_attribute_type` CONVERT TO CHARACTER SET UTF8;
 ALTER TABLE `providermanagement_provider_role_relationship_type` CONVERT TO CHARACTER SET UTF8;      
-ALTER TABLE `providermanagement_provider_role_supervisee_provider_role` CONVERT TO CHARACTER SET UTF8;
+ALTER TABLE `providermanagement_provider_role_supervisee_provider_role` CONVERT TO CHARACTER SET UTF8; |
 ALTER TABLE `providermanagement_provider_suggestion` CONVERT TO CHARACTER SET UTF8;                  
 ALTER TABLE `providermanagement_supervision_suggestion` CONVERT TO CHARACTER SET UTF8;               
 ALTER TABLE `relationship` CONVERT TO CHARACTER SET UTF8;                                            
