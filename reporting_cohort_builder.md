@@ -72,9 +72,9 @@ This will display the Search by Demographics page as shown below
  The following are the options available  
 1. **Gender** allows you to select and search by gender i. e Male or Female  
 2. **Age** allows you to filer between ages i.e. 0-14  
-3. **Birthdate** allows you to filer between birth dates   
+3. **Birthdate** allows you to filer between birth dates  
 4. **Alive only** allows you to search for alive patients  
-5. ** Dead only** allows you to search for dead patients   
+5. ** Dead only** allows you to search for dead patients  
 6. ** Search **is the tab or button for the search
 
 Step 3: Click on the Search button to show the number of patient that match the criteria you specified.
@@ -94,11 +94,11 @@ Step 2: Click on the **Encounter tab** to show the page to be used in searching.
 
 ** 3.** From Form: Optional but allows you to select and search basing on a given form
 
-**4.** At least this many **\_** and up to this many_\_\__: allows you to search by a given number of encounters for a given patient \[for example finding the number of patients with at least 4 encounters but not more than 20 \]
+**4.** At least this many **\_** and up to this many_\_\_\_: allows you to search by a given number of encounters for a given patient \[for example finding the number of patients with at least 4 encounters but not more than 20 \]
 
 ** 5.** within the last **\_** months and \_\_\_\_days: optional but allows you to search by number of month and number of days:
 
-**6.** since _**\_**_until _**\_\_**_: optional but allows you to search by date ranges
+**6.** since _\*\*\**until **_\_\_\*\*\_: optional but allows you to search by date ranges
 
 **7.** Search is the tab or button for the search
 
@@ -125,7 +125,7 @@ OPENMRS DOES NOT CURRENTLY SUPPORT DRUG ORDERS.
 
 **How to query OpenMRS database using SQL Tab **
 
-_this section will be updated latte_r
+\_this section will be updated latte\_r
 
 **How to correlate individually created queries in OpenMRS to produce combined results:**
 
@@ -220,8 +220,6 @@ The search index needs to rebuilt following the steps below:
 3. On the Search index page, click the Rebuild Search Index button - this may take some time depending on the speed of your system 
    ![Rebild Search Index](images/rebuild_search_index_button.png)
 
-
-
 ### Cohort Builder does not  Allow defining of Columns
 
 **Screen Shots Of The Problem**
@@ -236,10 +234,9 @@ The  root cause of this problem is due to  the addition of other  programs into 
 
 ##### Resolution
 
-1. Download the concept dictionary from the source [https://sourceforge.net/projects/ugandaemr/files/1.0.13/concept\_dictonary\_ref\_1.0.13.sql/download](https://sourceforge.net/projects/ugandaemr/files/1.0.13/concept_dictonary_ref_1.0.13.sql/download)
-2. Open your command Prompt and login to mysql  with the following command without quotes  "mysql -u openmrs -p" and provide it with the required password 
-3. Run the concept dictionary downloaded on your database in your command prompt
-4. After the concept dictionary is done, run the following script on the same command prompt
+1. Download the concept dictionary from [https://sourceforge.net/projects/ugandaemr/files/1.0.13/concept\_dictonary\_ref\_1.0.13.sql/download](https://sourceforge.net/projects/ugandaemr/files/1.0.13/concept_dictonary_ref_1.0.13.sql/download)
+2. Run the concept dictionary using Heidi or the MySQL command line to remove any created concepts 
+3. Run the script below to remove the custom programs
 
 ```
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT = @@CHARACTER_SET_CLIENT */;
@@ -265,5 +262,5 @@ DELETE from program;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 ```
 
-Start your UgandaEMR now in  your browser.
+4. Restart your computer which will add only the supported programs
 
