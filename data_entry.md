@@ -1,5 +1,26 @@
-# Entering Client Information
-To enter patient information
+# Data Capture 
+The following data capture tools are available within UgandaEMR based on the MoH October 2014 HMIS Manual: 
+
+1. HMIS 031 Outpatient Register
+2. HMIS 035a Safe Male Circumcision Client Form 
+3. HMIS 053 Appointment Book 
+4. HMIS 055b HIV Counseling and Testing Client Card
+5. HMIS 071 Integrated Antenatal Register 
+6. HMIS 072 Integrated Maternity Register 
+7. HMIS 078 Integrated Postnatal Register 
+8. HMIS 082a Exposed Infant Clinical Chart 
+9. HMIS 089a Daily Activity Laboratory Register for Clinical Chemistry
+10. HMIS 094 Daily Activity Register for Haematological Indices
+11. HMIS 095 Daily Activity Register Viral Load and CD4 Count
+12. HMIS 096A Health Unit TB Register 
+13. HMIS 117 Viral Load Non Suppressed Reister
+14. HMIS 122a HIV Care/ART Card 
+15. Comprehensive HIV Care/RT Patient Referral/Transfer Form
+
+Each of the data collection tools above also has the corresponding register developed as an inbuilt data report 
+
+## Entering Client Information
+To enter patient information follow the steps below 
 
 1. Go to the home page 
 ![Home](images/home_screen.png)
