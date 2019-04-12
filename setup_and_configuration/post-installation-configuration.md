@@ -1,6 +1,6 @@
 ## Post-Installation Configuration
 
-**CHANGE THE NAME OF THE HEALTH CENTRE**
+### **Change Heath Center Name**
 
 1. Login and at  the home page select System Administration as shown below![](/assets/healthcentre.png)
 
