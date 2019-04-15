@@ -1,4 +1,4 @@
-To uninstall Uganda EMR, 
+To uninstall Uganda EMR,
 
 1. Go to control panel, select unistall UgandaEMR 
 2. You will be prompted to uninstall components
@@ -13,17 +13,9 @@ To uninstall Uganda EMR,
 
 ![](/assets/uninstall 6 %282%29.png)
 
-3. Go to control panel, uninstall Mysql and Java if you do not have any systems running with the 2 programs
+1. Go to control panel, uninstall Mysql and Java if you do not have any systems running with the 2 programs
 
-4. UgandaEMR will be completely uninstalled. 
-
-
-
-
-
-
-
-
+2. UgandaEMR will be completely uninstalled.
 
 
 
