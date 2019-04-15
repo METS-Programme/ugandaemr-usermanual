@@ -143,7 +143,7 @@ The fix is therefore a 2 step process:
 
    * Restart your computer
 
-   * Run the following on the command prompt `mysql -u openmrs -p -e "SHOW GLOBAL VARIABLES LIKE 'max_allowed_packet'"` which will show 16777216 which means the variable has been changed 
+   * Run the following on the command prompt `mysql -u openmrs -p -e "SHOW GLOBAL VARIABLES LIKE 'max_allowed_packet'"` which will show 16777216 which means the variable has been changed
 
 2. Fix the character set of the serialized column by running the following SQL statement on the openmrs database:
 
@@ -152,6 +152,8 @@ The fix is therefore a 2 step process:
 3. Restart your computer
 
 ### UgandaEMR Tomcat Service fails to start after re-installing UgandaEMR
+
+![](/assets/error 2 tomcat service.jpeg)
 
 This issue  has been identified to be  caused by the Improper un-installation process of UgandaEMR.
 
