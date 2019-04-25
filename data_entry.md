@@ -6,9 +6,9 @@ The following data capture tools are available within UgandaEMR based on the MoH
 2. HMIS 035a Safe Male Circumcision Client Form 
 3. HMIS 053 Appointment Book 
 4. HMIS 055b HIV Counseling and Testing Client Card
-5. HMIS 071 Integrated Antenatal Register 
-6. HMIS 072 Integrated Maternity Register 
-7. HMIS 078 Integrated Postnatal Register 
+5. HMIS 071 Integrated Antenatal Form
+6. HMIS 072 Integrated Maternity Form
+7. HMIS 078 Integrated Postnatal Form
 8. HMIS 082a Exposed Infant Clinical Chart 
 9. HMIS 089a Daily Activity Laboratory Register for Clinical Chemistry
 10. HMIS 094 Daily Activity Register for Haematological Indices
