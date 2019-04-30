@@ -73,53 +73,52 @@ A common cause is blank entries in the address hierarchy during the upgrade proc
 3. Delete all the address hierarchy entries in the rectangle which are causing the error one level at a time 
    ![Cleanup Address Hierarchy Levels](/assets/cleanup_address_hierarchy_level.png)
 
-#### Address hierarchy is not installed properly with missing entries and unable to delete any levels 
-This happens in case there is an error when loading the entries for the address hierarchy see screenshot below 
+#### Address hierarchy is not installed properly with missing entries and unable to delete any levels
+
+This happens in case there is an error when loading the entries for the address hierarchy see screenshot below
 
 ![partially loaded address hierarchy](/assets/address_hierarchy_partially_loaded.jpeg)
 
-The fix is by deleting the current address hierarchy entries, then restarting your computer so that it is loaded properly. 
+The fix is by deleting the current address hierarchy entries, then restarting your computer so that it is loaded properly.
 
 1. Backup your database 
 2. Run the SQL commands below: 
 
-```
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT = @@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS = @@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION = @@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-/*!40103 SET @OLD_TIME_ZONE = @@TIME_ZONE */;
-/*!40103 SET TIME_ZONE = '+00:00' */;
-/*!40014 SET @OLD_UNIQUE_CHECKS = @@UNIQUE_CHECKS, UNIQUE_CHECKS = 0 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS = @@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS = 0 */;
-/*!40101 SET @OLD_SQL_MODE = @@SQL_MODE, SQL_MODE = 'NO_AUTO_VALUE_ON_ZERO' */;
-/*!40111 SET @OLD_SQL_NOTES = @@SQL_NOTES, SQL_NOTES = 0 */;
+    /*!40101 SET @OLD_CHARACTER_SET_CLIENT = @@CHARACTER_SET_CLIENT */;
+    /*!40101 SET @OLD_CHARACTER_SET_RESULTS = @@CHARACTER_SET_RESULTS */;
+    /*!40101 SET @OLD_COLLATION_CONNECTION = @@COLLATION_CONNECTION */;
+    /*!40101 SET NAMES utf8 */;
+    /*!40103 SET @OLD_TIME_ZONE = @@TIME_ZONE */;
+    /*!40103 SET TIME_ZONE = '+00:00' */;
+    /*!40014 SET @OLD_UNIQUE_CHECKS = @@UNIQUE_CHECKS, UNIQUE_CHECKS = 0 */;
+    /*!40014 SET @OLD_FOREIGN_KEY_CHECKS = @@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS = 0 */;
+    /*!40101 SET @OLD_SQL_MODE = @@SQL_MODE, SQL_MODE = 'NO_AUTO_VALUE_ON_ZERO' */;
+    /*!40111 SET @OLD_SQL_NOTES = @@SQL_NOTES, SQL_NOTES = 0 */;
 
-/* The address hierarchy may be installed before so this causes problems - remove instal trail of the address hierarchy */
-DELETE FROM global_property
-WHERE property IN
-      ('address.format', 'addresshierarchy.database_version', 'addresshierarchy.mandatory', 'addresshierarchy.started', 'metadatadeploy.bundle.version.org.openmrs.module.aijar.api.deploy.bundle.UgandaAddressMetadataBundle');
+    /* The address hierarchy may be installed before so this causes problems - remove instal trail of the address hierarchy */
+    DELETE FROM global_property
+    WHERE property IN
+          ('address.format', 'addresshierarchy.database_version', 'addresshierarchy.mandatory', 'addresshierarchy.started', 'metadatadeploy.bundle.version.org.openmrs.module.aijar.api.deploy.bundle.UgandaAddressMetadataBundle');
 
-/* Drop the address hierarchy tables if necessary */
-ALTER TABLE address_hierarchy_address_to_entry_map DROP FOREIGN KEY address_id_to_person_address_table;
-ALTER TABLE address_hierarchy_address_to_entry_map DROP FOREIGN KEY entry_id_to_address_hierarchy_table;
-ALTER TABLE address_hierarchy_entry DROP FOREIGN KEY level_to_level;
-ALTER TABLE address_hierarchy_entry DROP FOREIGN KEY `parent-to-parent`;
-ALTER TABLE address_hierarchy_level DROP FOREIGN KEY parent_level;
-DROP TABLE IF EXISTS address_hierarchy_address_to_entry_map;
-DROP TABLE IF EXISTS address_hierarchy_entry;
-DROP TABLE IF EXISTS address_hierarchy_level;
+    /* Drop the address hierarchy tables if necessary */
+    ALTER TABLE address_hierarchy_address_to_entry_map DROP FOREIGN KEY address_id_to_person_address_table;
+    ALTER TABLE address_hierarchy_address_to_entry_map DROP FOREIGN KEY entry_id_to_address_hierarchy_table;
+    ALTER TABLE address_hierarchy_entry DROP FOREIGN KEY level_to_level;
+    ALTER TABLE address_hierarchy_entry DROP FOREIGN KEY `parent-to-parent`;
+    ALTER TABLE address_hierarchy_level DROP FOREIGN KEY parent_level;
+    DROP TABLE IF EXISTS address_hierarchy_address_to_entry_map;
+    DROP TABLE IF EXISTS address_hierarchy_entry;
+    DROP TABLE IF EXISTS address_hierarchy_level;
 
-/*!40101 SET SQL_MODE = @OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS = @OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS = @OLD_UNIQUE_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT = @OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS = @OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION = @OLD_COLLATION_CONNECTION */;
-/*!40111 SET SQL_NOTES = @OLD_SQL_NOTES */;
-```
-3. Restart your computer 
+    /*!40101 SET SQL_MODE = @OLD_SQL_MODE */;
+    /*!40014 SET FOREIGN_KEY_CHECKS = @OLD_FOREIGN_KEY_CHECKS */;
+    /*!40014 SET UNIQUE_CHECKS = @OLD_UNIQUE_CHECKS */;
+    /*!40101 SET CHARACTER_SET_CLIENT = @OLD_CHARACTER_SET_CLIENT */;
+    /*!40101 SET CHARACTER_SET_RESULTS = @OLD_CHARACTER_SET_RESULTS */;
+    /*!40101 SET COLLATION_CONNECTION = @OLD_COLLATION_CONNECTION */;
+    /*!40111 SET SQL_NOTES = @OLD_SQL_NOTES */;
 
+1. Restart your computer 
 
 #### Error starting Data Integrity Module
 
@@ -159,15 +158,15 @@ The fix involves deleting the dataintegrity\_rule table using different tools:
    * Open a connection to the openmrs database on port 3306
    * Open File -&gt; Load SQL File and load the downloaded file 
 
-#### Mysql cannot start after 2.0 upgrade or installation 
+#### Mysql cannot start after 2.0 upgrade or installation
 
 1. Go to start menu, search for services.
 2. Under Services look for mysql.
 3. Stop mysql service
 4. Go to C:\ProgramData\MySQL\MySQL Server 5.5\data
 5. Delete the following files:
-    * ib\_logfile0
-    * ib\_logfile1
+   * ib\_logfile0
+   * ib\_logfile1
 6. Restart mysql from services.
 
 #### Tomcat Failing to start after 2.0 upgrade or installation
@@ -178,6 +177,10 @@ The fix involves deleting the dataintegrity\_rule table using different tools:
 4. Go to the Java Tab  and select Use default.
 5. Incase there are some text in the Java Options:, remove them and click apply
 6. Go back to General tab and click start, to start tomcat
+
+
+
+#### Can not Save En
 
 
 
