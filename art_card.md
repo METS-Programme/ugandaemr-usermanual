@@ -12,7 +12,7 @@ This section describes how to enter data from the ART card.
    ![Start and End Dates for Past Visit](images/enter_start_and_end_date_for_new_past_visit.png)
 3. The visits page is displayed, with the current visit displayed along with a link to the summary page
    ![Patient Visit Details](images/patient_visit_details.png)
-4. Click the link to the HMIS 122a HIV Care ART Card - Summary Form to enter the summary page   
+4. Click the link to the HMIS 122a HIV Care ART Card - Summary Form to enter the summary page  
    ![ART Card Summary Page](images/art_card_new.png)
 
    #### Transfer In
