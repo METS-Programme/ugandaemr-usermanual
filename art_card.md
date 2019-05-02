@@ -12,14 +12,16 @@ This section describes how to enter data from the ART card.
    ![Start and End Dates for Past Visit](images/enter_start_and_end_date_for_new_past_visit.png)
 3. The visits page is displayed, with the current visit displayed along with a link to the summary page
    ![Patient Visit Details](images/patient_visit_details.png)
-4. Click the link to the HMIS 122a HIV Care ART Card - Summary Form to enter the summary page 
+4. Click the link to the HMIS 122a HIV Care ART Card - Summary Form to enter the summary page   
    ![ART Card Summary Page](images/art_card_new.png)
+
    #### Transfer In
 
-   **TODO** Add what information is to be entered for a transfer in for a client on Pre-ART and another to ART 
+   **TODO** Add what information is to be entered for a transfer in for a client on Pre-ART and another to ART
+
    #### Edit an Existing Summary Page
 
-   Only one summary page can be entered for each patient, so creating a new summary page will load the existing page for the patient.  
+   Only one summary page can be entered for each patient, so creating a new summary page will load the existing page for the patient.
 
 ### Health Education Page
 
@@ -39,7 +41,7 @@ To capture the ART Card Encounters, follow the steps below;
 1. Go to the patient dashboard and click Add Past Visit link as described in the chapter entitled  Entering Client Information &gt; Visits &gt; Add Past Visit. [Click here](data_entry.md) to access the steps.  
 2. Click the **\*HMIS 122a HIV Care ART Card-Encounter Form** ![Encounter Page link](images/select_art_card_encounter.png)  
 2. You should see the _**Encounter**_ form looking like this ![Art Card Encounter](images/art_card_encounter_facade.png)  
-3. Because the encounter chart has a very long table,it was split into four sections\(or tables\).   
+3. Because the encounter chart has a very long table,it was split into four sections\(or tables\).  
 4. Capture the first section as below ![Art Card Encounter section 1](images/art_card_encounter_section_1.png)  
 5. Capture the second section as below ![Art Card Encounter Section 2](images/art_card_encounter_section_2.png)  
 6. Capture the third section as below ![Art Card Encounter Section 3](images/art_card_encounter_section_3.png)  
@@ -51,7 +53,7 @@ To capture the ART Card Encounters, follow the steps below;
 #### Viral Load Data
 
 The recommendation for entering viral loads is as follows:  
-1. Enter the viral load in the first encounter after the results have been received at the facility   
+1. Enter the viral load in the first encounter after the results have been received at the facility  
 2. The viral load information is entered on the ART Encounter page from the results slip in the bottom left hand corner as follows:
 
 * Date Viral Load Taken - the date when the patient was bled for viral load 
@@ -67,7 +69,7 @@ The recommendation for entering viral loads is as follows:
 
 #### Timeout when entering data
 
-Should the page fail to save, due to a timeout session/when you have spent more than a 20 minutes without saving, do the following:   
+Should the page fail to save, due to a timeout session/when you have spent more than a 20 minutes without saving, do the following:  
 1. Scroll to the upper most part of the page,  
 Enter your username and password ![Session Timeout](images/art_card_health_education_session_timeout.png)  
 2. Scroll to the bottom and hit the Enter Form button![Health Encounter Enter Form](images/art_card_health_education_enter_button.png)  
@@ -78,7 +80,7 @@ Enter your username and password ![Session Timeout](images/art_card_health_educa
 Should the Encounter fail to Save indicating the above message in the top right Corner of the screen, do the following
 
 1. Uninstall the existing version of Firefox
-2. Download and Install the latest version of Firefox \(https://filehippo.com/download\_mozilla-firefox\)
+2. Download and Install the latest version of Firefox \([https://filehippo.com/download\_mozilla-firefox](https://filehippo.com/download_mozilla-firefox\)\)
 3. Restart the computer and launch UgandaEMR
 4. Enter the Encounter Data and Save
 
