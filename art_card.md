@@ -12,7 +12,7 @@ This section describes how to enter data from the ART card.
    ![Start and End Dates for Past Visit](images/enter_start_and_end_date_for_new_past_visit.png)
 3. The visits page is displayed, with the current visit displayed along with a link to the summary page
    ![Patient Visit Details](images/patient_visit_details.png)
-4. Click the link to the HMIS 122a HIV Care ART Card - Summary Form to enter the summary page   
+4. Click the link to the HMIS 122a HIV Care ART Card - Summary Form to enter the summary page  
    ![ART Card Summary Page](images/art_card_new.png)
 
    #### Transfer In
@@ -80,7 +80,7 @@ Enter your username and password ![Session Timeout](images/art_card_health_educa
 Should the Encounter fail to Save indicating the above message in the top right Corner of the screen, do the following
 
 1. Uninstall the existing version of Firefox
-2. Download and Install the latest version of Firefox \([https://filehippo.com/download\_mozilla-firefox](https://filehippo.com/download_mozilla-firefox\)\)
+2. Download and Install the latest version of Firefox \([https://filehippo.com/download\_mozilla-firefox](https://filehippo.com/download_mozilla-firefox%29\)\)
 3. Restart the computer and launch UgandaEMR
 4. Enter the Encounter Data and Save
 
