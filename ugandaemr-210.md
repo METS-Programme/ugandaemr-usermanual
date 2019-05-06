@@ -19,8 +19,8 @@ Currently work in progress
 
 5. Reports
 
-  * ANC, Maternity and PNC registers
-  * Exposed Infant reports to aid facility tracking and planning
+  * Facility Reports
+  * MER Indicator Reports 
 
 ### Bug Fixes
 
