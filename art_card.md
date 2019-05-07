@@ -80,9 +80,9 @@ Enter your username and password ![Session Timeout](images/art_card_health_educa
 Should the Encounter fail to Save indicating the above message in the top right Corner of the screen, do the following
 
 1. Uninstall the existing version of Firefox
-2. Download and Install the latest version of Firefox \([https://filehippo.com/download\_mozilla-firefox](https://filehippo.com/download_mozilla-firefox%29\)\)
-3. Restart the computer and launch UgandaEMR
-4. Enter the Encounter Data and Save
+2. Download and Install the latest version of firefox.
+3. Restart the computer and launch UgandaEMR 
+4. Enter the Encounter Data and Save 
 
 
 
