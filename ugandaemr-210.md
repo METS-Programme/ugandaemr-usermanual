@@ -18,20 +18,31 @@ Currently work in progress
 3. Patient Dashboard
    * Summary from Last Visit 
    * Viral Load Summary 
-4. 
-5. Reports
-
-  * Facility Reports 
-  * MER Indicator Reports - TX_CURR (for 30 days and 90 days), TX_NEW, TB
+4. DTG regimens have been added to the ART Summary and Encounter pages  
+5. Data tools 
+   * Intensive Adherence Counselling (IAC) form 
+   * ART Encounter Page - duration on ART and duration on current regimen are automatically computed
+   
+6. Reports
+   * Facility Reports - Due for Viral Load, Overdue for Viral Load, Transfer In, Transfer Out, Lost Clients, Lost to Followup, Active Clinets in Care, Non-Suppressed Viral Load, Patient Stability Assessment Report, and Patient DSDM Model Report 
+   * MER Indicator Reports - TX_CURR (for 30 days and 90 days), TX_NEW, TB STAT, TB ART, TX_TB, PMTCT STAT 
+   * Early Warning Indicators - Lost to Follow-up, Pill Pickup and Viral Load Suppression 
+   * Integration Data Exports - Family Connect EMTCT Module
+   * Registers - HIV Exposed Infants Register
+   * All reports can be exported as CSV
+   
+7. Updated address hierarchy on the patient registratioj page to match the current version in DHIS2 as of April 2019 
 
 ### Bug Fixes
 
 1. Data quality violations were not removed when cleared 
 2. ART Summary page would not save with some dates 
+3. Added addresses to all patient level reports 
+4. Corrected reports which had errors running 
 
 ### Links to download files
 
-This release requires a re-installation of UgandaEMR due to an internal platform change that requires Java 8, instead of Java 7 that was used by previous versions. However separate files are provided for new installations and upgrades 
+This release is a drop in WAR file upgrade for UgandaEMR 2.0.0, however upgrades from 1.x require the use of the upgrade installer 
 
 #### WAR File 
 
