@@ -4,23 +4,25 @@ Currently work in progress
 ### New Features
 
 1. Patient Flags - these allow highlighting information on the patient dashboard following the traffic light coloring, green (good), orange (take note), red (take action). The summary of flags by color codes are:
+   * Green - Upcoming Appointment, Due for First Viral Load, Due for Routine Viral Load, Due for 1st DNA PCR, Due for 2nd DNA PCR, Due for Rapid Test
+   * Orange - Missed Appointment, 
+   * Red - Overdue for First Viral Load, Overdue for Routine Viral Load, Lost, Lost to Followup, Overdue for 1st DNA PCR, Overdue for 2nd DNA PCR, Overdue for Rapid Test, Has Detectable Viral Load
 
-  * Green - Upcoming Appointment, Due for First Viral Load, Due for Routine Viral Load
-  * Orange 
-  * Red - 
-2. Differentiated Service Model 
-   * 
+2. Differentiated Service Model
+   * All patients enrolled in HIV care are placed in the FBIM model 
+   * During the data capture for an ART Encounter the model can be changed 
+   * Only stable patients can be moved to community models 
+   * The history of the patient's models is displayed on the patient's dashboard 
+   * A report showing the current model for all patients has been added 
 
 3. Patient Dashboard
-  * Summary from Last Visit 
-  * Viral Load Summary 
-
-4. Data Quality
-
+   * Summary from Last Visit 
+   * Viral Load Summary 
+4. 
 5. Reports
 
-  * Facility Reports
-  * MER Indicator Reports 
+  * Facility Reports 
+  * MER Indicator Reports - TX_CURR (for 30 days and 90 days), TX_NEW, TB
 
 ### Bug Fixes
 
