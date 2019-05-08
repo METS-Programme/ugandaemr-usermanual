@@ -55,7 +55,6 @@ For new machines with no UgandaEMR installed
 1. 32 bit installer (TBD) - 
 2. 64 bit installer (TBD) -  
 
-
 #### Upgrade Installer 
 
 For existing versions of UgandaEMR 1.x 
