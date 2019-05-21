@@ -34,13 +34,17 @@ Depending on the facility needs, not all the patient flags will be relevant, so 
 3. Select Ugandaemr in the left hand menu to display the UgandaEMR settings
 4. In the "Patientflags Disabled Flags" text field enter the names of the patient flags you want to disable separated by a comma (,)
 5. Restart your computer
+
 ### Troubleshooting Tips
 #### Module cannot start due to error creating patientflags_displaypoint 
 See message below 
 ![Error creating table patientflags_displaypoint](/assets/error_patient_flags_display_point.jpeg)
-*Fix* 
+
+**Fix** 
+
 1. Open Heidi and delete the `patientflags_displaypoint` table 
 2. Click Start All to start all the modules 
+
 #### Module cannot start create patientflags_tag_role 
 The error message displayed when starting the module is 
 ``` 
