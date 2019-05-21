@@ -6,9 +6,34 @@ The flags use the traffic light analogy as follows:
 * Orange – warning, prepare to take action e.g., Missed appointment
 * Red – take action now e.g., Lost, Lost to Followup, Overdue for Viral Load
 
-The patient flags are:
+The patient flags are: 
+1. Due for 1st DNA PCR 	(green)
+2. Due for 1st Viral Load (green) 	
+3. Due for 2nd DNA PCR 	(green)
+4. Due for Rapid Test (green) 	
+5. Due for Routine Viral Load (green)
+6. Lost(red) 	
+7. Lost to Followup (red)	
+8. Missed appointment (orange)
+9. Overdue for 1st DNA PCR (red)	
+10. Overdue for First Viral Load (red)	
+11. Overdue for Rapid Test (red)	
+12. Overdue for Routine Viral Load  (red)
+13. Overdue for 2nd DNA PCR (red)	
+14. Transferred Out Patient (orange)	
+15. Un-supressed Viral Load (red)	
+16. Upcoming appointment (green)
 
+### Disabling Patient Flags
+Depending on the facility needs, not all the patient flags will be relevant, so the steps below provide the capability of disabling unused flags which will also improve the performance of the patient dashboard 
 
+1. On the home page click the `Legacy System Adminstration` button
+![Legacy System Administration](/Legacy_system_admin.png)
+2. On the administration page, click the `Settings` link 
+![Settings](/images/settings.png)
+3. Select Ugandaemr in the left hand menu to display the UgandaEMR settings
+4. In the "Patientflags Disabled Flags" text field enter the names of the patient flags you want to disable separated by a comma (,)
+5. Restart your computer
 ### Troubleshooting Tips
 #### Module cannot start due to error creating patientflags_displaypoint 
 See message below 
