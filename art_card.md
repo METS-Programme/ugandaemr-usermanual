@@ -15,11 +15,14 @@ This section describes how to enter data from the ART card.
 4. Click the link to the HMIS 122a HIV Care ART Card - Summary Form to enter the summary page  
    ![ART Card Summary Page](images/art_card_new.png)
 
-   #### Transfer In
+#### Transfer In
+A transfer occurs when a patient who is currently in care in one facility, moves to start receiving care from your facility. 
 
-   **TODO** Add what information is to be entered for a transfer in for a client on Pre-ART and another to ART
+1. The `HIV Enrolled Date` for the client is the date when they first come to your facility to receive care and is the date they are entered in the Pre-ART Register and assigned a number  
+2. In this case the `ART Start Date` can be earlier than the ``HIV Enrolled`` date 
+3. Set the `Eligible for ART` and the `Eligible and Ready` dates to be the same date as the `HIV Enrolled Date` to overcome a validation check in UgandaEMR 2.0.0 
 
-   #### Edit an Existing Summary Page
+#### Edit an Existing Summary Page
 
    Only one summary page can be entered for each patient, so creating a new summary page will load the existing page for the patient.
 
