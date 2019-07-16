@@ -18,13 +18,19 @@ This section describes how to enter data from the ART card.
 #### Transfer In
 A transfer occurs when a patient who is currently in care in one facility, moves to start receiving care from your facility. 
 
-1. The `HIV Enrolled Date` for the client is the date when they first come to your facility to receive care and is the date they are entered in the Pre-ART Register and assigned a number  
+1. The `HIV Enrolled Date` for the client is the date when they first come to your facility to receive care and is the date they are entered in the Pre-ART Register and assigned a number.
 2. In this case the `ART Start Date` can be earlier than the ``HIV Enrolled`` date 
 3. Set the `Eligible for ART` and the `Eligible and Ready` dates to be the same date as the `HIV Enrolled Date` to overcome a validation check in UgandaEMR 2.0.0 
 
+For a patient enrolled into care on April 7, 2018, started ART on September 12, 2018, then transferred into a facility on July 1, 2019. The dates are as follows:
+* HIV Enrolled Date - `July 1, 2019`
+* Eligible for ART - `July 1, 2019`
+* Eligible and Ready - `July 1, 2019`
+* ART Start Date - `September 12, 2018`
+
 #### Edit an Existing Summary Page
 
-   Only one summary page can be entered for each patient, so creating a new summary page will load the existing page for the patient.
+Only one summary page can be entered for each patient, so creating a new summary page will load the existing page for the patient.
 
 ### Health Education Page
 
