@@ -111,6 +111,14 @@ Link
 1. 32 bit installer [https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-32bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-32bit.exe/download)
 2. 64 bit installer [https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-64bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-64bit.exe/download)
 
+**Fix to Patient flags in case its Not started**
+
+Download The script drop\_patient flags https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/drop\_patientflags.sql/download and run it using the Execute Mysql option you will find on the start under programs or apps under UgandaEMR
+
+**Fix to Reports failing to start or run.**
+
+Download The script drop\_patient flags [https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/drop\_patientflags.sql/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/reports.sql/download) and run it using the Execute Mysql option you will find on the start under programs or apps under UgandaEMR
+
 ### Noteable contributions
 
 We would like to recognize the noteable contribution of the following partners, and facilities in this release
