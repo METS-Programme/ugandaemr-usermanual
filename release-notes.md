@@ -1,16 +1,30 @@
 # Release Notes
-These are the release notes for the different UgandaEMR versions that are being used, and provide a quick way of accessing the new features in each 
 
-# 1.0.14 
+These are the release notes for the different UgandaEMR versions that are being used, and provide a quick way of accessing the new features in each
+
+# 1.0.14
 
 This fixes a regression found in 1.0.13 due to a change in the underlying plaform
 
-**Release Date:** September 27, 2016
-**Documentation:** [Release Notes 1.0.14](ugandaemr-1017.md) 
+**Release Date:** September 27, 2016  
+**Documentation:** [Release Notes 1.0.14](ugandaemr-1017.md)
 
 # 1.0.17
-**Release Date:** May 22, 2017 
-**Documentation:** [Release Notes 1.0.17](ugandaemr-1017.md) 
+
+**Release Date:** May 22, 2017   
+**Documentation:** [Release Notes 1.0.17](ugandaemr-1017.md)
+
 # 2.0.0
-**Release Date:** September 27, 2017
+
+**Release Date:** September 27, 2017  
 **Documentation:** [Release Notes 2.0.0](ugandaemr-2.0.0.md)
+
+# 2.1.0
+
+**Release Date:** August 14, 2019  
+**Documentation:** Release Notes 2.1.0
+
+
+
+[https://legacy.gitbook.com/book/metsprogram/ugandaemr-documentation/edit\#/edit/master/ugandaemr-210.md?\_k=emxy26](https://legacy.gitbook.com/book/metsprogram/ugandaemr-documentation/edit#/edit/master/ugandaemr-210.md?_k=emxy26)
+
