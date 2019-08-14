@@ -90,7 +90,7 @@ This release is a drop in WAR file upgrade for UgandaEMR 2.0.0, however upgrades
 
 #### WAR File
 
-Link
+[https://sourceforge.net/projects/ugandaemr/files/2.1.0/openmrs.war/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/openmrs.war/download)
 
 #### Upgrade Installer
 
