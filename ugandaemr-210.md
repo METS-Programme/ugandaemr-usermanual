@@ -92,8 +92,6 @@ This release is a drop in WAR file upgrade for UgandaEMR 2.0.0, however upgrades
 
 Link
 
-#### New Installation
-
 #### Upgrade Installer
 
 **For existing versions of UgandaEMR 2.0.0 to 2.1.0**
@@ -106,18 +104,30 @@ Link
 1. 32 bit upgrade installer [https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr\_upgrade\_from\_1.x\_to\_2.1.0\_32bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr_upgrade_from_1.x_to_2.1.0_32bit.exe/download)
 2. 64 bit upgrade installer [https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr\_upgrade\_from\_2.0.0\_to\_2.1.0\_64bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr_upgrade_from_2.0.0_to_2.1.0_64bit.exe/download)
 
-**For new machines with no UgandaEMR installed**
+#### New Installation
 
 1. 32 bit installer [https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-32bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-32bit.exe/download)
 2. 64 bit installer [https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-64bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-64bit.exe/download)
 
+#### Fixing Failed Installations and Upgrades
+
 **Fix to Patient flags in case its Not started**
 
-Download The script drop\_patient flags https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/drop\_patientflags.sql/download and run it using the Execute Mysql option you will find on the start under programs or apps under UgandaEMR
+Download The script drop\_patient flags [https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/drop\_patientflags.sql/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/drop_patientflags.sql/download) and run it using the Execute Mysql option you will find on the start menu of windows  under programs or apps under UgandaEMR
 
 **Fix to Reports failing to start or run.**
 
-Download The script drop\_patient flags [https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/drop\_patientflags.sql/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/reports.sql/download) and run it using the Execute Mysql option you will find on the start under programs or apps under UgandaEMR
+Download The script drop\_patient flags [https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/drop\_patientflags.sql/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/reports.sql/download) and run it using the Execute Mysql option you will find on the start menu of windows  under programs or apps under UgandaEMR
+
+**Fixing 404 after upgrade from  2.0.0 to 2.1.0**
+
+This happens in case tomcat is not yet stopped and a war file is over written. It can be fixed by rerun the upgrade of \(from 2.0.0 to 2.1.0\). 
+
+**Fixing 404 after upgrade from  1.x to 2.1.0**
+
+This happens in case tomcat is not yet stopped and a war file is over written. It can be fixed by using the upgrade with war file that is found on the start menu of windows  under programs or apps under UgandaEMR. 
+
+NB You will need a war file which you can download from either the emrportal under downloads or use this link https://sourceforge.net/projects/ugandaemr/files/2.1.0/openmrs.war/download
 
 ### Noteable contributions
 
