@@ -11,7 +11,7 @@ This fixes a regression found in 1.0.13 due to a change in the underlying plafor
 
 # 1.0.17
 
-**Release Date:** May 22, 2017   
+**Release Date:** May 22, 2017  
 **Documentation:** [Release Notes 1.0.17](ugandaemr-1017.md)
 
 # 2.0.0
@@ -22,9 +22,5 @@ This fixes a regression found in 1.0.13 due to a change in the underlying plafor
 # 2.1.0
 
 **Release Date:** August 14, 2019  
-**Documentation:** Release Notes 2.1.0
-
-
-
-[https://legacy.gitbook.com/book/metsprogram/ugandaemr-documentation/edit\#/edit/master/ugandaemr-210.md?\_k=emxy26](https://legacy.gitbook.com/book/metsprogram/ugandaemr-documentation/edit#/edit/master/ugandaemr-210.md?_k=emxy26)
+**Documentation:** [Release Notes 2.1.0](/ugandaemr-210.md)
 
