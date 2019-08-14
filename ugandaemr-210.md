@@ -109,7 +109,7 @@ Link
 1. 32 bit installer [https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-32bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-32bit.exe/download)
 2. 64 bit installer [https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-64bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-64bit.exe/download)
 
-#### Fixing Failed Installations and Upgrades
+### Fixing Failed Installations and Upgrades
 
 **Fix to Patient flags in case its Not started**
 
@@ -121,13 +121,13 @@ Download The script drop\_patient flags [https://sourceforge.net/projects/uganda
 
 **Fixing 404 after upgrade from  2.0.0 to 2.1.0**
 
-This happens in case tomcat is not yet stopped and a war file is over written. It can be fixed by rerun the upgrade of \(from 2.0.0 to 2.1.0\). 
+This happens in case tomcat is not yet stopped and a war file is over written. It can be fixed by rerun the upgrade of \(from 2.0.0 to 2.1.0\).
 
 **Fixing 404 after upgrade from  1.x to 2.1.0**
 
-This happens in case tomcat is not yet stopped and a war file is over written. It can be fixed by using the upgrade with war file that is found on the start menu of windows  under programs or apps under UgandaEMR. 
+This happens in case tomcat is not yet stopped and a war file is over written. It can be fixed by using the upgrade with war file that is found on the start menu of windows  under programs or apps under UgandaEMR.
 
-NB You will need a war file which you can download from either the emrportal under downloads or use this link https://sourceforge.net/projects/ugandaemr/files/2.1.0/openmrs.war/download
+NB You will need a war file which you can download from either the emrportal under downloads or use this link [https://sourceforge.net/projects/ugandaemr/files/2.1.0/openmrs.war/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/openmrs.war/download)
 
 ### Noteable contributions
 
