@@ -94,22 +94,22 @@ Link
 
 #### New Installation
 
-**For new machines with no UgandaEMR installed**
-
-1. 32 bit installer [https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-32bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-32bit.exe/download)
-2. 64 bit installer [https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-64bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-64bit.exe/download)
-
 #### Upgrade Installer
 
 **For existing versions of UgandaEMR 2.0.0 to 2.1.0**
 
 1. 32 bit upgrade installer [https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr\_upgrade\_from\_2.0.0\_to\_2.1.0\_32bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr_upgrade_from_2.0.0_to_2.1.0_32bit.exe/download)
-2. 64 bit upgrade installer https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr\_upgrade\_from\_2.0.0\_to\_2.1.0\_64bit.exe/download
+2. 64 bit upgrade installer [https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr\_upgrade\_from\_2.0.0\_to\_2.1.0\_64bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr_upgrade_from_2.0.0_to_2.1.0_64bit.exe/download)
 
 **For existing versions of UgandaEMR 1.x**
 
-1. 32 bit upgrade installer https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr\_upgrade\_from\_1.x\_to\_2.1.0\_32bit.exe/download
-2. 64 bit upgrade installer https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr\_upgrade\_from\_2.0.0\_to\_2.1.0\_64bit.exe/download
+1. 32 bit upgrade installer [https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr\_upgrade\_from\_1.x\_to\_2.1.0\_32bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr_upgrade_from_1.x_to_2.1.0_32bit.exe/download)
+2. 64 bit upgrade installer [https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr\_upgrade\_from\_2.0.0\_to\_2.1.0\_64bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr_upgrade_from_2.0.0_to_2.1.0_64bit.exe/download)
+
+**For new machines with no UgandaEMR installed**
+
+1. 32 bit installer [https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-32bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-32bit.exe/download)
+2. 64 bit installer [https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-64bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/ugandaemr2-1-0-installer-64bit.exe/download)
 
 ### Noteable contributions
 
