@@ -108,7 +108,7 @@ The solution is as follows:
 
 **For 2.1.0 and above**
 
-1. Dowload a script from [https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/clear\_edit\_error.sql/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/clear_edit_error.sql/download)
+1. Download a script from [https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/clear\_edit\_error.sql/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/clear_edit_error.sql/download)
 2. Go to start menu and search for Execute Mysql Script and click on it. This will pop up a dialog window
 3. Click install. This will prompt you to select a file. 
 4. Select the Download file and click okay.
