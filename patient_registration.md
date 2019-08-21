@@ -37,20 +37,20 @@ To merge patients;
 
    ![](/assets/patient_merge2.png)
 
-1. Select a minimum of two patient attributes to search on and click _“search”_ as shown in the image below.
+3. Select a minimum of two patient attributes to search on and click _“search”_ as shown in the image below.
 
    ![](/assets/patient_merge3.png)
 
-2. This displays a list of patients who match the attirbutes used in the search. Select two or more patients to continue.
+4. This displays a list of patients who match the attirbutes used in the search. Select two or more patients to continue.
 
    ![](/assets/patient_merge4.png)
 
-3. Select your preferred patient to keep and click _“Merge Patients”_ button to continue
+5. Select your preferred patient to keep and click _“Merge Patients”_ button to continue
 
    ![](/assets/patient_merge5.png)  
    The "Preferred Patient" is the patient who "survives" in favour of the retired patient.
 
-4. A Dialog box displays asking you to confirm the Merge. Click “Ok” to confirm and complete the patient merging process or "Cancel" to abort the process.
+6. A Dialog box displays asking you to confirm the Merge. Click “Ok” to confirm and complete the patient merging process or "Cancel" to abort the process.
 
    You should see a notification indicating that the process was completed successfully.
 
@@ -101,14 +101,14 @@ The above means your User Account does not have privileges to provide care to a 
 This problem is common with implementations that have been upgraded from 1.6.3 and is caused by null or empty string values for patient attributes during migrations.
 
 The solution is as follows:  
-1. Backup your database   
+1. Backup your database  
 2. Run the following command:
 
 `DELETE FROM person_attribute WHERE value IS NULL OR value = '';`
 
 **For 2.1.0 and above**
 
-1. Dowload a script from https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/clear\_edit\_error.sql/download
+1. Dowload a script from [https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/clear\_edit\_error.sql/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/clear_edit_error.sql/download)
 2. Go to start menu and search for Execute Mysql Script and click on it. This will pop up a dialog window
 3. Click install. This will prompt you to select a file. 
 4. Select the Download file and click okay.
