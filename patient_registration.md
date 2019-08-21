@@ -106,7 +106,7 @@ The solution is as follows:
 
 `DELETE FROM person_attribute WHERE value IS NULL OR value = '';`
 
-**For 2.1.0 and above**
+**For Version 2.1.0 and above**
 
 1. Download a script from [https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/clear\_edit\_error.sql/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/clear_edit_error.sql/download)
 2. Go to start menu and search for Execute Mysql Script and click on it. This will pop up a dialog window
