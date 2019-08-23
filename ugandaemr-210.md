@@ -117,7 +117,7 @@ Download The script drop\_patient flags [https://sourceforge.net/projects/uganda
 
 **Fix to Reports failing to start or run.**
 
-Download The script drop\_patient flags [https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/drop\_patientflags.sql/download](https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/reports.sql/download) and run it using the Execute Mysql option you will find on the start menu of windows  under programs or apps under UgandaEMR
+Download The script reoprts https://sourceforge.net/projects/ugandaemr/files/2.1.0/scripts/reports.sql/download and run it using the Execute Mysql option you will find on the start menu of windows  under programs or apps under UgandaEMR
 
 **Fixing 404 after upgrade from  2.0.0 to 2.1.0**
 
