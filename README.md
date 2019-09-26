@@ -1,4 +1,4 @@
-![UgandaEMR](/images/ugandaemr_logo.png)
+                                        ![UgandaEMR](/images/ugandaemr_logo.png)
 
 # UgandaEMR User Manual
 
