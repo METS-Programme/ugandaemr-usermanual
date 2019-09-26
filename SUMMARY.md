@@ -35,6 +35,9 @@
   * [Data Export](reporting_data_export.md)
 * [Data Quality Checks](data_quality_checks.md)
 * [Patient Flags](patient-flags.md)
+* [Program Workflows](program-workflows.md)
+  * [Differentiated Service Delivery Models \(DSDM\)](differentiated-service-delivery-models-dsdm.md)
+  * [HIV Recency Testing](hiv-recency-testing.md)
 * [Troubleshooting Tips](troubleshooting-tips.md)
 * [Uninstalling UgandaEMR](uninstalling-ugandaemr.md)
   * [Unistalling UgandaEMR older versions](uninstalling-ugandaemr/unistallinstalling-ugandaemr-older-versions.md)
@@ -43,4 +46,5 @@
   * [1.0.17](ugandaemr-1017.md)
   * [2.0.0](ugandaemr-200.md)
   * [2.1.0](ugandaemr-210.md)
+
 
