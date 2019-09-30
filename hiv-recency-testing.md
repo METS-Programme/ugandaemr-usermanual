@@ -14,8 +14,17 @@ Once UgandaEMR has been upgraded, follow the steps below to complete the configu
 ![Login](images/log_in_as_admin_link.png)
 2. Click legacy administration link as circled in the image below
 ![Legacy System Adminstration Link](images/legacy_system administration_link.png)
-3. 
+3. In the Maintenance section click Settings 
+![](/assets/administrator_settings.jpg)
+4. Click Ugandaemr and enter the DHIS2 uuid for the facility. This will be used as the username when submitting data to the central server
+![DHIS2 setting](/assets/settings_ugandaemr.jpg) 
+5. Click Ugandaemr sync to configure the settings for the recency server as below
+ * Recency Server URL
+ * Recency Server Password 
+ * Hts Recency - set to true to enable the entry of Recency specific data on the HTS client card 
  
+ ![Recency Settings](/assets/settings_ugandaemr_sync.png) 
+
 
 ### Data Capture Tools 
 
