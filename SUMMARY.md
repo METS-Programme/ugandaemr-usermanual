@@ -23,6 +23,7 @@
   * [Making an existing user a provider](making_an_existing_user_a_provider.md)
 * [Patient Registration](patient_registration.md)
 * [Entering Client Information](data_entry.md)
+  * [HIV Testing Services Client Card](hiv-testing-services-client-card.md)
   * [ART Card](art_card.md)
   * [HIV Exposed Infant Card](eid_card.md)
   * [HIV Counseling and Testing Client Card](htc_card.md)
@@ -46,5 +47,4 @@
   * [1.0.17](ugandaemr-1017.md)
   * [2.0.0](ugandaemr-200.md)
   * [2.1.0](ugandaemr-210.md)
-
 

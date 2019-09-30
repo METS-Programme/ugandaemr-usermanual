@@ -22,11 +22,14 @@ Once UgandaEMR has been upgraded, follow the steps below to complete the configu
  * Recency Server URL
  * Recency Server Password 
  * Hts Recency - set to true to enable the entry of Recency specific data on the HTS client card 
- 
  ![Recency Settings](/assets/settings_ugandaemr_sync.png) 
 
-
 ### Data Capture Tools 
+HIV Recency Testing is an extension of the national HIV Testing Algorithm, and is done for patients above 15 years whose HIV results are positive. 
+
+The clients are requested to give consent for Recency testing and/or storage of their blood samples for future research.
+
+This data is entered from the HTS ca
 
 
 ### Reporting
