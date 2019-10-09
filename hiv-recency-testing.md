@@ -39,15 +39,14 @@ The reporting tools include the national HMIS tools are:
 3. MER Indicators - HTS_RECENT, HCT_TST_Facility
 4. Data Exports
   * HTS Client Card Export - CSV file containing all the fields entered on the HTS Card 
-  * 
+  * Recency Data Export - CSV file with recency data fields 
 
 ### Data Sharing with Central Server 
-
+This is an automated process that occurs every hour until a successful submission is done in a day. Due to the small numbers involved, all the HTS records are sent each time, a process which will be improved as the program proceeds  
 
 ### Troubleshooting Tips 
 #### Unable to login to the central server
 #### Unable to send data to the central server 
-#### 
 
   
 
