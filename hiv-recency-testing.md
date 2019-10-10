@@ -19,7 +19,7 @@ Once UgandaEMR has been upgraded, follow the steps below to complete the configu
 4. Click Ugandaemr and enter the DHIS2 uuid for the facility. This will be used as the username when submitting data to the central server
 ![DHIS2 setting](/assets/settings_ugandaemr.jpg) 
 5. Click Ugandaemr sync to configure the settings for the recency server as below which are provided for your facility 
- * Recency Server URL
+ * Recency Server URL - https://ughim.cphluganda.org/recency/uploads/
  * Recency Server Password 
  * Hts Recency - set to true to enable the entry of Recency specific data on the HTS client card 
 
