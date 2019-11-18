@@ -98,7 +98,7 @@ Step 2: Click on the **Encounter tab** to show the page to be used in searching.
 
 ** 5.** within the last **\_** months and \_\_\_\_days: optional but allows you to search by number of month and number of days:
 
-**6.** since _\*\*\**until **_\_\_\*\*\_: optional but allows you to search by date ranges
+**6.** since _\*\*\*until \*_\_\_\*\*\_: optional but allows you to search by date ranges
 
 **7.** Search is the tab or button for the search
 
@@ -194,6 +194,8 @@ The Main difference between a saved search and a saved cohort is a saved search 
 
 ## Common Queries
 
+### DSDM Programs 
+
 ### Patients who visited on a specific date
 
 TBD
@@ -262,5 +264,7 @@ DELETE from program;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 ```
 
-4. Restart your computer which will add only the supported programs
+1. Restart your computer which will add only the supported programs
+
+
 
