@@ -11,7 +11,7 @@ In Uganda, this program is being rolled out with an initial 6 month pilot of 80 
 
 #### Setting up server authentication
 
-HTS records are sent by UgandaEMR to a secure server at CPHL. Authentication details have to be created within the CPHL MIRTH server for each site that is configured to send data \(config process explained below\).
+HTS records are sent by UgandaEMR to a secure server currently hosted in the CPHL data center. Authentication details have to be created within the MIRTH server for each site that is configured to send data as per the steps below.
 
 1. Download and install the Mirth Connect Administrator Launcher tool.
 2. Using the MIRTH admin tool, connect to https://ughim.cphluganda.org/recency![](/assets/Screenshot 2019-10-14 at 11.11.38.png)
@@ -37,7 +37,7 @@ Once UgandaEMR has been upgraded, follow the steps below to complete the configu
 4. Click Ugandaemr and enter the DHIS2 uuid for the facility. This will be used as the username when submitting data to the central server
    ![DHIS2 setting](/assets/settings_ugandaemr.jpg) 
 5. Click Ugandaemr sync to configure the settings for the recency server as below which are provided for your facility 
-   * Recency Server URL
+   * Recency Server URL - https://ughim.cphluganda.org/recency/uploads/
    * Recency Server Password 
    * Hts Recency - set to true to enable the entry of Recency specific data on the HTS client card 
 6. Restart UgandaEMR instance to enable the system to register the newly added variable in \(4\) and \(5\) above.
@@ -57,7 +57,7 @@ This data is entered following the steps in [HIV Testing Services Client Card](/
 The reporting tools include the national HMIS tools are:  
 1. HMIS ACP 019 HIV Testing Services Register   
 2. HMIS 105 Health Unit Outpatient Monthly Report - Section 4  
-3. MER Indicators - HTS\_RECENT, HCT\_TST\_Facility  
+3. MER Indicators - HTS_RECENT, HCT_TST_Facility  
 4. Data Exports
 
 * HTS Client Card Export - CSV file containing all the fields entered on the HTS Card 
@@ -75,8 +75,8 @@ This is an automated process that occurs every hour until a successful submissio
 
 1. Restart the UgandaEMR instance at the facility. This is key after 
 2. Observe the UgandaEMR alerts. Check if there are errors related to the following.
-   1. The UgandaEMR instance at the facility needs to have an internet connection for at least one hour within a day. 
-   2. 401 authentication error: This implies that either the recency server URL, username and or password are incorrect. Double check these values and also verify the credentials in Mirth.
+   * The UgandaEMR instance at the facility needs to have an internet connection for at least one hour within a day. 
+   * 401 authentication error: This implies that either the recency server URL, username and or password are incorrect. Double check these values and also verify the credentials in Mirth.
 3. Reduce the scheduled sync frequency to 10 minutes, restart UgandaEMR and observe the behaviour.
 
 
