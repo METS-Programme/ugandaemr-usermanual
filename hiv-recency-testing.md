@@ -14,8 +14,9 @@ In Uganda, this program is being rolled out with an initial 6 month pilot of 80 
 HTS records are sent by UgandaEMR to a secure server currently hosted in the CPHL data center. Authentication details have to be created within the MIRTH server for each site that is configured to send data as per the steps below.
 
 1. Download and install the Mirth Connect Administrator Launcher tool.
-2. Using the MIRTH admin tool, connect to https://ughim.cphluganda.org/recency![](/assets/Screenshot 2019-10-14 at 11.11.38.png)
-3. Under channels menu \(from left side of the admin panel\), right click and select _Edit Channel_ named **http-listener-file-writer**. You will be given the edit windows shown below. Select the _Source_ tab and click the **New** button under HTTP Authentication. Provide the DHIS2 UUID as the username and a password. We recommend six character password that is alphanumeric.
+2. Using the MIRTH admin tool, connect to [https://ughim.cphluganda.org/recency](https://ughim.cphluganda.org/recency![]%28/assets/Screenshot)
+   ![](/assets/Screenshot 2019-10-14 at 11.11.38.png)
+3. Under channels menu \(from left side of the admin panel\), right click and select _Edit Channel_ named **http-listener-file-writer**. You will be given the edit windows shown below. Select the _Source_ tab and click the **New** button under HTTP Authentication. Provide the DHIS2 UUID as the username and a password. We recommend six character password that is alphanumeric.  
    ![](/assets/Screenshot 2019-10-14 at 11.24.19.png)
 
 4. To save the credentials added, you will have to attempt to navigate away from the edit window. The interface will request to save changes. Click Yes.
@@ -34,11 +35,13 @@ Once UgandaEMR has been upgraded, follow the steps below to complete the configu
    ![Legacy System Adminstration Link](images/legacy_system administration_link.png)
 3. In the Maintenance section click Settings 
    ![Settings](/assets/administrator_settings.jpg)
-4. Click Ugandaemr and enter the DHIS2 uuid for the facility. This will be used as the username when submitting data to the central server
+4. Click Ugandaemr 
+   Enter the DHIS2 uuid for the facility. This will be provided separately and will be used as the username when submitting data to the central server
    ![DHIS2 setting](/assets/settings_ugandaemr.jpg) 
-5. Click Ugandaemr sync to configure the settings for the recency server as below which are provided for your facility 
-   * Recency Server URL - https://ughim.cphluganda.org/recency/uploads/
-   * Recency Server Password 
+5. Click Ugandaemr sync 
+   Configure the settings for the recency server as stated below which are provided for your facility 
+   * Recency Server URL - https://ugisl.mets.or.ug:5000/recency
+   * Recency Server Password \(provided separately\)
    * Hts Recency - set to true to enable the entry of Recency specific data on the HTS client card 
 6. Restart UgandaEMR instance to enable the system to register the newly added variable in \(4\) and \(5\) above.
 
@@ -55,9 +58,9 @@ This data is entered following the steps in [HIV Testing Services Client Card](/
 ### Reporting
 
 The reporting tools include the national HMIS tools are:  
-1. HMIS ACP 019 HIV Testing Services Register   
+1. HMIS ACP 019 HIV Testing Services Register  
 2. HMIS 105 Health Unit Outpatient Monthly Report - Section 4  
-3. MER Indicators - HTS_RECENT, HCT_TST_Facility  
+3. MER Indicators - HTS\_RECENT, HCT\_TST\_Facility  
 4. Data Exports
 
 * HTS Client Card Export - CSV file containing all the fields entered on the HTS Card 

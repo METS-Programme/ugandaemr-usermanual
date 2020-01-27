@@ -5,6 +5,7 @@
 * [System Setup and Configuration](setup_and_configuration.md)
   * [UgandaEMR 1.x Installation](setup_and_configuration/ugandaemr-1x-installation.md)
   * [UgandaEMR 2.x Installation](setup_and_configuration/ugandaemr-2x-installation.md)
+  * [UgandaEMR 3.0.0-alpha-recency](setup_and_configuration/ugandaemr-300-alpha-recency.md)
   * [Post-installation Configuration](setup_and_configuration/post-installation-configuration.md)
 * [Backup and Restoration](backup_and_restoration.md)
   * [Changing Database Backup File Path](changing-database-backup-file-path.md)
