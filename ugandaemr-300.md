@@ -23,6 +23,7 @@ Currently work in progress
    * Submission of HTS data for recency surveillance
    * UgandaEMR Analytics metrics to track EMR usage at health facilties 
    * Submission to DHIS2 starting with 105A HTS report 
+   * Submission of viral load requests to CPHL and receiving results directly from CPHL 
 5. 
 
 ### Bug Fixes
