@@ -1,7 +1,5 @@
 ## UgandaEMR 2.1.0 Release Notes
 
-Currently work in progress
-
 ### New Features
 
 1. Patient Flags - these allow highlighting information on the patient dashboard following the traffic light coloring, green \(good\), orange \(take note\), red \(take action\). The summary of flags by color codes are:
