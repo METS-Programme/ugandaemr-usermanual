@@ -27,25 +27,28 @@ Currently work in progress
 3. Registration of Patient at Reception
 
 4. Triage
+
 5. Clinical Assessment
 6. Counselling
 7. Laboratory
 
 8. Pharmacy and Dispensing
 
-1. HIV MER Indicator Reports  
-   \*  
-2. Automated Data Exchange
+9. HIV MER Indicator Reports  
+   \*
 
-3. Submission of HTS data for recency surveillance
+10. Automated Data Exchange
 
-4. UgandaEMR Analytics metrics to track EMR usage at health facilties
+11. Submission of HTS data for recency surveillance
 
-5. Submission to DHIS2 starting with 105A HTS report 
-6. Submission of viral load requests to CPHL and receiving results directly from CPHL  
-   1. \#\#\# Bug Fixes
+12. UgandaEMR Analytics metrics to track EMR usage at health facilties
 
-7. ### Links to download files
+13. Submission to DHIS2 starting with 105A HTS report
+
+14. Submission of viral load requests to CPHL and receiving results directly from CPHL  
+    1. \#\#\# Bug Fixes
+
+15. ### Links to download files
 
 TBD
 
