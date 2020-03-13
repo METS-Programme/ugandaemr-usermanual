@@ -4,46 +4,48 @@ Currently work in progress
 
 ### New Features
 
-1. 2019 version of HMIS tools 
+1. 2019 version of HMIS tools
+
    * HIV Testing Client Card with Recency Addendum 
    * ART Card  
      * Summary Page
      * Clinical Assessment
      * Psychosocial Support
-   * HIV Exposed Infant  
+   * HIV Exposed Infant
+
      * Summary Page
      * Encounter Page  
 
    * Maternal Health
+
      * Maternity Form
      * Antenatal Register
-     *  Postnatal Register
+     * Postnatal Register
 
+* Out Patient Register
+* Missed Appointment Tracking Register 
+* Safe Male Circumcision Form 
+  1. Point of Care 
+* Registration of Patient at Reception
 
-   * Out Patient Register
-   * Missed Appointment Tracking Register 
-   * Safe Male Circumcision Form 
-2. Point of Care 
-   * Registration of Patient at Reception
+* Triage
 
-   * Triage
+* Clinical Assessment
 
-   * Clinical Assessment
+* Counselling
 
-   * Counselling
+* Laboratory
 
-   * Laboratory 
+* Pharmacy and Dispensing  
+  3. HIV MER Indicator Reports   
+  \*   
+  4. Automated Data Exchange
 
-   * Pharmacy and Dispensing
-3. HIV MER Indicator Reports 
-   \* 
-4. Automated Data Exchange 
-   * Submission of HTS data for recency surveillance
-   * UgandaEMR Analytics metrics to track EMR usage at health facilties 
-   * Submission to DHIS2 starting with 105A HTS report 
-   * Submission of viral load requests to CPHL and receiving results directly from CPHL 
-5. 
-### Bug Fixes
+* Submission of HTS data for recency surveillance
+* UgandaEMR Analytics metrics to track EMR usage at health facilties 
+* Submission to DHIS2 starting with 105A HTS report 
+* Submission of viral load requests to CPHL and receiving results directly from CPHL 
+  1. ### Bug Fixes
 
 1. ### Links to download files
 
