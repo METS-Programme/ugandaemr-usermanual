@@ -22,32 +22,35 @@ Currently work in progress
      * Antenatal Register
      * Postnatal Register
 
-* Out Patient Register
-* Missed Appointment Tracking Register 
-* Safe Male Circumcision Form 
-  1. Point of Care 
+            Out Patient Register
+
+            Missed Appointment Tracking Register 
+
+           Safe Male Circumcision Form 
+
+2. Point of Care 
+
 * Registration of Patient at Reception
-
 * Triage
-
 * Clinical Assessment
-
 * Counselling
-
 * Laboratory
 
-* Pharmacy and Dispensing  
-  3. HIV MER Indicator Reports   
-  \*   
-  4. Automated Data Exchange
+* Pharmacy and Dispensing
+
+  
+3. HIV MER Indicator Reports  
+\*  
+4. Automated Data Exchange
 
 * Submission of HTS data for recency surveillance
+
 * UgandaEMR Analytics metrics to track EMR usage at health facilties 
 * Submission to DHIS2 starting with 105A HTS report 
-* Submission of viral load requests to CPHL and receiving results directly from CPHL 
-  1. ### Bug Fixes
+* Submission of viral load requests to CPHL and receiving results directly from CPHL   
+  1. \#\#\# Bug Fixes
 
-1. ### Links to download files
+* ### Links to download files
 
 TBD
 
