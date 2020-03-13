@@ -97,24 +97,25 @@ The dashboard shows the avialable reports in the different categories:
 
 ![106A 1B Completed](/assets/106A_1B_download_preserve.png)
 
-### Sending Reports to DHIS2.
+### Sending Reports to DHIS2
 
 1. Set the DHIS2 UUID for the facility that is sending the data by:
 
-* Got to Legacy System Administration-&gt;Mantainance-&gt;Settings-&gt;Ugandaemr.
+   * Got to Legacy System Administration-&gt;Mantainance-&gt;Settings-&gt;Ugandaemr.
 
-   2. Set the DHIS2 Server URL, username and password by:
+2. Set the DHIS2 Server URL, username and password by:
 
-* Got to Legacy System Administration-&gt;Mantainance-&gt;Settings-&gt;Ugandaemrsync
-* Save the Above settings
+  * Got to Legacy System Administration-&gt;Mantainance-&gt;Settings-&gt;Ugandaemrsync
 
-   3. Download the Section 4 HTS Report in JSON Format
+  * Save the Above settings
 
-   4. Click the SendToDHIS2 action item on the reports page
+3. Download the Section 4 HTS Report in JSON Format
 
-   5. On the Preview window, confirm the values displayed and Click the SendToDHIS2 button
+4. Click the SendToDHIS2 action item on the reports page
 
-    6. Wait for response message from the server. If the report is sent you will receive a message **"Report Has Been Successfully Sent"**
+5. On the Preview window, confirm the values displayed and Click the SendToDHIS2 button
+
+6. Wait for response message from the server. If the report is sent you will receive a message **"Report Has Been Successfully Sent"**
 
 ### Troubleshooting Tips
 
