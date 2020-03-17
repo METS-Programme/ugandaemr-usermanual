@@ -2,12 +2,13 @@
 
 ### Patient Registration
 
-1.Login and on the home page click the Register patient link circled below
+1.Login and on the home page click the Find Patient Link circled below
 
-![Register Patient Link](images/register_patient_link.png)  
-2.Enter the details of the patient ensuring that the required fields which are marked with \* are entered
+![Register Patient Link](/assets/poc_find_patient_link.png)
+2.In the Search Bar, type any patient identifiers to search for the patient, if no results are returned, click the Create new Patient link as shown below.
+![](/assets/poc_search_bar.PNG)
 
-3.On clicking the Register Patient icon, you enter patient details as below;
+3.On clicking Create New Patient, you enter patient details as below;
 
 3.1._Patient Name_![PatientName](images/name.png)  
 3.2._Gender_ ![Gender](images/gender.png)  
@@ -20,7 +21,7 @@
 3.8.\_ Next of Kin: ![Next of Kin](images/next_of_kin.png)
 
 3.9.\* Confirm: Shows all the bio-data collected about the patient.![Confirm](images/confirmation.png)  
-3.10. Saving The data: Click confirm to save, if not click cancel to edit. You should see a patient dashboard once saving is successful as below ![](images/patient_dashboard.png)
+3.10. Saving The data: Click confirm to save, if not click cancel to edit. You should see a patient registration summary once saving is successful as below ![](/assets/poc_patient_summary.PNG)
 
 ### Merging Patients
 

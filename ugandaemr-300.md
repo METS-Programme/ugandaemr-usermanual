@@ -12,7 +12,6 @@ Currently work in progress
      * Clinical Assessment
      * Psychosocial Support
    * HIV Exposed Infant
-
      * Summary Page
      * Encounter Page  
 
@@ -37,7 +36,7 @@ Currently work in progress
 4. Automated Data Exchange
 
  * Submission of HTS data for recency surveillance
- * UgandaEMR Analytics metrics to track EMR usage at health facilties
+ * UgandaEMR Analytics metrics to track EMR usage at health facilities
  * Submission to DHIS2 starting with 105A HTS report
  * Submission of viral load requests to CPHL and receiving results directly from CPHL  
    
