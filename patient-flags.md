@@ -21,17 +21,17 @@ The patient flags are:
 12. Overdue for Routine Viral Load  (red)
 13. Overdue for 2nd DNA PCR (red)	
 14. Transferred Out Patient (orange)	
-15. Un-supressed Viral Load (red)	
+15. Un-suppressed Viral Load (red)	
 16. Upcoming appointment (green)
 
 ### Disabling Patient Flags
 Depending on the facility needs, not all the patient flags will be relevant, so the steps below provide the capability of disabling unused flags which will also improve the performance of the patient dashboard 
 
-1. On the home page click the `Legacy System Adminstration` button
+1. On the home page click the `Legacy System Administration` button
 ![Legacy System Administration](/Legacy_system_admin.png)
 2. On the administration page, click the `Settings` link 
 ![Settings](/images/settings.png)
-3. Select Ugandaemr in the left hand menu to display the UgandaEMR settings
+3. Select Ugandaemr in the left-hand menu to display the UgandaEMR settings
 4. In the "Patientflags Disabled Flags" text field enter the names of the patient flags you want to disable separated by a comma (,)
 5. Restart your computer
 
