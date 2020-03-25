@@ -25,7 +25,7 @@ Each of the data collection tools above also has the corresponding register deve
 To enter patient information follow the steps below
 
 1. Go to the home page 
-   ![Home](images/home_screen.png)
+   ![](/assets/Home page.png)
 2. Click search patients
    ![Find Patient Screen](images/home_screen_find_patient_marked.png)
 3. Enter the search term in the text box, this can be the patient name or any identifier assigned to the patient, such as but not limited to National ID, ANC number, PNC number, Patient clinic number, Exposed Infant or birth cohort number. The search only begins after three \(3\) characters have been entered.
