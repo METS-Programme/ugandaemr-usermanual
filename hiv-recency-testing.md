@@ -9,20 +9,6 @@ In Uganda, this program is being rolled out with an initial 6 month pilot of 80 
 
 ### Installation and Configuration
 
-#### Setting up server authentication
-
-HTS records are sent by UgandaEMR to a secure server currently hosted in the CPHL data center. Authentication details have to be created within the MIRTH server for each site that is configured to send data as per the steps below.
-
-1. Download and install the Mirth Connect Administrator Launcher tool.
-2. Using the MIRTH admin tool, connect to [https://ughim.cphluganda.org/recency](https://ughim.cphluganda.org/recency![]%28/assets/Screenshot)
-   ![](/assets/Screenshot 2019-10-14 at 11.11.38.png)
-3. Under channels menu \(from left side of the admin panel\), right click and select _Edit Channel_ named **http-listener-file-writer**. You will be given the edit windows shown below. Select the _Source_ tab and click the **New** button under HTTP Authentication. Provide the DHIS2 UUID as the username and a password. We recommend six character password that is alphanumeric.  
-   ![](/assets/Screenshot 2019-10-14 at 11.24.19.png)
-
-4. To save the credentials added, you will have to attempt to navigate away from the edit window. The interface will request to save changes. Click Yes.
-
-5. Go back to the channels, right click on the **http-listener-file-writer** and select _Deploy Channel_.
-
 #### Setting up UgandaEMR data sync
 
 The recency program only requires an upgrade to UgandaEMR 3.0.0 which is available from the EMR portal at
@@ -40,7 +26,7 @@ Once UgandaEMR has been upgraded, follow the steps below to complete the configu
    ![DHIS2 setting](/assets/settings_ugandaemr.jpg) 
 5. Click Ugandaemr sync 
    Configure the settings for the recency server as stated below which are provided for your facility 
-   * Recency Server URL - https://ugisl.mets.or.ug:5000/recency
+   * Recency Server URL - [https://ugisl.mets.or.ug:5000/recency](https://ugisl.mets.or.ug:5000/recency)
    * Recency Server Password \(provided separately\)
    * Hts Recency - set to true to enable the entry of Recency specific data on the HTS client card 
 6. Restart UgandaEMR instance to enable the system to register the newly added variable in \(4\) and \(5\) above.
