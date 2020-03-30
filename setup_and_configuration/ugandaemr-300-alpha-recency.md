@@ -20,7 +20,7 @@ After the upgrade process to 2.1, you can then continue with the steps below.
 
 #### From UgandaEMR version 2.1
 
-###### a. Stop UgandaEMR
+a. Stop UgandaEMR
 
 * Search for tomcat on the windows start menu and click it. Click “yes” if requested confirmation.
 
@@ -30,32 +30,32 @@ After the upgrade process to 2.1, you can then continue with the steps below.
 
 * Wait until UgandaEMR stops completely – that is when the “Start” button becomes enabled.
 
-###### b. Delete file C:\Program Files\UgandaEMR\UgandaEMRTomcat\webapps\openmrs.war
+b. Delete file C:\Program Files\UgandaEMR\UgandaEMRTomcat\webapps\openmrs.war
 
-###### c. Delete folder C:\Program Files\UgandaEMR\UgandaEMRTomcat\webapps\openmrs\
+c. Delete folder C:\Program Files\UgandaEMR\UgandaEMRTomcat\webapps\openmrs\
 
-###### d. Delete folder C:\Program Files\UgandaEMR\UgandaEMRTomcat\work\Catalina\localhost\openmrs\
+d. Delete folder C:\Program Files\UgandaEMR\UgandaEMRTomcat\work\Catalina\localhost\openmrs\
 
-###### e. Paste the new openmrs.war file you have into the folder C:\Program Files\UgandaEMR\UgandaEMRTomcat\webapps\
+e. Paste the new openmrs.war file you have into the folder C:\Program Files\UgandaEMR\UgandaEMRTomcat\webapps\
 
-###### f. Start UgandaEMR. Use tomcat manager shown in \(a\) above, click “Start” and browse UgandaEMR.
+f. Start UgandaEMR. Use tomcat manager shown in \(a\) above, click “Start” and browse UgandaEMR.
 
-###### g. Reset reports. To do this, follow the steps in the "Reports known issue" below
+g. Reset reports. To do this, follow the steps in the "Reports known issue" below
 
-###### h. Restart the computer
+h. Restart the computer
 
 #### Known Issues
 
-##### 1.    Reports Issue
+##### 1. Reports Issue
 
 This has been observed when upgrading from UgandaEMR 2.0 to 3.x. Signs of this issue include:
 
-###### Symptoms:
+**Symptoms:**
 
 * Reports may not display at all, or they may not be showing as expected.  
 * The server does not fully start up and the log files show an error related to reports module . It may mention “excel” in the log file located in `C:\Program Files\UgandaEMR\UgandaEMRTomcat\logs\ugandaemrtomcat-stdout….log`
 
-###### Resolution
+**Resolution**
 
 Reset all reports by running the following SQL commands.
 
@@ -74,15 +74,15 @@ DELETE FROM serialized_object WHERE type LIKE 'org.openmrs.module.reporting.repo
 
 f - Select one line at a time, right click and click on “Run selected”. If prompted, with a warning message, click “yes” to continue.
 
-##### 3.    Reports module does not start or stay started
+##### 2. Reports module does not start or stay started
 
-###### Symptoms:
+**Symptom:**
 
 * Reports module may start when all modules are started manually but does not start when computer restarts
 
 * The stdout log file will contain this message, `“PacketTooBigException: Packet for query is too large”`
 
-###### Resolution
+**Resolution:**
 
 a.    Open the "my.ini" file under `C:\Program Files\UgandaEMR\MySQL` folder. Note that this file may just appear as “my” without the file extension. Do not modify any other file.  
 b.    Search for the "max\_allowed\_packet" parameter. If the file does not have it, add the parameter to the file.  
@@ -90,6 +90,63 @@ c.    To add the parameter, enter the following value in its own line: `max_allo
 
 d.    Restart the computer.
 
+##### 3. Error starting module due to liquibase changeset 
+**Symptom:**
+There is an error starting the aijar module with an error as follows:
+
+> Caused by: liquibase.exception.MigrationFailedException: Migration failed for change set liquibase.xml::ugandaemr-01-10-2018-1200::slubwama:
+     Reason: liquibase.exception.DatabaseException: Error executing SQL INSERT INTO patient_program (patient_id, program_id, date_enrolled, location_id, creator, date_created, voided, uuid)
+			SELECT patient_id,(SELECT program.program_id FROM program WHERE program.uuid='de5d54ae-c304-11e8-9ad0-529269fb1459') AS program,encounter_datetime AS date_enrolled,location_id,encounter.creator,NOW(),0,UUID() AS uuid FROM encounter INNER JOIN encounter_type ON(encounter_type.encounter_type_id=encounter.encounter_type) WHERE  encounter_type.uuid='8d5b27bc-c2cc-11de-8d13-0010c6dffd0f' GROUP BY patient_id: Cannot add or update a child row: a foreign key constraint fails (`kamccc`.`patient_program`, CONSTRAINT `patient_in_program` FOREIGN KEY (`patient_id`) REFERENCES `patient` (`patient_id`) ON UPDATE CASCADE):
+          Caused By: Error executing SQL INSERT INTO patient_program (patient_id, program_id, date_enrolled, location_id, creator, date_created, voided, uuid)
+			SELECT patient_id,(SELECT program.program_id FROM program WHERE program.uuid='de5d54ae-c304-11e8-9ad0-529269fb1459') AS program,encounter_datetime AS date_enrolled,location_id,encounter.creator,NOW(),0,UUID() AS uuid FROM encounter INNER JOIN encounter_type ON(encounter_type.encounter_type_id=encounter.encounter_type) WHERE  encounter_type.uuid='8d5b27bc-c2cc-11de-8d13-0010c6dffd0f' GROUP BY patient_id: Cannot add or update a child row: a foreign key constraint fails (`kamccc`.`patient_program`, CONSTRAINT `patient_in_program` FOREIGN KEY (`patient_id`) REFERENCES `patient` (`patient_id`) ON UPDATE CASCADE):
+          Caused By: Cannot add or update a child row: a foreign key constraint fails (`kamccc`.`patient_program`, CONSTRAINT `patient_in_program` FOREIGN KEY (`patient_id`) REFERENCES `patient` (`patient_id`) ON UPDATE CASCADE)
+	at liquibase.changelog.ChangeSet.execute(ChangeSet.java:347)
+	at liquibase.changelog.visitor.UpdateVisitor.visit(UpdateVisitor.java:27)
+	at org.openmrs.util.DatabaseUpdater\$1OpenmrsUpdateVisitor.visit(DatabaseUpdater.java:189)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:58)
+	at org.openmrs.util.DatabaseUpdater.executeChangelog(DatabaseUpdater.java:218)
+	at org.openmrs.module.ModuleFactory.runLiquibase(ModuleFactory.java:1024)
+	... 2 more
+Caused by: liquibase.exception.DatabaseException: Error executing SQL INSERT INTO patient_program (patient_id, program_id, date_enrolled, location_id, creator, date_created, voided, uuid)
+			SELECT patient_id,(SELECT program.program_id FROM program WHERE program.uuid='de5d54ae-c304-11e8-9ad0-529269fb1459') AS program,encounter_datetime AS date_enrolled,location_id,encounter.creator,NOW(),0,UUID() AS uuid FROM encounter INNER JOIN encounter_type ON(encounter_type.encounter_type_id=encounter.encounter_type) WHERE  encounter_type.uuid='8d5b27bc-c2cc-11de-8d13-0010c6dffd0f' GROUP BY patient_id: Cannot add or update a child row: a foreign key constraint fails (`kamccc`.`patient_program`, CONSTRAINT `patient_in_program` FOREIGN KEY (`patient_id`) REFERENCES `patient` (`patient_id`) ON UPDATE CASCADE)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:62)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:104)
+	at liquibase.database.AbstractDatabase.execute(AbstractDatabase.java:1091)
+	at liquibase.database.AbstractDatabase.executeStatements(AbstractDatabase.java:1075)
+	at liquibase.changelog.ChangeSet.execute(ChangeSet.java:317)
+	... 7 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`kamccc`.`patient_program`, CONSTRAINT `patient_in_program` FOREIGN KEY (`patient_id`) REFERENCES `patient` (`patient_id`) ON UPDATE CASCADE)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1041)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4237)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4169)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2617)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2778)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2819)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2768)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:949)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:795)
+	at liquibase.executor.jvm.JdbcExecutor$1ExecuteStatementCallback.doInStatement(JdbcExecutor.java:92)at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:55)
+
+**Resolution:**
+
+Open Heidi or the mysql command line and run the following query:
+
+> ```sql
+> SET FOREIGN_KEY_CHECKS = 0;
+> 
+> INSERT INTO patient_program (patient_id, program_id, date_enrolled, location_id, creator, date_created, voided, uuid)
+> 			SELECT patient_id,(SELECT program.program_id FROM program WHERE program.uuid='de5d54ae-c304-11e8-9ad0-529269fb1459') AS program,encounter_datetime AS date_enrolled,location_id,encounter.creator,NOW(),0,UUID() AS uuid FROM encounter INNER JOIN encounter_type ON(encounter_type.encounter_type_id=encounter.encounter_type) WHERE  encounter_type.uuid='8d5b27bc-c2cc-11de-8d13-0010c6dffd0f' GROUP BY patient_id;
+> 
+> INSERT INTO ugandaemr.liquibasechangelog (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, EXECTYPE, MD5SUM, DESCRIPTION, COMMENTS, TAG, LIQUIBASE) VALUES ('ugandaemr-01-10-2018-1200', 'slubwama', 'liquibase.xml', '2020-01-24 10:58:37', 10894, 'EXECUTED', '3:2dde7e3cf9f530145011c6b2fda15cc9', 'Custom SQL', 'Move all Patients Ever enrolled in Facility Based Individual Management DSDM', null, '2.0.5');
+> 
+> SET FOREIGN_KEY_CHECKS = 0;
+> ```
 
 
 ## CHECK LIST
