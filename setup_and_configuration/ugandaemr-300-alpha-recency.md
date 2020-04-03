@@ -143,7 +143,7 @@ Open Heidi or the mysql command line and run the following query:
 > INSERT INTO patient_program (patient_id, program_id, date_enrolled, location_id, creator, date_created, voided, uuid)
 > 			SELECT patient_id,(SELECT program.program_id FROM program WHERE program.uuid='de5d54ae-c304-11e8-9ad0-529269fb1459') AS program,encounter_datetime AS date_enrolled,location_id,encounter.creator,NOW(),0,UUID() AS uuid FROM encounter INNER JOIN encounter_type ON(encounter_type.encounter_type_id=encounter.encounter_type) WHERE  encounter_type.uuid='8d5b27bc-c2cc-11de-8d13-0010c6dffd0f' GROUP BY patient_id;
 > 
-> INSERT INTO ugandaemr.liquibasechangelog (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, EXECTYPE, MD5SUM, DESCRIPTION, COMMENTS, TAG, LIQUIBASE) VALUES ('ugandaemr-01-10-2018-1200', 'slubwama', 'liquibase.xml', '2020-01-24 10:58:37', 10894, 'EXECUTED', '3:2dde7e3cf9f530145011c6b2fda15cc9', 'Custom SQL', 'Move all Patients Ever enrolled in Facility Based Individual Management DSDM', null, '2.0.5');
+> INSERT INTO liquibasechangelog (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, EXECTYPE, MD5SUM, DESCRIPTION, COMMENTS, TAG, LIQUIBASE) VALUES ('ugandaemr-01-10-2018-1200', 'slubwama', 'liquibase.xml', '2020-01-24 10:58:37', 10894, 'EXECUTED', '3:2dde7e3cf9f530145011c6b2fda15cc9', 'Custom SQL', 'Move all Patients Ever enrolled in Facility Based Individual Management DSDM', null, '2.0.5');
 > 
 > SET FOREIGN_KEY_CHECKS = 0;
 > ```
