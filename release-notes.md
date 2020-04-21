@@ -24,3 +24,6 @@ This fixes a regression found in 1.0.13 due to a change in the underlying plafor
 **Release Date:** August 14, 2019  
 **Documentation:** [Release Notes 2.1.0](/ugandaemr-210.md)
 
+**Release Date:** August 14, 2019  
+**Documentation:** [Release Notes 3.0.0](/ugandaemr-300.md)
+
