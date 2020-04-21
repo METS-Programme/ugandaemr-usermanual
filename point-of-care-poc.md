@@ -8,7 +8,7 @@ This section outlines how to setup, configure and use the point of care \(POC\) 
    
     a ) User management
        
-     i. Roles
+     i. [Roles](point-of-care-poc/installation-and-configuration/roles.md)
 
 ### Workflow
 1. Reception Workflow
