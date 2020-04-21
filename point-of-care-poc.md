@@ -15,7 +15,7 @@ This section outlines how to setup, configure and use the point of care \(POC\) 
 2. Triage Workflow
 3. Clinicians Workflow
 
-    i. [HIV Clinician Workflow](point-of-care-poc/work-flows/hivclinic.md)
+    i. [HIV Clinician Workflow](point-of-care-poc/work-flows/hiv-clinic.md)
 4. Laboratory Workflow
 5. Pharmacy Workflow
 
