@@ -22,4 +22,5 @@ By Default the Checkin popup has two fields
 
       ![Check in popup](../../images/poc/poc_check_in_token.png). 
 At this moment the patient is checked in and in the queue you selected as the _"next service point"_
+6. Repeat the process for all patients that must be checked in on that particular day.
    
