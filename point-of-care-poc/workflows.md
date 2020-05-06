@@ -1,4 +1,4 @@
-## POINT OF CARE WORK FLOWS
+## Point of care workflows
 ### Reception Workflow
 ### Triage Workflow
 ### Clinicians Workflow
