@@ -29,7 +29,7 @@ Click on the patient "_Go to Patient Dashboard". This will navigate you to the p
 #### Accessing the patients Clinical Assessment form 
 On the right on the _**"current visit action"**_ Click on the _**"HMIS 003 HIV Care ART Card - Clinical Assessment"**_ 
 ![HMIS 003 HIV Care ART Card - Clinical Assessment](../../images/poc/poc_clinical_assessment_page.png)
-The Clinical Assessment form has vertical Tabs which contain  Sub Tabs which are Horizontal
+The Clinical Assessment form has vertical tabs which contain  Horizontal Sub-tabs These include:
    
 **a ) Clinical Screening tab.** This tab has the following sub-tabs
     
