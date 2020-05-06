@@ -47,7 +47,7 @@
   * [Installation and Configuration](point-of-care-poc/installation-and-configuration.md)
   * [Work Flows](point-of-care-poc/work-flows.md)
     * [Check in Patient](point-of-care-poc/work-flows/traige.md)
-    * [Triage](point-of-care-poc/work-flows/check-in-patient.md)
+    * [Triage](point-of-care-poc/work-flows/reception.md)
 * [Release Notes](release-notes.md)
   * [1.0.14](ugandaemr-1014.md)
   * [1.0.17](ugandaemr-1017.md)
