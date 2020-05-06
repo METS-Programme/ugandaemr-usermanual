@@ -14,9 +14,9 @@ Click on the patient "_Go to Patient Dashboard". This will navigate you to the p
  ![Patients Dashboard](../../images/poc/poc_patient_dashboard.png)
 
 #### Accessing the patients HIV Summary Card 
-On the right on the _**"current visit action"**_ Click on the _**"HMIS ACP HIV 003: HIV CARE/ART CARD - Summary Form"**_  This should navigate you to the Summary form.
+1. On the right on the _**"current visit action"**_ Click on the _**"HMIS ACP HIV 003: HIV CARE/ART CARD - Summary Form"**_  This should navigate you to the Summary form.
 ![HMIS ACP HIV 003: HIV CARE/ART CARD - Summary Form](../../images/poc/poc_hiv_clinic_summary.png)
-The Summary page has different tabs which include 
+2. The Summary page has different tabs which include 
     i. Care Entry & Family Tab
    
     ii. ART Care.
