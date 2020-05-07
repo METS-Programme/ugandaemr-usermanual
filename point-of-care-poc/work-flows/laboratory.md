@@ -1,64 +1,48 @@
 ### Laboratory
-Accessing patients list in Laboratory requires that one has [Organizational: Laboratory](../installation-and-configuration/roles.md). 
+When Clinicians order for tests, laboratory has to process them and provide results.
+Accessing patients list in Laboratory requires that one has [Organizational: Laboratory](../installation-and-configuration/roles.md).
 
-#### Accessing the Laboratory Dashboard
+#### Accessing Laboratory Provider Dashboard
+1. [Login](To be determied) with account that has [role](../installation-and-configuration/roles.md) _"Organizational: Laboratory"_. This action will navigate you to the home screen. 
+ ![Home Screen](../../images/poc/poc_lab_home_page.png)
 
-1. An access icon of the Laboratory will be among the icons when a user with the right role is logged in 
-![](../../images/poc/poc_art_clinic_home.png)
-2. Click on the ART Clinic Icon. This will navigate you to the HIV Clinician Dashboard showing patients in queue
-![](../../images/poc/art_clinic_provider_board.png)
-On the HIV Clinic Dashoard there will be three tabs that is "Patient new" for patients who have been sent to the pool of HIV clinicians, "Patient - Lab Results" for patients returning from Lab with results and "Patients Attended To" Patients who have been attended to by clinician.
+2. On the Home page click on the _"Laboratory"_ icon. This will Navigate you to the _"Laboratory Provider Dashboard"_
+ ![Triage Provider Dashboard](../../images/poc/lab_provider_dashboard.png)
 
-#### Accessing the Patient Dashboard Dashboard
-1. Click on the patient "_Go to Patient Dashboard". This will navigate you to the patient dashboard
- ![](../../images/poc/poc_patient_dashboard.png)
+    This page has four tabs 
 
-#### Accessing the patients HIV Summary Card 
-1. On the right on the _**"current visit action"**_ Click on the _**"HMIS ACP HIV 003: HIV CARE/ART CARD - Summary Form"**_  This should navigate you to the Summary form.
-![](../../images/poc/poc_hiv_clinic_summary.png)
-The Summary page has different tabs which include 
-    i. Care Entry & Family Tab
-   
-    ii. ART Care.
-   
-    iii. Treatment inturruption & out comes
-   
-    iv.  Drug Allergies, Conditions and Screening
-   
+        a) Tests Ordered. This contains patoients who have been sent to lab by clinicians but their samples have not yet been drawn
+        b) Worklist. This is a list of tests whose samples have been collected and will be processed at the health center
+        c) Refered Tests. This is a list of tests whose samples have been collected  and have been refered out of the health center
+        c) Results. These are tests which have recieved results.
+#### Processing Samples
+In order for an ordered test to be processed, there is need to collect a sample for the test and identify the test uniquely. The following are the steps that can be carried out in processing a sample
 
-#### Accessing the patients Clinical Assessment form 
-1. On the right on the _**"current visit action"**_ Click on the _**"HMIS 003 HIV Care ART Card - Clinical Assessment"**_ 
-![](../../images/poc/poc_clinical_assessment_page.png)
-The Clinical Assessment form has vertical Tabs which contain  Sub Tabs which are Horizontal
-   
-    **a ) Clinical Screening tab.**** This tab has the following sub-tabs
-        
-        i. Triage Information. This contains information that has been captured from triage
-        
-        ii. Pregnancy/Family Panning tab.This fields that are used to capture information on family planning of a patient. 
-        
-        iii. Examinations Tab has fields to capture information on Presenting Signs and Symptoms , Advanced Disease and WHO Clinical Stage, Side Effects Of ART, TB AND TPT and Syphilis status
-        
-        iv. Investigations. This tab contains fields that are used to order for tests in the lab. It is in this section where tests such as viral load can be ordered in order for them to be proccesed by the lab technician.
-    **b ) Investigation Report.**** This tab contains information on investigation results that have been done in the lab. It contains two sub tabs that is 
-        
-        i. Report. This displays any result that has been sent back to the clinican by the lab
-        
-        ii. Capture Results. This has the results fields for essential tests in the HIV clinic. A Clinician can capture the results on the patient records from here
-        
-      **c ) Diagnosis.** The Diagnosis tab contains a field that allows one to capture diagnosis of a patient. The field is an auto complete field where you have to type atleast two to three character to show the alternatives one can select on. 
-      The select field can be select as a primary and secondary diagnosis. 
-      
-      **Please Note:** At least one primary diagnosis required when the diagnosis field is used. 
-      
-      d ) **Medication.** This Tab contains all medication options that can be ordered for a patient.
-     
-      **Note** Any Medication select in this section will result into a pharmacy request to the dispensing personnel.
-       
-      **e ) Programming Tab.** This Tab contains the DSDM programming and duration on ART. 
-      
-      **f ) Next Course of action** This Tab contains fields that are used to schedule the next appointment, or transfer out a patient.
-       
-      
-        
+1. Under the “Test Ordered” tab in the “TEST(S) ORDERED” column, Click on the “Tests Unproccessed” link. This will dropdown the ordered tests of patients.
+
+2. In the ordered test list provided, Click on the “process sample” ![](../../images/poc/poc_checkin_icon.png) icon . This will popup a dialogue box to enable you to process the sample.
+
+3. Enter the sample/specimen Id in the textbox provided or generate a sample id by clicking on the ![Generate sample id icon](../../images/poc/poc_generate_sample_id.png). 
     
+    **Please Note:** For Viral load test the serial number on the Viral load form or the DBS card is the sample Id to enter in the specimen id placeholder
+
+4. Select the specimen type in the dropdown provided.
+
+5. For test that are to be referred, Check the “REFER TEST” checkbox. This will show a dropdown with different options of referral of test in a select named “Select Reference Lab” .
+
+6. For Viral Load test Select the option “CPHL” in order for the test to be sent to CPHL.
+
+7. Click on the “Send” button. This action will has two possible results
+    
+        a) If the test is a referred one it will be moved to the "Referred Test" tab.  At this moment the test has been processed and ready to be sent to CPHL when synchronization occurs in the background.
+        b) If the test is not referred, it will be found in the "Worklist" tab.
+#### Adding Results to Samples
+When a sample has been tested and results are available they can be availed  back to the clinician by two approaches
+1. Entering results. This is how a user can enter results. 
+   
+    a ) In the "Worklist" or "Referred test" tab under the action column, Click on the Capture results icon ![](../../images/poc/poc_capture_results.png). This will pop up a capture results window with results options in respect to the test 
+    ![Work List Tab](../../images/poc/poc_lab_worklist.png) 
+    
+    b ) Enter the results appropriately and after click on "save results" button.
+    This will move the test from _"Referred"_ or "_Worklist"_ to Results Tab.
+2. For tests that are referred and have an automated approach in receiving results such as the _"Viral Load test"_  The results will automatically be saved to the test and the test will go off the list.
