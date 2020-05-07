@@ -52,8 +52,15 @@ The dashboard shows the avialable reports in the different categories:
    * HMIS 082: EID Register
    * HMIS 096a: TB Register
 5. MER Indicator Reports
-   * TX Current 
-   * TX New 
+   * HTS_RECENT Report
+   * HCT_TST_Facility Report
+   * Tx Current_28Days Report
+   * Tx Current_90Days Report
+   * Tx New Report
+   * TB STAT Report
+   * TB ART Report
+   * PMTCT STAT Report
+   * PMTCT ART Report
 6. Early Warning Indicator Reports - run annually 
    * Lost To Follow Up
    * Pill Pickup
@@ -62,96 +69,17 @@ The dashboard shows the avialable reports in the different categories:
    * Family Connect EMTCT Module Data Export - for data import into EMTCT module of Family Connect 
 
 ### Running a Report
-
-#### HMIS 106A Section 1A
-
 1. Login as a user with privileges to access the reports
 2. Click the UgandaEMR reports link as in the image below
-   ![UgandaEMR link](/assets/homepage_ugandaemr_reports_link.png)
+   ![UgandaEMR link](assets/homepage_ugandaemr_reports_link.png)
 3. On the Reports dashboard click the link to 106A Section 1A
    ![Reports Dashboard - 106A Section 1A link](/assets/reports_dashboard_106a_1a_link.png)
 4. Enter the start date and end date for the quarter you wish to generate the report, then click the Run button
-   ![106A 1A parameters](/assets/106A_1A_parameters.png)
+   ![106A 1A parameters](assets/106A_1A_parameters.png)
 5. This report will run for a while as shown by the progress icon 
-   ![106A Section 1A processing](/assets/106A_1A_currently_processing.png)
+   ![106A Section 1A processing](assets/106A_1A_currently_processing.png)
 6. Once the report is generated there are two options:
    * Download - downloads the generated report in Excel
    * Preserve - saves the data for the generated report, which will not change when data is updated or corrected later in the future 
 
-![106A 1B Completed](/assets/106A_1A_download_preserve.png)
-
-#### HMIS 106A Section 1B
-
-1. Login as a user with privileges to access the reports
-2. Click the UgandaEMR reports link as in the image below
-   ![UgandaEMR link](/assets/homepage_ugandaemr_reports_link.png)
-3. On the Reports dashboard click the link to 106A Section 1B
-   ![Reports Dashboard - 106A Section 1B link](/assets/reports_dashboard_106a_1b_link.png)
-4. Enter the start date and end date for the quarter you wish to generate the report, then click the Run button
-   ![106A Section 1B Parameters](/assets/106A_1B_parameters.png)
-5. This report will run for a while as shown by the progress icon
-   ![106A 1B processing](/assets/106A_1B_currently_processing.png)
-6. Once the report is generated there are two options:
-   * Download - downloads the generated report in Excel
-   * Preserve - saves the data for the generated report, which will not change when data is updated or corrected later in the future
-
-![106A 1B Completed](/assets/106A_1B_download_preserve.png)
-
-### Sending Reports to DHIS2
-
-1. Set the DHIS2 UUID for the facility that is sending the data by:
-
-   * Got to Legacy System Administration-&gt;Mantainance-&gt;Settings-&gt;Ugandaemr.
-     > ![](assets/facilityUUID.PNG)
-
-2. Set the DHIS2 Server URL, username and password by:
-
-   * Got to Legacy System Administration-&gt;Mantainance-&gt;Settings-&gt;Ugandaemrsync
-
-   * Save the Above settings
-
-3. Download the Section 4 HTS Report in JSON Format
-
-4. Click the SendToDHIS2 action item on the reports page
-
-5. On the Preview window, confirm the values displayed and Click the SendToDHIS2 button
-
-6. Wait for response message from the server. If the report is sent you will receive a message **"Report Has Been Successfully Sent"**
-
-### Troubleshooting Tips
-
-#### Unable to run reports due to an error loading Excel template or the report definition uuid cannot be found
-
-![Error Loading Excel Resource - 1](/assets/error_loading_reporting_excel_resource.jpeg)  
-![Error Loading Excel Resource - 2](/assets/error_loading_reporting_excel_resource-2.jpeg)
-
-Reset all the reports by running the following script
-
-```
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT = @@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS = @@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION = @@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-/*!40103 SET @OLD_TIME_ZONE = @@TIME_ZONE */;
-/*!40103 SET TIME_ZONE = '+00:00' */;
-/*!40014 SET @OLD_UNIQUE_CHECKS = @@UNIQUE_CHECKS, UNIQUE_CHECKS = 0 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS = @@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS = 0 */;
-/*!40101 SET @OLD_SQL_MODE = @@SQL_MODE, SQL_MODE = 'NO_AUTO_VALUE_ON_ZERO' */;
-/*!40111 SET @OLD_SQL_NOTES = @@SQL_NOTES, SQL_NOTES = 0 */;
-
-DELETE FROM reporting_report_design_resource;
-DELETE FROM reporting_report_design;
-DELETE FROM global_property WHERE property LIKE 'reporting.reportManager%';
-DELETE FROM serialized_object WHERE type LIKE 'org.openmrs.module.reporting.report%';
-
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-```
-
-
-
+![106A 1B Completed](assets/106A_1A_download_preserve.png)
