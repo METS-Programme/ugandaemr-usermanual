@@ -58,7 +58,3 @@ The Clinical Assessment form has vertical tabs which contain  Horizontal Sub-tab
       e ) Programming Tab. This Tab contains the DSDM programming and duration on ART. 
       
       f ) Next Course of action This Tab contains fields that are used to schedule the next appointment, or transfer out a patient.
-       
-      
-        
-    

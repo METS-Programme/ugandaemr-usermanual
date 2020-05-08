@@ -1,64 +1,27 @@
-### Laboratory
-Accessing patients list in Laboratory requires that one has [Organizational: Laboratory](../installation-and-configuration/roles.md). 
+### Pharmacy
+When Clinicians Prescribe medications for patients, Pharmacy has to dispense the available drugs or refer those that are not available to external pharmacies or drug shops.
+Accessing patients list in Pharmacy requires that one has [Organizational: Pharmacy](../installation-and-configuration/roles.md).
 
-#### Accessing the Laboratory Dashboard
+#### Accessing Pharmacy Provider Dashboard
+1. [Login](To be determied) with account that has [role](../installation-and-configuration/roles.md) _"Organizational: Pharmacy"_. This action will navigate you to the home screen. 
+ ![Home Screen](../../images/poc/poc_pharmacy_home_page.png)
 
-1. An access icon of the Laboratory will be among the icons when a user with the right role is logged in 
-![](../../images/poc/poc_art_clinic_home.png)
-2. Click on the ART Clinic Icon. This will navigate you to the HIV Clinician Dashboard showing patients in queue
-![](../../images/poc/art_clinic_provider_board.png)
-On the HIV Clinic Dashoard there will be three tabs that is "Patient new" for patients who have been sent to the pool of HIV clinicians, "Patient - Lab Results" for patients returning from Lab with results and "Patients Attended To" Patients who have been attended to by clinician.
+2. On the Home page click on the _"Dispensing"_ icon. This will Navigate you to the _"Pharmacy Provider Dashboard"_
+ ![Triage Provider Dashboard](../../images/poc/poc_pharmacy_provider_dashboard.png)
 
-#### Accessing the Patient Dashboard Dashboard
-1. Click on the patient "_Go to Patient Dashboard". This will navigate you to the patient dashboard
- ![](../../images/poc/poc_patient_dashboard.png)
+    This page has four tabs 
 
-#### Accessing the patients HIV Summary Card 
-1. On the right on the _**"current visit action"**_ Click on the _**"HMIS ACP HIV 003: HIV CARE/ART CARD - Summary Form"**_  This should navigate you to the Summary form.
-![](../../images/poc/poc_hiv_clinic_summary.png)
-The Summary page has different tabs which include 
-    i. Care Entry & Family Tab
-   
-    ii. ART Care.
-   
-    iii. Treatment inturruption & out comes
-   
-    iv.  Drug Allergies, Conditions and Screening
-   
+        a) Prescription List. This contains a list of patients who have a prescription from the clinician.
+        b) Non Prescription List. This contains a list of patients who dont have a prescription from a clinician.
+        c) Completed. This is a list of patients who have been completed. 
 
-#### Accessing the patients Clinical Assessment form 
-1. On the right on the _**"current visit action"**_ Click on the _**"HMIS 003 HIV Care ART Card - Clinical Assessment"**_ 
-![](../../images/poc/poc_clinical_assessment_page.png)
-The Clinical Assessment form has vertical Tabs which contain  Sub Tabs which are Horizontal
-   
-    **a ) Clinical Screening tab.**** This tab has the following sub-tabs
-        
-        i. Triage Information. This contains information that has been captured from triage
-        
-        ii. Pregnancy/Family Panning tab.This fields that are used to capture information on family planning of a patient. 
-        
-        iii. Examinations Tab has fields to capture information on Presenting Signs and Symptoms , Advanced Disease and WHO Clinical Stage, Side Effects Of ART, TB AND TPT and Syphilis status
-        
-        iv. Investigations. This tab contains fields that are used to order for tests in the lab. It is in this section where tests such as viral load can be ordered in order for them to be proccesed by the lab technician.
-    **b ) Investigation Report.**** This tab contains information on investigation results that have been done in the lab. It contains two sub tabs that is 
-        
-        i. Report. This displays any result that has been sent back to the clinican by the lab
-        
-        ii. Capture Results. This has the results fields for essential tests in the HIV clinic. A Clinician can capture the results on the patient records from here
-        
-      **c ) Diagnosis.** The Diagnosis tab contains a field that allows one to capture diagnosis of a patient. The field is an auto complete field where you have to type atleast two to three character to show the alternatives one can select on. 
-      The select field can be select as a primary and secondary diagnosis. 
-      
-      **Please Note:** At least one primary diagnosis required when the diagnosis field is used. 
-      
-      d ) **Medication.** This Tab contains all medication options that can be ordered for a patient.
-     
-      **Note** Any Medication select in this section will result into a pharmacy request to the dispensing personnel.
-       
-      **e ) Programming Tab.** This Tab contains the DSDM programming and duration on ART. 
-      
-      **f ) Next Course of action** This Tab contains fields that are used to schedule the next appointment, or transfer out a patient.
-       
-      
-        
-    
+#### Dispensing Prescribed Drugs
+1. In  the “Prescription List” tab under the _"ACTION"_ column, Click on the _“Dispense Medication”_ link ![](../../images/poc/poc_dispense_icon.png) This will  popup a dialogue box of the drugs to dispense.
+![](../../images/poc/poc_dispense_prescribed_drugs.png)
+2. Enter the quantity to dispense and the period for dispensing per drug.
+**Note:** for drugs which you dont have in stock you can refer out by checking the box in the refer out column.
+3. Click on the _"Dispense"_ button. This will move the patient from the _"Prescription List"_ to the _"Completed List"_.
+If there are any drugs that have been referred out, a print out o will popup
+![](../../images/poc/poc_dispensing_print_out.png)
+
+#### Dispensing Non Prescription List

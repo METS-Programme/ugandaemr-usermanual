@@ -51,6 +51,7 @@
     * Clinician
         * [HIV Clinic](point-of-care-poc/work-flows/traige.md)
     * [Laboratory](point-of-care-poc/work-flows/laboratory.md)
+    * [Pharmacy](point-of-care-poc/work-flows/pharmacy.md)
 * [Release Notes](release-notes.md)
   * [1.0.14](ugandaemr-1014.md)
   * [1.0.17](ugandaemr-1017.md)

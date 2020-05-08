@@ -1,7 +1,7 @@
 ## Point of care workflows
 ### [Reception Workflow](work-flows/reception.md)
-### Triage Workflow
+### [Triage Workflow](work-flows/traige.md)
 ### Clinicians Workflow
 1. [HIV Clinician Workflow](work-flows/hiv-clinic.md)
 ### [Laboratory Workflow](work-flows/laboratory.md)
-### Pharmacy Workflow
+### [Pharmacy Workflow](work-flows/pharmacy.md)
