@@ -1,5 +1,5 @@
 ## Setup and Configuration of Fingerprint
-
+In order to use the fingerprint functionality you need to have a [Digital Personal](https://www.neurotechnology.com/fingerprint-scanner-digitalpersona-u-are-u-4500.html) 4500 device and its drivers installed.
 ### General Setup
 #### Configure Fingerprint app
 In order to configure the fingerprint app there are two things that should be done. 
