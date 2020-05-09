@@ -25,6 +25,10 @@
 * Patient Management
     * [Finding Patient](search_patient.md)
     * [Patient Registration](patient_registration.md)
+* Fingerprint
+    * [Configuration](fingerprint/setup_configurations.md)
+    * [Search by Patient Fingerprint](fingerprint/search_by_fingerprint.md)
+    * [Add Patient Fingerprint](fingerprint/add_patient_fingerprint.md)
 * [Entering Client Information](data_entry.md)
   * [HIV Testing Services Client Card](hiv-testing-services-client-card.md)
   * [ART Card](art_card.md)
