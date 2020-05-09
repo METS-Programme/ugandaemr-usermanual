@@ -4,7 +4,7 @@ In order for a user to perform the triage functionality they must have the _"Tri
 These are the steps on how a triage person can capture triage information on a patient and sent them to the next location.
 
 
-1. [Login](To be determied) with account that has [role](../installation-and-configuration/roles.md) _"Triage"_. This action will navigate you to the home screen. 
+1. [Login](../../login.md) with account that has [role](../installation-and-configuration/roles.md) _"Triage"_. This action will navigate you to the home screen. 
  ![Home Screen](../../images/poc/poc_triage_home_page.png)
 
 2. On the Home page click on the _"Triage"_ icon. This will Navigate you to the _"Triage Provider Dashboard"_

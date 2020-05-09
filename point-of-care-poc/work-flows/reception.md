@@ -5,7 +5,7 @@ The Receptionist requires a role called "Reception" which allows one to perform 
 #### [Edit patient demographics](../../patient_registration.md)
 #### Check in patient
 In Order to check in a patient, a patient the user with _"reception"_ role must follow these steps
-1. [Login](To be determied) with account that has [role](../installation-and-configuration/roles.md) reception. This action will navigate you to the home screen. 
+1. [Login](../../login.md) with account that has [role](../installation-and-configuration/roles.md) reception. This action will navigate you to the home screen. 
 ![Home Screen](../../assets/poc_find_patient_link.png)
 2. On the Home Screen Click on the _"Find patient record"_ icon this will navigate you to the _"patient search"_ page.
 ![Search Page](../../images/poc/poc_search_patient_page.png)

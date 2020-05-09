@@ -3,11 +3,11 @@ When Clinicians Prescribe medications for patients, Pharmacy has to dispense the
 Accessing patients list in Pharmacy requires that one has [Organizational: Pharmacy](../installation-and-configuration/roles.md).
 
 #### Accessing Pharmacy Provider Dashboard
-1. [Login](To be determied) with account that has [role](../installation-and-configuration/roles.md) _"Organizational: Pharmacy"_. This action will navigate you to the home screen. 
+1. [Login](../../login.md) with account that has [role](../installation-and-configuration/roles.md) _"Organizational: Pharmacy"_. This action will navigate you to the home screen. 
  ![Home Screen](../../images/poc/poc_pharmacy_home_page.png)
 
 2. On the Home page click on the _"Dispensing"_ icon. This will Navigate you to the _"Pharmacy Provider Dashboard"_
- ![Triage Provider Dashboard](../../images/poc/poc_pharmacy_provider_dashboard.png)
+ ![Pharmacy Provider Dashboard](../../images/poc/poc_pharmacy_provider_dashboard.png)
 
     This page has four tabs 
 
@@ -16,12 +16,29 @@ Accessing patients list in Pharmacy requires that one has [Organizational: Pharm
         c) Completed. This is a list of patients who have been completed. 
 
 #### Dispensing Prescribed Drugs
-1. In  the “Prescription List” tab under the _"ACTION"_ column, Click on the _“Dispense Medication”_ link ![](../../images/poc/poc_dispense_icon.png) This will  popup a dialogue box of the drugs to dispense.
-![](../../images/poc/poc_dispense_prescribed_drugs.png)
+1. In  the _“Prescription List”_ tab under the _"ACTION"_ column, Click on the _“Dispense Medication”_ link ![Dispense Medication](../../images/poc/poc_dispense_icon.png) This will  popup a dialogue box of the drugs to dispense.
+![Home Page](../../images/poc/poc_dispense_prescribed_drugs.png)
 2. Enter the quantity to dispense and the period for dispensing per drug.
 **Note:** for drugs which you dont have in stock you can refer out by checking the box in the refer out column.
 3. Click on the _"Dispense"_ button. This will move the patient from the _"Prescription List"_ to the _"Completed List"_.
 If there are any drugs that have been referred out, a print out o will popup
-![](../../images/poc/poc_dispensing_print_out.png)
+![Prescription List](../../images/poc/poc_dispensing_print_out.png)
+4. Repeat from step 1 for any patient in the _"Prescription list"_ tab
 
 #### Dispensing Non Prescription List
+There a patients who go directly to pharmacy to pick a refill with no need of a prescriptions from a clinician. 
+1. In the _"Non Prescription List"_ Tab, under the _"ACTION"_ tab, click on the "Dispense Medication" icon ![Dispense Medication](../../images/poc/poc_edit_icon.png). This will navigate you to the dispensing form.
+![Non Prescription List](../../images/poc/poc_pharmacy_non_prescription_list.png)
+2. On the Dispensing form, capture all medication that the has been dispensed to the patient. 
+ **Note:** The ![Add more icon](../../images/poc/poc_add_more.png) adds another row of medication to be dispensed. 
+    The Drug field is an auto complete list of drugs. Make sure that field is not highlighted red rather green.
+  ![Dispensing Form](../../images/poc/poc_dispensing_form.png)
+3. Click on the save button to save the medication dispensed. This will save the drugs dispensed, moved to the _"Completed"_ tab and navigate you back to _"Pharmacy Provider Dashboard"_. 
+4. Repeat from step 1 for any patient in the _"Non Prescription list"_ tab
+
+#### Editing Dispensed Drugs
+When Drugs are already dispensed and you would like to make changes to record, 
+1. In the _"Completed"_ tab under the _"ACTION"_ column, Click on the [Edit Medication](../../images/poc/poc_edit_icon.png) icon. This will navigate you to the dispensing form. 
+2. Make the Changes you wish to make. 
+3. Click on the save button to save the changes. This will save the changes and navigate you back to _"Pharmacy Provider Dashboard"_.  
+![Completed List](../../images/poc/poc_pharmacy_completed.png)

@@ -3,11 +3,11 @@ When Clinicians order for tests, laboratory has to process them and provide resu
 Accessing patients list in Laboratory requires that one has [Organizational: Laboratory](../installation-and-configuration/roles.md).
 
 #### Accessing Laboratory Provider Dashboard
-1. [Login](To be determied) with account that has [role](../installation-and-configuration/roles.md) _"Organizational: Laboratory"_. This action will navigate you to the home screen. 
+1. [Login](../../login.md) with account that has [role](../installation-and-configuration/roles.md) _"Organizational: Laboratory"_. This action will navigate you to the home screen. 
  ![Home Screen](../../images/poc/poc_lab_home_page.png)
 
 2. On the Home page click on the _"Laboratory"_ icon. This will Navigate you to the _"Laboratory Provider Dashboard"_
- ![Triage Provider Dashboard](../../images/poc/lab_provider_dashboard.png)
+ ![Laboratory Provider Dashboard](../../images/poc/lab_provider_dashboard.png)
 
     This page has four tabs 
 
@@ -21,7 +21,7 @@ In order for an ordered test to be processed, there is need to collect a sample 
 
 1. Under the “Test Ordered” tab in the “TEST(S) ORDERED” column, Click on the “Tests Unproccessed” link. This will dropdown the ordered tests of patients.
 
-2. In the ordered test list provided, Click on the “process sample” ![](../../images/poc/poc_checkin_icon.png) icon . This will popup a dialogue box to enable you to process the sample.
+2. In the ordered test list provided, Click on the “process sample” ![process Sample icon](../../images/poc/poc_checkin_icon.png) icon . This will popup a dialogue box to enable you to process the sample.
 
 3. Enter the sample/specimen Id in the textbox provided or generate a sample id by clicking on the ![Generate sample id icon](../../images/poc/poc_generate_sample_id.png). 
     
@@ -42,7 +42,7 @@ In order for an ordered test to be processed, there is need to collect a sample 
 When a sample has been tested and results are available they can be availed  back to the clinician by two approaches
 1. Entering results. This is how a user can enter results. 
    
-    a ) In the "Worklist" or "Referred test" tab under the action column, Click on the Capture results icon ![](../../images/poc/poc_capture_results.png). This will pop up a capture results window with results options in respect to the test 
+    a ) In the "Worklist" or "Referred test" tab under the action column, Click on the Capture results icon ![Capture results](../../images/poc/poc_capture_results.png). This will pop up a capture results window with results options in respect to the test 
     ![Work List Tab](../../images/poc/poc_lab_worklist.png) 
     
     b ) Enter the results appropriately and after click on "save results" button.
