@@ -1,20 +1,33 @@
 ### Sending Reports to DHIS2
 
-1. Set the DHIS2 UUID for the facility that is sending the data by:
+#### Configurations
+In order to send data to DHIS2 you need to set a username and password. This can be done in the following steps
 
-   * Got to Legacy System Administration-&gt;Mantainance-&gt;Settings-&gt;Ugandaemr.
-     > ![](../assets/facilityUUID.PNG)
+1. Got to Legacy System Administration-&gt;Mantainance-&gt;Settings-&gt;Ugandaemr.
+     > ![UgandaEMR Settings](../assets/facility_uuid.png)
 
 2. Set the DHIS2 Server URL, username and password by:
 
-   * Got to Legacy System Administration-&gt;Mantainance-&gt;Settings-&gt;Ugandaemrsync
+3. Got to Legacy System Administration-&gt;Mantainance-&gt;Settings-&gt;Ugandaemrsync
 
-   * Save the Above settings
+4. Save the Above settings
 
-3. Download the Section 4 HTS Report in JSON Format
+#### Sending Data to DHIS2 
+1. [Generate report](../ugandaemr_reports.md#Running a Report) by following steps 1 to 4. this will generate a report.
+![Generated Report](../images/sending_report_to_dhis2.png)
 
-4. Click the SendToDHIS2 action item on the reports page
+2. Click the _"SendToDHIS2"_ action on the report generated  on the reports page. This will popup a report preview  all indicators.
+![Report Preview](../images/send_to_dhis2_preview.png)
 
-5. On the Preview window, confirm the values displayed and Click the SendToDHIS2 button
+3. On the Preview window, confirm the values displayed and Click the _"SendToDHIS2"_ button. Wait for the Response message which reads _"Data Sent Succesfully"_ or an error message with reason why it was not sent. 
+![Response Toast](../images/send_to_dhis2_response.png)
+**Note:** Pay attention to the response. It may include the following results. 
+            
+        Imported: Number of indicators that have been newly added.
+        Updated:  Number of indicators that have been changed 
+        Ignored:  Number of indicators that have been ignored.
+        Ignored:  Number of indicators that have been deleted.
+    
+4. When the report is not sent due to internet connection issues, you can try sening the report again by repeating step 2 and 3.
 
-6. Wait for response message from the server. If the report is sent you will receive a message **"Report Has Been Successfully Sent"**
+#### [Trouble shooting tips](report_trouble_shooting.md#Sending to DHIS2 Failures) 

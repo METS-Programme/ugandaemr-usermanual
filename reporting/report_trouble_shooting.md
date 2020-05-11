@@ -32,3 +32,12 @@ DELETE FROM serialized_object WHERE type LIKE 'org.openmrs.module.reporting.repo
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 ```
+
+#### Sending to DHIS2 Failures
+**Internet Connection Failure**
+![Internet Connection Failure](../images/send_to_dhis2_connection_failed.png)
+When this Error displays Kindly check your internet connection if its available 
+
+**Internal Server Error**
+       
+   When an error like this happens, Kindly contact. the team in charge of developing UgandaEMR.
