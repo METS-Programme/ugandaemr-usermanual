@@ -13,7 +13,7 @@ In order to send data to DHIS2 you need to set a username and password. This can
 4. Save the Above settings
 
 #### Sending Data to DHIS2 
-1. [Generate report](../ugandaemr_reports.md#Running a Report) by following steps 1 to 4. this will generate a report.
+1. [Generate report](ugandaemr_reports.md#Running a Report) by following steps 1 to 4. this will generate a report.
 ![Generated Report](../images/sending_report_to_dhis2.png)
 
 2. Click the _"SendToDHIS2"_ action on the report generated  on the reports page. This will popup a report preview  all indicators.

@@ -21,7 +21,7 @@ USING THE COHORT BUILDER
 
 Click on search and view your results.
 
-1. 1. [UgandaEMR Reports](ugandaemr_reports.md) being developed to replace BIRT and provide a starting point for commonly used cohort builder report exports
+1. 1. [UgandaEMR Reports](reporting/ugandaemr_reports.md) being developed to replace BIRT and provide a starting point for commonly used cohort builder report exports
 
 USING THE DATA EXPORT FUNCTION
 

@@ -2,8 +2,8 @@
 
 #### Unable to run reports due to an error loading Excel template or the report definition uuid cannot be found
 
-![Error Loading Excel Resource - 1](/assets/error_loading_reporting_excel_resource.jpeg)  
-![Error Loading Excel Resource - 2](/assets/error_loading_reporting_excel_resource-2.jpeg)
+![Error Loading Excel Resource - 1](../assets/error_loading_reporting_excel_resource.jpeg)  
+![Error Loading Excel Resource - 2](../assets/error_loading_reporting_excel_resource-2.jpeg)
 
 Reset all the reports by running the following script
 
