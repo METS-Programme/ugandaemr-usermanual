@@ -7,7 +7,7 @@ The reports are generated in the following ways:
 1. [BIRT Reports](reporting_birt.md) for facility level and some MoH HMIS reports 
 2. [Cohort Builder](reporting_cohort_builder.md) for custom data extraction in Excel for more detailed analysis
 
-## USING THE COHORT BUILDER
+## Using The Cohort Builder
 
 1.Log into UgandaEMR and select Legacy Systems Administration
 
@@ -25,7 +25,7 @@ The reports are generated in the following ways:
 
 *[UgandaEMR Reports](ugandaemr_reports.md) being developed to replace BIRT and provide a starting point for commonly used cohort builder report exports*
 
-## USING THE DATA EXPORT FUNCTION
+## Using The Data Export Function
 
 1.Click on the "Administration" tab on the green navigation bar.
 
@@ -46,4 +46,8 @@ The reports are generated in the following ways:
 5.Pick the "Encounter Date" value in the "first encounter info section of the drop down list as shown above and rename the Column Name to reflect the "Enrollment Date"
 
 6.Save the Data Export and run it.
+
+## Running Data Export
+    
+    TBD
 
