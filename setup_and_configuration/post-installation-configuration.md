@@ -4,7 +4,7 @@
 
 1.Login and at the home page select System Administration as shown below
 
-![System Administration](/assets/system_administration_button.png)
+![System Administration](/assets/system_administration.png)
 
 2.Select Health Center Configurations as shown below.
 
