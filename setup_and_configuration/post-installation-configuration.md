@@ -1,6 +1,6 @@
 ## Post-Installation Configuration
 
-### **Change Heath Center Name**
+### Change Heath Center Name
 
 1.Login and at the home page select System Administration as shown below
 
