@@ -54,4 +54,5 @@
   * [2.0.0](ugandaemr-200.md)
   * [2.1.0](ugandaemr-210.md)
   * [3.0.0](ugandaemr-300.md)
+  * [3.0.4](ugandaemr-304.md)
 
