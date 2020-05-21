@@ -5,7 +5,7 @@
     * Due for third DNA PCR
     * Overdue for third DNA PCR
     * Updated Criteria for Due and Overdue for Second DNA PCR
- 2. HIV MER Indicator Reports 
+ 2. HIV MER Indicator Reports 2.4 
     * TX_ML Report
  3. Data Extraction Reports
     * Postnatal Register
