@@ -45,13 +45,15 @@ In order to configure the fingerprint app there are two things that should be do
 ![Rename icon sent to desktop](../images/change_icon_fingerprint.png)
 #### Server Machine
 1. Launch mysql client
-2. Run the following commands below
+![Launch mysql client](../images/launch_mysql_client.png)
+2. Login in mysql
+3. Run the following commands below
 
         Create user ‘openmrs’@’%’ identified by ‘openmrs’;
         GRANT ALL PRIVILEGES on openmrs.* to ‘openmrs’@’%’
-3. Go to Windows Firewall, add inbound rules. In there, add ports 3306
+4. Go to Windows Firewall, add inbound rules. In there, add ports 3306
 ![Inbound Rules](../images/inbound_rule_snapshot.png)
-4. Do the same for Outbound rules
+5. Do the same for Outbound rules
 ![Inbound Rules](../images/outbound_rule_snapshot.png)
 
 
