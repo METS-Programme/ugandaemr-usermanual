@@ -5,20 +5,17 @@
     * Due for third DNA PCR
     * Overdue for third DNA PCR
     * Updated Criteria for Due and Overdue for Second DNA PCR
- 2. HIV MER Indicator Reports 2.4 
+2. HIV MER Indicator Reports 2.4 
     * TX_ML Report
- 3. Data Extraction Reports
+3. Data Extraction Reports
     * Postnatal Register
-    
-    
-  
 ### Fixes Made
-       1. Prevent the creation of Multiple encounters on the same visit date
-       2. Reports Module does not start even after manually starting the module due to a duplicate uuid in the ugandaemrsync module
-       3. EID Card does not allow future dates for Next Appointment Date
-       4. Resolved issue with Data Entry Statistics that was preventing the measure of patients seen by a particular provider
-       5. Clinical Assessment Forms are inaccessible from the HTML form entry section
-       6. Clients' names appearing more than once in the clinician queue
+1. Prevent the creation of Multiple encounters on the same visit date
+2. Reports Module does not start even after manually starting the module due to a duplicate uuid in the ugandaemrsync module
+3. EID Card does not allow future dates for Next Appointment Date
+4. Resolved issue with Data Entry Statistics that was preventing the count of patients seen by a particular provider
+5. Clinical Assessment Form are inaccessible from the HTML form entry section
+6. Checking a patient into a location multiple times does not add the patient more than once in the queue
 
 ### Links to download files
 
