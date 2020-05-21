@@ -14,7 +14,7 @@
 2. Reports Module does not start even after manually starting the module due to a duplicate uuid in the ugandaemrsync module
 3. EID Card does not allow future dates for Next Appointment Date
 4. Resolved issue with Data Entry Statistics that was preventing the count of patients seen by a particular provider
-5. Clinical Assessment Form are inaccessible from the HTML form entry section
+5. Clinical Assessment Form is inaccessible from the HTML form entry section
 6. Checking a patient into a location multiple times does not add the patient more than once in the queue
 
 ### Links to download files
