@@ -25,7 +25,7 @@ In order to configure the fingerprint app there are two things that should be do
 #### Client Machine
 1. Ensure UgandaEMR has been installed successfully: The you can ably login using your session like ART, SMC, OPD and the many more.
 
-2. Server and client computers must be on the same network: Ping the server address from your computer. Ping replies should be successful.
+2. Server and client computers must be on the same network: [Ping](https://www.howtogeek.com/355664/how-to-use-ping-to-test-your-network/) the server address from your computer. Ping replies should be successful.
 
 3. [Download fingerprint connector](https://sourceforge.net/projects/ugandaemr/files/Others/fingerprint%20connector.zip/download) on your computer. 
 
@@ -36,19 +36,23 @@ In order to configure the fingerprint app there are two things that should be do
 6. Replace _"localhost"_ with the IP address of the server.
 
 7.  Right click on the  _"fingerprintrun.bat"_ and Create shortcut to Desktop
+![Right Click on fingerprintrun.bat](../images/send_icon_to_desktop.png)
 
 8. Go to Desktop and rename the Short to "Start Fingerprint". 
+![Rename icon sent to desktop](../images/rename_fingerprint_icon.png)
 
 9. May Change the icon of the shortcut. There is one provided in the fingerprint directory.
-
-#### Client Machine
+![Rename icon sent to desktop](../images/change_icon_fingerprint.png)
+#### Server Machine
 1. Launch mysql client
 2. Run the following commands below
 
         Create user ‘openmrs’@’%’ identified by ‘openmrs’;
         GRANT ALL PRIVILEGES on openmrs.* to ‘openmrs’@’%’
 3. Go to Windows Firewall, add inbound rules. In there, add ports 3306
+![Inbound Rules](../images/inbound_rule_snapshot.png)
 4. Do the same for Outbound rules
+![Inbound Rules](../images/outbound_rule_snapshot.png)
 
 
 
