@@ -4,4 +4,4 @@
 ![Search Page](../images/poc/poc_search_patient_page.png)
 5. Enter patient name or Identifier in the Search bar. For any patient who appears matches the entered details, they will  appear in the patient list. 
 
-**Note:** To search patient by fingerprint go to [Search By Fingerprint](fingerprint/search_by_fingerprint.md)  section
+**Note:** To search patient by fingerprint go to [Search By Fingerprint](fingerprint/search_add_patient_fingerprint.md#search-by-fingerprint)  section

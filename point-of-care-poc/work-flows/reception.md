@@ -1,4 +1,4 @@
-### Reception Workflow
+## Reception Workflow
 The Receptionist requires a role called "Reception" which allows one to perform the following roles
 #### [Search for patient](../../search_patient.md)
 #### [Register a patient](../../patient_registration.md)
@@ -10,7 +10,7 @@ In Order to check in a patient, a patient the user with _"reception"_ role must 
 2. On the Home Screen Click on the _"Find patient record"_ icon this will navigate you to the _"patient search"_ page.
 ![Search Page](../../images/poc/poc_search_patient_page.png)
 3. In the search box provided, type patient names or identifier. This will show a drop down list of patient (s) who match the typed details.
-**Note:** In case you need guidelines on searching by fingerprint refer to [This Link](../../fingerprint/search_by_fingerprint.md)
+**Note:** In case you need guidelines on searching by fingerprint refer to [This Link](../../fingerprint/search_add_patient_fingerprint.md#search-by-fingerprint)
 ![Search Page](../../images/poc/poc_patient_in_search_list.png)
 4. In the the Action column in the search list on a patient item, click on the ![checkin icon](../../images/poc/poc_checkin_icon.png). This should show a check in  dialogue popup
 ![Check in popup](../../images/poc/poc_check_in_popup.png)

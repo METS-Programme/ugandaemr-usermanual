@@ -1,4 +1,4 @@
-### Triage Workflow
+## Triage Workflow
 The Triage Role allows a person to capture triage information for a patient and send them to the next service area.
 In order for a user to perform the triage functionality they must have the _"Triage"_ role.
 These are the steps on how a triage person can capture triage information on a patient and sent them to the next location.

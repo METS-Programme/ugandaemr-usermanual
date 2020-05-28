@@ -1,4 +1,4 @@
-### Pharmacy
+## Pharmacy
 When Clinicians Prescribe medications for patients, Pharmacy has to dispense the available drugs or refer those that are not available to external pharmacies or drug shops.
 Accessing patients list in Pharmacy requires that one has [Organizational: Pharmacy](../installation-and-configuration/roles.md).
 

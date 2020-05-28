@@ -1,4 +1,4 @@
-### Laboratory
+## Laboratory
 When Clinicians order for tests, laboratory has to process them and provide results.
 Accessing patients list in Laboratory requires that one has [Organizational: Laboratory](../installation-and-configuration/roles.md).
 
@@ -11,10 +11,13 @@ Accessing patients list in Laboratory requires that one has [Organizational: Lab
 
     This page has four tabs 
 
-        a) Tests Ordered. This contains patoients who have been sent to lab by clinicians but their samples have not yet been drawn
-        b) Worklist. This is a list of tests whose samples have been collected and will be processed at the health center
-        c) Refered Tests. This is a list of tests whose samples have been collected  and have been refered out of the health center
-        c) Results. These are tests which have recieved results.
+    a) Tests Ordered. This contains patoients who have been sent to lab by clinicians but their samples have not yet been drawn
+    
+    b) Worklist. This is a list of tests whose samples have been collected and will be processed at the health center
+    
+    c) Refered Tests. This is a list of tests whose samples have been collected  and have been refered out of the health center
+   
+    d) Results. These are tests which have recieved results.
 
 #### Processing Samples
 In order for an ordered test to be processed, there is need to collect a sample for the test and identify the test uniquely. The following are the steps that can be carried out in processing a sample
@@ -35,8 +38,9 @@ In order for an ordered test to be processed, there is need to collect a sample 
 
 7. Click on the “Send” button. This action will has two possible results
     
-        a) If the test is a referred one it will be moved to the "Referred Test" tab.  At this moment the test has been processed and ready to be sent to CPHL when synchronization occurs in the background.
-        b) If the test is not referred, it will be found in the "Worklist" tab.
+    a) If the test is a referred one it will be moved to the "Referred Test" tab.  At this moment the test has been processed and ready to be sent to CPHL when synchronization occurs in the background.
+    
+    b) If the test is not referred, it will be found in the "Worklist" tab.
 
 #### Adding Results to Samples
 When a sample has been tested and results are available they can be availed  back to the clinician by two approaches
