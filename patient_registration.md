@@ -23,6 +23,28 @@
 3.9.\* Confirm: Shows all the bio-data collected about the patient.![Confirm](images/confirmation.png)  
 3.10. Saving The data: Click confirm to save, if not click cancel to edit. You should see a patient registration summary once saving is successful as below ![](/assets/poc_patient_summary.PNG)
 
+###Editing Patient Registration Information
+
+###Editing  Patient Registration
+
+1.Login and on the home page click the Find Patient Link circled below
+
+![Register Patient Link](/assets/poc_find_patient_link.png)
+
+2.In the Search Bar, type any patient identifiers to search for the patient, the record of the patient appears as shown below.
+
+![Patient Search Record](/assets/poc_patient_record_search.png)
+
+3.Click on the last action that has Edit Demographics as shown below;
+
+![Edit Patient Demographics](/assets/poc_edit_patient_demographics.png)
+
+4.Edit Patient Information by clicking on the pencil icon next to a section header where those details belong
+
+![Registration Summary](/assets/poc_patient_summary.PNG)
+
+5.Confirm the details and Save the information.
+
 ### Merging Patients
 
 Patient Merging in UgandaEMR refers to the act of “retiring” Patient B in favour of patient A. In such an event, the visits, encounters, observations and other underlying objects which belonged to patient B will be transferred to Patient A, and Patient B will be retired. In a multiple patient merge process, Patients A, B and C may be retired in favour of patient X. Patient Merging is useful in situations where duplicate records have been created for a single patient.
