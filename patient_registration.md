@@ -79,19 +79,18 @@ To merge patients;
    ![Complete Patient Merge](assets/patient_merge6.png)
 
 ### Marking Patients as Dead
-
-To mark patient as dead, you will have to log into one of the clinics, i.e. SMC, ART, TB, MCH, OPD, Lab.
+1.To mark patient as dead, you will have to log into one of the clinics, i.e. SMC, ART, TB, MCH, OPD, Lab.
 
 An example is; SMC;  login at the "SMC clinic" session, as shown below.  
 ![SMC Clinic](SMC12.png)
 
-A screen will open as shown below. Select the "Find Patient Record" option.  
+2.A screen will open as shown below. Select the "Find Patient Record" option.  
 ![Find Patient](SMC11.png)
 
-On the screen that appears, type the name or ID of the patient, as registered in the system.  
+3.On the screen that appears, type the name or ID of the patient, as registered in the system.  
 ![Patient ID](SMC13.png)
 
-Search for and find the client - Demo 123  
+4.Search for and find the client - Demo 123  
 ![Patient Example](assets/terminated1.jpg)
 
 ![Mark Patient Deceased](assets/terminated 2.1.PNG)
