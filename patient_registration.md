@@ -4,9 +4,10 @@
 
 1.Login and on the home page click the Find Patient Link circled below
 
-![Register Patient Link](/assets/poc_find_patient_link.png)
+![Register Patient Link](assets/poc_find_patient_link.png)
+
 2.In the Search Bar, type any patient identifiers to search for the patient, if no results are returned, click the Create new Patient link as shown below.
-![](/assets/poc_search_bar.PNG)
+![Patient Search Bar](assets/poc_search_bar.PNG)
 
 3.On clicking Create New Patient, you enter patient details as below;
 
@@ -23,6 +24,26 @@
 3.9.\* Confirm: Shows all the bio-data collected about the patient.![Confirm](images/confirmation.png)  
 3.10. Saving The data: Click confirm to save, if not click cancel to edit. You should see a patient registration summary once saving is successful as below ![](/assets/poc_patient_summary.PNG)
 
+###Editing Patient Registration Information
+
+1.Login and on the home page click the Find Patient Link circled below
+
+![Register Patient Link](assets/poc_find_patient_link.png)
+
+2.In the Search Bar, type any patient identifiers to search for the patient, the record of the patient appears as shown below.
+
+![Patient Search Record](assets/poc_patient_record_search.png)
+
+3.Click on the last action that has Edit Demographics as shown below;
+
+![Edit Patient Demographics](assets/poc_edit_patient_demographics.png)
+
+4.Edit Patient Information by clicking on the pencil icon next to a section header where those details belong
+
+![Registration Summary](assets/poc_registration_summary.PNG)
+
+5.Confirm the details and Save the information.
+
 ### Merging Patients
 
 Patient Merging in UgandaEMR refers to the act of “retiring” Patient B in favour of patient A. In such an event, the visits, encounters, observations and other underlying objects which belonged to patient B will be transferred to Patient A, and Patient B will be retired. In a multiple patient merge process, Patients A, B and C may be retired in favour of patient X. Patient Merging is useful in situations where duplicate records have been created for a single patient.
@@ -32,52 +53,52 @@ Patient Merging in UgandaEMR refers to the act of “retiring” Patient B in fa
 To merge patients;
 
 1. Login as a user with administrator privileges and click the “_Legacy System Administration_” link as shown in the image below.  
-   ![](/assets/patient_merge1.png)
+   ![Legacy System Administration](assets/patient_merge1.png)
 
 2. Click on the _“Find Patients to Merge_” link as shown below.
 
-   ![](/assets/patient_merge2.png)
+   ![Find Patient to Meger](assets/patient_merge2.png)
 
 3. Select a minimum of two patient attributes to search on and click _“search”_ as shown in the image below.
 
-   ![](/assets/patient_merge3.png)
+   ![Search Patient](assets/patient_merge3.png)
 
 4. This displays a list of patients who match the attirbutes used in the search. Select two or more patients to continue.
 
-   ![](/assets/patient_merge4.png)
+   ![Patient List](assets/patient_merge4.png)
 
 5. Select your preferred patient to keep and click _“Merge Patients”_ button to continue
 
-   ![](/assets/patient_merge5.png)  
+   ![Merge Patient](assets/patient_merge5.png)  
    The "Preferred Patient" is the patient who "survives" in favour of the retired patient.
 
 6. A Dialog box displays asking you to confirm the Merge. Click “Ok” to confirm and complete the patient merging process or "Cancel" to abort the process.
 
    You should see a notification indicating that the process was completed successfully.
 
-   ![](/assets/patient_merge6.png)
+   ![Complete Patient Merge](assets/patient_merge6.png)
 
 ### Marking Patients as Dead
-
-To mark patient as dead, you will have to log into one of the clinics, i.e. SMC, ART, TB, MCH, OPD, Lab.
+1.To mark patient as dead, you will have to log into one of the clinics, i.e. SMC, ART, TB, MCH, OPD, Lab.
 
 An example is; SMC;  login at the "SMC clinic" session, as shown below.  
-![](SMC12.png)
+![SMC Clinic](SMC12.png)
 
-A screen will open as shown below. Select the "Find Patient Record" option.  
-![](SMC11.png)
+2.A screen will open as shown below. Select the "Find Patient Record" option.  
+![Find Patient](SMC11.png)
 
-On the screen that appears, type the name or ID of the patient, as registered in the system.  
-![](SMC13.png)
+3.On the screen that appears, type the name or ID of the patient, as registered in the system.  
+![Patient ID](SMC13.png)
 
-Search for and find the client - Demo 123  
-![](/assets/terminated1.jpg)
+4.Search for and find the client - Demo 123  
+![Patient Example](assets/terminated1.jpg)
 
-![](/assets/terminated 2.1.PNG)![](/assets/terminated 31.PNG)
+![Mark Patient Deceased](assets/terminated 2.1.PNG)
+![Check Patient Deceased](assets/terminated 31.PNG)
 
-![](/assets/terminated 4.PNG)
+![Save Changes](assets/terminated 4.PNG)
 
-![Patient Marked as Dead](/assets/terminated 5.PNG)
+![Patient Marked as Dead](assets/terminated 5.PNG)
 
 ### Marking a Dead Patient as alive
 
@@ -95,7 +116,7 @@ The above means your User Account does not have privileges to provide care to a 
 
 #### Failed to save changes during patient registration
 
-![Failed to save changes](/assets/user_registration_failed_to_save_changes.jpeg)
+![Failed to save changes](assets/user_registration_failed_to_save_changes.jpeg)
 
 ##### Solution
 
