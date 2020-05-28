@@ -46,9 +46,9 @@ In order for an ordered test to be processed, there is need to collect a sample 
 When a sample has been tested and results are available they can be availed  back to the clinician by two approaches
 1. Entering results. This is how a user can enter results. 
    
-    a ) In the "Worklist" or "Referred test" tab under the action column, Click on the Capture results icon ![Capture results](../../images/poc/poc_capture_results.png). This will pop up a capture results window with results options in respect to the test 
+    a) In the "Worklist" or "Referred test" tab under the action column, Click on the Capture results icon ![Capture results](../../images/poc/poc_capture_results.png). This will pop up a capture results window with results options in respect to the test 
     ![Work List Tab](../../images/poc/poc_lab_worklist.png) 
     
-    b ) Enter the results appropriately and after click on "save results" button.
+    b) Enter the results appropriately and after click on "save results" button.
     This will move the test from _"Referred"_ or "_Worklist"_ to Results Tab.
 2. For tests that are referred and have an automated approach in receiving results such as the _"Viral Load test"_  The results will automatically be saved to the test and the test will go off the list.

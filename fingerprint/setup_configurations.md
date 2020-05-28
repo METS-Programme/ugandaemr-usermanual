@@ -6,18 +6,18 @@ In order to configure the fingerprint app there are two things that should be do
  1. Setting the username and password for the it to access the openmrs database. 
  2. UgandaEMR  Settings
      
-       a ) [Login](../login.md) In UgandaEMR. This will navigate you to the _"Home"_ page
+       a) [Login](../login.md) In UgandaEMR. This will navigate you to the _"Home"_ page
        
-       b ) Click on the "System Administrator icon ![System Admin icon](../images/system_admin_icon.png). This will navigate you to the _" System Administration"_ page. 
+       b) Click on the "System Administrator icon ![System Admin icon](../images/system_admin_icon.png). This will navigate you to the _" System Administration"_ page. 
        
-       c ) Click on the Fingerprint Settings icon. ![Fingerprint Settings icon](../images/fingerprint_settings_icon.png). This will navigate you to the fingerprint settings
+       c) Click on the Fingerprint Settings icon. ![Fingerprint Settings icon](../images/fingerprint_settings_icon.png). This will navigate you to the fingerprint settings
        ![Fingerprint Settings Page](../images/fingerprint_setting_page.png)
        
-       d ) In order to enable or disable a finger type _"true"_ to enable and _"false"_ to disable. 
+       d) In order to enable or disable a finger type _"true"_ to enable and _"false"_ to disable. 
        
-       e ) The Socket IP Address is very important. It should be set to _"http://localhost:8084"_ if its not set, or different, change it to _"http://localhost:8084"_.
+       e) The Socket IP Address is very important. It should be set to _"http://localhost:8084"_ if its not set, or different, change it to _"http://localhost:8084"_.
        
-       f ) In order to save the changes, _"click the save"_ button. 
+       f) In order to save the changes, _"click the save"_ button. 
       
 
 ### Client Server Setup

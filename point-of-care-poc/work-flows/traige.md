@@ -11,8 +11,9 @@ These are the steps on how a triage person can capture triage information on a p
  ![Triage Provider Dashboard](../../images/poc/poc_triage_provider_board.png)
 This page has two tabs 
         
-        a) Pending patient. These are patiets who have been who have not yet been triaged.
-        b) Completed Patients. These are patients who have already been triaged.
+    a) Pending patient. These are patiets who have been who have not yet been triaged.
+   
+    b) Completed Patients. These are patients who have already been triaged.
 
 3. In the  pending tab in the table under the actions column, Clink on the _"Triage vitals"_ icon. This will navigate you to the Triage information form. 
   ![Triage information form](../../images/poc/poc_capture_triage_info.png)

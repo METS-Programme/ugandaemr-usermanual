@@ -20,7 +20,8 @@ By Default the Checkin popup has two fields
         b )  Next Service Point. This is whene you would like to send a petient to.
 5. Select the Entry point and the Next Service point. This will show a checkin tocken print out which may be printed out and given to the patient.
 
-      ![Check in popup](../../images/poc/poc_check_in_token.png). 
-At this moment the patient is checked in and in the queue you selected as the _"next service point"_
+      ![Check in popup](../../images/poc/poc_check_in_token.png)
+      
+    At this moment the patient is checked in and in the queue you selected as the _"next service point"_
 6. Repeat the process for all patients that must be checked in on that particular day.
    

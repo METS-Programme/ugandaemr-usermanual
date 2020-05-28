@@ -31,7 +31,7 @@ On the right on the _**"current visit action"**_ Click on the _**"HMIS 003 HIV C
 ![HMIS 003 HIV Care ART Card - Clinical Assessment](../../images/poc/poc_clinical_assessment_page.png)
 The Clinical Assessment form has vertical tabs which contain  Horizontal Sub-tabs These include:
    
-**a ) Clinical Screening tab.** This tab has the following sub-tabs
+**a) Clinical Screening tab.** This tab has the following sub-tabs
 
 i. Triage Information. This contains information that has been captured from triage
 
@@ -41,21 +41,21 @@ iii. Examinations Tab has fields to capture information on Presenting Signs and 
 
 iv. Investigations. This tab contains fields that are used to order for tests in the lab. It is in this section where tests such as viral load can be ordered in order for them to be proccesed by the lab technician.
 
-**b ) Investigation Report.** This tab contains information on investigation results that have been done in the lab. It contains two sub tabs that is 
+**b) Investigation Report.** This tab contains information on investigation results that have been done in the lab. It contains two sub tabs that is 
     
 i. Report. This displays any result that has been sent back to the clinican by the lab
 
 ii. Capture Results. This has the results fields for essential tests in the HIV clinic. A Clinician can capture the results on the patient records from here
     
-  **c ) Diagnosis.** The Diagnosis tab contains a field that allows one to capture diagnosis of a patient. The field is an auto complete field where you have to type atleast two to three character to show the alternatives one can select on. 
+  **c) Diagnosis.** The Diagnosis tab contains a field that allows one to capture diagnosis of a patient. The field is an auto complete field where you have to type atleast two to three character to show the alternatives one can select on. 
   The select field can be select as a primary and secondary diagnosis. 
   
   **Please Note:** At least one primary diagnosis required when the diagnosis field is used. 
   
-  **d ) Medication.** This Tab contains all medication options that can be ordered for a patient.
+  **d) Medication.** This Tab contains all medication options that can be ordered for a patient.
  
   **Note:** Any Medication select in this section will result into a pharmacy request to the dispensing personnel.
        
-  e ) Programming Tab. This Tab contains the DSDM programming and duration on ART. 
+  e) Programming Tab. This Tab contains the DSDM programming and duration on ART. 
   
-  f ) Next Course of action This Tab contains fields that are used to schedule the next appointment, or transfer out a patient.
+  f) Next Course of action This Tab contains fields that are used to schedule the next appointment, or transfer out a patient.

@@ -11,9 +11,9 @@ Before searching by fingerprint, make sure that you have the right [configuratio
 6. Ask the patient to put their finger on the fingerprint device. 
     There are two possible outcomes. 
   
-    a ) Patient found. This will make a patient appear in the patient list. 
+    a) Patient found. This will make a patient appear in the patient list. 
    
-    b ) Patient not found. This will show a toast indicating that the patient was not found. 
+    b) Patient not found. This will show a toast indicating that the patient was not found. 
 
 ## Add Patient Fingerprint.
 In order to add a patient fingerprint, make sure that the you have the right [Configurations](setup_configurations.md)
