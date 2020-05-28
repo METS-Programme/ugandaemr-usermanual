@@ -32,9 +32,11 @@
   * [Safe Male Circumcision](smc.md)
   * Outpatient Form
 * [Reporting](reporting.md)
+  * [UgandaEMR Reports](reporting/ugandaemr_reports.md)
   * [Cohort Builder](reporting_cohort_builder.md)
-  * [UgandaEMR Reports](ugandaemr_reports.md)
   * [Data Export](reporting_data_export.md)
+  * [Sending Report to DHIS2](reporting/sending_to_dhis2.md)
+  * [Troubleshooting Report Tips](reporting/report_trouble_shooting.md)
 * [Data Quality Checks](data_quality_checks.md)
 * [Patient Flags](patient-flags.md)
 * [Program Workflows](program-workflows.md)

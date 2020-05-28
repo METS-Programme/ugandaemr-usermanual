@@ -23,7 +23,7 @@ The reports are generated in the following ways:
 
 4.Click on search and view your results.
 
-*[UgandaEMR Reports](ugandaemr_reports.md) being developed to replace BIRT and provide a starting point for commonly used cohort builder report exports*
+*[UgandaEMR Reports](reporting/ugandaemr_reports.md) being developed to replace BIRT and provide a starting point for commonly used cohort builder report exports*
 
 ## Using The Data Export Function
 
