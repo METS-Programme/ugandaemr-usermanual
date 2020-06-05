@@ -197,8 +197,7 @@ ALTER TABLE `patientflags_flag` CONVERT TO CHARACTER SET UTF8;
 ALTER TABLE `patientflags_flag_tag` CONVERT TO CHARACTER SET UTF8;                                   
 ALTER TABLE `patientflags_priority` CONVERT TO CHARACTER SET UTF8;                                   
 ALTER TABLE `patientflags_tag` CONVERT TO CHARACTER SET UTF8;                                        
-ALTER TABLE `patientflags_tag_displayPoint` CONVERT TO CHARACTER SET UTF8;                           
-ALTER TABLE `patientflags_tag_role` CONVERT TO CHARACTER SET UTF8;                                   
+ALTER TABLE `patientflags_tag_displayPoint` CONVERT TO CHARACTER SET UTF8;                                                           
 ALTER TABLE `person` CONVERT TO CHARACTER SET UTF8;                                                  
 ALTER TABLE `person_address` CONVERT TO CHARACTER SET UTF8;                                          
 ALTER TABLE `person_attribute` CONVERT TO CHARACTER SET UTF8;                                        
@@ -252,4 +251,4 @@ ALTER TABLE `xforms_xform` CONVERT TO CHARACTER SET UTF8;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-``` 
+```
