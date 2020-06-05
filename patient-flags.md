@@ -1,71 +1,76 @@
-## Patient Flags
-These flags are a clinical decision support to highlight important aspects of a patient's treatment 
+# Patient Flags
+
+These flags are a clinical decision support to highlight important aspects of a patient's treatment
 
 The flags use the traffic light analogy as follows:
+
 * Green – information for an upcoming e.g., Upcoming appointment, Due for Viral Load
 * Orange – warning, prepare to take action e.g., Missed appointment
 * Red – take action now e.g., Lost, Lost to Followup, Overdue for Viral Load
 
-The patient flags are: 
-1. Due for 1st DNA PCR 	(green)
-2. Due for 1st Viral Load (green) 	
-3. Due for 2nd DNA PCR 	(green)
-4. Due for Rapid Test (green) 	
-5. Due for Routine Viral Load (green)
-6. Lost(red) 	
-7. Lost to Followup (red)	
-8. Missed appointment (orange)
-9. Overdue for 1st DNA PCR (red)	
-10. Overdue for First Viral Load (red)	
-11. Overdue for Rapid Test (red)	
-12. Overdue for Routine Viral Load  (red)
-13. Overdue for 2nd DNA PCR (red)	
-14. Transferred Out Patient (orange)	
-15. Un-suppressed Viral Load (red)	
-16. Upcoming appointment (green)
+The patient flags are: 1. Due for 1st DNA PCR \(green\) 2. Due for 1st Viral Load \(green\)  
+3. Due for 2nd DNA PCR \(green\) 4. Due for Rapid Test \(green\)  
+5. Due for Routine Viral Load \(green\) 6. Lost\(red\)  
+7. Lost to Followup \(red\)  
+8. Missed appointment \(orange\) 9. Overdue for 1st DNA PCR \(red\)  
+10. Overdue for First Viral Load \(red\)  
+11. Overdue for Rapid Test \(red\)  
+12. Overdue for Routine Viral Load \(red\) 13. Overdue for 2nd DNA PCR \(red\)  
+14. Transferred Out Patient \(orange\)  
+15. Un-suppressed Viral Load \(red\)  
+16. Upcoming appointment \(green\)
 
-### Disabling Patient Flags
-Depending on the facility needs, not all the patient flags will be relevant, so the steps below provide the capability of disabling unused flags which will also improve the performance of the patient dashboard 
+## Disabling Patient Flags
+
+Depending on the facility needs, not all the patient flags will be relevant, so the steps below provide the capability of disabling unused flags which will also improve the performance of the patient dashboard
 
 1. On the home page click the `Legacy System Administration` button
-![Legacy System Administration](/Legacy_system_admin.png)
+
+   ![Legacy System Administration](.gitbook/assets/Legacy_system_admin.png)
+
 2. On the administration page, click the `Settings` link 
-![Settings](/images/settings.png)
+
+   ![Settings](.gitbook/assets/settings.png)
+
 3. Select Ugandaemr in the left-hand menu to display the UgandaEMR settings
-4. In the "Patientflags Disabled Flags" text field enter the names of the patient flags you want to disable separated by a comma (,)
+4. In the "Patientflags Disabled Flags" text field enter the names of the patient flags you want to disable separated by a comma \(,\)
 5. Restart your computer
 
-### Troubleshooting Tips
-#### Module cannot start due to error creating patientflags_displaypoint 
-See message below 
-![Error creating table patientflags_displaypoint](/assets/error_patient_flags_display_point.jpeg)
+## Troubleshooting Tips
 
-**Fix** 
+### Module cannot start due to error creating patientflags\_displaypoint
+
+See message below ![Error creating table patientflags\_displaypoint](.gitbook/assets/error_patient_flags_display_point.jpeg)
+
+**Fix**
 
 1. Open Heidi and delete the `patientflags_displaypoint` table 
 2. Click Start All to start all the modules 
 
-#### Module cannot start create patientflags_tag_role 
-The error message displayed when starting the module is 
-``` 
+### Module cannot start create patientflags\_tag\_role
+
+The error message displayed when starting the module is
+
+```text
 Error while running sql: CREATE TABLE patientflags_tag_role (
-			tag_id int(11) NOT NULL,
-			role
-			varchar(50) NOT NULL,
-			KEY tag_id (tag_id),
-			KEY role (role),
-			CONSTRAINT
-			FOREIGN KEY (tag_id) REFERENCES patientflags_tag (tag_id),
-			CONSTRAINT
-			FOREIGN KEY (role) REFERENCES role (role)
-			) ENGINE=InnoDB DEFAULT
-			CHARSET=utf8 . Message: Can't create table 'openmrs.patientflags_tag_role' (errno: 150) 
+            tag_id int(11) NOT NULL,
+            role
+            varchar(50) NOT NULL,
+            KEY tag_id (tag_id),
+            KEY role (role),
+            CONSTRAINT
+            FOREIGN KEY (tag_id) REFERENCES patientflags_tag (tag_id),
+            CONSTRAINT
+            FOREIGN KEY (role) REFERENCES role (role)
+            ) ENGINE=InnoDB DEFAULT
+            CHARSET=utf8 . Message: Can't create table 'openmrs.patientflags_tag_role' (errno: 150)
 ```
 
-The root cause of this that the character set for the patientflags_tag_role table, utf8, is different from the role table. 
+The root cause of this that the character set for the patientflags\_tag\_role table, utf8, is different from the role table.
 
 Run the script below to change all the tables in the database to UTF8
-```
+
+```text
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT = @@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS = @@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION = @@COLLATION_CONNECTION */;
@@ -252,3 +257,4 @@ ALTER TABLE `xforms_xform` CONVERT TO CHARACTER SET UTF8;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 ```
+

@@ -1,13 +1,13 @@
-### Troubleshooting Tips
+# Troubleshooting Report Tips
 
-#### Unable to run reports due to an error loading Excel template or the report definition uuid cannot be found
+## Unable to run reports due to an error loading Excel template or the report definition uuid cannot be found
 
-![Error Loading Excel Resource - 1](../assets/error_loading_reporting_excel_resource.jpeg)  
-![Error Loading Excel Resource - 2](../assets/error_loading_reporting_excel_resource-2.jpeg)
+![Error Loading Excel Resource - 1](../.gitbook/assets/error_loading_reporting_excel_resource.jpeg)  
+![Error Loading Excel Resource - 2](../.gitbook/assets/error_loading_reporting_excel_resource-2.jpeg)
 
 Reset all the reports by running the following script
 
-```
+```text
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT = @@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS = @@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION = @@COLLATION_CONNECTION */;
@@ -33,11 +33,11 @@ DELETE FROM serialized_object WHERE type LIKE 'org.openmrs.module.reporting.repo
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 ```
 
-#### Sending to DHIS2 Failures
-**Internet Connection Failure**
-![Internet Connection Failure](../images/send_to_dhis2_connection_failed.png)
-When this Error displays Kindly check your internet connection if its available 
+## Sending to DHIS2 Failures
+
+**Internet Connection Failure** ![Internet Connection Failure](../.gitbook/assets/send_to_dhis2_connection_failed.png) When this Error displays Kindly check your internet connection if its available
 
 **Internal Server Error**
-       
-   When an error like this happens, Kindly contact. the team in charge of developing UgandaEMR.
+
+When an error like this happens, Kindly contact. the team in charge of developing UgandaEMR.
+
