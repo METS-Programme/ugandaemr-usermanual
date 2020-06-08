@@ -1,79 +1,70 @@
-## UgandaEMR 1.x Installation Steps
+# UgandaEMR 1.x Installation
 
 1. Launch of the splash screen
 
-![](/images/installer/splash.jpg)
+![](../.gitbook/assets/splash%20%281%29.jpg)
 
 1. License Agreement
 
-![](/images/installer/1.2-agreement.jpg)
+![](../.gitbook/assets/1.2-agreement%20%281%29.jpg)
 
-1. Selecting components to install  
-   ![](/images/installer/1.3-components.jpg)
-
+1. Selecting components to install ![](../.gitbook/assets/1.3-components.jpg)
 2. Determining Installation directory
 
-![](/images/installer/1.4-location.jpg)
+![](../.gitbook/assets/1.4-location%20%281%29.jpg)
 
-1. Confirm start menu item  
-   ![](/images/installer/1.5-shortcut.jpg)
-
-2. Install Java Runtime  
-   ![](/images/installer/2.1-inst-java.jpg)  
-   ![](/images/installer/2.3-java.jpg)  
-   ![](/images/installer/2.4-java-2.jpg)  
-   ![](/images/installer/2.5-inst-java-complete.jpg)
+1. Confirm start menu item ![](../.gitbook/assets/1.5-shortcut%20%281%29.jpg)
+2. Install Java Runtime ![](../.gitbook/assets/2.1-inst-java%20%281%29.jpg) ![](../.gitbook/assets/2.3-java.jpg) ![](../.gitbook/assets/2.4-java-2.jpg) ![](../.gitbook/assets/2.5-inst-java-complete.jpg)
 
 7.Install MySQL  
-![](/images/installer/3.1-mysql-configure.jpg)  
-![](/images/installer/3.2-standard.jpg)  
-![](/images/installer/3.3-comd1.jpg)  
-![](/images/installer/3.4-password-for-root.jpg)  
-![](/images/installer/3.5-execute.jpg)  
-![](/images/installer/3.6-mysql-finished.jpg)
+![](../.gitbook/assets/3.1-mysql-configure%20%281%29.jpg)  
+![](../.gitbook/assets/3.2-standard%20%281%29.jpg)  
+![](../.gitbook/assets/3.3-comd1%20%281%29.jpg)  
+![](../.gitbook/assets/3.4-password-for-root%20%281%29.jpg)  
+![](../.gitbook/assets/3.5-execute%20%281%29.jpg)  
+![](../.gitbook/assets/3.6-mysql-finished%20%281%29.jpg)
 
 8.Install Tomcat  
-![](/images/installer/4.1-tomcat-installation.jpg)  
+![](../.gitbook/assets/4.1-tomcat-installation.jpg)
 
-![](/images/installer/4.2-tomcat-agree.jpg)  
+![](../.gitbook/assets/4.2-tomcat-agree.jpg)
 
-![](/images/installer/4.4-tomcat-componets.jpg)  
+![](../.gitbook/assets/4.4-tomcat-componets.jpg)
 
-** NOTE:  DO NOT CHNAGE THE Java Virtual Machine path PATH **
+ **NOTE: DO NOT CHNAGE THE Java Virtual Machine path PATH** 
 
-![](/images/installer/4.3-java-directory.jpg)  
+![](../.gitbook/assets/4.3-java-directory.jpg)
 
 The following changes need to be made:
-  * HTTP/1.1 Connector port - 8081
-  * Windows Service Name - UgandaEMRTomcat
-  * Tomcat administrator login username: root 
-  * Tomcat administrator login password: openmrs
-  
- 
-![](/images/installer/4.5-configure-tomccat.jpg) 
 
-![](/images/installer/4.6-tomcat-location.jpg)
+* HTTP/1.1 Connector port - 8081
+* Windows Service Name - UgandaEMRTomcat
+* Tomcat administrator login username: root 
+* Tomcat administrator login password: openmrs
 
-  
-![](/images/installer/4.7-tomcat-complete.jpg)
+![](../.gitbook/assets/4.5-configure-tomccat.jpg)
+
+![](../.gitbook/assets/4.6-tomcat-location.jpg)
+
+![](../.gitbook/assets/4.7-tomcat-complete.jpg)
 
 9.Install Firefox  
-![](/images/installer/5.3-fire-fox-inst.jpg)  
-![](/images/installer/5.4-fire-standard.jpg)  
-![](/images/installer/5.5-fire-fox-directory.jpg)  
-![](/images/installer/5.1-fire.jpg)
+![](../.gitbook/assets/5.3-fire-fox-inst%20%281%29.jpg)  
+![](../.gitbook/assets/5.4-fire-standard%20%281%29.jpg)  
+![](../.gitbook/assets/5.5-fire-fox-directory%20%281%29.jpg)  
+![](../.gitbook/assets/5.1-fire%20%281%29.jpg)
 
 10.Installing HeidiSQL  
-![](/images/installer/1.1heidisql.PNG)
+![](../.gitbook/assets/1.1heidisql%20%281%29.PNG)
 
-![](/images/installer/1.2heidisql.PNG)  
-![](/images/installer/1.3heidisql.PNG)  
-![](/images/installer/1.4heidisql.PNG)  
-![](/images/installer/1.5heidisql.PNG)  
-![](/images/installer/1.6heidisql.PNG)
+![](../.gitbook/assets/1.2heidisql%20%281%29.PNG)  
+![](../.gitbook/assets/1.3heidisql%20%281%29.PNG)  
+![](../.gitbook/assets/1.4heidisql%20%281%29.PNG)  
+![](../.gitbook/assets/1.5heidisql%20%281%29.PNG)  
+![](../.gitbook/assets/1.6heidisql%20%281%29.PNG)
 
-![](/images/installer/1.7heidisql.PNG)
+![](../.gitbook/assets/1.7heidisql%20%281%29.PNG)
 
 11.UgandaEMR Installation completed  
-![](/images/installer/6.0-complete-installation.jpg)
+![](../.gitbook/assets/6.0-complete-installation%20%281%29.jpg)
 

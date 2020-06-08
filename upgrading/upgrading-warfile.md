@@ -1,6 +1,6 @@
-### Upgrading with a WAR file
+# Upgrading Warfile
 
-#### UgandaEMR 1.x
+## UgandaEMR 1.x
 
 This will be done when there are multiple modules that need to be upgraded as a complete package, therefore a new WAR file is to be installed
 
@@ -17,13 +17,11 @@ This will be done when there are multiple modules that need to be upgraded as a 
 6. Start Tomcat  
 7. Go to the UgandaEMR login link at [http://localhost:8081/openmrs/](http://localhost:8081/openmrs/) 
 
-#### UgandaEMR 2.x
+## UgandaEMR 2.x
 
 1. Goto  Start Menu  Select All Programs \(Windows 7\) or All apps \(Windows 10\).
 2. Select UgandaEMR then select Upgrade UgandaEMR War File.
 3. This will popup a window. in it select install.
 4. Browse to the location of the war file. then upgrade and click open. 
 5. When upgrade is complete it will give you a message to proceed to browser.
-
-
 
