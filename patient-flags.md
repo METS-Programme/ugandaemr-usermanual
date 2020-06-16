@@ -8,14 +8,21 @@ The flags use the traffic light analogy as follows:
 * Orange – warning, prepare to take action e.g., Missed appointment
 * Red – take action now e.g., Lost, Lost to Followup, Overdue for Viral Load
 
-The patient flags are: 1. Due for 1st DNA PCR \(green\) 2. Due for 1st Viral Load \(green\)  
-3. Due for 2nd DNA PCR \(green\) 4. Due for Rapid Test \(green\)  
-5. Due for Routine Viral Load \(green\) 6. Lost\(red\)  
+The patient flags are: 
+
+1. Due for 1st DNA PCR \(green\)   
+2. Due for 1st Viral Load \(green\)  
+3. Due for 2nd DNA PCR \(green\)   
+4. Due for Rapid Test \(green\)  
+5. Due for Routine Viral Load \(green\)   
+6. Lost\(red\)  
 7. Lost to Followup \(red\)  
-8. Missed appointment \(orange\) 9. Overdue for 1st DNA PCR \(red\)  
+8. Missed appointment \(orange\)   
+9. Overdue for 1st DNA PCR \(red\)  
 10. Overdue for First Viral Load \(red\)  
 11. Overdue for Rapid Test \(red\)  
-12. Overdue for Routine Viral Load \(red\) 13. Overdue for 2nd DNA PCR \(red\)  
+12. Overdue for Routine Viral Load \(red\)   
+13. Overdue for 2nd DNA PCR \(red\)  
 14. Transferred Out Patient \(orange\)  
 15. Un-suppressed Viral Load \(red\)  
 16. Upcoming appointment \(green\)
