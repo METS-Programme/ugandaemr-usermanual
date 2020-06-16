@@ -42,6 +42,7 @@
   * [Cohort Builder](reporting/reporting_cohort_builder.md)
   * [Data Export](reporting/reporting_data_export.md)
   * [Sending Report to DHIS2](reporting/sending_to_dhis2.md)
+  * [Sending Metrics Report](reporting/sending_metrics_report.md)
   * [Troubleshooting Report Tips](reporting/report_trouble_shooting.md)
 * [Data Quality Checks](data_quality_checks.md)
 * [Patient Flags](patient-flags.md)
