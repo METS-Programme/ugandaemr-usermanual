@@ -28,7 +28,7 @@ Depending on the facility needs, not all the patient flags will be relevant, so 
 
    ![Legacy System Administration](.gitbook/assets/Legacy_system_admin.png)
 
-2. On the administration page, click the `Settings` link 
+2. On the administration page, click the `Settings` link
 
    ![Settings](.gitbook/assets/settings.png)
 
@@ -219,7 +219,7 @@ ALTER TABLE `provider_attribute_type` CONVERT TO CHARACTER SET UTF8;
 ALTER TABLE `providermanagement_provider_role` CONVERT TO CHARACTER SET UTF8;                        
 ALTER TABLE `providermanagement_provider_role_provider_attribute_type` CONVERT TO CHARACTER SET UTF8;
 ALTER TABLE `providermanagement_provider_role_relationship_type` CONVERT TO CHARACTER SET UTF8;      
-ALTER TABLE `providermanagement_provider_role_supervisee_provider_role` CONVERT TO CHARACTER SET UTF8; |
+ALTER TABLE `providermanagement_provider_role_supervisee_provider_role` CONVERT TO CHARACTER SET UTF8;
 ALTER TABLE `providermanagement_provider_suggestion` CONVERT TO CHARACTER SET UTF8;                  
 ALTER TABLE `providermanagement_supervision_suggestion` CONVERT TO CHARACTER SET UTF8;               
 ALTER TABLE `relationship` CONVERT TO CHARACTER SET UTF8;                                            
@@ -258,128 +258,125 @@ ALTER TABLE `xforms_xform` CONVERT TO CHARACTER SET UTF8;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 ```
 
-
-
-#### Aijar cannot start because the patientflags_tag_role table is missing 
+#### Aijar cannot start because the patientflags\_tag\_role table is missing
 
 **Symptom**
 
-There is an error starting the aijar module with the following text in the stack trace 
+There is an error starting the aijar module with the following text in the stack trace
 
-```
+```text
 INFO - AijarActivator.stopped(393) |2020-06-05 11:01:42,299| aijar Module stopped
 WARN - ModuleUtil.refreshApplicationContext(935) |2020-06-05 11:01:42,359| Unable to invoke started() method on the module's activator
 java.lang.RuntimeException: failed to setup the module 
-	at org.openmrs.module.aijar.AijarActivator.started(AijarActivator.java:181)
-	at org.openmrs.module.ModuleUtil.refreshApplicationContext(ModuleUtil.java:927)
-	at org.openmrs.module.web.WebModuleUtil.refreshWAC(WebModuleUtil.java:847)
-	at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:632)
-	at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:612)
-	at org.openmrs.web.Listener.startOpenmrs(Listener.java:251)
-	at org.openmrs.web.WebDaemon$1.run(WebDaemon.java:42)
+    at org.openmrs.module.aijar.AijarActivator.started(AijarActivator.java:181)
+    at org.openmrs.module.ModuleUtil.refreshApplicationContext(ModuleUtil.java:927)
+    at org.openmrs.module.web.WebModuleUtil.refreshWAC(WebModuleUtil.java:847)
+    at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:632)
+    at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:612)
+    at org.openmrs.web.Listener.startOpenmrs(Listener.java:251)
+    at org.openmrs.web.WebDaemon$1.run(WebDaemon.java:42)
 Caused by: java.lang.RuntimeException: failed to install the common metadata 
-	at org.openmrs.module.aijar.AijarActivator.installCommonMetadata(AijarActivator.java:366)
-	at org.openmrs.module.aijar.AijarActivator.started(AijarActivator.java:149)
-	... 6 more
+    at org.openmrs.module.aijar.AijarActivator.installCommonMetadata(AijarActivator.java:366)
+    at org.openmrs.module.aijar.AijarActivator.started(AijarActivator.java:149)
+    ... 6 more
 Caused by: org.openmrs.api.APIException: Unable to install bundle UgandaEMRPatientFlagMetadataBundle
-	at org.openmrs.module.metadatadeploy.api.impl.MetadataDeployServiceImpl.installBundle(MetadataDeployServiceImpl.java:117)
-	at org.openmrs.module.metadatadeploy.api.impl.MetadataDeployServiceImpl.installBundle(MetadataDeployServiceImpl.java:81)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
-	at com.sun.proxy.$Proxy170.installBundle(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
-	at com.sun.proxy.$Proxy332.installBundle(Unknown Source)
-	at org.openmrs.module.aijar.AijarActivator.installCommonMetadata(AijarActivator.java:360)
-	... 7 more
+    at org.openmrs.module.metadatadeploy.api.impl.MetadataDeployServiceImpl.installBundle(MetadataDeployServiceImpl.java:117)
+    at org.openmrs.module.metadatadeploy.api.impl.MetadataDeployServiceImpl.installBundle(MetadataDeployServiceImpl.java:81)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:498)
+    at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+    at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+    at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+    at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+    at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+    at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+    at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+    at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+    at com.sun.proxy.$Proxy170.installBundle(Unknown Source)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:498)
+    at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+    at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+    at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+    at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+    at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+    at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+    at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+    at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+    at com.sun.proxy.$Proxy332.installBundle(Unknown Source)
+    at org.openmrs.module.aijar.AijarActivator.installCommonMetadata(AijarActivator.java:360)
+    ... 7 more
 Caused by: org.hibernate.exception.SQLGrammarException: could not execute batch
-	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:123)
-	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
-	at org.hibernate.engine.jdbc.batch.internal.BatchingBatch.performExecution(BatchingBatch.java:136)
-	at org.hibernate.engine.jdbc.batch.internal.BatchingBatch.doExecuteBatch(BatchingBatch.java:114)
-	at org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.execute(AbstractBatchImpl.java:163)
-	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.executeBatch(JdbcCoordinatorImpl.java:226)
-	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:484)
-	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
-	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
-	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
-	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
-	at org.openmrs.api.db.hibernate.HibernateContextDAO.flushSession(HibernateContextDAO.java:368)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
-	at com.sun.proxy.$Proxy387.flushSession(Unknown Source)
-	at org.openmrs.api.context.Context.flushSession(Context.java:824)
-	at org.openmrs.module.metadatadeploy.api.impl.MetadataDeployServiceImpl.installBundle(MetadataDeployServiceImpl.java:114)
-	... 35 more
+    at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:123)
+    at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+    at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+    at org.hibernate.engine.jdbc.batch.internal.BatchingBatch.performExecution(BatchingBatch.java:136)
+    at org.hibernate.engine.jdbc.batch.internal.BatchingBatch.doExecuteBatch(BatchingBatch.java:114)
+    at org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.execute(AbstractBatchImpl.java:163)
+    at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.executeBatch(JdbcCoordinatorImpl.java:226)
+    at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:484)
+    at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+    at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+    at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+    at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+    at org.openmrs.api.db.hibernate.HibernateContextDAO.flushSession(HibernateContextDAO.java:368)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:498)
+    at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+    at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+    at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+    at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+    at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+    at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+    at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+    at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+    at com.sun.proxy.$Proxy387.flushSession(Unknown Source)
+    at org.openmrs.api.context.Context.flushSession(Context.java:824)
+    at org.openmrs.module.metadatadeploy.api.impl.MetadataDeployServiceImpl.installBundle(MetadataDeployServiceImpl.java:114)
+    ... 35 more
 Caused by: java.sql.BatchUpdateException: Table 'openmrs.patientflags_tag_role' doesn't exist
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createBatchUpdateException(SQLError.java:1163)
-	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1778)
-	at com.mysql.jdbc.PreparedStatement.executeBatchInternal(PreparedStatement.java:1262)
-	at com.mysql.jdbc.StatementImpl.executeBatch(StatementImpl.java:970)
-	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
-	at org.hibernate.engine.jdbc.batch.internal.BatchingBatch.performExecution(BatchingBatch.java:127)
-	... 59 more
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+    at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+    at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+    at com.mysql.jdbc.Util.getInstance(Util.java:408)
+    at com.mysql.jdbc.SQLError.createBatchUpdateException(SQLError.java:1163)
+    at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1778)
+    at com.mysql.jdbc.PreparedStatement.executeBatchInternal(PreparedStatement.java:1262)
+    at com.mysql.jdbc.StatementImpl.executeBatch(StatementImpl.java:970)
+    at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+    at org.hibernate.engine.jdbc.batch.internal.BatchingBatch.performExecution(BatchingBatch.java:127)
+    ... 59 more
 Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'openmrs.patientflags_tag_role' doesn't exist
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
-	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
-	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
-	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2484)
-	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
-	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2079)
-	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1756)
-
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+    at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+    at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+    at com.mysql.jdbc.Util.getInstance(Util.java:408)
+    at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+    at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+    at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+    at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+    at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+    at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2484)
+    at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+    at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2079)
+    at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1756)
 ```
 
 **Resolution**
 
-Run the following SQL script on your database 
+Run the following SQL script on your database
 
-``
+\`\`
 
 ```sql
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT = @@CHARACTER_SET_CLIENT */;
