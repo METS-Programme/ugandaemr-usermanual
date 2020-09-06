@@ -42,6 +42,7 @@
   * [Cohort Builder](reporting/reporting_cohort_builder.md)
   * [Data Export](reporting/reporting_data_export.md)
   * [Sending Report to DHIS2](reporting/sending_to_dhis2.md)
+  * [Sending Metrics Report](reporting/sending_metrics_report.md)
   * [Troubleshooting Report Tips](reporting/report_trouble_shooting.md)
 * [Data Quality Checks](data_quality_checks.md)
 * [Patient Flags](patient-flags.md)
@@ -60,6 +61,8 @@
       * [HIV Clinic](point-of-care-poc/work-flows/clinician/hiv-clinic.md)
     * [Laboratory](point-of-care-poc/work-flows/laboratory.md)
     * [Pharmacy](point-of-care-poc/work-flows/pharmacy.md)
+* Patient Data Upload
+    * [Uploading Viral Load Results](patient_data_exchange/upload_vl_results.md)
 * [Release Notes](release-notes/README.md)
   * [1.0.14](release-notes/ugandaemr-1014.md)
   * [1.0.17](release-notes/ugandaemr-1017.md)
