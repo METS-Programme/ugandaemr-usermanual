@@ -1,21 +1,21 @@
 ## HIV Clinic
-Accessing patients list in HIV clinic requires that one has [HIV clinic Role](../installation-and-configuration/roles.md). 
+Accessing patients list in HIV clinic requires that one has [HIV clinic Role](../../installation-and-configuration/roles.md). 
 
 #### Accessing the Clinician Dashboard
 
 1. An access icon of hiv clinic will be among the icons when a user with the right role is logged in 
-![home page highlighting the ART clinic icon](../../images/poc/poc_art_clinic_home.png)
+![home page highlighting the ART clinic icon](../../../images/poc/poc_art_clinic_home.png)
 2. Click on the ART Clinic Icon. This will navigate you to the HIV Clinician Dashboard showing patients in queue
-![Art clinic Provider's Dashboard](../../images/poc/art_clinic_provider_board.png)
+![Art clinic Provider's Dashboard](../../../images/poc/art_clinic_provider_board.png)
 On the HIV Clinic Dashoard there will be three tabs that is "Patient new" for patients who have been sent to the pool of HIV clinicians, "Patient - Lab Results" for patients returning from Lab with results and "Patients Attended To" Patients who have been attended to by clinician.
 
 #### Accessing the Patient Dashboard Dashboard
 Click on the patient "_Go to Patient Dashboard". This will navigate you to the patient dashboard
- ![Patients Dashboard](../../images/poc/poc_patient_dashboard.png)
+ ![Patients Dashboard](../../../images/poc/poc_patient_dashboard.png)
 
 #### Accessing the patients HIV Summary Card 
 1. On the right on the _**"current visit action"**_ Click on the _**"HMIS ACP HIV 003: HIV CARE/ART CARD - Summary Form"**_  This should navigate you to the Summary form.
-![HMIS ACP HIV 003: HIV CARE/ART CARD - Summary Form](../../images/poc/poc_hiv_clinic_summary.png)
+![HMIS ACP HIV 003: HIV CARE/ART CARD - Summary Form](../../../images/poc/poc_hiv_clinic_summary.png)
 2. The Summary page has different tabs which include 
     i. Care Entry & Family Tab
    
@@ -28,7 +28,7 @@ Click on the patient "_Go to Patient Dashboard". This will navigate you to the p
 
 #### Accessing the patients Clinical Assessment form 
 On the right on the _**"current visit action"**_ Click on the _**"HMIS 003 HIV Care ART Card - Clinical Assessment"**_ 
-![HMIS 003 HIV Care ART Card - Clinical Assessment](../../images/poc/poc_clinical_assessment_page.png)
+![HMIS 003 HIV Care ART Card - Clinical Assessment](../../../images/poc/poc_clinical_assessment_page.png)
 The Clinical Assessment form has vertical tabs which contain  Horizontal Sub-tabs These include:
    
 **a) Clinical Screening tab.** This tab has the following sub-tabs

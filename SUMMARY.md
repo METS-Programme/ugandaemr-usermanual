@@ -58,7 +58,7 @@
     * [Reception](point-of-care-poc/work-flows/reception.md)
     * [Triage](point-of-care-poc/work-flows/traige.md)
     * [Clinician](point-of-care-poc/work-flows/clinician/README.md)
-      * [HIV Clinic](point-of-care-poc/work-flows/clinician/traige.md)
+      * [HIV Clinic](point-of-care-poc/work-flows/clinician/hiv-clinic.md)
     * [Laboratory](point-of-care-poc/work-flows/laboratory.md)
     * [Pharmacy](point-of-care-poc/work-flows/pharmacy.md)
 * Patient Data Upload
