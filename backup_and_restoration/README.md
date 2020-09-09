@@ -99,7 +99,7 @@ There may be need to reset the concept dictionary, so follow the steps below:
 
 1. Login as an administrator account on the server where the installation was done
 
-2. Download the concept sql file from ![https://sourceforge.net/projects/ugandaemr/files/3.0.1/concept_dictonary_ref_3.0.0.sql/download](https://sourceforge.net/projects/ugandaemr/files/3.0.1/concept_dictonary_ref_3.0.0.sql/download)
+2. Download the concept sql file from [https://sourceforge.net/projects/ugandaemr/files/3.0.1/concept_dictonary_ref_3.0.0.sql/download](https://sourceforge.net/projects/ugandaemr/files/3.0.1/concept_dictonary_ref_3.0.0.sql/download)
 
 3. From the start menu select "Execute MySQL Script", then select the concept SQL 
 
