@@ -54,6 +54,7 @@
   * [Unistalling UgandaEMR older versions](uninstalling-ugandaemr/unistallinstalling-ugandaemr-older-versions.md)
 * [Point of Care \(POC\)](point-of-care-poc/README.md)
   * [Installation and Configuration](point-of-care-poc/installation-and-configuration.md)
+    * [Roles](point-of-care-poc/installation-and-configuration/roles.md)
   * [Work Flows](point-of-care-poc/work-flows/README.md)
     * [Reception](point-of-care-poc/work-flows/reception.md)
     * [Triage](point-of-care-poc/work-flows/traige.md)
