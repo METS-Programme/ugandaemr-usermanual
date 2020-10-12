@@ -101,7 +101,7 @@ The supported authentication methods are stated in the API description below.
 ### API description
 
 The description of the API that receives the data can be found at this link.
-https://github.com/METS-Programme/hie-documentation
+https://github.com/METS-Programme/hie-documentation/blob/master/reference/recency-surveillance.v1.json
 
 
 
