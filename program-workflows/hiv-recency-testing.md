@@ -72,7 +72,7 @@ This is an automated process that occurs every hour until a successful submissio
 
 ### Sync data flow
 
-![](/assets/sync-data-flow.png)
+![Recency Data Flow](../assets/sync-data-flow.png)
 
 A few key points to note:
 
