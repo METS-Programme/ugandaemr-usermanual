@@ -93,3 +93,44 @@ The dashboard shows the avialable reports in the different categories:
 
 ![106A 1B Completed](../.gitbook/assets/106A_1A_download_preserve.png)
 
+## Report Definitions 
+This section describes the cohorts used to build the different types of the reports to provide a basis for validating them 
+
+### TX_NEW
+
+Clients who started ART during the quarter at this facility 
+
+| Includes                                     | Excludes                                  | Notes |
+| -------------------------------------------- | ----------------------------------------- | ----- |
+| Clients with an ART start date in the period |                                           |       |
+|                                              | Patients transferred in during the period |       |
+
+### TX_CURRENT - 90
+
+This the MoH definition which defines Lost to Followup(LTFU) patients as those who have not had a visit in 90 days from the date of the last scheduled appointment 
+
+| Includes                                                     | Excludes                                                     | Notes                                                        |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Clients with Baseline ART Regimen                            |                                                              | Have started ART since they have a baseline regimen          |
+| Clients who started ART in the period                        |                                                              | ART start date in the period                                 |
+| Clients who transferred into care within the period          |                                                              |                                                              |
+| Patients with an ART Encounter within the period and received drugs |                                                              |                                                              |
+| Patients with Return visit date after the start date of the period |                                                              | 1. Patients scheduled to return in the period <br />2. Patients scheduled to return after the end of the period (long refills) |
+|                                                              | Patients who died during by the end of the reporting period  |                                                              |
+|                                                              | Patients transferred out in the reporting period             |                                                              |
+|                                                              | Lost to Follow up - Patients who have spent 90 or more days without any clinical contact from their last scheduled appointment date in the reporting period |                                                              |
+
+### TX_CURRENT - 28
+
+This the PEPFAR definition which defines Lost to Followup (LTFU) patients as those who have not had a visit in 28 days from the date of the last scheduled appointment 
+
+| Includes                                                     | Excludes                                                     | Notes                                                        |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Clients with Baseline ART Regimen                            |                                                              | Have started ART since they have a baseline regimen          |
+| Clients who started ART in the period                        |                                                              | ART start date in the period                                 |
+| Clients who transferred into care within the period          |                                                              |                                                              |
+| Patients with an ART Encounter within the period and received drugs |                                                              |                                                              |
+| Patients with Return visit date after the start date of the period |                                                              | 1. Patients scheduled to return in the period <br />2. Patients scheduled to return after the end of the period (long refills) |
+|                                                              | Patients who died during by the end of the reporting period  |                                                              |
+|                                                              | Patients transferred out in the reporting period             |                                                              |
+|                                                              | Lost to Follow up - Patients who have spent 28 or more days without any clinical contact from their last scheduled appointment date in the reporting period |                                                              |
