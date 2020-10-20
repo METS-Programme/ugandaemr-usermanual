@@ -10,7 +10,7 @@
 
 ![HTS Client Card](../images/hts-client-card018.jpg)
 
-### Things to note while entering the client card.
+### Notes.
 
 1.	Note that the serial number as decided upon by the facility MUST be entered into the EMR before entering the form as it shall be used as an identifier for that patient
 
