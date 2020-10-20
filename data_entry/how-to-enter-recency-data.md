@@ -8,7 +8,7 @@
 
 3.	View the patient’s dashboard and look for the HMIS ACP 018:HTS CLIENT CARD that shall be used to enter in the data.
 
-![HTS Client Card](../images/hts-client-card018.jpg)
+![HTS Client Card](../images/data-entry/hts-client-card/hts-client-card018.jpg)
 
 ### Notes.
 
@@ -18,6 +18,6 @@
 
 3.	Note that the consent question (Do you agree your blood to be drawn for Recency?) should be entered depending on the clients consent status from the counselor as this is important while carrying out recency at your facility.
 
-![HIV Test Results](../images/hiv-test-results.png)
+![HIV Test Results](../images/data-entry/hts-client-card/hiv-test-results.png)
 
 All the other entries within the HTS form remain the same as usual and should also be entered.
