@@ -1,6 +1,7 @@
 ##HOW FREQUENTLY TO SEND RECENCY DATA
 
 This guide will show how to adjust the frequency of sending data. This can be useful in low connectivity facilities where internet is only available for short period. Reducing the frequency of sending data will ensure internet availability is utilized.
+
 1. Click legacy administration link
 
 ![Legacy Admin Button](../images/legacy-admin-button.png)
