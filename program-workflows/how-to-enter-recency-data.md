@@ -1,6 +1,6 @@
-##HOW TO ENTER RECENCY DATA WITHIN THE HTS CLIENT CARD
+## How To Enter Recency Data Within The Hts Client Card
 
-###Accessing the HTS client card for an existing or new patient in the EMR
+### Accessing the HTS client card for an existing or new patient in the EMR
 
 1.	Search for the given patient or create a new patient
 
@@ -10,7 +10,7 @@
 
 ![HTS Client Card](../images/hts-client-card018.jpg)
 
-###Things to note while entering the client card.
+### Things to note while entering the client card.
 
 1.	Note that the serial number as decided upon by the facility MUST be entered into the EMR before entering the form as it shall be used as an identifier for that patient
 
