@@ -107,7 +107,7 @@ Clients who started ART during the quarter at this facility
 
 ### TX_CURRENT - 90
 
-This the MoH definition which defines Lost to Followup(LTFU) patients as those who have not had a visit in 90 days from the date of the last scheduled appointment 
+This the MoH definition which defines active patients as those who have had a drug refill in the period, have a long refill past the period and patients who have not received ARVs within 89 days of their last missed drug pickup appointment. 
 
 | Includes                                                     | Excludes                                                     | Notes                                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -122,7 +122,7 @@ This the MoH definition which defines Lost to Followup(LTFU) patients as those w
 
 ### TX_CURRENT - 28
 
-This the PEPFAR definition which defines Lost to Followup (LTFU) patients as those who have not had a visit in 28 days from the date of the last scheduled appointment 
+This the PEPFAR definition which defines active patients as those who have had a drug refill in the period, have a long refill past the period and patients who have not received ARVs within 27 days of their last missed drug pickup appointment. 
 
 | Includes                                                     | Excludes                                                     | Notes                                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
