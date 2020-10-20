@@ -1,4 +1,4 @@
-##HOW FREQUENTLY TO SEND RECENCY DATA
+## How to Change the Frequency for Sending Recency Data to Central Server
 
 This guide will show how to adjust the frequency of sending data. This can be useful in low connectivity facilities where internet is only available for short period. Reducing the frequency of sending data will ensure internet availability is utilized.
 
