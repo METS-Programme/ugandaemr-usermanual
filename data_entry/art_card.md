@@ -67,6 +67,28 @@ To capture the ART Card Encounters, follow the steps below;
 9. You should see a new page ![Encounter Page After saving](../.gitbook/assets/art_card_encounter_page_after_saving.png)  
 10. Click on the visit circled on the left to see the saved encounter record ![Art Card Encounter Saved Page](../.gitbook/assets/art_card_encounter_saved_page.png)
 
+### Limiting Visits on a Specific Day and Public Holidays 
+
+The default configuration restricts the maxiumum number of patients who can be seen on a day to 100 and disables the ability to set a predefined public holiday.
+
+#### Changing the default number of patients who can be seen per day
+
+1. Login as a user with administrator privileges
+
+   ![Login](../.gitbook/assets/log_in_as_admin_link.png)
+
+2. Click legacy administration link as circled in the image below
+
+   ![Legacy System Adminstration Link](../.gitbook/assets/legacy_system%20administration_link.png)
+
+3. Under Maintenance in the middle column, select Settings 
+![Settings Link](../.gitbook/assets/settings.png)
+
+4. Click Ugandaemr in the left hand column, and select the "Maximum Patients Per Day " variable 
+![Maximum Patients Per Day settings](../.gitbook/assets/settings_max_patients_per_day.png)
+
+5. Restart your computer
+
 ### Viral Load Data
 
 The recommendation for entering viral loads is as follows:  
