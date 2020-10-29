@@ -50,15 +50,6 @@ For new machines with no UgandaEMR installed
 
 **For existing versions of UgandaEMR 2.0.x to 3.1.0**
 
-* 32-bit upgrade files- [https://sourceforge.net/projects/ugandaemr/files/3.1.0/ugandaemr\_upgrade\_from\_2.0.x\_to\_3.1.0\_32bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/3.1.0/ugandaemr_upgrade_from_2.0.x_to_3.0.4_32bit.exe/download)
-* 64-bit upgrade files- [https://sourceforge.net/projects/ugandaemr/files/3.1.0/ugandaemr\_upgrade\_from\_2.0.x\_to\_3.1.0\_64bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/3.1.0/ugandaemr_upgrade_from_2.0.x_to_3.0.4_64bit.exe/download)
-
-**For existing versions of UgandaEMR 1.x to 3.1.0**
-
-* 32-bit upgrade files - [https://sourceforge.net/projects/ugandaemr/files/3.1.0/ugandaemr\_upgrade\_from\_1.x\_to\_3.1.0\_32bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/3.1.0/ugandaemr_upgrade_from_1.x_to_3.0.4_32bit.exe/download)
-* 64-bit upgrade files - [https://sourceforge.net/projects/ugandaemr/files/3.1.0/ugandaemr\_upgrade\_from\_1.x\_to\_3.1.0\_64bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/3.1.0/ugandaemr_upgrade_from_1.x_to_3.0.4_64bit.exe/download)
-
-## Fixing Failed Installations and Upgrades
-
-None
+* 32-bit upgrade files- [https://sourceforge.net/projects/ugandaemr/files/3.1.0/ugandaemr_upgrade_from_2.0.x_to_3.1.0_32bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/3.1.0/ugandaemr_upgrade_from_2.0.x_to_3.0.4_32bit.exe/download)
+* 64-bit upgrade files- [https://sourceforge.net/projects/ugandaemr/files/3.1.0/ugandaemr_upgrade_from_2.0.x_to_3.1.0_64bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/3.1.0/ugandaemr_upgrade_from_2.0.x_to_3.0.4_64bit.exe/download)
 
