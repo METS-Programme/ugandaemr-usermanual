@@ -87,7 +87,7 @@ The default configuration restricts the maxiumum number of patients who can be s
 4. Click Ugandaemr in the left hand column, and select the "Maximum Patients Per Day " variable 
 ![Maximum Patients Per Day settings](../.gitbook/assets/settings_max_patients_per_day.png)
 
-5. Restart your computer
+5. Click the "Save" button in the bottom right hand corner 
 
 ### Viral Load Data
 
