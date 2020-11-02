@@ -8,6 +8,10 @@
    * TB Treatment Support using both Point of Care and Restrospective
    * Transfer in and out forms
    * Review of DSD Models.
+      * Changed the duration of current regimen from 12 months to 6 months.
+      * Clinicians determine whether the patient is stable or not.
+      
+      
    
 2. Pharmacy and Dispensing
    * Ability to dispense drugs not the regimen combinations 
@@ -53,3 +57,6 @@ For new machines with no UgandaEMR installed
 * 32-bit upgrade files- [https://sourceforge.net/projects/ugandaemr/files/3.1.0/ugandaemr_upgrade_from_2.0.x_to_3.1.0_32bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/3.1.0/ugandaemr_upgrade_from_2.0.x_to_3.0.4_32bit.exe/download)
 * 64-bit upgrade files- [https://sourceforge.net/projects/ugandaemr/files/3.1.0/ugandaemr_upgrade_from_2.0.x_to_3.1.0_64bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/3.1.0/ugandaemr_upgrade_from_2.0.x_to_3.0.4_64bit.exe/download)
 
+###NOTE 
+
+* When upgrading systems, use the Upgrade option provided for within UgandaEMR.. 
