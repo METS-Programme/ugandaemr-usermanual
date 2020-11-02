@@ -59,4 +59,4 @@ For new machines with no UgandaEMR installed
 
 ###NOTE 
 
-* When upgrading systems, use the Upgrade option provided for within UgandaEMR.. 
+* When upgrading to from 3.0.4 to 3.1.0 use the Upgrade option (Upgrade War File) found on the Start menu under All Programs/All Apps, UgandaEMR. If the option is not available, Download the update Scripts executable and run it to fix the upgrade option https://sourceforge.net/projects/ugandaemr/files/3.1.0/update-scripts-3.1.0.exe/download" 
