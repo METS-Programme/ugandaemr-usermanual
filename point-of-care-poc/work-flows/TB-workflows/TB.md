@@ -1,4 +1,10 @@
-#### Accessing the patients DS TB Summary Card
+## TB PROGRAMS
+The TB module deals with two programs, ie Drug Susceptible (DS) TB and Drug Resistant (DR) TB. 
+
+### Accessing the TB forms.
+The user with the Clinician role should log into the system and choose TB program at the login page.
+
+#### DS TB Summary Card
 
 This form emurates the HMIS TB 003 Client Card Summary section. IT has the following tabs:
 **(i) Case Summary/Patient Type**
@@ -10,7 +16,7 @@ This tab captures baseline examination, diabetes monitoring, referral and transf
 ![DS TB Enrollment Page](../../../images/TB/DS-TB-Enrollment-page.png)
 
 
-#### Accessing the patients DS TB Encounter Card
+#### DS TB Encounter Card
 This form captures information on the HMIS TB 003 Client Card Followup section.
 **(i) Treatment Phase** 
 This tab captures the treatment phase information.
@@ -24,9 +30,8 @@ This tab captures Lab tests, Radiology and Test results
 This tab captures IEC information, next appointment date, treatment outcome and transfer out.
 ![DS TB Followup Page](../../../images/TB/DS-TB-followup-page.png)
 
-#### 
 
-#### Accessing the patients DR TB Summary Card
+#### DR TB Summary Card
 This form captures information on the HMIS TB 001 DR-TB Treatment Card encounter page.
 **(i) Case Summary/Patient Type** 
 This section captures case summary/Patient type information.
@@ -36,7 +41,7 @@ This tab captures risk group, GIS coordinates, next of kin and treatment support
 This tab captures baseline information, registration group, medication diagnosis, Nutrition assessment, Previous 2nd line drugs and HIV information.
 ![DR TB Enrollment Page](../../../images/TB/DR-TB-Enrollment-page.png)
 
-#### Accessing the patients DR TB Encounter Form
+#### DR TB Encounter Form
  This form captures information on the HMIS TB 001 DR-TB Treatment Card follow up section 
 **(i) Nutrition Monitoring**
 This tab is has fields that capture nutrition assessment information about a patient
@@ -49,3 +54,10 @@ This tab captures medication information.
 **(v) Clinical Review/Outcome**
 This tab captures next appointment information, Drug adherence, clinical review notes, treatment outcome and transfer out.
 ![DR TB Followup Page](../../../images/TB/DR-TB-followup-page.png)
+
+**NB:** You cannot make a TB encounter if the patient does not have an enrollment page. This system will generate an error message and redirect you back to the dashboard. This is illustrated in the screen shots below.
+![DS TB error message](../../../images/TB/Not-enrolled-for-DR-TB.png)
+Image above shows an error message generated when a user attempts to create an encounter for a patient who does not have a DS TB enrollment page. 
+
+![DR TB Followup Page](../../../images/TB/Not-enrolled-for-DR-TB.png)
+Image above shows an error message generated when a user attempts to create an encounter for a patient who does not have a DS TB enrollment page.
