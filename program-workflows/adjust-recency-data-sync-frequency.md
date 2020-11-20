@@ -19,3 +19,14 @@ This guide will show how to adjust the frequency of sending data. This can be us
 ![Repeat interval](../images/schedule.png)
 
 **NOTE**: Even with a small repeat interval of 10 minutes, by default, recency data is submitted to the server only once daily. Therefore, the first successful submission for the day will be the last for that same day.
+
+## Checking last sync date
+
+To check when the EMR last synced HTS data to the central server,
+
+1. Go to Legacy Admninistration page
+2. Under Maintenance, click setting and head to UgandaemrSync page
+3. Look out for Recency Last successful submission date and you will see the last date and time the EMR actually synced data through to the centarl server.
+
+![recency last successful submission date](../images/recency-last-submission-date.jpg)
+

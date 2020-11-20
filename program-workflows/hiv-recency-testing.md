@@ -37,7 +37,7 @@ Once UgandaEMR has been upgraded, follow the steps below to complete the configu
 
    Configure the settings for the recency server as stated below which are provided for your facility 
 
-   * Recency Server URL - [https://ugisl.mets.or.ug:5000/recency](https://ugisl.mets.or.ug:5000/recency)
+   * Recency Server URL - [https://ugisl.mets.or.ug/recency](https://ugisl.mets.or.ug/recency)
    * Recency Server Password \(provided separately\)
    * Hts Recency - set to true to enable the entry of Recency specific data on the HTS client card 
 
