@@ -89,12 +89,12 @@ The default configuration restricts the maxiumum number of patients who can be s
 
 5. Click the "Save" button in the bottom right hand corner 
 
-### Determine the number of patients scheduled on a perticular day.
+### Unable to determine the number of patients scheduled due to error on the ART Clinical Assessment form
 
 On data entry, the user may get an error `unable to determine the number of patients scheduled due to error`. as shown below.
 ![Unable to determine patients scheduled on a particular day](../.gitbook/assets/unable_to_determine.jpeg)
 This is because the user does not have the necessary privillages. 
-Follow the steps as explained here ![Adding user roles](../user_account_management/add_a_new_role_to_a_user_account.md)
+Follow the steps as explained here [Adding user roles](../user_account_management/add_a_new_role_to_a_user_account.md)
 1. Application: Edits Existing Encounters
 2. Application: Schedules Appointments
 3. Application: Schedules And Overbooks Appointments
