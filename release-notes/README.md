@@ -1,7 +1,5 @@
 # Release Notes
 
-## Release Notes
-
 These are the release notes for the different UgandaEMR versions that are being used, and provide a quick way of accessing the new features in each
 
 ## 1.0.14
@@ -26,6 +24,18 @@ This fixes a regression found in 1.0.13 due to a change in the underlying plafor
 **Release Date:** August 14, 2019  
 **Documentation:** [Release Notes 2.1.0](ugandaemr-210.md)
 
+##3.0.0
+
 **Release Date:** August 14, 2019  
 **Documentation:** [Release Notes 3.0.0](ugandaemr-300.md)
+
+## 3.0.4
+
+**Release Date:** May 14, 2020  
+**Documentation:** [Release Notes 3.0.4](ugandaemr-304.md)
+
+##3.1.3
+
+**Release Date:** December 3, 2020  
+**Documentation:** [Release Notes 3.1.3](ugandaemr-313.md)
 
