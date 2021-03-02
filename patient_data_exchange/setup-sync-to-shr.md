@@ -7,8 +7,6 @@ There are four steps taken to setup the shared health record sync.
     
     3. Adding or changing the dhis2 uuid and the Facility Name.
     
-    3. Start the CBS Sync FHIR Records To SH.
-    
 ###Setting up the URL 
 In order to setup the URL, follow the steps below
 
