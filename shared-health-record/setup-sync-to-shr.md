@@ -1,5 +1,5 @@
 ## Setting Up The Shared Health Record Sync. 
-There are three steps taken to setup the shared health record sync. 
+There are four steps taken to setup the shared health record sync. 
     
     1. Setting up the URL where the data will be synced to
     
