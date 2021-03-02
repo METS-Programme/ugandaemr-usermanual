@@ -29,13 +29,12 @@ In order to Enable The Syncing of data to the shared health record, follow the s
     
 
 ### Change local port, local username, and local password to match a user in ugandaemr. 
-
-    1. On the UgandaEMR Homepage Click on the System Administration Icon. This will navigate you to the System Administration page. 
-    2. On the system administration page, click on the "UgandaEMR Sync" Icon. This will navigate you to the "UgandaEMR Sync" page. 
-    3. On the "UgandaEMR Sync" Page, Click on the Sync Settings icon. This will navigate you to the "Global properties for the Ugandaemrsync".
-    4. On the "Global properties for the Ugandaemrsync" Check out the "CBS Local Host Port" if it matches the port on which the UgandaEMR Server is running.
-    5. On the "Global properties for the Ugandaemrsync" Check out the "CBS Local Host Username" and "CBS Local Host Password" if they match any user who has administrative rights over they system.
-    6. If there is any change you have made on  "CBS Local Host Port" or  "CBS Local Host Username" or "CBS Local Host Password". Click the "save" Buttom.
+In the UgandaEMR runtime properties folder where the runtime properties file is found, Add the following lines
+      
+      ugandaemrsync.CBSLocalHostPort = eg 8081
+      ugandaemrsync.CBSLocalHostUsername = johndo
+      ugandaemrsync.CBSLocalHostPassword = johndo@123
+ Note: The username and password must match a user in the UgandaEMR. Also the user must be having rights to access the fhir end point.
     
 
 ### Adding or changing the dhis2 uuid and the Facility Name.
