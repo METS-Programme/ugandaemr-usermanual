@@ -5,9 +5,9 @@ There are four steps taken to setup the shared health record sync.
     
     2. Enable the Syncing of data. 
     
-    3. Change local port, local username, and local password to match a user in ugandaemr. 
+    3. Adding or changing the dhis2 uuid and the Facility Name.
     
-    4. Adding or changing the dhis2 uuid and the Facility Name.
+    3. Start the CBS Sync FHIR Records To SH.
     
 ###Setting up the URL 
 In order to setup the URL, follow the steps below
@@ -26,16 +26,6 @@ In order to Enable The Syncing of data to the shared health record, follow the s
     2. On the system administration page, click on the "UgandaEMR Sync" Icon. This will navigate you to the "UgandaEMR Sync" page. 
     3. On the "UgandaEMR Sync" Page, Click on the Sync Settings icon. This will navigate you to the "Global properties for the Ugandaemrsync".
     4. On the "Global properties for the Ugandaemrsync" page, find the "Sync CBSFHIR Data" Item and change it's value to true. and Click on the "save" button. 
-    
-
-### Change local port, local username, and local password to match a user in ugandaemr. 
-In the UgandaEMR runtime properties folder where the runtime properties file is found, Add the following lines
-      
-      ugandaemrsync.CBSLocalHostPort = eg 8081
-      ugandaemrsync.CBSLocalHostUsername = johndo
-      ugandaemrsync.CBSLocalHostPassword = johndo@123
- Note: The username and password must match a user in the UgandaEMR. Also the user must be having rights to access the fhir end point.
-    
 
 ### Adding or changing the dhis2 uuid and the Facility Name.
 The DHIS2 uuid is used to identify which facility is sending data. it needs to be set
@@ -44,6 +34,3 @@ The DHIS2 uuid is used to identify which facility is sending data. it needs to b
     2. On the "System administration" page, Click on the "Health Center Configurations" icon.  This will navigate you to the "Global properties for the UgandaEMR".
     4. On the "Global properties for the UgandaEMR" Check out the "Dhis 2 Organizationuuid"  and "Health Center Name" if They are set appropriately. Change them where neccesory
     6. If there is any change you have made on  "Dhis 2 Organizationuuid"  and "Health Center Name". Click the "save" Buttom.
-
-    
-
