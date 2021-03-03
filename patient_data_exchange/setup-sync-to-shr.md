@@ -1,5 +1,5 @@
-## Setting Up The Shared Health Record Sync. 
-There are four steps taken to setup the shared health record sync. 
+## Setting Up The Sync of Data to Central Server. 
+There are four steps taken to setup the syncing data to central server. 
     
     1. Setting up the URL where the data will be synced to
     
@@ -18,7 +18,7 @@ In order to setup the URL, follow the steps below
     5. On Edit Page for the "Sync Data to Shared Health Record Sync Task Type" change the url to "http://ugandaemr.mets.or.ug/shr/fhir/" and clink on the save button.
     
 ### Enable the Syncing of data.
-In order to Enable The Syncing of data to the shared health record, follow the steps below
+In order to Enable The Syncing of data to the central server, follow the steps below
 
     1. On the UgandaEMR Homepage Click on the System Administration Icon. This will navigate you to the System Administration page. 
     2. On the system administration page, click on the "UgandaEMR Sync" Icon. This will navigate you to the "UgandaEMR Sync" page. 
