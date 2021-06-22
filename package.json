@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "docs:prepare": "npm install",
+    "docs:watch": "npm run docs:prepare && honkit serve",
+    "docs:build": "npx honkit build",
+    "docs:generate-epub": "npm run docs:build && npx honkit epub ./ ./_book/ugandaemr-user-manual.epub",
+    "docs:generate-pdf": "npm run docs:build && npx honkit pdf ./ ./_book/ugandaemr-user-manual.pdf",
+    "docs:generate": "npm run docs:build && npm run docs:generate-epub && npm run docs:generate-pdf"
+  },
+  "devDependencies": {
+    "gitbook-plugin-anchors": "^0.7.1",
+    "gitbook-plugin-layout": "^0.0.1",
+    "gitbook-plugin-numbered-headings": "^1.1.1",
+    "gitbook-plugin-toc": "^0.0.2",
+    "honkit": "^3.6.20"
+  }
+}
