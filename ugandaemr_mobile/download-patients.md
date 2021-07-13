@@ -1,4 +1,3 @@
-# Download Patients
 
 ## Downloading Patient In UgandaEMR Mobile
 
@@ -16,9 +15,29 @@
 
    ![Find Patient Screen](assets/search.png)
 
-if patient is found a screen below will be show to start assessing the patient. ![Search Found Screen](.gitbook/assets/img1.jpg)
+if patient is found a screen below will be show to start assessing the patient. ![Search Found Screen](images/search-found.png)
 
-1. To assess a patient tap on Assess patient button ![Assessment Screen](.gitbook/assets/img2.jpg)
-2. Follow the steps below to administer drugs for represented patients:
-   * [Drug Administration Steps](drug-administration.md) 
+
+
+## Work Summary
+
+1. To assess a patient in UgandaEMR mobile app Tap Work Summary from the menu screen or home screen, Select visit date for patients with appointments. use the filter to navigate through different options. ![work summary Screen](assets/img15.jpg)
+2. On selecting the visit date is selected, alist of downloaded patients will be seen as shown in the figure below. to assess a patient Tap on the patient record. ![Assess Patient button](.gitbook/assets/img16.jpg)
+3. To assess a patient Tap Assess Patient to start an assessment as shown ![Assessment Screen](images/client_selected.png)
+
+  NOTE:
+   
+   If the patient is  represented Tap Yes button and Dispense drugs to the Patient otherwise click YES to start the assessment.
+   start assessing the patient. 
+
+
+## Drug Dispensing
+  
+
+ 
+1 . Tap on the drug or combination from the Drug administration tables as shown below to enter pills dispensed and duration in days. ![Drug administration Screen](images/drug_dispensing.png)
+  
+2 . To administer other drugs besides the current regimen  Tap on the ADD OTHER DRUG button, enter drug name, dose and duration as shown below. ![Other Drug administration Screen](images/other-drugs.png)
+  
+3 .  Tap Continue Button to proceed and enter the patient next appointment date and finalize the assessment by setting the Next Appointment Date
 

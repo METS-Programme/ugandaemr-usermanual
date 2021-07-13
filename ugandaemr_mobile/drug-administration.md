@@ -1,4 +1,4 @@
-# Drug Dispensing
+## Drug Dispensing
 
 1. The screen belows shows how to administer drug, each patients current Regimen is displayed as shown in the figure below.
 

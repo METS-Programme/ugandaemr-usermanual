@@ -1,2 +1,0 @@
-# Uninstalling UgandaEMR Mobile
-
