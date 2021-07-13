@@ -65,8 +65,21 @@
     * [Laboratory](point-of-care-poc/work-flows/laboratory.md)
     * [Pharmacy](point-of-care-poc/work-flows/pharmacy.md)
 * Patient Data Upload
+
+
     
     * [Uploading Viral Load Results](patient_data_exchange/upload_vl_results.md)
+    
+* UgandaEMR Mobile
+    * [Introduction](README.md)
+    * [Login](login.md)
+    * [Download Patients](download-patients.md)
+    * [Find Patients](find-patients.md)
+    * [Work Summary](assess-patients.md)
+    * [Drug Dispensing](drug-administration.md)
+    * [Uninstalling UgandaEMR Mobile](uninstalling-ugandaemr-mobile.md)
+
+
 * [Release Notes](release-notes/README.md)
   * [1.0.14](release-notes/ugandaemr-1014.md)
   
@@ -80,7 +93,9 @@
   
   * [3.0.4](release-notes/ugandaemr-304.md)
   
-  * [3.1.0](release-notes/ugandaemr-310.md)
+  * [3.1.0](release-notes/ugandaemr-310.md) 
+ 
+
   
     
   
