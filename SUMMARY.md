@@ -8,7 +8,6 @@
   * [UgandaEMR 3.x Installation](setup_and_configuration/ugandaemr-3x.md)
   * [Post-installation Configuration](setup_and_configuration/post-installation-configuration.md)
 * [Backup and Restoration](backup_and_restoration/README.md)
-  
   * [Changing Database Backup File Path](backup_and_restoration/changing-database-backup-file-path.md)
 * [Upgrading UgandaEMR](upgrading/README.md)
   * [Upgrading from 1.6.x ,1.9.x to 1.11.x](upgrading/from-16x19x-to-111x.md)
@@ -52,7 +51,6 @@
   * [HIV Recency Testing](program-workflows/hiv-recency-testing.md)
 * [Troubleshooting Tips](troubleshooting-tips.md)
 * [Uninstalling UgandaEMR](uninstalling-ugandaemr/README.md)
-  
   * [Unistalling UgandaEMR older versions](uninstalling-ugandaemr/unistallinstalling-ugandaemr-older-versions.md)
 * [Point of Care \(POC\)](point-of-care-poc/README.md)
   * [Installation and Configuration](point-of-care-poc/installation-and-configuration.md)
@@ -65,39 +63,23 @@
     * [Laboratory](point-of-care-poc/work-flows/laboratory.md)
     * [Pharmacy](point-of-care-poc/work-flows/pharmacy.md)
 * Patient Data Upload
-
-
-    
     * [Uploading Viral Load Results](patient_data_exchange/upload_vl_results.md)
-    
-* UgandaEMR Mobile
-    * [Introduction](README.md)
+* [UgandaEMR Mobile](ugandaemr_mobile/README.md)
+    * [Introduction](ugandaemr_mobile/README.md)
     * [Login](login.md)
     * [Download Patients](download-patients.md)
     * [Find Patients](find-patients.md)
     * [Work Summary](assess-patients.md)
     * [Drug Dispensing](drug-administration.md)
     * [Uninstalling UgandaEMR Mobile](uninstalling-ugandaemr-mobile.md)
-
-
 * [Release Notes](release-notes/README.md)
   * [1.0.14](release-notes/ugandaemr-1014.md)
-  
   * [1.0.17](release-notes/ugandaemr-1017.md)
-  
   * [2.0.0](release-notes/ugandaemr-200.md)
-  
   * [2.1.0](release-notes/ugandaemr-210.md)
-  
   * [3.0.0](release-notes/ugandaemr-300.md)
-  
   * [3.0.4](release-notes/ugandaemr-304.md)
-  
   * [3.1.0](release-notes/ugandaemr-310.md) 
- 
-
-  
-    
-  
-    
+  * [3.1.3](release-notes/ugandaemr-313.md)
+  * [3.2.0](release-notes/ugandaemr-320.md)
 
