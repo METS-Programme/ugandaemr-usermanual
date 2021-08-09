@@ -49,7 +49,7 @@
 * [Program Workflows](program-workflows/README.md)
   * [Differentiated Service Delivery Models \(DSDM\)](program-workflows/differentiated-service-delivery-models-dsdm.md)
   * [HIV Recency Testing](program-workflows/hiv-recency-testing.md)
-  * [ART Regimen Lines](art_card/regimen-lines.md)
+  * [ART Regimen Lines](program-workflows/art/regimen-lines.md)
   * [Tuberculosis](tuberculosis/introduction.md)
   * [COVID19](covid19/introduction.md)
 * [Troubleshooting Tips](troubleshooting-tips.md)

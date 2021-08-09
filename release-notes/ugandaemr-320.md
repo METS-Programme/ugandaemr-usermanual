@@ -2,7 +2,7 @@
 
 ## New Features
 
-1. [ART Regimen Lines](../art_card/regimen-lines.md) - this allows the capture of regimen subsitutions and switches to aid the classification of patients according to the regimen lines they are on 
+1. [ART Regimen Lines](../program-workflows/art/regimen-lines.md) - this allows the capture of regimen subsitutions and switches to aid the classification of patients according to the regimen lines they are on 
 2. [TB Module ](../tuberculosis/introduction.md)
 3. [COVID 19 Care and Treatment](../covid19/introduction.md) 
 4. Patient Lists for MER Indicator reports - these help in verificaiton of patient data used to generate the reports. These include TX_New, TX_Current 28 days and 90 days, TB ART, Tx TB, TX ML and TX RTT
