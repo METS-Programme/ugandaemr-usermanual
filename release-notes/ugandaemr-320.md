@@ -5,6 +5,10 @@
 1. ART Regimen Lines 
 2. TB Module 
 3. COVID 19 Care and Treatment 
+4. Reports
+   * HMIS 105 ANC Section
+   * TPT Status Report
+   * MER TX RTT 
 
 ## Bug Fixes 
 1. Fixed issue with Viral Load History widget on the clinician facing dashboard not showing 
