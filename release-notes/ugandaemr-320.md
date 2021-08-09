@@ -2,17 +2,20 @@
 
 ## New Features
 
-1. ART Regimen Lines 
-2. TB Module 
-3. COVID 19 Care and Treatment 
-4. Reports
+1. [ART Regimen Lines](../art_card/regimen-lines.md) - this allows the capture of regimen subsitutions and switches to aid the classification of patients according to the regimen lines they are on 
+2. [TB Module ](../tuberculosis/introduction.md)
+3. [COVID 19 Care and Treatment](../covid19/introduction.md) 
+4. Patient Lists for MER Indicator reports - these help in verificaiton of patient data used to generate the reports. These include TX_New, TX_Current 28 days and 90 days, TB ART, Tx TB, TX ML and TX RTT
+5. Reports
    * HMIS 105 ANC Section
    * TPT Status Report
-   * MER TX RTT 
-
+   * MER TX RTT
+6. Patient Lists for MER Indicator reports - these help in verificaiton of patient data used to generate the reports. These include TX_New, TX_Current 28 days and 90 days, TB ART, Tx TB, TX ML and TX RTT
+7. [UgandaEMR Mobile](../ugandaemr_mobile/README.md) for community drug dispensing and
+8. 
 ## Bug Fixes 
-1. Fixed issue with Viral Load History widget on the clinician facing dashboard not showing 
-2. Disable Orders to Lab or Pharmacy when patient is not in queue
+1. Users can now export the correct DSDM models for a patient via Cohort builder 
+2. 
 
 ## Links to download files
 
