@@ -2,20 +2,27 @@
 
 ## New Features
 
-1. [ART Regimen Lines](../program-workflows/art/regimen-lines.md) - this allows the capture of regimen subsitutions and switches to aid the classification of patients according to the regimen lines they are on 
+1. [ART Regimen Lines](../program-workflows/art/regimen-lines.md) - this allows the capture of regimen substitutions and switches to aid the classification of patients according to the regimen lines they are on 
 2. [TB Module ](../tuberculosis/introduction.md)
 3. [COVID 19 Care and Treatment](../covid19/introduction.md) 
-4. Patient Lists for MER Indicator reports - these help in verificaiton of patient data used to generate the reports. These include TX_New, TX_Current 28 days and 90 days, TB ART, Tx TB, TX ML and TX RTT
+4. Patient Line  Lists for MER Indicator reports - these help in verification of patient data used to generate the reports. These include TX_New, TX_Current 28 days and 90 days, TB ART, Tx TB, TX ML and TX RTT
 5. Reports
    * HMIS 105 ANC Section
    * TPT Status Report
    * MER TX RTT
-6. Patient Lists for MER Indicator reports - these help in verificaiton of patient data used to generate the reports. These include TX_New, TX_Current 28 days and 90 days, TB ART, Tx TB, TX ML and TX RTT
-7. [UgandaEMR Mobile](../ugandaemr_mobile/README.md) for community drug dispensing and
-8. 
+   * HMIS 106A 3.1 TB Section 
+   * MER TX_TB Report
+   * TB Register
+   * Regimen Line Reports
+6. New patient flag for clients bled for Viral load Testing
+7. Ordering for Viral Load Results from CPHL in Retrospective Mode 
+8. [UgandaEMR Mobile](../ugandaemr_mobile/README.md) for community drug dispensing and
 ## Bug Fixes 
 1. Users can now export the correct DSDM models for a patient via Cohort builder 
-2. 
+2. Correcting of cohort used in MER TX_ML Reports 
+3. Enable viral load history Display  on patient dashboard 
+4. ART status display for all ART patients
+5. Revision of the Lost to Follow-up Cohort To include the clients who turn Lost to Follow-up in the next reporting period
 
 ## Links to download files
 
