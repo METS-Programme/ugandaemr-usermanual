@@ -7,7 +7,7 @@ There are four steps taken to setup the syncing data to central server.
     
     3. Adding or changing the dhis2 uuid and the Facility Name.
     
-###Setting up the URL 
+### Setting up the URL 
 In order to setup the URL, follow the steps below
 
     1. On the UgandaEMR Homepage Click on the System Administration Icon. This will navigate you to the System Administration page. 
