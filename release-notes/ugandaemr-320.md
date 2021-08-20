@@ -4,7 +4,16 @@
 
 1. [ART Regimen Lines](../program-workflows/art/regimen-lines.md) - this allows the capture of regimen substitutions and switches to aid the classification of patients according to the regimen lines they are on 
 2. [TB Module ](../tuberculosis/introduction.md)
+   * DS TB: HMIS TB 003 - TB Client Card Enrollment Page
+   * DS TB: HMIS TB 003 - TB Client Card Followup Section
+   * DR TB: HMIS TB 001 Second Line TB Treatment Card - Enrollment Page
+   * DR TB: HMIS TB 001 Second Line TB Treatment Card - Followup Section
 3. [COVID 19 Care and Treatment](../covid19/introduction.md) 
+   * Case Investigation Form
+   * Clinical Management
+   * Discharge Form
+   * Referral Form
+   * Postmortem
 4. Patient Line  Lists for MER Indicator reports - these help in verification of patient data used to generate the reports. These include TX_New, TX_Current 28 days and 90 days, TB ART, Tx TB, TX ML and TX RTT
 5. Reports
    * HMIS 105 ANC Section
