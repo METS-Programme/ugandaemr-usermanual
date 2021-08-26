@@ -69,7 +69,7 @@
     * [Uploading Viral Load Results](patient_data_exchange/upload_vl_results.md)
 * [UgandaEMR Mobile](ugandaemr_mobile/README.md)
     * [Introduction](ugandaemr_mobile/README.md) 
-    * [Download Patients](download-patients.md)
+    * [Download Patients](ugandaemr_mobile/download-patients.md)
 * [Release Notes](release-notes/README.md)
   * [1.0.14](release-notes/ugandaemr-1014.md)
   * [1.0.17](release-notes/ugandaemr-1017.md)
