@@ -4,7 +4,7 @@ The reporting functionality helps users to extract information in pre-built and 
 
 The reports are generated in the following ways:
 
-1. [BIRT Reports](https://github.com/METS-Programme/ugandaemr-usermanual/tree/1fbbe0b2801ddccebeb5041ed0f406697a3b1f0a/reporting_birt.md) for facility level and some MoH HMIS reports 
+1. [Inbuilt reports](ugandaemr_reports.md) for facility level, MoH HMIS and PEPFAR MER Indicator reports 
 2. [Cohort Builder](reporting_cohort_builder.md) for custom data extraction in Excel for more detailed analysis
 
 ## Using The Cohort Builder
