@@ -61,11 +61,18 @@ The dashboard shows the avialable reports in the different categories:
    * TB ART Report
    * PMTCT STAT Report
    * PMTCT ART Report
-6. Early Warning Indicator Reports - run annually 
+6. Patient Lists for MER Indicator Reports which provide a patient listing from which the MER reports are computed to aid in verification 
+   - TX New 
+   - TX Current 28 days (PEPFAR) and 90 days (MoH)
+   - TX TB
+   - TB ART 
+   - TX ML
+   - TX RTT
+7. Early Warning Indicator Reports - run annually 
    * Lost To Follow Up
    * Pill Pickup
    * Viral Load Supression
-7. Integration Data Exports 
+8. Integration Data Exports 
    * Family Connect EMTCT Module Data Export - for data import into EMTCT module of Family Connect 
 
 ## Running a Report
