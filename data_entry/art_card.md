@@ -9,17 +9,17 @@ This section describes how to enter data from the ART card.
 1. Go to the patient dashboard 
 2. Create a past visit with the same date as the HIV enrolled date on the blue card
 
-   ![ART card - HIV enrolled date](../assets/art_card_hiv_enrolled_date.jpg)
+   ![ART card - HIV enrolled date](../images/art_card_hiv_enrolled_date.jpg)
 
-   ![Start and End Dates for Past Visit](../assets/enter_start_and_end_date_for_new_past_visit.png)
+   ![Start and End Dates for Past Visit](../images/enter_start_and_end_date_for_new_past_visit.png)
 
 3. The visits page is displayed, with the current visit displayed along with a link to the summary page
 
-   ![Patient Visit Details](../assets/patient_visit_details.png)
+   ![Patient Visit Details](../images/patient_visit_details.png)
 
 4. Click the link to the HMIS 122a HIV Care ART Card - Summary Form to enter the summary page  
 
-   ![ART Card Summary Page](../assets/art_card_new.png)
+   ![ART Card Summary Page](../images/art_card_new.png)
 
 ### Transfer In
 
@@ -44,28 +44,28 @@ Only one summary page can be entered for each patient, so creating a new summary
 
 To capture the health education info, follow the steps below;  
 1. Go to the patient dashboard and click Add Past Visit link as described in the chapter entitled Entering Client Information &gt; Visits &gt; Add Past Visit. [Click here](./) to access the steps.  
-2. Click the _**HMIS 122a HIV Care ART Card-Health Education Form**_![Select Health Education Form](../assets/select_health_education.png)  
-2. You should see the health education form like this![Health Education Facade](../assets/art_card_health_education_facade.png)
+2. Click the _**HMIS 122a HIV Care ART Card-Health Education Form**_![Select Health Education Form](../images/select_health_education.png)  
+2. You should see the health education form like this![Health Education Facade](../images/art_card_health_education_facade.png)
 
-1. Select the _**Attending Clinician**_ ![Attending Clinician](../assets/select_attending_clinician.png)
-2. Enter the details as shown. Be sure to select the Yes checkbox so as enter date and comment ![Health Education Basics](../assets/art_card_health_education_basics.png)
-3. Scroll to the bottom and hit the Enter Form button![Health Encounter Enter Form](../assets/art_card_health_education_enter_button.png)
+1. Select the _**Attending Clinician**_ ![Attending Clinician](../images/select_attending_clinician.png)
+2. Enter the details as shown. Be sure to select the Yes checkbox so as enter date and comment ![Health Education Basics](../images/art_card_health_education_basics.png)
+3. Scroll to the bottom and hit the Enter Form button![Health Encounter Enter Form](../images/art_card_health_education_enter_button.png)
 4. Once added successfully, you should see a page showing the most recent health education form added ![Health Education Success](../.gitbook/assets/art_card_health_education_success%20%281%29.png)
 
 ## ART Encounter Page
 
 To capture the ART Card Encounters, follow the steps below;  
 1. Go to the patient dashboard and click Add Past Visit link as described in the chapter entitled Entering Client Information &gt; Visits &gt; Add Past Visit. [Click here](./) to access the steps.  
-2. Click the **\*HMIS 122a HIV Care ART Card-Encounter Form** ![Encounter Page link](../assets/select_art_card_encounter.png)  
-2. You should see the _**Encounter**_ form looking like this ![Art Card Encounter](../assets/art_card_encounter_facade.png)  
+2. Click the **\*HMIS 122a HIV Care ART Card-Encounter Form** ![Encounter Page link](../images/select_art_card_encounter.png)  
+2. You should see the _**Encounter**_ form looking like this ![Art Card Encounter](../images/art_card_encounter_facade.png)  
 3. Because the encounter chart has a very long table,it was split into four sections\(or tables\).  
-4. Capture the first section as below ![Art Card Encounter section 1](../assets/art_card_encounter_section_1.png)  
-5. Capture the second section as below ![Art Card Encounter Section 2](../assets/art_card_encounter_section_2.png)  
-6. Capture the third section as below ![Art Card Encounter Section 3](../assets/art_card_encounter_section_3.png)  
-7. Capture the fourth section as below - TBD add entry of detectable and undetectable viral loads results ![Art Card Encounter Section 4](../assets/art_card_encounter_section_4.png)  
+4. Capture the first section as below ![Art Card Encounter section 1](../images/art_card_encounter_section_1.png)  
+5. Capture the second section as below ![Art Card Encounter Section 2](../images/art_card_encounter_section_2.png)  
+6. Capture the third section as below ![Art Card Encounter Section 3](../images/art_card_encounter_section_3.png)  
+7. Capture the fourth section as below - TBD add entry of detectable and undetectable viral loads results ![Art Card Encounter Section 4](../images/art_card_encounter_section_4.png)  
 8. Click the _**Enter Form**_ button to save the encounter record  
-9. You should see a new page ![Encounter Page After saving](../assets/art_card_encounter_page_after_saving.png)  
-10. Click on the visit circled on the left to see the saved encounter record ![Art Card Encounter Saved Page](../assets/art_card_encounter_saved_page.png)
+9. You should see a new page ![Encounter Page After saving](../images/art_card_encounter_page_after_saving.png)  
+10. Click on the visit circled on the left to see the saved encounter record ![Art Card Encounter Saved Page](../images/art_card_encounter_saved_page.png)
 
 ### Limiting Visits on a Specific Day and Public Holidays 
 
@@ -75,17 +75,17 @@ The default configuration restricts the maxiumum number of patients who can be s
 
 1. Login as a user with administrator privileges
 
-   ![Login](../assets/log_in_as_admin_link.png)
+   ![Login](../images/log_in_as_admin_link.png)
 
 2. Click legacy administration link as circled in the image below
 
    ![Legacy System Adminstration Link](../.gitbook/assets/legacy_system%20administration_link.png)
 
 3. Under Maintenance in the middle column, select Settings 
-![Settings Link](../assets/settings.png)
+![Settings Link](../images/settings.png)
 
 4. Click Ugandaemr in the left hand column, and select the "Maximum Patients Per Day " variable 
-![Maximum Patients Per Day settings](../assets/settings_max_patients_per_day.png)
+![Maximum Patients Per Day settings](../images/settings_max_patients_per_day.png)
 
 5. Click the "Save" button in the bottom right hand corner 
 
@@ -102,7 +102,7 @@ The recommendation for entering viral loads is as follows:
   * Sample Rejected - there are issues with the sample so the patient has to be bled again 
 * Viral Load - the copies per ml
 
-![ART Encounter Viral Load section](../assets/viral-load-art-encounter.png)
+![ART Encounter Viral Load section](../images/viral-load-art-encounter.png)
 
 ### Common Errors
 
@@ -110,9 +110,9 @@ The recommendation for entering viral loads is as follows:
 
 Should the page fail to save, due to a timeout session/when you have spent more than a 20 minutes without saving, do the following:  
 1. Scroll to the upper most part of the page,  
-Enter your username and password ![Session Timeout](../assets/art_card_health_education_session_timeout.png)  
+Enter your username and password ![Session Timeout](../images/art_card_health_education_session_timeout.png)  
 2. Scroll to the bottom and hit the Enter Form button![Health Encounter Enter Form](../.gitbook/assets/art_card_health_education_enter_button%20%281%29.png)  
-3. Once added successfully, you should see a page showing the most recent Encounter form added ![Health Education Success](../assets/art_card_health_education_success.png)
+3. Once added successfully, you should see a page showing the most recent Encounter form added ![Health Education Success](../images/art_card_health_education_success.png)
 
 ### Contact System Administrator on Saving Encounter
 
@@ -126,7 +126,7 @@ Should the Encounter fail to Save indicating the above message in the top right 
 ### Unable to determine the number of patients scheduled due to error on the ART Clinical Assessment form
 
 On data entry, the user may get an error `unable to determine the number of patients scheduled due to error`. as shown below.
-![Unable to determine patients scheduled on a particular day](../assets/unable_to_determine.jpeg)
+![Unable to determine patients scheduled on a particular day](../images/unable_to_determine.jpeg)
 This is because the user does not have the necessary privillages. 
 Follow the steps as explained here [Adding user roles](../user_account_management/add_a_new_role_to_a_user_account.md)
 1. Application: Edits Existing Encounters

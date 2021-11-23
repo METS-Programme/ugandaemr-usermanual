@@ -13,16 +13,16 @@ To set the Analytics User name and password,
 1. Got to Legacy System Administration-&gt;Mantainance-&gt;Settings-&gt;UgandaemrSync.
 
 2. Click Settings
-    > ![UgandaEMR Settings](../assets/legacyAdministration_settings.png)
+    > ![UgandaEMR Settings](../images/legacyAdministration_settings.png)
     
 3. Select Ugandaemrsync
-    > ![UgandaEMR Settings](../assets/settings_ugandaemrsync.png)
+    > ![UgandaEMR Settings](../images/settings_ugandaemrsync.png)
        
 4. Set both Analytics Username and Password as your DHIS2 UUID and save.
-    > ![UgandaEMR Settings](../assets/set_metrics_username_and_password.png)
+    > ![UgandaEMR Settings](../images/set_metrics_username_and_password.png)
     
 5. To set the DHIS2 Facility UUID, Got to Legacy System Administration-&gt;Mantainance-&gt;Settings-&gt;Ugandaemr.
 
-   > ![UgandaEMR Settings](../assets/facility_uuid.png)
+   > ![UgandaEMR Settings](../images/facility_uuid.png)
    
 6. Set the DHIS2 UUID and save. Now the system is ready send Analytics report whenever internet is available

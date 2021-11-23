@@ -6,19 +6,19 @@ This section describes how to enter data from the SMC client card.
 
 You will need the "HMIS FORM 035a - SAFE MALE CIRCUMCISION CLIENT FORM" as the data source, if entering data retrospectively.
 
-login at the "SMC clinic" session, as shown below. ![](../assets/SMC12.png)
+login at the "SMC clinic" session, as shown below. ![](../images/SMC12.png)
 
-A screen will open as shown below. Select the "Find Patient Record" option. ![](../assets/SMC11.png)
+A screen will open as shown below. Select the "Find Patient Record" option. ![](../images/SMC11.png)
 
-On the screen that appears, type the name or ID of the patient, as registered in the system. ![](../assets/SMC13.png)
+On the screen that appears, type the name or ID of the patient, as registered in the system. ![](../images/SMC13.png)
 
 Search for and find the client - ![](../.gitbook/assets/SMC1%20%281%29.png)
 
 If the client is not in the system already, registered him first \(refer to the entering client information section\).
 
-Select "Add Past Visit" as shown below ![](../assets/SMC14.png)
+Select "Add Past Visit" as shown below ![](../images/SMC14.png)
 
-A screen will pop-up prompting you to select the "Start date" and "End Date" for the visit. Select the appropriate date and save by clicking the "confirm" button, as in the example below ![](../assets/SMC15.png)
+A screen will pop-up prompting you to select the "Start date" and "End Date" for the visit. Select the appropriate date and save by clicking the "confirm" button, as in the example below ![](../images/SMC15.png)
 
 From the list that appears, select "HMIS 035a Safe Male Circumcision Client Card" as shown below
 
@@ -30,29 +30,29 @@ For the "Date" field, select Year, month and day, in that order, using the Datep
 
 Enter all available client medical history information. When working with dropdowns, to clear a field, select the top most blank option.
 
-Enter all information as filled in on the SMC card:- 1. Knowledge of HIV status 2. Medical history ![](../assets/SMC5.png)
+Enter all information as filled in on the SMC card:- 1. Knowledge of HIV status 2. Medical history ![](../images/SMC5.png)
 
 1. Client undergoing Treatment
 2. Allergies
 3. Physical examination
 
-   ![](../assets/SMC6.png)
+   ![](../images/SMC6.png)
 
 ## Consent
 
-Enter consent information as provided. Note that the circumcision section is valid only if "Client eligible for circumcision" is a "Yes" ![](../assets/SMC7.png)
+Enter consent information as provided. Note that the circumcision section is valid only if "Client eligible for circumcision" is a "Yes" ![](../images/SMC7.png)
 
 ## Circumcision procedure
 
-The "Time started" and "End time" are in the order: Hour, Minutes and Seconds ![](../assets/SMC8.png)
+The "Time started" and "End time" are in the order: Hour, Minutes and Seconds ![](../images/SMC8.png)
 
 ## Circumcision follow-up visits
 
 Note: This section is normally filled as an update. Reffer to instructions on how to update an SMC client form. Three follow-up visits are provided for. Make sure the type of visit and the date the follow-up visit happened is entered
 
-![](../assets/SMC9.png)
+![](../images/SMC9.png)
 
-To submit and save data entered on the form, click **"Enter Form"** at the end as . ![](../assets/SMC10.png)
+To submit and save data entered on the form, click **"Enter Form"** at the end as . ![](../images/SMC10.png)
 
 ## Editing/updating an SMC card
 
@@ -60,9 +60,9 @@ The SMC card and indeed all other patient/client forms are editable/updatable.
 
 From the home page, go to "Find patient record" as previously described. ![](../.gitbook/assets/SMC1.png)
 
-Under "General Action", click the "Form Entry" link ![](../assets/SMC2.png)
+Under "General Action", click the "Form Entry" link ![](../images/SMC2.png)
 
-From the list that appears, select "HMIS 035a Safe Male Circumcision Client Card" as shown below ![](../assets/SMC3.png)
+From the list that appears, select "HMIS 035a Safe Male Circumcision Client Card" as shown below ![](../images/SMC3.png)
 
 Edit the card as necessary and click the "Enter Form" button at the end, to submit.
 

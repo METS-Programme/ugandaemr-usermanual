@@ -4,8 +4,8 @@ When Clinicians order for tests, laboratory has to process them and provide resu
 
 ## Accessing Laboratory Provider Dashboard
 
-1. [Login](https://github.com/METS-Programme/ugandaemr-usermanual/tree/1fbbe0b2801ddccebeb5041ed0f406697a3b1f0a/login.md) with account that has [role](https://github.com/METS-Programme/ugandaemr-usermanual/tree/1fbbe0b2801ddccebeb5041ed0f406697a3b1f0a/point-of-care-poc/installation-and-configuration/roles.md) _"Organizational: Laboratory"_. This action will navigate you to the home screen. ![Home Screen](../../assets/poc_lab_home_page.png)
-2. On the Home page click on the _"Laboratory"_ icon. This will Navigate you to the _"Laboratory Provider Dashboard"_ ![Laboratory Provider Dashboard](../../assets/lab_provider_dashboard.png)
+1. [Login](https://github.com/METS-Programme/ugandaemr-usermanual/tree/1fbbe0b2801ddccebeb5041ed0f406697a3b1f0a/login.md) with account that has [role](https://github.com/METS-Programme/ugandaemr-usermanual/tree/1fbbe0b2801ddccebeb5041ed0f406697a3b1f0a/point-of-care-poc/installation-and-configuration/roles.md) _"Organizational: Laboratory"_. This action will navigate you to the home screen. ![Home Screen](../../images/poc_lab_home_page.png)
+2. On the Home page click on the _"Laboratory"_ icon. This will Navigate you to the _"Laboratory Provider Dashboard"_ ![Laboratory Provider Dashboard](../../images/lab_provider_dashboard.png)
 
    This page has four tabs
 
@@ -22,8 +22,8 @@ When Clinicians order for tests, laboratory has to process them and provide resu
 In order for an ordered test to be processed, there is need to collect a sample for the test and identify the test uniquely. The following are the steps that can be carried out in processing a sample
 
 1. Under the “Test Ordered” tab in the “TEST\(S\) ORDERED” column, Click on the “Tests Unproccessed” link. This will dropdown the ordered tests of patients.
-2. In the ordered test list provided, Click on the “process sample” ![process Sample icon](../../assets/poc_checkin_icon.png) icon . This will popup a dialogue box to enable you to process the sample.
-3. Enter the sample/specimen Id in the textbox provided or generate a sample id by clicking on the ![Generate sample id icon](../../assets/poc_generate_sample_id.png).
+2. In the ordered test list provided, Click on the “process sample” ![process Sample icon](../../images/poc_checkin_icon.png) icon . This will popup a dialogue box to enable you to process the sample.
+3. Enter the sample/specimen Id in the textbox provided or generate a sample id by clicking on the ![Generate sample id icon](../../images/poc_generate_sample_id.png).
 
    **Please Note:** For Viral load test the serial number on the Viral load form or the DBS card is the sample Id to enter in the specimen id placeholder
 

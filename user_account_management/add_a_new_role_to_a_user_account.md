@@ -6,13 +6,13 @@
 
 2. Click on manage users link as shown below
 
-   ![Manage Users Link](../assets/manage_user_accounts_link.png)
+   ![Manage Users Link](../images/manage_user_accounts_link.png)
 
 3. Search for the user account to be updated then click the System Id of the user to edit
 
-   ![Search for user account](../assets/manage_user_accounts_link.png)
+   ![Search for user account](../images/manage_user_accounts_link.png)
 
 4. Select the roles for the new user account, current roles required are System Developer and Provider
 
-   ![Select user roles](../assets/update_user_roles.png)
+   ![Select user roles](../images/update_user_roles.png)
 

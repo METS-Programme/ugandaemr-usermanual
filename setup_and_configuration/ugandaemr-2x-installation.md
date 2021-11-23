@@ -22,17 +22,17 @@
 
 ![](../.gitbook/assets/2.1-inst-java%20%281%29.jpg)
 
-![](../assets/Java1.1.PNG)
+![](../images/Java1.1.PNG)
 
-![](../assets/Java2.PNG)
+![](../images/Java2.PNG)
 
-![](../assets/Java3.PNG)
+![](../images/Java3.PNG)
 
-![](../assets/Java4.PNG)
+![](../images/Java4.PNG)
 
-![](../assets/Java5.PNG)
+![](../images/Java5.PNG)
 
-![](../assets/Java6.PNG)
+![](../images/Java6.PNG)
 
 7.Install MySQL  
 ![](../.gitbook/assets/3.1-mysql-configure%20%281%29.jpg)  
@@ -76,7 +76,7 @@ To fix this:
 1. Go to the start menu
 2. Select UgandaEMR and select **Connect Database Path** and let it run and correct the path
 
-![](../assets/PATH.png)  
+![](../images/PATH.png)  
 3. Restart your computer  
 4. Start UgandaEMR using the Desktop shortcut
 

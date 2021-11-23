@@ -12,13 +12,13 @@ On the screen that appears, type the name or ID of the patient, as registered in
 ![](SMC13.png)
 
 Search for and find the client - Demo 123  
-![](/assets/terminated1.jpg)
+![](/images/terminated1.jpg)
 
-![](/assets/terminated 2.1.PNG)![](/assets/terminated 31.PNG)
+![](/images/terminated%202.1.PNG)![](/images/terminated%2031.PNG)
 
-![](/assets/terminated 4.PNG)
+![](/images/terminated%204.PNG)
 
-![Patient Marked as Dead](/assets/terminated 5.PNG)
+![Patient Marked as Dead](/images/terminated%205.PNG)
 
 ### Troubleshooting Tips 
 #### I am unable to mark a patient as dead - no error appears and nothing is shown 

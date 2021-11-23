@@ -2,7 +2,7 @@
 
 ## backupdatabase script has an access denied error
 
-![Backup database error](../assets/upgrade_backup_database_error.png)  
+![Backup database error](../images/upgrade_backup_database_error.png)  
 This is because the password for root has changed from a blank password
 
 1.Open the backup database \(or backupdatabase.bat\) file in Notepad and add the following to the line that starts with @mysqldump
@@ -17,11 +17,11 @@ password is the password of the root account, and there is no space after the -p
 
 This is because the installer did not create the openmrs\_backup database. Uninstall UgandaEMR and start again
 
-![openmrs\_backup database not found](../assets/upgrade_error_openmrs_backup_not_found.png)
+![openmrs\_backup database not found](../images/upgrade_error_openmrs_backup_not_found.png)
 
 ## upgradedatabase script error 2003 - Can't connect to MySQL server on local host \(10061\)
 
-![Access denied to openmrs\_backup](../assets/upgrade_access_denied_to_openmrs_backup.png)  
+![Access denied to openmrs\_backup](../images/upgrade_access_denied_to_openmrs_backup.png)  
 This is because the password for root has changed from a blank password
 
 1.Open the upgradedatabase \(or upgradedatabase.bat\) file in Notepad and add the following to the line that starts with @mysqldump
@@ -49,7 +49,7 @@ The steps are as follows:
 ## Error starting uploaded module
 
 This is usually characterized by a green arrow next to the module name, an error message at the top of the Manage Modules page and a text box in the row of the module name with the words "Error starting! Click here for details"  
-![Error starting module](../assets/error_starting_module.png)  
+![Error starting module](../images/error_starting_module.png)  
 1.Click the text box to find out the details of why the module did not start:
 
 * If the error is caused by a missing module then upload the module following the steps above
@@ -61,15 +61,15 @@ This is usually characterized by a green arrow next to the module name, an error
 ## UI Framework Error: Null Pointer Exception on Patient Registration
 
 A common cause is blank entries in the address hierarchy during the upgrade process as seen in the link below  
-![Null Pointer Exception on Patient Registration after Upgrade](../assets/upgrade_error_patient_reg_null_pointer.png)
+![Null Pointer Exception on Patient Registration after Upgrade](../images/upgrade_error_patient_reg_null_pointer.png)
 
 1. Click the Administration link in the top menu as below:
 
-   ![System Administration Link](../assets/upgrade_error_patient_reg_null_pointer_administration_link.png)
+   ![System Administration Link](../images/upgrade_error_patient_reg_null_pointer_administration_link.png)
 
 2. Click the Manage Address Hierarchy link on the administration dashboard
 
-   ![Manage Address Hierarchy Link](../assets/manage_address_hierarchy_link.png)
+   ![Manage Address Hierarchy Link](../images/manage_address_hierarchy_link.png)
 
 3. Delete all the address hierarchy entries in the rectangle which are causing the error one level at a time 
 
@@ -173,7 +173,7 @@ The fix involves deleting the dataintegrity\_rule table using different tools:
 ## Tomcat Failing to start after 2.0 upgrade or installation
 
 1. Go to Menu search for Launch Tomcat Manager and clink on it
-2. After check the notification area and right click on tomcat icon ![](../assets/windows_notification.png)
+2. After check the notification area and right click on tomcat icon ![](../images/windows_notification.png)
 3. Select Configuretion and a popup window will show
 4. Go to the Java Tab  and select Use default.
 5. Incase there are some text in the Java Options:, remove them and click apply

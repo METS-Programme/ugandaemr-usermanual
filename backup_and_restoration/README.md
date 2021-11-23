@@ -13,13 +13,13 @@ The two common paths to find the backups are
 
 The steps in the backup are.  
 1. On the Dash Board Click on the Backup Database icon.  
-![Dash Board backup button](../assets/backup1.0.jpg)  
+![Dash Board backup button](../images/backup1.0.jpg)  
 2. Click on the Execute database backup now  
-![](../assets/backup2.jpg)  
+![](../images/backup2.jpg)  
 3. The backup begins and the progress is shown until completion.  
-![Backup in progress](../assets/backup3.jpg)  
+![Backup in progress](../images/backup3.jpg)  
 4. Once the backup is complete, a message is displayed with the status.  
-![Backup complete](../assets/backup4.jpg)
+![Backup complete](../images/backup4.jpg)
 
 ### Using HeidiSQL
 
@@ -122,7 +122,7 @@ A default backup task is created to run at 15:59 every day, which tends to slow 
 
 1. On the home page select Legacy Administration 
 
-   ![Legacy System Administration](../assets/Legacy_system_admin.png)
+   ![Legacy System Administration](../images/Legacy_system_admin.png)
 
 2. In the left hand menu click the Manage Scheduler link
 

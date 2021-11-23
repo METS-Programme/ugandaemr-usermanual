@@ -8,15 +8,15 @@ The AIDS Control Program (ACP) of the Ministry of Health (MOH) Uganda has made a
 
 The new treatment guidelines provide preferred regimens for different patient categories (based on age group, weight, pregnancy, contraindications) and the recommended second line regimens for patients failing. However there is no clear rule distinction between first line and second line regimens since the same drugs can be prescribed for both lines, even for patients with the same categorisation
 
-![First Line Regimens](../../assets/regimen_lines/first-line-regimens.png)
-![2nd and 3rd Line Regimens](../../assets/regimen_lines/second-and-third-line-regimens.png)
+![First Line Regimens](../../images/regimen_lines/first-line-regimens.png)
+![2nd and 3rd Line Regimens](../../images/regimen_lines/second-and-third-line-regimens.png)
 
 ## How it works 
 
 1. All patients enrolled into care are automatically added to the First Line Regimen 
 2. Any new patients enrolled into care are automatically enrolled in the first line regimen 
-3. The regimen lines statuses are displayed on the regimen lines widget as shown below ![art-regimen-lines-widget](../../assets/regimen_lines/art-regimen-lines-widget.png)
-4. A clinician can complete the Regimen Switch and Substitution form below to make any changes to the patient's current regimen line ![Regimen Change Form](/assets/regimen_lines/regimen-change-form.png)
+3. The regimen lines statuses are displayed on the regimen lines widget as shown below ![art-regimen-lines-widget](../../images/regimen_lines/art-regimen-lines-widget.png)
+4. A clinician can complete the Regimen Switch and Substitution form below to make any changes to the patient's current regimen line ![Regimen Change Form](/images/regimen_lines/regimen-change-form.png)
 
 ### Reporting 
 
