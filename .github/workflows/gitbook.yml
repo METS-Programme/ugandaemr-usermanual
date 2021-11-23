@@ -28,3 +28,4 @@ jobs:
         with:
           token: ${{ secrets.PERSONAL_TOKEN }}
           publish_commit_message: ${{ github.event.head_commit.message }}  # use last commit message
+          publish_branch: gh-pages-zander
