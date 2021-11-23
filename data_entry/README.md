@@ -30,7 +30,7 @@ To enter patient information follow the steps below
 
 2. Click search patients
 
-   ![Find Patient Screen](../.gitbook/assets/home_screen_find_patient_marked.png)
+   ![Find Patient Screen](../assets/home_screen_find_patient_marked.png)
 
 3. Enter the search term in the text box, this can be the patient name or any identifier assigned to the patient, such as but not limited to National ID, ANC number, PNC number, Patient clinic number, Exposed Infant or birth cohort number. The search only begins after three \(3\) characters have been entered.
 
@@ -38,16 +38,16 @@ To enter patient information follow the steps below
 
 4. In the search results, click on the row with the patient which will display that patient's dashboard.
 
-   ![Found Patient](../.gitbook/assets/found_patient.png)
+   ![Found Patient](../assets/found_patient.png)
 
-   ![Patient Dashboard](../.gitbook/assets/patient_dashboard.png)
+   ![Patient Dashboard](../assets/patient_dashboard.png)
 
 ## Visits
 
 All patient data capture is based on visits.  
 To add a visit, make sure you are on the patient dashboard for whom you want to enter a visit \(refer to entering patient information\) or if you are already on a specific visit then you can click on actions drop down and then select add visit  
 ![Add visit when in patient dashboard](../.gitbook/assets/add_past_visit%20%283%29.png)  
-![Add visit when another visit is active](../.gitbook/assets/new_visit_when_another_visit_is_active.png)
+![Add visit when another visit is active](../assets/new_visit_when_another_visit_is_active.png)
 
 ### Add Past Visit
 
@@ -57,12 +57,12 @@ To add past visit, make sure that the patient has no duplicate visit with the sa
 
 1. Enter the  _**visit start date**_ and the _**visit stop date**_ if the visit is more than one day, otherwise leave the default
 
-   ![Enter start and end dates for new patient](../.gitbook/assets/enter_start_and_end_date_for_new_past_visit.png)
+   ![Enter start and end dates for new patient](../assets/enter_start_and_end_date_for_new_past_visit.png)
 
 2. Click confirm
 3. This will take you to the visit page
 
-   ![Screen after adding new visit](../.gitbook/assets/screen_after_adding_new_visit.png)
+   ![Screen after adding new visit](../assets/screen_after_adding_new_visit.png)
 
 ### Edit Visit Start and End Dates
 
@@ -71,9 +71,9 @@ To edit the dates for a visit,
 If the dates you want to select do not appear, it means that there are encounters whose date can not be in that range.  
 Either delete all the encounters which belong to the visit or you can just create new visit
 
-## ![Edit visit](../.gitbook/assets/edit_visit.png)
+## ![Edit visit](../assets/edit_visit.png)
 
-![Edit visit with new dates](../.gitbook/assets/edit_visit_new_dates.png)  
+![Edit visit with new dates](../assets/edit_visit_new_dates.png)  
 2. Otherwise click confirm
 
 ### Delete a Visit

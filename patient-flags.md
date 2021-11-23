@@ -33,11 +33,11 @@ Depending on the facility needs, not all the patient flags will be relevant, so 
 
 1. On the home page click the `Legacy System Administration` button
 
-   ![Legacy System Administration](.gitbook/assets/Legacy_system_admin.png)
+   ![Legacy System Administration](assets/Legacy_system_admin.png)
 
 2. On the administration page, click the `Settings` link
 
-   ![Settings](.gitbook/assets/settings.png)
+   ![Settings](assets/settings.png)
 
 3. Select Ugandaemr in the left-hand menu to display the UgandaEMR settings
 4. In the "Patientflags Disabled Flags" text field enter the names of the patient flags you want to disable separated by a comma \(,\)
@@ -47,7 +47,7 @@ Depending on the facility needs, not all the patient flags will be relevant, so 
 
 ### Module cannot start due to error creating patientflags\_displaypoint
 
-See message below ![Error creating table patientflags\_displaypoint](.gitbook/assets/error_patient_flags_display_point.jpeg)
+See message below ![Error creating table patientflags\_displaypoint](assets/error_patient_flags_display_point.jpeg)
 
 **Fix**
 

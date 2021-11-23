@@ -31,15 +31,15 @@
 
 2.In the Search Bar, type any patient identifiers to search for the patient, the record of the patient appears as shown below.
 
-![Patient Search Record](../.gitbook/assets/poc_patient_record_search.png)
+![Patient Search Record](../assets/poc_patient_record_search.png)
 
 3.Click on the last action that has Edit Demographics as shown below;
 
-![Edit Patient Demographics](../.gitbook/assets/poc_edit_patient_demographics.png)
+![Edit Patient Demographics](../assets/poc_edit_patient_demographics.png)
 
 4.Edit Patient Information by clicking on the pencil icon next to a section header where those details belong
 
-![Registration Summary](../.gitbook/assets/poc_registration_summary.PNG)
+![Registration Summary](../assets/poc_registration_summary.PNG)
 
 5.Confirm the details and Save the information.
 
@@ -80,13 +80,13 @@ To merge patients;
 1.To mark patient as dead, you will have to log into one of the clinics, i.e. SMC, ART, TB, MCH, OPD, Lab.
 
 An example is; SMC; login at the "SMC clinic" session, as shown below.  
-![SMC Clinic](../.gitbook/assets/SMC12.png)
+![SMC Clinic](../assets/SMC12.png)
 
 2.A screen will open as shown below. Select the "Find Patient Record" option.  
-![Find Patient](../.gitbook/assets/SMC11.png)
+![Find Patient](../assets/SMC11.png)
 
 3.On the screen that appears, type the name or ID of the patient, as registered in the system.  
-![Patient ID](../.gitbook/assets/SMC13.png)
+![Patient ID](../assets/SMC13.png)
 
 4.Search for and find the client - Demo 123  
 ![Patient Example](../.gitbook/assets/terminated1%20%281%29.jpg)

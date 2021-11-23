@@ -8,13 +8,13 @@
 
 ![](../.gitbook/assets/1.2-agreement%20%281%29.jpg)
 
-1. Selecting components to install ![](../.gitbook/assets/1.3-components.jpg)
+1. Selecting components to install ![](../assets/1.3-components.jpg)
 2. Determining Installation directory
 
 ![](../.gitbook/assets/1.4-location%20%281%29.jpg)
 
 1. Confirm start menu item ![](../.gitbook/assets/1.5-shortcut%20%281%29.jpg)
-2. Install Java Runtime ![](../.gitbook/assets/2.1-inst-java%20%281%29.jpg) ![](../.gitbook/assets/2.3-java.jpg) ![](../.gitbook/assets/2.4-java-2.jpg) ![](../.gitbook/assets/2.5-inst-java-complete.jpg)
+2. Install Java Runtime ![](../.gitbook/assets/2.1-inst-java%20%281%29.jpg) ![](../assets/2.3-java.jpg) ![](../assets/2.4-java-2.jpg) ![](../assets/2.5-inst-java-complete.jpg)
 
 7.Install MySQL  
 ![](../.gitbook/assets/3.1-mysql-configure%20%281%29.jpg)  
@@ -25,15 +25,15 @@
 ![](../.gitbook/assets/3.6-mysql-finished%20%281%29.jpg)
 
 8.Install Tomcat  
-![](../.gitbook/assets/4.1-tomcat-installation.jpg)
+![](../assets/4.1-tomcat-installation.jpg)
 
-![](../.gitbook/assets/4.2-tomcat-agree.jpg)
+![](../assets/4.2-tomcat-agree.jpg)
 
-![](../.gitbook/assets/4.4-tomcat-componets.jpg)
+![](../assets/4.4-tomcat-componets.jpg)
 
  **NOTE: DO NOT CHNAGE THE Java Virtual Machine path PATH** 
 
-![](../.gitbook/assets/4.3-java-directory.jpg)
+![](../assets/4.3-java-directory.jpg)
 
 The following changes need to be made:
 
@@ -42,11 +42,11 @@ The following changes need to be made:
 * Tomcat administrator login username: root 
 * Tomcat administrator login password: openmrs
 
-![](../.gitbook/assets/4.5-configure-tomccat.jpg)
+![](../assets/4.5-configure-tomccat.jpg)
 
-![](../.gitbook/assets/4.6-tomcat-location.jpg)
+![](../assets/4.6-tomcat-location.jpg)
 
-![](../.gitbook/assets/4.7-tomcat-complete.jpg)
+![](../assets/4.7-tomcat-complete.jpg)
 
 9.Install Firefox  
 ![](../.gitbook/assets/5.3-fire-fox-inst%20%281%29.jpg)  

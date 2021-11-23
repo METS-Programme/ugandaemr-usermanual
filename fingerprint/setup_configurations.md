@@ -33,15 +33,15 @@ In order to configure the fingerprint app there are two things that should be do
 4. Unzip the download to a directory of your choice
 5. In the fingerprint directory. Open the file _"fingerprintrun.bat"_ in any text editor of your choice. [Note pad ++ is preferred](https://notepad-plus-plus.org/).
 6. Replace _"localhost"_ with the IP address of the server.
-7. Right click on the _"fingerprintrun.bat"_ and Create shortcut to Desktop ![Right Click on fingerprintrun.bat](../.gitbook/assets/send_icon_to_desktop.png)
-8. Go to Desktop and rename the Short to "Start Fingerprint". ![Rename icon sent to desktop](../.gitbook/assets/rename_fingerprint_icon.png)
-9. May Change the icon of the shortcut. There is one provided in the fingerprint directory. ![Rename icon sent to desktop](../.gitbook/assets/change_icon_fingerprint.png)
+7. Right click on the _"fingerprintrun.bat"_ and Create shortcut to Desktop ![Right Click on fingerprintrun.bat](../assets/send_icon_to_desktop.png)
+8. Go to Desktop and rename the Short to "Start Fingerprint". ![Rename icon sent to desktop](../assets/rename_fingerprint_icon.png)
+9. May Change the icon of the shortcut. There is one provided in the fingerprint directory. ![Rename icon sent to desktop](../assets/change_icon_fingerprint.png)
 
    **Server Machine**
 
 10. Launch mysql client
 
-    ![Launch mysql client](../.gitbook/assets/launch_mysql_client.png)
+    ![Launch mysql client](../assets/launch_mysql_client.png)
 
 11. Login in mysql
 12. Run the following commands below
@@ -53,9 +53,9 @@ In order to configure the fingerprint app there are two things that should be do
 
 13. Go to Windows Firewall, add inbound rules. In there, add ports 3306
 
-    ![Inbound Rules](../.gitbook/assets/inbound_rule_snapshot.png)
+    ![Inbound Rules](../assets/inbound_rule_snapshot.png)
 
 14. Do the same for Outbound rules
 
-    ![Inbound Rules](../.gitbook/assets/outbound_rule_snapshot.png)
+    ![Inbound Rules](../assets/outbound_rule_snapshot.png)
 

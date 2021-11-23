@@ -1,6 +1,6 @@
 # Introduction
 
-![UgandaEMR](.gitbook/assets/ugandaemr_logo.png)
+![UgandaEMR](assets/ugandaemr_logo.png)
 
 ## UgandaEMR User Manual
 

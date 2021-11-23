@@ -80,25 +80,25 @@ The dashboard shows the avialable reports in the different categories:
 1. Login as a user with privileges to access the reports
 2. Click the UgandaEMR reports link as in the image below
 
-   ![UgandaEMR link](../.gitbook/assets/homepage_ugandaemr_reports_link.png)
+   ![UgandaEMR link](../assets/homepage_ugandaemr_reports_link.png)
 
 3. On the Reports dashboard click the link to 106A Section 1A
 
-   ![Reports Dashboard - 106A Section 1A link](../.gitbook/assets/reports_dashboard_106a_1a_link.png)
+   ![Reports Dashboard - 106A Section 1A link](../assets/reports_dashboard_106a_1a_link.png)
 
 4. Enter the start date and end date for the quarter you wish to generate the report, then click the Run button
 
-   ![106A 1A parameters](../.gitbook/assets/106A_1A_parameters.png)
+   ![106A 1A parameters](../assets/106A_1A_parameters.png)
 
 5. This report will run for a while as shown by the progress icon 
 
-   ![106A Section 1A processing](../.gitbook/assets/106A_1A_currently_processing.png)
+   ![106A Section 1A processing](../assets/106A_1A_currently_processing.png)
 
 6. Once the report is generated there are two options:
    * Download - downloads the generated report in Excel
    * Preserve - saves the data for the generated report, which will not change when data is updated or corrected later in the future 
 
-![106A 1B Completed](../.gitbook/assets/106A_1A_download_preserve.png)
+![106A 1B Completed](../assets/106A_1A_download_preserve.png)
 
 ## Report Definitions 
 This section describes the cohorts used to build the different types of the reports to provide a basis for validating them 

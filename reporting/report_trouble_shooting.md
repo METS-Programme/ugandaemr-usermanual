@@ -2,8 +2,8 @@
 
 ## Unable to run reports due to an error loading Excel template or the report definition uuid cannot be found
 
-![Error Loading Excel Resource - 1](../.gitbook/assets/error_loading_reporting_excel_resource.jpeg)  
-![Error Loading Excel Resource - 2](../.gitbook/assets/error_loading_reporting_excel_resource-2.jpeg)
+![Error Loading Excel Resource - 1](../assets/error_loading_reporting_excel_resource.jpeg)  
+![Error Loading Excel Resource - 2](../assets/error_loading_reporting_excel_resource-2.jpeg)
 
 Reset all the reports by running the following script
 
@@ -35,7 +35,7 @@ DELETE FROM serialized_object WHERE type LIKE 'org.openmrs.module.reporting.repo
 
 ## Sending to DHIS2 Failures
 
-**Internet Connection Failure** ![Internet Connection Failure](../.gitbook/assets/send_to_dhis2_connection_failed.png) When this Error displays Kindly check your internet connection if its available
+**Internet Connection Failure** ![Internet Connection Failure](../assets/send_to_dhis2_connection_failed.png) When this Error displays Kindly check your internet connection if its available
 
 **Internal Server Error**
 

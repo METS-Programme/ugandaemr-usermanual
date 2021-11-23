@@ -44,7 +44,7 @@ A shortcut link to the UgandaEMR instance is also added to the Desktop
 
 ### Installation Overview
 
-![Installation proces overview](../.gitbook/assets/installation_process.png)
+![Installation proces overview](../assets/installation_process.png)
 
 ### Installation Steps
 

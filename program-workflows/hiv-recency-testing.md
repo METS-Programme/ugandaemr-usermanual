@@ -17,7 +17,7 @@ Once UgandaEMR has been upgraded, follow the steps below to complete the configu
 
 1. Login as a user with administrator privileges
 
-   ![Login](../.gitbook/assets/log_in_as_admin_link.png)
+   ![Login](../assets/log_in_as_admin_link.png)
 
 2. Click legacy administration link as circled in the image below
 
