@@ -72,6 +72,7 @@
     * [Download Patients](ugandaemr_mobile/download-patients.md)
 * [Release Notes](release-notes/README.md)
   * [1.0.14](release-notes/ugandaemr-1014.md)
+  * [1.0.16](release-notes/ugandaemr-1016.md)
   * [1.0.17](release-notes/ugandaemr-1017.md)
   * [2.0.0](release-notes/ugandaemr-200.md)
   * [2.1.0](release-notes/ugandaemr-210.md)
