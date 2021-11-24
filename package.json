@@ -12,6 +12,7 @@
     "gitbook-plugin-layout": "^0.0.1",
     "gitbook-plugin-numbered-headings": "^1.1.1",
     "gitbook-plugin-toc": "^0.0.2",
-    "honkit": "^3.6.20"
+    "honkit": "^3.6.20",
+    "netlify-plugin-generate-pdf": "^0.1.0"
   }
 }
