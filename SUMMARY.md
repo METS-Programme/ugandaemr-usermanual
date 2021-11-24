@@ -66,14 +66,17 @@
     * [Introduction](ugandaemr_mobile/README.md) 
     * [Download Patients](ugandaemr_mobile/download-patients.md)
 * [Release Notes](release-notes/README.md)
-  * [1.0.14](release-notes/ugandaemr-1014.md)
-  * [1.0.16](release-notes/ugandaemr-1016.md)
-  * [1.0.17](release-notes/ugandaemr-1017.md)
-  * [2.0.0](release-notes/ugandaemr-200.md)
-  * [2.1.0](release-notes/ugandaemr-210.md)
-  * [3.0.0](release-notes/ugandaemr-300.md)
-  * [3.0.4](release-notes/ugandaemr-304.md)
-  * [3.1.0](release-notes/ugandaemr-310.md) 
-  * [3.1.3](release-notes/ugandaemr-313.md)
   * [3.2.0](release-notes/ugandaemr-320.md)
-
+  * [3.1.3](release-notes/ugandaemr-313.md)
+  * [3.1.0](release-notes/ugandaemr-310.md)
+  * [3.0.4](release-notes/ugandaemr-304.md)
+  * [3.0.0](release-notes/ugandaemr-300.md)
+  * [2.1.0](release-notes/ugandaemr-210.md)
+  * [2.0.0](release-notes/ugandaemr-200.md)
+  * [1.0.17](release-notes/ugandaemr-1017.md)
+  * [1.0.16](release-notes/ugandaemr-1016.md)
+  * [1.0.14](release-notes/ugandaemr-1014.md)
+    
+  
+  
+  
