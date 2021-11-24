@@ -1,0 +1,9 @@
+[[plugins]]
+  # Package to generate the PDF version of the site from https://github.com/martinjagodic/netlify-plugin-generate-pdf
+  package = "netlify-plugin-generate-pdf"
+
+  [plugins.inputs]
+  # It has to begin with http
+  url="https://ugandaemr-user-manual.netlify.app"
+  fileName = "ugandaemr-usermanual.pdf"
+  format = "A4"
