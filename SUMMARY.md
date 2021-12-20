@@ -10,21 +10,16 @@
 * [Upgrading UgandaEMR](upgrading/README.md)
   * [Troubleshooting Upgrades](upgrading/trouble-shooting.md)
 * [Configuring your installation](configuring-your-installation.md)
-* [Managing User Accounts](user_account_management/README.md)
-  * [Create a new user account](user_account_management/create_a_new_user_account.md)
-  * [Reset user account password](user_account_management/reset_user_account_password.md)
-  * [Add a new role to a user account](user_account_management/add_a_new_role_to_a_user_account.md)
+* [User Account Management](user_account_management/README.md)
 * [Provider Management](provider_management/README.md)
-  * [Creating a New Provider](provider_management/creating_a_new_provider.md)
-  * [Making an existing user a provider](provider_management/making_an_existing_user_a_provider.md)
 * [Patient Management](patient-management/README.md)
   * [Finding Patient](patient-management/search_patient.md)
   * [Patient Registration](patient-management/patient_registration.md)
-* [Fingerprint](fingerprint/README.md)
+* [Fingerprint Capture](fingerprint/README.md)
   * [Configuration](fingerprint/setup_configurations.md)
   * [Search by Patient Fingerprint](fingerprint/search_add_patient_fingerprint.md)
   * [Add Patient Fingerprint](fingerprint/add-patient-fingerprint.md)
-* [Entering Client Information](data_entry/README.md)
+* [Data Entry](data_entry/README.md)
   * [HIV Testing Services Client Card](data_entry/hiv-testing-services-client-card.md)
   * [ART Card](data_entry/art_card.md)
   * [HIV Exposed Infant Card](data_entry/eid_card.md)
@@ -77,6 +72,5 @@
   * [1.0.16](release-notes/ugandaemr-1016.md)
   * [1.0.14](release-notes/ugandaemr-1014.md)
     
-  
   
   
