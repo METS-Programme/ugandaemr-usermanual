@@ -2,26 +2,26 @@
 
 ## New Features
 
-1. Community Pharmacy Dispensing (Lubwama add more details here)
-   * ABC
-   * Reports - TBD 
-   * 
+1. Community Pharmacy Dispensing 
+   * Enable and Disable CRPDDP Feature
+   * Ability to add Pharmacies as cohorts to which patients are added 
+   * Add a CRPDDP Pharmacy to a client on the ART Summary page 
+   * Reports - ART Access Register
+
 2. ART Regimen Lines 
    * Add a Regimen Change List Report to show the list of regimen change encounters in a period 
    * Added handling of transfer-in regimens along with the current regimen (captured on the ART Clinical Encounter page). This allows a regimen change to be recorded for a patient who has transferred in but has had an ART Clinical encounter recorded with a different regimen from the transfer-in regimen 
    * The Regimen Change form can be completed when a client only has the ART Summary page completed 
 3. Reports 
    * Added HMIS 105 Section 2.2: Maternity report 
-   * HMIS 106A uses the ART Regimen Lines feature to list patients on first line and second line regimens 
-3. 
+   * HMIS 106A uses the ART Regimen Lines feature to list patients on first line and second line regimens
 
 ## Bug Fixes 
 1. DSDM
-   * Stability criteria now allows from 6 months to 1 year (Lubwama this is not clear to me from the Asana card)
-   * 
+   * Stability criteria now allows from 6 months to 1 year
 2. Patient Flags
-   * Transfer Out Flags (Baluku)
-   * Missed Appointment for Community Encounters (Baluku)
+   * Transfer Out Flags
+   * Missed Appointment for Community Encounters
 3. ART Summary Card 
    * The list of transfer-regimens now includes all available DTG regimens 
 4. HTS Client Card 
@@ -31,9 +31,7 @@
    * Active in Care report now exlcudes clients who transferred out, returned as transfer-ins and are active in care 
    * HTS_TST_Facility - added logic for computing the data across ANC1, ANC1+, Social Network Strategy and APN + Index Testing other than APN  
    * Appointment List, Lost and Lost to Followup Facility Reports now include client ART Clinic numbers 
-   * TX_RTT report does not include the patients who had a clinical visit in the previous month 
-   * 
-6. 
+   * TX_RTT report does not include the patients who had a clinical visit in the previous month
 
 ## Links to download files
 
