@@ -101,7 +101,7 @@ The root cause of this problem is due to the addition of other programs into the
 ### Resolution
 
 1. Open your command Prompt and login to mysql  with the following command without quotes  "mysql -u openmrs -p" and provide it with the required password 
-2. Run the run the following script on your database in your command prompt
+2. Run the following script on your database in your command prompt
 
     ```sql
     REPLACE INTO metadatamapping_metadata_set_member (metadata_set_member_id, metadata_set_id, metadata_class, metadata_uuid, sort_weight, name, description, creator, date_created, changed_by, date_changed, retired, date_retired, retired_by, retire_reason, uuid)
