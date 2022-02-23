@@ -75,8 +75,11 @@ UgandaEMR is a customization of OpenMRS for Uganda, initially starting with HIV 
       * [HIV Clinic](point-of-care-poc/work-flows/clinician/hiv-clinic.md)
     * [Laboratory](point-of-care-poc/work-flows/laboratory.md)
     * [Pharmacy](point-of-care-poc/work-flows/pharmacy.md)
-* Patient Data Upload
-  * [Uploading Viral Load Results](patient_data_exchange/upload_vl_results.md)
+* Data Exchange
+  * [ART Access Integration](patient_data_exchange/artaccessintergration.md)
+  * [Viral Load Integration](patient_data_exchange/viralloadexchange.md)
+  * Patient Data Upload
+    * [Uploading Viral Load Results](patient_data_exchange/upload_vl_results.md)
 * [UgandaEMR Mobile](ugandaemr_mobile/README.md)
   * [Introduction](ugandaemr_mobile/README.md)
   * [Download Patients](ugandaemr_mobile/download-patients.md)

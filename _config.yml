@@ -4,3 +4,10 @@ theme: jekyll-theme-modernist
 safe: true
 gist:
   noscript: false
+plugins:
+  - jekyll-sitemap
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
