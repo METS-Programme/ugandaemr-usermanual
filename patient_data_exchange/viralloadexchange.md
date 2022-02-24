@@ -5,7 +5,7 @@ The Viral Load exchange involves the sending of a request to CPHL and receiving 
 
 This guideline aids UgandaEMR users on how to configure and use the viral load Health information exchange. 
 
-###Configuration
+### Configuration
 In order to enable exchange of viral load exchange between CPHL and the health center, credentials to access the CPHL Viral Load system are required. The username and password will be provided in different channels. Once obtained, the steps to setup the username and password are as follows:
 
 1. Login in UgandaEMR with an account that has  administrator rights to the system. This will navigate you to the home page of UgandaEMR. 
