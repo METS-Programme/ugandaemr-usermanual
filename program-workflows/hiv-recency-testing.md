@@ -17,7 +17,7 @@ Once UgandaEMR has been upgraded, follow the steps below to complete the configu
 
 1. Login as a user with administrator privileges
 
-   ![Login](../.gitbook/assets/log_in_as_admin_link.png)
+   ![Login](../images/log_in_as_admin_link.png)
 
 2. Click legacy administration link as circled in the image below
 
@@ -72,7 +72,7 @@ This is an automated process that occurs every hour until a successful submissio
 
 ### Sync data flow
 
-![Recency Data Flow](../assets/sync-data-flow.png)
+![Recency Data Flow](../images/sync-data-flow.png)
 
 A few key points to note:
 

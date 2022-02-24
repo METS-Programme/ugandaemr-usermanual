@@ -25,13 +25,13 @@ In order to add a patient fingerprint, make sure that the you have the right [Co
 ### For existing patients
 
 1. [Find](../patient-management/search_patient.md) a patient you would like to add fingerprint for.
-2. On the patient search in the _"ACTION"_ column, Click on the Edit Demographic ![Edit Demographic](../.gitbook/assets/poc_edit_patient.png) icon. This will Navigate you to the Registration Summary.
+2. On the patient search in the _"ACTION"_ column, Click on the Edit Demographic ![Edit Demographic](../images/poc_edit_patient.png) icon. This will Navigate you to the Registration Summary.
 
-   ![Registration Summary page](../.gitbook/assets/registration_summary.png)
+   ![Registration Summary page](../images/registration_summary.png)
 
 3. On the right in the _"General Action"_ Section, Click on the _"Add FingerPrint"_ link. This will take you to the _"Add Finger Print"_ page. 
 
-   ![Add Fingerprint Page](../.gitbook/assets/add_fingerprint_page.png)
+   ![Add Fingerprint Page](../images/add_fingerprint_page.png)
 
 4. Click on the Buttons provided. For example the "Scan Right Thumb" one at a time. This will show instructions "Scan your finger". 
 5. Ask the Patient to put their respective finger on the scanner four times. **Note:** Ensure that the finger placed on is captured. By the fourth time the fingerprint will be added

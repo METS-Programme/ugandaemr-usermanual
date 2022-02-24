@@ -10,9 +10,9 @@
 
 3. Search for the user account to be updated then click the System Id of the user to edit
 
-   ![Search for user account](../.gitbook/assets/manage_user_accounts_link.png)
+   ![Search for user account](../images/manage_user_accounts_link.png)
 
 4. Enter the new password twice, and select the Force Password Change to ensure that the user changes their password at the next login
 
-   ![Reset user password](../.gitbook/assets/reset_user_account.png)
+   ![Reset user password](../images/reset_user_account.png)
 

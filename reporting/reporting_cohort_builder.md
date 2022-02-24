@@ -220,11 +220,11 @@ The search index needs to rebuilt following the steps below:
 1. Login as a user with administrative rights 
 2. Go to the legacy administration screen as below, and click the Search index link
 
-   ![Search Index Link](../.gitbook/assets/search_index_link.png)
+   ![Search Index Link](../images/search_index_link.png)
 
 3. On the Search index page, click the Rebuild Search Index button - this may take some time depending on the speed of your system 
 
-   ![Rebild Search Index](../.gitbook/assets/rebuild_search_index_button.png)
+   ![Rebild Search Index](../images/rebuild_search_index_button.png)
 
 ### Cohort Builder does not  Allow defining of Columns
 
