@@ -50,3 +50,8 @@ This fixes a regression found in 1.0.13 due to a change in the underlying platfo
 **Documentation:** [Release Notes 1.0.14](ugandaemr-1014.md)
 
 
+##3.3.0
+
+**Release Date:** December 21, 2021  
+**Documentation:** [Release Notes 3.3.0](ugandaemr-330.md)
+

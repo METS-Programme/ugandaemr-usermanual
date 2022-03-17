@@ -92,3 +92,20 @@ The root cause of this problem is due to the addition of other programs into the
     ```
 5. Restart your computer 
 
+## Client ART Number not Showing
+
+**Screen Shots Of The Problem**  
+
+![](.gitbook/assets/art-number-not-showing.jpeg)
+
+### Resolution
+
+1. Open your command Prompt and login to mysql  with the following command without quotes  "mysql -u openmrs -p" and provide it with the required password 
+2. Run the following script on your database in your command prompt
+
+    ```sql
+    REPLACE INTO metadatamapping_metadata_set_member (metadata_set_member_id, metadata_set_id, metadata_class, metadata_uuid, sort_weight, name, description, creator, date_created, changed_by, date_changed, retired, date_retired, retired_by, retire_reason, uuid)
+    SELECT 1, 1, 'org.openmrs.PatientIdentifierType', 'e1731641-30ab-102d-86b0-7a5022ba4115',null, null, null, 2, NOW(), null, null, 0, null, null, null,'57c7a9df-193d-4d44-b34a-3156e6204bde';
+ 
+    ```
+3. Refresh your computer browser. 
