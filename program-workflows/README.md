@@ -5,5 +5,5 @@ This section provides more information on program specific workflows that are su
 The supported programs include: 1. [DSDM](differentiated-service-delivery-models-dsdm.md) 2. [HIV Recency Testing](hiv-recency-testing.md)
 
 The supported programs include:
-1. [DSDM](/differentiated-service-delivery-models-dsdm.md) 
-2. [HIV Recency Testing](/hiv-recency-testing.md)
+1. [DSDM](differentiated-service-delivery-models-dsdm.md) 
+2. [HIV Recency Testing](hiv-recency-testing.md)
