@@ -5,7 +5,7 @@ To uninstall Uganda EMR,
 1. Go to control panel, select unistall UgandaEMR 
 2. You will be prompted to uninstall components
 
-![](../.gitbook/assets/Uninstall1.png)
+![](../images/Uninstall1.png)
 
 ![](../.gitbook/assets/Uinstall%203.png)
 
