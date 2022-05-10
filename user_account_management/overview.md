@@ -10,7 +10,7 @@ This section provides steps to create new user accounts, reset passwords and add
 
 2. Click legacy administration link as circled in the image below
 
-   ![Legacy System Administration Link](../.gitbook/assets/legacy_system%20administration_link.png)
+   ![Legacy System Administration Link](../images/legacy_system%20administration_link.png)
 
 3. Click on manage users link as shown below
 
@@ -34,11 +34,11 @@ This section provides steps to create new user accounts, reset passwords and add
 
 1. Click legacy administration link as circled in the image below
 
-   ![Legacy System Adminstration Link](../.gitbook/assets/legacy_system%20administration_link.png)
+   ![Legacy System Adminstration Link](../images/legacy_system%20administration_link.png)
 
 2. Click on manage users link as shown below
 
-   ![Manage Users Link](../.gitbook/assets/manage_user_accounts_link%20%281%29.png)
+   ![Manage Users Link](../images/manage_user_accounts_link.png)
 
 3. Search for the user account to be updated then click the System Id of the user to edit
 
@@ -52,7 +52,7 @@ This section provides steps to create new user accounts, reset passwords and add
 
 1. Click legacy administration link as circled in the image below
 
-   ![Legacy System Administration Link](../.gitbook/assets/legacy_system%20administration_link.png)
+   ![Legacy System Administration Link](../images/legacy_system%20administration_link.png)
 
 2. Click on manage users link as shown below
 

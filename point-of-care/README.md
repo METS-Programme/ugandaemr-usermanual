@@ -4,8 +4,8 @@ This section outlines how to setup, configure and use the point of care \(POC\) 
 
 ## Installation and Configuration
 
-1. [Installations](point-of-care/installation-and-configuration.md)
-2. [Configurations](point-of-care/installation-and-configuration.md)
+1. [Installations](installation-and-configuration.md#installation)
+2. [Configurations](installation-and-configuration.md#configuration)
    a. User management
    i. [Roles](point-of-care/installation-and-configuration/roles.md)
 

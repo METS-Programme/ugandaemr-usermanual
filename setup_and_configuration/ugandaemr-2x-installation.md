@@ -2,25 +2,25 @@
 
 1. Launch of the splash screen
 
-![](../.gitbook/assets/splash%20%281%29.jpg)
+![](../images/splash.jpg)
 
 1. License Agreement
 
-![](../.gitbook/assets/1.2-agreement%20%281%29.jpg)
+![](../images/1.2-agreement.jpg)
 
 1. Selecting components to install. Select Restore Existing UgandaEMR database if you have any data backed up from any older version of UgandaEMR
 
-![](../.gitbook/assets/Components%20%281%29.PNG)
+![](../images/Components.PNG)
 
 1. Determining Installation directory
 
-![](../.gitbook/assets/1.4-location%20%281%29.jpg)
+![](../images/1.4-location.jpg)
 
-1. ![](../.gitbook/assets/Components.PNG)
-2. Confirm start menu item ![](../.gitbook/assets/1.5-shortcut%20%281%29.jpg)
+1. ![](../images/Components.PNG)
+2. Confirm start menu item ![](../images/1.5-shortcut.jpg)
 3. Install Java Runtime
 
-![](../.gitbook/assets/2.1-inst-java%20%281%29.jpg)
+![](../images/2.1-inst-java.jpg)
 
 ![](../images/Java1.1.PNG)
 
@@ -35,41 +35,41 @@
 ![](../images/Java6.PNG)
 
 7.Install MySQL  
-![](../.gitbook/assets/3.1-mysql-configure%20%281%29.jpg)  
-![](../.gitbook/assets/3.2-standard%20%281%29.jpg)  
-![](../.gitbook/assets/3.3-comd1%20%281%29.jpg)  
-![](../.gitbook/assets/3.4-password-for-root%20%281%29.jpg)  
-![](../.gitbook/assets/3.5-execute%20%281%29.jpg)  
-![](../.gitbook/assets/3.6-mysql-finished%20%281%29.jpg)
+![](../images/3.1-mysql-configure.jpg)  
+![](../images/3.2-standard.jpg)  
+![](../images/3.3-comd1.jpg)  
+![](../images/3.4-password-for-root.jpg)  
+![](../images/3.5-execute.jpg)  
+![](../images/3.6-mysql-finished.jpg)
 
 8.Install Tomcat  
 This is a silent process in the background
 
 9.Install Firefox  
-![](../.gitbook/assets/5.3-fire-fox-inst%20%281%29.jpg)  
-![](../.gitbook/assets/5.4-fire-standard%20%281%29.jpg)  
-![](../.gitbook/assets/5.5-fire-fox-directory%20%281%29.jpg)  
-![](../.gitbook/assets/5.1-fire%20%281%29.jpg)
+![](../images/5.3-fire-fox-inst.jpg)  
+![](../images/5.4-fire-standard.jpg)  
+![](../images/5.5-fire-fox-directory.jpg)  
+![](../images/5.1-fire.jpg)
 
 10.Installing HeidiSQL  
-![](../.gitbook/assets/1.1heidisql%20%281%29.PNG)
+![](../images/1.1heidisql.PNG)
 
-![](../.gitbook/assets/1.2heidisql%20%281%29.PNG)  
-![](../.gitbook/assets/1.3heidisql%20%281%29.PNG)  
-![](../.gitbook/assets/1.4heidisql%20%281%29.PNG)  
-![](../.gitbook/assets/1.5heidisql%20%281%29.PNG)  
-![](../.gitbook/assets/1.6heidisql%20%281%29.PNG)
+![](../images/1.2heidisql.PNG)  
+![](../images/1.3heidisql.PNG)  
+![](../images/1.4heidisql.PNG)  
+![](../images/1.5heidisql.PNG)  
+![](../images/1.6heidisql.PNG)
 
-![](../.gitbook/assets/1.7heidisql%20%281%29.PNG)
+![](../images/1.7heidisql.PNG)
 
 11.UgandaEMR Installation completed  
-![](../.gitbook/assets/6.0-complete-installation%20%281%29.jpg)
+![](../images/6.0-complete-installation.jpg)
 
 ## Troubleshooting Guide
 
 ### OpenMRS Installation Wizard Appears
 
-Incase the screen below appears, ![OpenMRS 2.0.5 Installation Wizard](../.gitbook/assets/intital_setup_screen%20%281%29.PNG)
+Incase the screen below appears, ![OpenMRS 2.0.5 Installation Wizard](../images/intital_setup_screen.PNG)
 
 To fix this:
 
@@ -104,7 +104,7 @@ DROP index metadatamapping_idx_mdtm_mdclass ON metadatamapping_metadata_term_map
 
 ### MySQL Database Service keeps failing after an upgrade from UgandaEMR 1.x
 
-![Upgrade database connection failure](../.gitbook/assets/upgrade_database_connection_failure%20%281%29.jpeg)
+![Upgrade database connection failure](../images/upgrade_database_connection_failure.jpeg)
 
 During the upgrade process, a configuration file is copied which may cause the system to crash due to a conflict in the sizes of the MySQL log files before upgrade and after upgrade. The steps below are to remove the log files causing the conflict
 
@@ -144,7 +144,7 @@ The fix is therefore a 2 step process:
 
 ## UgandaEMR Tomcat Service fails to start after re-installing UgandaEMR
 
-![](../.gitbook/assets/error%202%20tomcat%20service.jpeg)
+![](../images/error%202%20tomcat%20service.jpeg)
 
 This issue has been identified to be caused by the Improper un-installation process of UgandaEMR.
 

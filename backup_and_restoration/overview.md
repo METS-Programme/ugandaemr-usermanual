@@ -126,19 +126,19 @@ A default backup task is created to run at 15:59 every day, which tends to slow 
 
 2. In the left hand menu click the Manage Scheduler link
 
-   ![Manage Scheduler](../.gitbook/assets/manage_scheduler%20%281%29.png)
+   ![Manage Scheduler](../images/manage_scheduler.png)
 
 3. On the Scheduler List click the link on the Database Backup Task
 
-   ![Scheduler List](../.gitbook/assets/scheduled_task_list%20%281%29.png)
+   ![Scheduler List](../images/scheduled_task_list.png)
 
 4. On the Database Backup task click the Schedule link 
 
-   ![Schedule for Database Backup Task](../.gitbook/assets/database_backup_task%20%281%29.png)
+   ![Schedule for Database Backup Task](../images/database_backup_task.png)
 
 5. Change schedule for the task, add a date in the future so that the task can be run 
 
-   ![Change Task Schedule](../.gitbook/assets/database_backup_task_schedule%20%281%29.png)
+   ![Change Task Schedule](../images/database_backup_task_schedule.png)
 
 ## Changing Database Backup File Path
 

@@ -53,13 +53,13 @@ Restart your computer and repeat the action that caused the error
 
 **Screen Shots Of The Problem**
 
-![](.gitbook/assets/cohort-builder%20%281%29.jpeg)![](.gitbook/assets/cohortbuilder-problem%20%281%29.jpeg)
+![](.gitbook/assets/cohort-builder.jpeg)![](.gitbook/assets/cohortbuilder-problem.jpeg)
 
 ### Root Cause
 
 The root cause of this problem is due to the addition of other programs into the UgandaEMR system by an individual\( which is prohibited \) that is done by creation of concepts and thereby resulting into concept mismatch with concepts that come with UgandaEMR.
 
-![](.gitbook/assets/program-problem%20%281%29.jpeg)
+![](.gitbook/assets/program-problem.jpeg)
 
 ### Resolution
 

@@ -50,7 +50,7 @@ To capture the health education info, follow the steps below;
 1. Select the _**Attending Clinician**_ ![Attending Clinician](../images/select_attending_clinician.png)
 2. Enter the details as shown. Be sure to select the Yes checkbox so as enter date and comment ![Health Education Basics](../images/art_card_health_education_basics.png)
 3. Scroll to the bottom and hit the Enter Form button![Health Encounter Enter Form](../images/art_card_health_education_enter_button.png)
-4. Once added successfully, you should see a page showing the most recent health education form added ![Health Education Success](../.gitbook/assets/art_card_health_education_success%20%281%29.png)
+4. Once added successfully, you should see a page showing the most recent health education form added ![Health Education Success](../images/art_card_health_education_success.png)
 
 ## ART Encounter Page
 
@@ -79,7 +79,7 @@ The default configuration restricts the maxiumum number of patients who can be s
 
 2. Click legacy administration link as circled in the image below
 
-   ![Legacy System Adminstration Link](../.gitbook/assets/legacy_system%20administration_link.png)
+   ![Legacy System Adminstration Link](../images/legacy_system%20administration_link.png)
 
 3. Under Maintenance in the middle column, select Settings 
 ![Settings Link](../images/settings.png)
@@ -111,7 +111,7 @@ The recommendation for entering viral loads is as follows:
 Should the page fail to save, due to a timeout session/when you have spent more than a 20 minutes without saving, do the following:  
 1. Scroll to the upper most part of the page,  
 Enter your username and password ![Session Timeout](../images/art_card_health_education_session_timeout.png)  
-2. Scroll to the bottom and hit the Enter Form button![Health Encounter Enter Form](../.gitbook/assets/art_card_health_education_enter_button%20%281%29.png)  
+2. Scroll to the bottom and hit the Enter Form button![Health Encounter Enter Form](../images/art_card_health_education_enter_button.png)  
 3. Once added successfully, you should see a page showing the most recent Encounter form added ![Health Education Success](../images/art_card_health_education_success.png)
 
 ### Contact System Administrator on Saving Encounter
