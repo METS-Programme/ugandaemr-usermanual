@@ -129,7 +129,7 @@ https://github.com/METS-Programme/hie-documentation/blob/master/reference/recenc
 2. You will be redirected to the different reports but out target report to download is the “Recency HTS Client Card Data Export” report. This will download in a CSV format and is the report that is synced from the EMR to the Central Server. This report also indicates the cumulative records for HTS recency that have been entered into the EMR.
       ![Export_Report](/images/recency_upload/data_export_report.png)
 
-3. Once clicked, you will need to choose the period over which to generate the report i.e. Start Date and End Date. Click run to generate and then download once it is available for download.
+3. Once clicked, you will need to choose the period over which to generate the report i.e. Start Date and End Date. Click run to generate and then download once it is available for download. <span style="colour:red"> *For the export data start date, always provide an earliest date such as 01-01-2019 in order to include all data withing the EMR in the export. For the end date, use today’s date/latest date.* </span> 
    ![Export_Generation](/images/recency_upload/export_generation.png)
 
 4. When the download is done and complete, <span style="colour:red"> *make sure to rename the CSV file to the facility name* </span> it was downloaded from e.g., KyampangoHealthCentre2.csv, HoimaRRH.csv, MulagoHospital.csv etc.
