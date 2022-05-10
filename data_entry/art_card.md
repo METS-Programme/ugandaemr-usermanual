@@ -128,7 +128,7 @@ Should the Encounter fail to Save indicating the above message in the top right 
 On data entry, the user may get an error `unable to determine the number of patients scheduled due to error`. as shown below.
 ![Unable to determine patients scheduled on a particular day](../images/unable_to_determine.jpeg)
 This is because the user does not have the necessary privillages. 
-Follow the steps as explained here [Adding user roles](../user_account_management/add_a_new_role_to_a_user_account.md)
+Follow the steps as explained here [Adding user roles](../user_account_management/overview.md)
 1. Application: Edits Existing Encounters
 2. Application: Schedules Appointments
 3. Application: Schedules And Overbooks Appointments
