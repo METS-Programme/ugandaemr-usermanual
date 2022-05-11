@@ -9,12 +9,10 @@
    * Postnatal Services
    * Reports - (105 MCH Section, ANC 105, Marternity 105, 105 PNC )
    
-2. Safe Male Circumcision
-
-    *Retrospective Data Entry for SMC Services
+2. Safe Male Circumcision - Retrospective Data Entry for SMC Services
     
 3. Create a generic approach to generating  and Sync FHIR Encounters for data exchange
-4. Added Missing Districts
+4. Added Missing Districts [Arua city,Jinja city, Lira city, Masaka city,Mbale city, Mbarara city, Soroti city]
     
 ## Improvements
  
@@ -26,14 +24,11 @@
  6. Improve VL Non Suppressed form Validation Rules
  7. Update Transfer-In Regimen to match the list of regimens in current regimen
  8. Differentiate between a pharmacy visit and a facility visit in ART Access on Patient Dashboard
- 
-
 ## Bug Fixes 
 
 1. Fix failing retrospective of Ordering Viral Load
 2. Fix appointments widget with some appointments not showing.
 3. Make return visit mandatory, transfer out and location required when patient is transferred out
-
 
 ## Links to download files
 
@@ -51,8 +46,6 @@ For new machines with no UgandaEMR installed
 ### Upgrade Installer
 
 **For existing versions of UgandaEMR 2.0.x to 3.3.7**
-
-
 Upgrade to 3.3.0 using the following scripts. 
 
 * 32-bit upgrade files- [https://sourceforge.net/projects/ugandaemr/files/3.3.0/ugandaemr\_upgrade\_from\_2.0.x\_to\_3.3.0\_32bit.exe/download](https://sourceforge.net/projects/ugandaemr/files/3.3.0/ugandaemr_upgrade_from_2.0.x_to_3.3.0_32bit.exe/download)
