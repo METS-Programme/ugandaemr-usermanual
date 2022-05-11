@@ -8,11 +8,11 @@ To enable this identifier:
 
 1. Login as a user with administrator privileges
 
-   ![Login](images/log_in_as_admin_link.png)
+   ![Login](../images/log_in_as_admin_link.png)
 
 2. Click legacy administration link as circled in the image below
 
-   ![Legacy System Adminstration Link](../assets/legacy_system_administration_link.png)
+   ![Legacy System Adminstration Link](../images/legacy_system_administration_link.png)
 
 3. Under Maintenance in the middle column, select Settings ![Settings Link](../images/settings.png)
 4. On the Settings page, select UgandaEMR from the left hand side

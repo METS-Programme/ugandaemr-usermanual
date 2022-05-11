@@ -24,11 +24,11 @@ The following data quality checks are run after the data is saved and starting f
 
 1. On the dashboard click the Data Quality button  
 
-   ![Data Quality Link](images/data_quality_link.png)
+   ![Data Quality Link](../images/data_quality_link.png)
 
 2. This will display all the data violations 
 
-   ![Data Violations](images/list_of_data_violations.png)
+   ![Data Violations](../images/list_of_data_violations.png)
 
 **NOTE:**  The search allows a user to search for names of clients, ART and Exposed Infant numbers as identifiers
 
@@ -43,19 +43,19 @@ At times it is necessary to manually run the data validation rules usually after
 
 1. On the list of validation results, click the Dataintegrity Rules link next to the home icon 
 
-   ![Data Integrity Rules Link](images/data_integrity_rules_link.png) 
+   ![Data Integrity Rules Link](../images/data_integrity_rules_link.png) 
 
 2. This shows the list of available rules 
 
-   ![Data Validation Rules List](images/data_integrity_rules_list.png) 
+   ![Data Validation Rules List](../images/data_integrity_rules_list.png) 
 
 3. To run a single rule click the blue arrow at the end of the row for the rule 
 
-   ![Run a single rule](images/data_integrity_rules_list_single_rule.png) 
+   ![Run a single rule](../images/data_integrity_rules_list_single_rule.png) 
 
 4. To run all the validation rules again, click the link at the bottom of the list of rules 
 
-   ![Run all validation rules](images/data_integrity_rules_list_all_rules.png)
+   ![Run all validation rules](../images/data_integrity_rules_list_all_rules.png)
 
 **NOTE** Running all the validation rules will slow down the computer and may take some time depending on the number of rules, so run this at times of low usage.
 
