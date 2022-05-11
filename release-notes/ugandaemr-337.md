@@ -8,10 +8,32 @@
    * Maternity Services
    * Postnatal Services
    * Reports - (105 MCH Section, ANC 105, Marternity 105, 105 PNC )
+   
+2. Safe Male Circumcision
 
+    *Retrospective Data Entry for SMC Services
+    
+3. Create a generic approach to generating  and Sync FHIR Encounters for data exchange
+4. Added Missing Districts
+    
+## Improvements
+ 
+ 1. Add Display Board for Logs
+ 2. Add SNOMED CT Mapping to Fhir Concept Source Table
+ 3. Remove dependency on guava that is flagged as a potential security issue
+ 4. Checking of results in order to also check for results entered from the encounter
+ 5. Ensure that orders with Viral Load results are completed.
+ 6. Improve VL Non Suppressed form Validation Rules
+ 7. Update Transfer-In Regimen to match the list of regimens in current regimen
+ 8. Differentiate between a pharmacy visit and a facility visit in ART Access on Patient Dashboard
+ 
 
 ## Bug Fixes 
 
+1. Fix failing retrospective of Ordering Viral Load
+2. Fix appointments widget with some appointments not showing.
+3. Make return visit mandatory, transfer out and location required when patient is transferred out
+4. 
 
 ## Links to download files
 
