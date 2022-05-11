@@ -33,7 +33,7 @@
 1. Fix failing retrospective of Ordering Viral Load
 2. Fix appointments widget with some appointments not showing.
 3. Make return visit mandatory, transfer out and location required when patient is transferred out
-4. 
+
 
 ## Links to download files
 
