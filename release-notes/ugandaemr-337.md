@@ -1,4 +1,4 @@
-# 3.3.7 - March 2022 
+# 3.3.7 - April 2022 
 
 ## New Features
 
@@ -16,19 +16,19 @@
     
 ## Improvements
  
- 1. Add Display Board for Logs
- 2. Add SNOMED CT Mapping to Fhir Concept Source Table
- 3. Remove dependency on guava that is flagged as a potential security issue
- 4. Checking of results in order to also check for results entered from the encounter
+ 1. Added display board for logs
+ 2. Added SNOMED CT Mapping to Fhir Concept Source Table
+ 3. Removed dependency on guava that is flagged as a potential security issue
+ 4. Fixed the checking of results in order to also check for results entered from the encounter
  5. Ensure that orders with Viral Load results are completed.
- 6. Improve VL Non Suppressed form Validation Rules
+ 6. Improve viral load  Non Suppressed form Validation Rules
  7. Update Transfer-In Regimen to match the list of regimens in current regimen
  8. Differentiate between a pharmacy visit and a facility visit in ART Access on Patient Dashboard
 ## Bug Fixes 
 
-1. Fix failing retrospective of Ordering Viral Load
-2. Fix appointments widget with some appointments not showing.
-3. Make return visit mandatory, transfer out and location required when patient is transferred out
+1. Fixed failing retrospective of Ordering Viral Load
+2. Fixed appointments widget with some appointments not showing.
+3. Made return visit mandatory, transfer out and location required when patient is transferred out
 
 ## Links to download files
 
