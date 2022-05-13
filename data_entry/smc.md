@@ -12,7 +12,7 @@ A screen will open as shown below. Select the "Find Patient Record" option. ![](
 
 On the screen that appears, type the name or ID of the patient, as registered in the system. ![](../images/SMC13.png)
 
-Search for and find the client - ![](../.gitbook/assets/SMC1%20%281%29.png)
+Search for and find the client - ![](../images/SMC1.png)
 
 If the client is not in the system already, registered him first \(refer to the entering client information section\).
 
@@ -24,7 +24,7 @@ From the list that appears, select "HMIS 035a Safe Male Circumcision Client Card
 
 ## Facility information:
 
-For the "Date" field, select Year, month and day, in that order, using the Datepicker Note that all fields with a red star "\*" are "MUST ENTER" fields. ![](../.gitbook/assets/SMC4%20.png)
+For the "Date" field, select Year, month and day, in that order, using the Datepicker Note that all fields with a red star "\*" are "MUST ENTER" fields. ![](../images/SMC4%20.png)
 
 ## Client medical histrory
 
@@ -58,7 +58,7 @@ To submit and save data entered on the form, click **"Enter Form"** at the end a
 
 The SMC card and indeed all other patient/client forms are editable/updatable.
 
-From the home page, go to "Find patient record" as previously described. ![](../.gitbook/assets/SMC1.png)
+From the home page, go to "Find patient record" as previously described. ![](../images/SMC1.png)
 
 Under "General Action", click the "Form Entry" link ![](../images/SMC2.png)
 

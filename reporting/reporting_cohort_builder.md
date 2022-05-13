@@ -16,7 +16,7 @@
 
 1. Click on the Cohort Builder link on the top level form. This will show you the Cohort Builder page as shown below.
 
-   ![Commonly Used Tabs](../.gitbook/assets/ch%20%281%29.png)
+   ![Commonly Used Tabs](../images/ch.png)
 
 **How to query OpenMRS database based on either the concept ID or concept name:**
 
@@ -26,16 +26,16 @@ Step 1: **Click on the Cohort Builder** link on the top level form. This will sh
 
 Step 2: Click on the **Concept/Observation** tab to show the page to be used in searching.
 
-![](../.gitbook/assets/ch1%20%281%29.png)
+![](../images/ch1.png)
 
 Step 3: Type in the concept name or ID of the variable you are looking for. E.g.Cd4  
-![](../.gitbook/assets/ch2%20%281%29.png)
+![](../images/ch2.png)
 
 Step 4: In case you typed in the concept name, click on the one that matches what you desire otherwise click on the only matching entry displayed.
 
 The above action will show you a page with further settings/options for the chosen concept as shown and explained below:
 
-![](../.gitbook/assets/ch3%20%281%29.png)
+![](../images/ch3.png)
 
 **1** Allows you to query for the variable using the following options:
 
@@ -57,7 +57,7 @@ The above action will show you a page with further settings/options for the chos
 
 **6.** Is the link to cancel the query process.
 
-![](../.gitbook/assets/ch4%20%281%29.png)  
+![](../images/ch4.png)  
 **How to query OpenMRS database based on patient demographic attributes:**
 
 This is mainly used for querying the OpenMRS database for patient based on their demographic attributes.
@@ -65,10 +65,10 @@ This is mainly used for querying the OpenMRS database for patient based on their
 Step 1: Click on the **Cohort Builder** link on the top level form. This will show you the **Cohort Builder page** as shown below.
 
 Step 2: Click on the **Patient Attributes tab** to show the page to be used in searching.  
-![](../.gitbook/assets/ch5%20%281%29.png)
+![](../images/ch5.png)
 
 This will display the Search by Demographics page as shown below  
-![](../.gitbook/assets/ch6%20%281%29.png)  
+![](../images/ch6.png)  
 The following are the options available  
 1. **Gender** allows you to select and search by gender i. e Male or Female  
 2. **Age** allows you to filer between ages i.e. 0-14  
@@ -85,9 +85,9 @@ This is mainly used for querying the OpenMRS database for encounter or visit rel
 
 Step 1: Click on the **Cohort Builder** link on the top level form. This will show you the **Cohort Builder page** as shown below.  
 Step 2: Click on the **Encounter tab** to show the page to be used in searching.  
-![](../.gitbook/assets/ch7%20%281%29.png)  
+![](../images/ch7.png)  
 This will display the Search by Encounter page as shown below  
-![](../.gitbook/assets/ch8%20%281%29.png)  
+![](../images/ch8.png)  
 **1.** Encounter type: Allows you to select and search by encounter i.e. summary page
 
  **2.** Location: Optional but allows you to select and search by a given location if you have multiple locations in the system
@@ -112,7 +112,7 @@ Step 1: Click on the **Cohort Builder** link on the top level form. This will sh
 
 Step 2: Click on the Programme Enrollment tab to show the page to be used in searching.
 
-![](../.gitbook/assets/ch9%20%281%29.png)  
+![](../images/ch9.png)  
 Step 3: Click on the drop down next to **Program** label and select the desired program.
 
 Step 4: Optionally, choose the date range for when the query should be applied.
@@ -139,7 +139,7 @@ To achieve the above result follow the following steps:
 
 **Step 3:** Click on the **Composition**_**\*\***_ tab to show the page to be used in forming compositions.
 
-![!\[\]\(ch10.png\)](../.gitbook/assets/ch10%20%281%29.png)
+![!\[\]\(ch10.png\)](../images/ch10.png)
 
 **Step 4:** Type the query sequence number of the first query followed by the correlation/join operatorand the query sequence number of the second query.  
 NOTE: The following correlation/join operators are recognized
@@ -162,10 +162,10 @@ To create saved searches, follow the following steps:
 
 **Step 2:** Create the individual queries as shown in the preceding sections. You will get a listing as show below
 
-![](../.gitbook/assets/ch13%20%281%29.png)
+![](../images/ch13.png)
 
 **Step 3:** Click on the Save icon \(with the blue diskette symbol\) besides the query you want to save. This will give you a popup \(as shown below\)  
-![](../.gitbook/assets/ch14%20%281%29.png)
+![](../images/ch14.png)
 
 **Step 4:** Enter the name you want to associate with the composed query. Optionally, put the description as well. The description is meant to provide additional information about the saved search to anyone\(including yourself\) about the purpose of the query.
 
@@ -173,14 +173,14 @@ To create saved searches, follow the following steps:
 
 NOTE:
 
-* To Delete a saved search use the![](../.gitbook/assets/ch15%20%281%29.png)    icon on the desired query.
+* To Delete a saved search use the![](../images/ch15.png)    icon on the desired query.
 * Once a search is saved, it changes its colors to differentiate it from the once that have not been saved.
 
 **How to view saved searches:**
 
 To view previously saved search, click on the Saved\[+\] link in the top left corner of the Cohort Builder page. This will produce a list of saved searches with the most recent at the bottom
 
-![](../.gitbook/assets/ch16%20%281%29.png)  
+![](../images/ch16.png)  
 _NOTE:\*_
 
 **Saved Cohorts**
@@ -230,13 +230,13 @@ The search index needs to rebuilt following the steps below:
 
 **Screen Shots Of The Problem**
 
-![](../.gitbook/assets/cohort-builder%20%281%29.jpeg)![](../.gitbook/assets/cohortbuilder-problem%20%281%29.jpeg)
+![](../images/cohort-builder.jpeg)![](../images/cohortbuilder-problem.jpeg)
 
 #### Root Cause
 
 The root cause of this problem is due to the addition of other programs into the UgandaEMR system by an individual\( which is prohibited \) that is done by creation of concepts and thereby resulting into concept mismatch with concepts that come with UgandaEMR.
 
-![](../.gitbook/assets/program-problem%20%281%29.jpeg)
+![](../images/program-problem.jpeg)
 
 #### Resolution
 

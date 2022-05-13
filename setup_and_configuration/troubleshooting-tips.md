@@ -9,23 +9,23 @@ Restart your computer
 ## UgandaEMR login screen not available yet system starts
 
 **Error Messages and Screenshots**   
-![Login Error no modules started](images/login_error_modules_not_started.png)
+![Login Error no modules started](../images/login_error_modules_not_started.png)
 
 When you login the screen may display as below:
 
-![Modules not started errors](images/module_not_started_error-1.jpg)
+![Modules not started errors](../images/module_not_started_error-1.jpg)
 
-![Modules not started due to cyclic dependencies](images/module_not_started_error_2.png)
+![Modules not started due to cyclic dependencies](../images/module_not_started_error_2.png)
 
 **Resolution**
 
 1. On the Administration page, select the Manage Modules link
 
-   ![Manage Modules](images/manage_modules_link.png)
+   ![Manage Modules](../images/manage_modules_link.png)
 
 2. Click the Start All button 
 
-   ![Start All Modules](images/modules_start_all.png)
+   ![Start All Modules](../images/modules_start_all.png)
 
 3. Restart your computer 
 
@@ -33,7 +33,7 @@ When you login the screen may display as below:
 
 **Error Messages and Screenshots**
 
-![OpenMRS cannot start - Error creating bean of name &quot;messageSourceServiceTarget&quot;](images/error_message_source.jpg)
+![OpenMRS cannot start - Error creating bean of name &quot;messageSourceServiceTarget&quot;](../images/error_message_source.jpg)
 
  **Resolution** 
 
@@ -43,7 +43,7 @@ When you login the screen may display as below:
 ## White screen appears when carrying out administrative tasks like module installation, upgrade
 
  **Error messages and Screenshots**   
-![Error - White Screen during operation](images/error_white_screen.jpeg)
+![Error - White Screen during operation](../images/error_white_screen.jpeg)
 
  **Resolution** 
 
@@ -53,13 +53,13 @@ Restart your computer and repeat the action that caused the error
 
 **Screen Shots Of The Problem**
 
-![](.gitbook/assets/cohort-builder%20%281%29.jpeg)![](.gitbook/assets/cohortbuilder-problem%20%281%29.jpeg)
+![](../images/cohort-builder.jpeg)![](../images/cohortbuilder-problem.jpeg)
 
 ### Root Cause
 
 The root cause of this problem is due to the addition of other programs into the UgandaEMR system by an individual\( which is prohibited \) that is done by creation of concepts and thereby resulting into concept mismatch with concepts that come with UgandaEMR.
 
-![](.gitbook/assets/program-problem%20%281%29.jpeg)
+![](../images/program-problem.jpeg)
 
 ### Resolution
 
@@ -96,7 +96,7 @@ The root cause of this problem is due to the addition of other programs into the
 
 **Screen Shots Of The Problem**  
 
-![](.gitbook/assets/art-number-not-showing.jpeg)
+![](../assets/art-number-not-showing.jpeg)
 
 ### Resolution
 

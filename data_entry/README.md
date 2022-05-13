@@ -26,7 +26,7 @@ To enter patient information follow the steps below
 
 1. Go to the home page 
 
-   ![](../.gitbook/assets/Home%20page.png)
+   ![](../images/Home%20page.png)
 
 2. Click search patients
 
@@ -34,7 +34,7 @@ To enter patient information follow the steps below
 
 3. Enter the search term in the text box, this can be the patient name or any identifier assigned to the patient, such as but not limited to National ID, ANC number, PNC number, Patient clinic number, Exposed Infant or birth cohort number. The search only begins after three \(3\) characters have been entered.
 
-   ![Search Patient](../.gitbook/assets/search%20patient.png)
+   ![Search Patient](../images/search%20patient.png)
 
 4. In the search results, click on the row with the patient which will display that patient's dashboard.
 
@@ -46,14 +46,14 @@ To enter patient information follow the steps below
 
 All patient data capture is based on visits.  
 To add a visit, make sure you are on the patient dashboard for whom you want to enter a visit \(refer to entering patient information\) or if you are already on a specific visit then you can click on actions drop down and then select add visit  
-![Add visit when in patient dashboard](../.gitbook/assets/add_past_visit%20%283%29.png)  
+![Add visit when in patient dashboard](../images/add_past_visit%20%283%29.png)  
 ![Add visit when another visit is active](../images/new_visit_when_another_visit_is_active.png)
 
 ### Add Past Visit
 
 To add past visit, make sure that the patient has no duplicate visit with the same date you are entering and also make sure that all other patient visits are closed \(no open visits\) then;  
 1. Click on the _**add past visit**_ link on the right  
-![Add past visit](../.gitbook/assets/add_past_visit%20%282%29.png)
+![Add past visit](../images/add_past_visit%20%282%29.png)
 
 1. Enter the  _**visit start date**_ and the _**visit stop date**_ if the visit is more than one day, otherwise leave the default
 
