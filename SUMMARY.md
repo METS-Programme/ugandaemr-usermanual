@@ -54,6 +54,7 @@
   * [COVID19](covid19/introduction.md)
 * [Troubleshooting Tips](setup_and_configuration/troubleshooting-tips.md)
 * [Uninstalling UgandaEMR](uninstalling-ugandaemr/README.md)
+  
   * [Unistalling UgandaEMR older versions](uninstalling-ugandaemr/unistallinstalling-ugandaemr-older-versions.md)
 * [Point of Care \(POC\)](point-of-care/README.md)
   * [Installation and Configuration](point-of-care/installation-and-configuration.md)
@@ -85,3 +86,4 @@
   * [3.1.3](release-notes/ugandaemr-313.md)
   * [3.2.0](release-notes/ugandaemr-320.md)
   * [3.3.0](release-notes/ugandaemr-330.md)
+  * [3.3.7](release-notes/ugandaemr-337.md)
