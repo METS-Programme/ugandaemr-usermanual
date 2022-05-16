@@ -4,30 +4,30 @@
 
 1.Login and on the home page click the Find Patient Link circled below
 
-![Register Patient Link](../.gitbook/assets/poc_find_patient_link%20%281%29.png)
+![Register Patient Link](../images/poc_find_patient_link.png)
 
-2.In the Search Bar, type any patient identifiers to search for the patient, if no results are returned, click the Create new Patient link as shown below. ![Patient Search Bar](../.gitbook/assets/poc_search_bar%20%281%29.PNG)
+2.In the Search Bar, type any patient identifiers to search for the patient, if no results are returned, click the Create new Patient link as shown below. ![Patient Search Bar](../images/poc_search_bar.PNG)
 
 3.On clicking Create New Patient, you enter patient details as below;
 
-3.1._Patient Name_![PatientName](../.gitbook/assets/name%20%281%29.png)  
-3.2._Gender_ ![Gender](../.gitbook/assets/gender%20%281%29.png)  
-3.3._Birth date_ ![Birthdate](../.gitbook/assets/birth_date%20%281%29.png)  
-3.4._Marital Status_![Marital Status](../.gitbook/assets/marital_status%20%281%29.png)  
-3.5._Birth Location_ aka village in which patient was born![birthlocation](../.gitbook/assets/birth_location%20%281%29.png)  
+3.1._Patient Name_![PatientName](../images/name.png)  
+3.2._Gender_ ![Gender](../images/gender.png)  
+3.3._Birth date_ ![Birthdate](../images/birth_date.png)  
+3.4._Marital Status_![Marital Status](../images/marital_status.png)  
+3.5._Birth Location_ aka village in which patient was born![birthlocation](../images/birth_location.png)  
 3.6.\*Address: Where the patient lives. Please follow the same procedure as above
 
 3.7._Phone Number: \_\__\_\__\_\_  
-3.8.\_ Next of Kin: ![Next of Kin](../.gitbook/assets/next_of_kin%20%281%29.png)
+3.8.\_ Next of Kin: ![Next of Kin](../images/next_of_kin.png)
 
-3.9.\* Confirm: Shows all the bio-data collected about the patient.![Confirm](../.gitbook/assets/confirmation%20%281%29.png)  
-3.10. Saving The data: Click confirm to save, if not click cancel to edit. You should see a patient registration summary once saving is successful as below ![](../.gitbook/assets/poc_patient_summary%20%281%29.PNG)
+3.9.\* Confirm: Shows all the bio-data collected about the patient.![Confirm](../images/confirmation.png)  
+3.10. Saving The data: Click confirm to save, if not click cancel to edit. You should see a patient registration summary once saving is successful as below ![](../images/poc_patient_summary.PNG)
 
 ## Editing Patient Registration Information
 
 1.Login and on the home page click the Find Patient Link circled below
 
-![Register Patient Link](../.gitbook/assets/poc_find_patient_link%20%281%29.png)
+![Register Patient Link](../images/poc_find_patient_link.png)
 
 2.In the Search Bar, type any patient identifiers to search for the patient, the record of the patient appears as shown below.
 
@@ -51,29 +51,29 @@ Patient Merging in UgandaEMR refers to the act of “retiring” Patient B in fa
 
 To merge patients;
 
-1. Login as a user with administrator privileges and click the “_Legacy System Administration_” link as shown in the image below. ![Legacy System Administration](../.gitbook/assets/patient_merge1%20%281%29.png)
+1. Login as a user with administrator privileges and click the “_Legacy System Administration_” link as shown in the image below. ![Legacy System Administration](../images/patient_merge1.png)
 2. Click on the _“Find Patients to Merge_” link as shown below.
 
-   ![Find Patient to Meger](../.gitbook/assets/patient_merge2%20%281%29.png)
+   ![Find Patient to Meger](../images/patient_merge2.png)
 
 3. Select a minimum of two patient attributes to search on and click _“search”_ as shown in the image below.
 
-   ![Search Patient](../.gitbook/assets/patient_merge3%20%281%29.png)
+   ![Search Patient](../images/patient_merge3.png)
 
 4. This displays a list of patients who match the attirbutes used in the search. Select two or more patients to continue.
 
-   ![Patient List](../.gitbook/assets/patient_merge4%20%281%29.png)
+   ![Patient List](../images/patient_merge4.png)
 
 5. Select your preferred patient to keep and click _“Merge Patients”_ button to continue
 
-   ![Merge Patient](../.gitbook/assets/patient_merge5%20%281%29.png)  
+   ![Merge Patient](../images/patient_merge5.png)  
    The "Preferred Patient" is the patient who "survives" in favour of the retired patient.
 
 6. A Dialog box displays asking you to confirm the Merge. Click “Ok” to confirm and complete the patient merging process or "Cancel" to abort the process.
 
    You should see a notification indicating that the process was completed successfully.
 
-   ![Complete Patient Merge](../.gitbook/assets/patient_merge6%20%281%29.png)
+   ![Complete Patient Merge](../images/patient_merge6.png)
 
 ## Marking Patients as Dead
 
@@ -89,13 +89,13 @@ An example is; SMC; login at the "SMC clinic" session, as shown below.
 ![Patient ID](../images/SMC13.png)
 
 4.Search for and find the client - Demo 123  
-![Patient Example](../.gitbook/assets/terminated1%20%281%29.jpg)
+![Patient Example](../images/terminated1.jpg)
 
-![Mark Patient Deceased](../.gitbook/assets/terminated%202.1.PNG) ![Check Patient Deceased](../.gitbook/assets/terminated%2031.PNG)
+![Mark Patient Deceased](../images/terminated%202.1.PNG) ![Check Patient Deceased](../images/terminated%2031.PNG)
 
-![Save Changes](../.gitbook/assets/terminated%204.PNG)
+![Save Changes](../images/terminated%204.PNG)
 
-![Patient Marked as Dead](../.gitbook/assets/terminated%205.PNG)
+![Patient Marked as Dead](../images/terminated%205.PNG)
 
 ## Marking a Dead Patient as alive
 
@@ -105,7 +105,7 @@ TBD
 
 ### User is not a provider
 
-![User Not Provider Error](../.gitbook/assets/logged_in_user_not_provider%20%281%29.png)
+![User Not Provider Error](../images/logged_in_user_not_provider.png)
 
 #### Solution
 
@@ -113,7 +113,7 @@ The above means your User Account does not have privileges to provide care to a 
 
 ### Failed to save changes during patient registration
 
-![Failed to save changes](../.gitbook/assets/user_registration_failed_to_save_changes%20%281%29.jpeg)
+![Failed to save changes](../images/user_registration_failed_to_save_changes.jpeg)
 
 #### Solution
 

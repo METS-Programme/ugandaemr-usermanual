@@ -9,7 +9,7 @@ Before searching by fingerprint, make sure that you have the right [configuratio
 3. Goto UgandaEMR and [Login](https://github.com/METS-Programme/ugandaemr-usermanual/tree/1fbbe0b2801ddccebeb5041ed0f406697a3b1f0a/login.md) with an account that has [role](https://github.com/METS-Programme/ugandaemr-usermanual/tree/1fbbe0b2801ddccebeb5041ed0f406697a3b1f0a/point-of-care-poc/installation-and-configuration/roles.md) _"Reception"_. This will Navigate you to the "Home" page.
 4. On the Home page, click on the _"Find Patient Record"_ This will navigate you to the search page.
 
-   ![Search Page](../.gitbook/assets/poc_search_patient_page%20%281%29.png)
+   ![Search Page](../images/poc_search_patient_page.png)
 
 5. Click on the _"Fingerprint"_ icon. This will show instructions "Scan your finger".
 6. Ask the patient to put their finger on the fingerprint device. There are two possible outcomes.

@@ -21,17 +21,28 @@ Once UgandaEMR has been upgraded, follow the steps below to complete the configu
 
 2. Click legacy administration link as circled in the image below
 
+
    ![Legacy System Adminstration Link](/images/legacy_system-administration_link.png)
 
 3. In the Maintenance section click Settings 
 
    ![Settings](/images/administrator_settings.jpg)
 
+   ![Legacy System Adminstration Link](../images/legacy_system_administration_link.png)
+
+3. In the Maintenance section click Settings 
+
+   ![Settings](../images/administrator_settings.jpg)
+
 4. Click Ugandaemr 
 
    Enter the DHIS2 uuid for the facility. This will be provided separately and will be used as the username when submitting data to the central server
 
+
    ![DHIS2 setting](/images/settings_ugandaemr.jpg) 
+
+   ![DHIS2 setting](../images/settings_ugandaemr.jpg) 
+
 
 5. Click Ugandaemr sync 
 
@@ -43,7 +54,10 @@ Once UgandaEMR has been upgraded, follow the steps below to complete the configu
 
 6. Restart UgandaEMR instance to enable the system to register the newly added variable in \(4\) and \(5\) above.
 
+
 ![Recency Settings](/images/settings_ugandaemr_sync.png)
+
+![Recency Settings](../images/settings_ugandaemr_sync.png)
 
 ## Data Capture Tools
 
@@ -102,6 +116,12 @@ The supported authentication methods are stated in the API description below.
 
 The description of the API that receives the data can be found at this link.
 https://github.com/METS-Programme/hie-documentation/blob/master/reference/recency-surveillance.v1.json
+
+### Improving Sync Performance for High Volume Facilities
+
+High volume sites will be able to reduce the size of the surveillance payload by limiting the number of months worth of data sent from the EMR following the steps below 
+
+1. 
 
 
 

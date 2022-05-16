@@ -73,13 +73,13 @@ A common cause is blank entries in the address hierarchy during the upgrade proc
 
 3. Delete all the address hierarchy entries in the rectangle which are causing the error one level at a time 
 
-   ![Cleanup Address Hierarchy Levels](../.gitbook/assets/cleanup_address_hierarchy_level%20%281%29.png)
+   ![Cleanup Address Hierarchy Levels](../images/cleanup_address_hierarchy_level.png)
 
 ## Address hierarchy is not installed properly with missing entries and unable to delete any levels
 
 This happens in case there is an error when loading the entries for the address hierarchy see screenshot below
 
-![partially loaded address hierarchy](../.gitbook/assets/address_hierarchy_partially_loaded%20%281%29.jpeg)
+![partially loaded address hierarchy](../images/address_hierarchy_partially_loaded.jpeg)
 
 The fix is by deleting the current address hierarchy entries, then restarting your computer so that it is loaded properly.
 

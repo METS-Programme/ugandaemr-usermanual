@@ -126,17 +126,31 @@ A default backup task is created to run at 15:59 every day, which tends to slow 
 
 2. In the left hand menu click the Manage Scheduler link
 
-   ![Manage Scheduler](../.gitbook/assets/manage_scheduler%20%281%29.png)
+   ![Manage Scheduler](../images/manage_scheduler.png)
 
 3. On the Scheduler List click the link on the Database Backup Task
 
-   ![Scheduler List](../.gitbook/assets/scheduled_task_list%20%281%29.png)
+   ![Scheduler List](../images/scheduled_task_list.png)
 
 4. On the Database Backup task click the Schedule link 
 
-   ![Schedule for Database Backup Task](../.gitbook/assets/database_backup_task%20%281%29.png)
+   ![Schedule for Database Backup Task](../images/database_backup_task.png)
 
 5. Change schedule for the task, add a date in the future so that the task can be run 
 
-   ![Change Task Schedule](../.gitbook/assets/database_backup_task_schedule%20%281%29.png)
+   ![Change Task Schedule](../images/database_backup_task_schedule.png)
+
+## Changing Database Backup File Path
+
+The default location of backup files for is local Disk C in **Users/{UserAccount}/Application Data/OpenMRS/backup** folder Or C:/Application Data/OpenMRS/backup.
+
+In cases where a user needs to change the folder where these backups are stored, the following steps should be followed:
+
+1. Login in UgandaEMR
+2. On the Dashboard, click on "**Legacy System Adminstration**"![Legacy System Administration](../images/homepage.png).
+3. [ ] Under Subsection of **Database Backup,** click on **Settings**![](../images/legacy-systems2.png)
+4. Change the **databasebackup.folderPath**  value to a new path to the folder  that you would like to save your backups to.       You can either enter an absolute path \(i.e. 'C:/backup'\) or a relative path \(i.e. like the default value 'backup'\) which is relative to the OpenMRS application data directory.![](../images/dbbackuppath.png)
+5. Click Save after  writing your new path.
+
+   Now your next  database backups  will always be saved in the folder you have specified above.
 

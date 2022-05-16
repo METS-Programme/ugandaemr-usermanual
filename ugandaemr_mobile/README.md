@@ -1,12 +1,12 @@
 # Introduction
 
-![UgandaEMR Mobile](assets/login.png)
+![UgandaEMR Mobile](../images/ugandaemr-mobile/login.png)
 
 ## UgandaEMR Mobile User Manual
 
 This document describes how to use the UgandaEMR Mobile as an extension of UgandaEMR. 
 
-##Download UgandaEMR Mobile
+## Download UgandaEMR Mobile
 
 1 . To download UgandaEMR Mobile, visit the link https://play.google.com/store/apps/details?id=org.ugandaemr.mobile OR:   Go to google play store and search UgandaEMR Mobile
 
@@ -16,9 +16,9 @@ This document describes how to use the UgandaEMR Mobile as an extension of Ugand
 
 1. Launch UgandaEMR Mobile app on the Phone or Tablet. 
 Tap on the icon for UgandaEMR Mobile as shown in the figure below.
- ![Laucher Screen](assets/launcher.png)
-2. Enter IP address, username and password to login ![Login Screen](assets/login.png)
-3. Click on login. This will navigate you to the home screen. ![Home Screen](assets/menu.png)
+ ![Laucher Screen](../images/ugandaemr-mobile/launcher.png)
+2. Enter IP address, username and password to login ![Login Screen](../images/ugandaemr-mobile/login.png)
+3. Click on login. This will navigate you to the home screen. ![Home Screen](../images/ugandaemr-mobile/menu.png)
 
 ## Uninstalling UgandaEMR Mobile
 

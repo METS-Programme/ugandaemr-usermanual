@@ -2,27 +2,27 @@
 
 1. Launch of the splash screen
 
-![](../.gitbook/assets/splash%20%281%29.jpg)
+![](../images/splash.jpg)
 
 1. License Agreement
 
-![](../.gitbook/assets/1.2-agreement%20%281%29.jpg)
+![](../images/1.2-agreement.jpg)
 
 1. Selecting components to install ![](../images/1.3-components.jpg)
 2. Determining Installation directory
 
-![](../.gitbook/assets/1.4-location%20%281%29.jpg)
+![](../images/1.4-location.jpg)
 
-1. Confirm start menu item ![](../.gitbook/assets/1.5-shortcut%20%281%29.jpg)
-2. Install Java Runtime ![](../.gitbook/assets/2.1-inst-java%20%281%29.jpg) ![](../images/2.3-java.jpg) ![](../images/2.4-java-2.jpg) ![](../images/2.5-inst-java-complete.jpg)
+1. Confirm start menu item ![](../images/1.5-shortcut.jpg)
+2. Install Java Runtime ![](../images/2.1-inst-java.jpg) ![](../images/2.3-java.jpg) ![](../images/2.4-java-2.jpg) ![](../images/2.5-inst-java-complete.jpg)
 
 7.Install MySQL  
-![](../.gitbook/assets/3.1-mysql-configure%20%281%29.jpg)  
-![](../.gitbook/assets/3.2-standard%20%281%29.jpg)  
-![](../.gitbook/assets/3.3-comd1%20%281%29.jpg)  
-![](../.gitbook/assets/3.4-password-for-root%20%281%29.jpg)  
-![](../.gitbook/assets/3.5-execute%20%281%29.jpg)  
-![](../.gitbook/assets/3.6-mysql-finished%20%281%29.jpg)
+![](../images/3.1-mysql-configure.jpg)  
+![](../images/3.2-standard.jpg)  
+![](../images/3.3-comd1.jpg)  
+![](../images/3.4-password-for-root.jpg)  
+![](../images/3.5-execute.jpg)  
+![](../images/3.6-mysql-finished.jpg)
 
 8.Install Tomcat  
 ![](../images/4.1-tomcat-installation.jpg)
@@ -49,22 +49,22 @@ The following changes need to be made:
 ![](../images/4.7-tomcat-complete.jpg)
 
 9.Install Firefox  
-![](../.gitbook/assets/5.3-fire-fox-inst%20%281%29.jpg)  
-![](../.gitbook/assets/5.4-fire-standard%20%281%29.jpg)  
-![](../.gitbook/assets/5.5-fire-fox-directory%20%281%29.jpg)  
-![](../.gitbook/assets/5.1-fire%20%281%29.jpg)
+![](../images/5.3-fire-fox-inst.jpg)  
+![](../images/5.4-fire-standard.jpg)  
+![](../images/5.5-fire-fox-directory.jpg)  
+![](../images/5.1-fire.jpg)
 
 10.Installing HeidiSQL  
-![](../.gitbook/assets/1.1heidisql%20%281%29.PNG)
+![](../images/1.1heidisql.PNG)
 
-![](../.gitbook/assets/1.2heidisql%20%281%29.PNG)  
-![](../.gitbook/assets/1.3heidisql%20%281%29.PNG)  
-![](../.gitbook/assets/1.4heidisql%20%281%29.PNG)  
-![](../.gitbook/assets/1.5heidisql%20%281%29.PNG)  
-![](../.gitbook/assets/1.6heidisql%20%281%29.PNG)
+![](../images/1.2heidisql.PNG)  
+![](../images/1.3heidisql.PNG)  
+![](../images/1.4heidisql.PNG)  
+![](../images/1.5heidisql.PNG)  
+![](../images/1.6heidisql.PNG)
 
-![](../.gitbook/assets/1.7heidisql%20%281%29.PNG)
+![](../images/1.7heidisql.PNG)
 
 11.UgandaEMR Installation completed  
-![](../.gitbook/assets/6.0-complete-installation%20%281%29.jpg)
+![](../images/6.0-complete-installation.jpg)
 

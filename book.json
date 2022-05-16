@@ -3,7 +3,8 @@
         "toc",
         "numbered-headings",
         "layout",
-        "anchors"
+        "anchors",
+        "link-checker"
     ],
     "pluginsConfig": {
         "toc": {
@@ -13,6 +14,11 @@
         "layout": {
             "headerPath": "layouts/header.html",
             "footerPath": "layouts/footer.html"
+        },
+        "pluginsConfig": {
+            "link-checker": {
+                "dieOnError": true
+            }
         }
     }
 }
