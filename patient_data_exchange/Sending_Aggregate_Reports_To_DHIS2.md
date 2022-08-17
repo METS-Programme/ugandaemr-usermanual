@@ -44,7 +44,7 @@ Now we are set to send our reports directly to another system
 ![Click run report ](../images/data-exchange/click-run-report.png)
 5. Click Run and wait for the report to be generated 
  
-6. Once the report is successfully run, the report dat will be displayed as shown below 
+6. Once the report is successfully run, the report data will be displayed as shown below 
 ![Display aggregate report ](../images/data-exchange/report_display.png)
  
 7. Validate the values in the report to ensure that what is generated is what is expected and after click "Submit" to send the report.
