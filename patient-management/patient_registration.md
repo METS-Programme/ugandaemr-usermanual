@@ -60,7 +60,7 @@ To merge patients;
 
    ![Search Patient](../images/patient_merge3.png)
 
-4. This displays a list of patients who match the attirbutes used in the search. Select two or more patients to continue.
+4. This displays a list of patients who match the attributes used in the search. Select two or more patients to continue.
 
    ![Patient List](../images/patient_merge4.png)
 
