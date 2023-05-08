@@ -85,3 +85,4 @@
   * [3.2.0](release-notes/ugandaemr-320.md)
   * [3.3.0](release-notes/ugandaemr-330.md)
   * [3.3.7](release-notes/ugandaemr-337.md)
+  * [3.4.1](release-notes/ugandaemr-341.md)
