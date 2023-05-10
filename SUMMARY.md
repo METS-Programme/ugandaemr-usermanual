@@ -66,7 +66,7 @@
 * Data Exchange
     * [ART Access Integration](patient_data_exchange/artaccessintergration.md)
     * [Viral Load Integration](patient_data_exchange/viralloadexchange.md)
-    * [Send Aggregate Reports](patient_data_exchange/Sending_Aggregate_Reports_To_DHIS2)
+    * [Send Aggregate Reports](patient_data_exchange/Sending_Aggregate_Reports_To_DHIS2.md)
     * Patient Data Upload
         * [Uploading Viral Load Results](patient_data_exchange/upload_vl_results.md)
 * [UgandaEMR Mobile](ugandaemr_mobile/README.md)
@@ -85,3 +85,4 @@
   * [3.2.0](release-notes/ugandaemr-320.md)
   * [3.3.0](release-notes/ugandaemr-330.md)
   * [3.3.7](release-notes/ugandaemr-337.md)
+  * [3.4.1](release-notes/ugandaemr-341.md)
