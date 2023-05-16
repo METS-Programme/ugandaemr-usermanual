@@ -11,10 +11,7 @@
 * [Upgrading UgandaEMR](upgrading/overview.md)
   * [Trouble Shooting](upgrading/trouble-shooting.md)
 * [Configuring your installation](setup_and_configuration/configuring-your-installation.md)
-* [Managing User Accounts](user_account_management/README.md)
-  * [Create a new user account](user_account_management/create_a_new_user_account.md)
-  * [Reset user account password](user_account_management/reset_user_account_password.md)
-  * [Add a new role to a user account](user_account_management/add_a_new_role_to_a_user_account.md)
+* [Managing User Accounts](user_account_management/overview.md)
 * [Provider Management](provider_management/README.md)
   * [Creating a New Provider](provider_management/creating_a_new_provider.md)
   * [Making an existing user a provider](provider_management/making_an_existing_user_a_provider.md)
@@ -39,6 +36,7 @@
   * [Data Export](reporting/reporting_data_export.md)
   * [Sending Report to DHIS2](reporting/sending_to_dhis2.md)
   * [Sending Metrics Report](reporting/sending_metrics_report.md)
+  * [Audit tool Reports](reporting/CQI_Audit_tool_reports.md)
   * [Troubleshooting Report Tips](reporting/report_trouble_shooting.md)
 * [Data Quality Checks](data_entry/data_quality_checks.md)
 * [Patient Flags](patient-management/patient-flags.md)
@@ -65,6 +63,7 @@
 * Data Exchange
     * [ART Access Integration](patient_data_exchange/artaccessintergration.md)
     * [Viral Load Integration](patient_data_exchange/viralloadexchange.md)
+    * [Send Aggregate Reports](patient_data_exchange/Sending_Aggregate_Reports_To_DHIS2.md)
     * Patient Data Upload
         * [Uploading Viral Load Results](patient_data_exchange/upload_vl_results.md)
 * [UgandaEMR Mobile](ugandaemr_mobile/README.md)
@@ -83,3 +82,4 @@
   * [3.2.0](release-notes/ugandaemr-320.md)
   * [3.3.0](release-notes/ugandaemr-330.md)
   * [3.3.7](release-notes/ugandaemr-337.md)
+  * [3.4.1](release-notes/ugandaemr-341.md)
