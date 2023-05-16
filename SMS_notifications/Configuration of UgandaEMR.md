@@ -14,4 +14,4 @@
 Enter the Username and URL as circled in the image below 
 ![Sync Configuration](../images/SMS configuration.png)
 
-7. Click Save
+6. Click Save
