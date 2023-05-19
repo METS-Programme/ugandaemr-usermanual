@@ -1,17 +1,21 @@
 # Configure UgandaEMR to send SMS reminders
 
-1. Login as user with administrator privileges and Go to the home page
+1. Login as user with administrator privileges
 
-2. Click System Administration link as shown below
+2. Click System Administration 
 
-3. Click UgandaEMRSync link as shown below
+3. Click  on UgandaEMRSync
 ![Ugandaemr Sync settings](../images/Ugandaemr_sync_Settings.png)
 
-4. Click Sync Task Type link as shown below
+4. Click on Sync Task Type
 ![Sync Task Type](../images/Sync Task Type.png)
 
-5. Click the edit corresponding to Send AppointmentReminder Reports under Action, a window similar to that in the image below pops up.
-Enter the Username and URL as circled in the image below 
+5. Look through the list and click on  the edit corresponding to Send AppointmentReminder Reports under Action.
+6. A window similar to that in the image below pops up.
+
+Edit the URL, Username and password in the pop-up and  as circled in the image below 
 ![Sync Configuration](../images/SMS configuration.png)
 
-6. Click Save
+7. Click Save
+
+Configuration  done!!
