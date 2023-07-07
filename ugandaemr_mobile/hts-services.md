@@ -35,6 +35,8 @@ top left corner in white.
     
 3 . Back to UgandaEMR at the facility, the encounter should appear in the recent visits of the patient's dashboard.
     ![UgandaEMR HTS Encounter Screen](../images/ugandaemr-mobile/hts-encounter.png)
+    
+    
 
 
 
