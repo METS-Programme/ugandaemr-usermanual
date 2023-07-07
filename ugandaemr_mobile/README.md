@@ -4,7 +4,13 @@
 
 ## UgandaEMR Mobile User Manual
 
-This document describes how to use the UgandaEMR Mobile as an extension of UgandaEMR. 
+This document describes how to use the UgandaEMR Mobile as an extension of UgandaEMR.
+
+The supported implementations include:
+ 
+1 .  [HIV Services](download-patients.md)
+
+2 . [HTS Services](hts-services.md)
 
 ## Download UgandaEMR Mobile
 
@@ -18,7 +24,7 @@ This document describes how to use the UgandaEMR Mobile as an extension of Ugand
 Tap on the icon for UgandaEMR Mobile as shown in the figure below.
  ![Laucher Screen](../images/ugandaemr-mobile/launcher.png)
 2. Enter IP address, username and password to login ![Login Screen](../images/ugandaemr-mobile/login.png)
-3. Click on login. This will navigate you to the home screen. ![Home Screen](../images/ugandaemr-mobile/menu.png)
+3. Click on login. This will navigate you to the home screen. ![Home Screen](../images/ugandaemr-mobile/menu.jpg)
 
 ## Uninstalling UgandaEMR Mobile
 
