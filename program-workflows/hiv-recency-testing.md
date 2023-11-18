@@ -21,6 +21,13 @@ Once UgandaEMR has been upgraded, follow the steps below to complete the configu
 
 2. Click legacy administration link as circled in the image below
 
+
+   ![Legacy System Adminstration Link](/images/legacy_system-administration_link.png)
+
+3. In the Maintenance section click Settings 
+
+   ![Settings](/images/administrator_settings.jpg)
+
    ![Legacy System Adminstration Link](../images/legacy_system_administration_link.png)
 
 3. In the Maintenance section click Settings 
@@ -31,7 +38,11 @@ Once UgandaEMR has been upgraded, follow the steps below to complete the configu
 
    Enter the DHIS2 uuid for the facility. This will be provided separately and will be used as the username when submitting data to the central server
 
+
+   ![DHIS2 setting](/images/settings_ugandaemr.jpg) 
+
    ![DHIS2 setting](../images/settings_ugandaemr.jpg) 
+
 
 5. Click Ugandaemr sync 
 
@@ -42,6 +53,9 @@ Once UgandaEMR has been upgraded, follow the steps below to complete the configu
    * Hts Recency - set to true to enable the entry of Recency specific data on the HTS client card 
 
 6. Restart UgandaEMR instance to enable the system to register the newly added variable in \(4\) and \(5\) above.
+
+
+![Recency Settings](/images/settings_ugandaemr_sync.png)
 
 ![Recency Settings](../images/settings_ugandaemr_sync.png)
 
@@ -123,3 +137,39 @@ High volume sites will be able to reduce the size of the surveillance payload by
    * 401 authentication error: This implies that either the recency server URL, username and or password are incorrect. Double check these values and also verify the credentials in Mirth.
 3. Reduce the scheduled sync frequency to 10 minutes, restart UgandaEMR and observe the behaviour.
 
+# Upload Recency Data to the Portal
+
+## SOP for How to Download the Data export CSV from the EMR and Upload onto the Recency Portal
+
+### HOW TO DOWNLOAD THE DATA EXPORT CSV FROM THE EMR
+
+1. While on the Home screen page, click the “UgandaEMR REPORTS – 2019 HMIS TOOLS” button to be able to download the right report.
+   ![Reports_Module](/images/recency_upload/reports_module.png)
+
+2. You will be redirected to the different reports but out target report to download is the “Recency HTS Client Card Data Export” report. This will download in a CSV format and is the report that is synced from the EMR to the Central Server. This report also indicates the cumulative records for HTS recency that have been entered into the EMR.
+      ![Export_Report](/images/recency_upload/data_export_report.png)
+
+3. Once clicked, you will need to choose the period over which to generate the report i.e. Start Date and End Date. Click run to generate and then download once it is available for download. <span style="colour:red"> *For the export data start date, always provide an earliest date such as 01-01-2019 in order to include all data withing the EMR in the export. For the end date, use today’s date/latest date.* </span> 
+   ![Export_Generation](/images/recency_upload/export_generation.png)
+
+4. When the download is done and complete, <span style="colour:red"> *make sure to rename the CSV file to the facility name* </span> it was downloaded from e.g., KyampangoHealthCentre2.csv, HoimaRRH.csv, MulagoHospital.csv etc.
+
+### How To Access And Upload Recency Data On The Recency Portal
+
+This is an SOP on how to upload data to the Recency Portal. The data uploaded is the Recency Data Export Report CSV that is downloaded from the EMR itself.
+
+1. Access the portal over this URL below by pasting it to the browser
+https://uganda-files.trace-recency.org/admin
+
+2.	Enter your given credentials at the Login page to access the portal like below
+      ![Portal_Login](/images/recency_upload/portal_login.png)
+3.	You will then see the following page. Click on folders to be able to move to the next part of the upload process where we shall select the recency folder to upload the CSV file
+   ![Portal_View](/images/recency_upload/portal_view.png)
+4.	Once you have clicked on folders, you will be redirected to this page as in the screenshot below from where you will select the folder specific to your IP “UgandaEMR Recency HTS Reports(IP_Name)” to be able to upload the Data Export report CSV from the EMR. Click the link so as to proceed to the upload section.
+   ![Portal_Folder_View](/images/recency_upload/portal_folder_view.png)
+
+5.	Once you have clicked “UgandaEMR Recency HTS Reports (IP_Name)”, the following page is where you will upload the file by clicking the “Upload Files” button at the top corner of the page and will be requested to locate the file to upload into the portal from your computer’s file explorer.
+   ![Portal_Uplaod_View](/images/recency_upload/portal_upload_view.png)
+
+
+Once the file has been uploaded, the process is successful. The file will appear on the listing. You may proceed to log out unless there are more files to upload.
