@@ -6,6 +6,7 @@
   * [UgandaEMR 1.x Installation](setup_and_configuration/ugandaemr-1x-installation.md)
   * [UgandaEMR 2.x Installation](setup_and_configuration/ugandaemr-2x-installation.md)
   * [UgandaEMR 3.x Installation](setup_and_configuration/ugandaemr-3x.md)
+  * [Linux Installation](setup_and_configuration/ugandaemr-linux-installation.md)
   * [Post-installation Configuration](setup_and_configuration/post-installation-configuration.md)
 * [Backup and Restoration](backup_and_restoration/overview.md)
 * [Upgrading UgandaEMR](upgrading/overview.md)
