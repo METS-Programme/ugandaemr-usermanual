@@ -32,11 +32,11 @@
 
     Append the following environment variable to the end of the file.
     
-       `J2SDKDIR="/usr/lib/jvm/jdk1.8.0_361" `
+       J2SDKDIR="/usr/lib/jvm/jdk1.8.0_361" 
     
-       `J2REDIR="/usr/lib/jvm/jdk1.8.0_361/jre"`
+       J2REDIR="/usr/lib/jvm/jdk1.8.0_361/jre"
     
-       `JAVA_HOME="/usr/lib/jvm/jdk1.8.0_361"`
+       JAVA_HOME="/usr/lib/jvm/jdk1.8.0_361"
     
     A sample environment file before making these changes would look like the following:
        
@@ -87,7 +87,8 @@ Tomcat installation will require java which were previously installed as shown a
 1. <code> sudo apt update</code>
 2. Set up a Tomcat user  <code>sudo useradd -r -m -U -d /opt/tomcat -s /bin/false tomcat</code>
 3. Download tomcat 
-<code> wget -c https://archive.apache.org/dist/tomcat/tomcat-7/v7.0.109/bin/apache-tomcat-7.0.109.tar.gz </code>
+
+ `wget -c https://archive.apache.org/dist/tomcat/tomcat-7/v7.0.109/bin/apache-tomcat-7.0.109.tar.gz `
 4. Install on linux
    <code> sudo tar xf apache-tomcat-7.0.109.tar.gz -C /opt </code>
 5. Rename apache-tomcat-7.0.109 to tomcat
@@ -109,6 +110,7 @@ Tomcat installation will require java which were previously installed as shown a
    
     Now enter the following in your file and save it. Note that you need to update the value of JAVA_HOME if your Java installation directory is not the same as given below.
 
+```
 
     [Unit]
     Description=Apache Tomcat Web Application Container
@@ -135,9 +137,11 @@ Tomcat installation will require java which were previously installed as shown a
       
     [Install]
     WantedBy=multi-user.target
-
+```
 9. Now we reload the daemon to update the system about the new file.
+ 
    <code>sudo systemctl daemon-reload</code>
+10. 
 10. Start tomcat service  <code>sudo systemctl start tomcat</code>
 10. Now we can enable the Tomcat service to run on startup using this command.
     <code>sudo systemctl enable tomcat </code>
@@ -176,18 +180,30 @@ Remember to create mysql user  'openmrs'
 3. Start tomcat service  <code>  sudo service tomcat start </code>
 4. Access the system on browser via <code> http://YourIPAddress:8080/openmrs </code>
 5. You should see OpenMRS Installation Wizard page as below
+
    ![Intial page](../images/intital_setup_screen.PNG)
+
 6. Select your preferred language and click the “=>” button.
 7. On the Installation Type screen, choose the Advanced installation type  you want and click the “=>” button.
+
    ![Intial page](../images/manual_install_guide_1.png)
+
 8. Fill in your MySQL root password as shown below, and click the “=>” button.
+
    ![page2](../images/maunal_installation_guide_2.png)
+
 9. Fill the Next form  as shown below and click the “=>” button.
+
    ![page2](../images/manual_install_guide_3.png)
+
 10. Fill in options as shown below and click the “=>” button.
+
     ![page3](../images/manual_install_guide_4.png)
+
 11. Fill in admin password as shown below and click the “=>” button.
+
     ![page3](../images/manual_install_guide_5.png)
+
 12. Skip next form  click the “=>” button.
 13. And continue to finish the installation
 
